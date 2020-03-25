@@ -1,14 +1,17 @@
 ---
-nombre: Jane Doe
-tipo: Blonde Ale
-ibu: 19
-color: 8 EBC
+nombre:  Golden
+tipo:  Blonde Ale
+ibu:  19
+ebc:  8
 maltas: Extra Pale
 lupulos: Magnum, Perle y Cascade
-formato: Botella 33 cl
-volumen: 4.9%
-imagen: https://i.picsum.photos/id/866/500/500.jpg
-layout: birra
+levaduras: 
+formato: Botella 33cl
+volumen:  4,9 %
+alergenos: 
+origen: España
+pvp: 2,70 €
+imagen: https://labodegadellupulo.s3.eu-west-3.amazonaws.com/images/birras/golden.jpg
 
 ---
-Escribe aqui la descripcion
+Nuestra cerveza más noble. Ligera y de trago fácil, muy refrescante. Empleamos lúpulos americanos que le dan un toque cítrico y frutal, con un amargor poco pronunciado, muy suave. No podrás tomarte sólo una. ¡Cuidado al abrir, contiene buen rollo!

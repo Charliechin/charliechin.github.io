@@ -1,10 +1,10 @@
-<section class="cervezas-polluas ">
-  <div class="container">
+<section class="cervezas-polluas mb-5">
+  <div class="container-fluid">
     <h2 class="display-4 mb-5">Nuestras cervezas mas polluas</h2>
     <div class="card-deck">
-      {% for birra in site.birras %}
+      {% for birra in site.birras limit:4 %}
       <div class="card">
-        <img class="card-img-top cerveza-thumb" src="https://i.picsum.photos/id/866/270/360.jpg" alt="Card image cap">
+        <img class="card-img-top cerveza-thumb" src="{{ birra.imagen }}" alt="Card image cap">
         <div class="card-body">
           <small class="text-muted">{{ birra.volumen }} | {{ birra.formato }} </small>
           <h5 class="card-title">{{ birra.nombre}}</h5>
