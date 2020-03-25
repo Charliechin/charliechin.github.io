@@ -1,0 +1,70 @@
+body {
+  // background-color: #F2B739;
+  padding-top: 50px;
+
+}
+.current {
+  color: green;
+}
+
+// Index
+.main-jumbo {
+  // background: url(#{$baseImgUrl}/icon-pattern-bg-mobile.webp);
+  background: url(https://i.imgur.com/zfF873q.png);
+  background-size: cover;
+  // remove in mobile?
+  // padding: 85px 0;
+  padding: 70px 0 200px;
+  border-radius: 0;
+}
+
+.cervezas-polluas {
+  background: white;
+  h2{ position: relative; }
+.card { cursor: pointer; }
+}
+.cerveza-thumb {
+  max-height: 453px;
+}
+
+.como-funciona{
+  //CHECK MOBILE. THERES A MOBILE VERSION
+  background: url("https://i.imgur.com/ngVTbwj.png") no-repeat;
+  background-size: cover;
+  background-position: center;
+  // background-attachment: fixed;
+  border: 1px solid;
+}
+
+.swosh {
+  position: relative;
+  //CAMBIA EN MOBIL
+  height: 340px;
+  overflow: visible;
+  // Fix this in mobile
+  margin-bottom: -150px;
+  svg {
+    position: absolute;
+    top: -60px;
+    
+  }
+  h2 {
+    position: relative;
+    bottom: 110px;
+    z-index: 1;
+    padding-left: 5%;
+    top: 50%;
+  }
+}
+// .separador {
+//   position: relative;
+//   height: 300px;
+//   background-image: linear-gradient(#ff9d2f, #ff6126);
+//   svg {
+//     position: absolute;
+//     bottom: 0;
+//     width: 100%;
+//     height: 10vw;
+//     /* set height to pixels if you want angle to change with screen width */
+//   }
+// }
