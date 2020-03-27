@@ -4,8 +4,12 @@
 {% include header_js.html %}
 
 <body>
+  <div class="fb-customerchat" page_id="102303034727279">
+  </div>
   <!-- nav goes here -->
+  {% if site.construccion == "false" %}
   {% include nav.html %}
+  {% endif %}
   <main role="main">
     {% if site.construccion == "false" %}
     {{ content }}
@@ -18,5 +22,6 @@
 
 </body>
 {% include js_scripts.html %}
+
 
 </html>
