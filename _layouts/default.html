@@ -7,8 +7,15 @@
   <!-- nav goes here -->
   {% include nav.html %}
   <main role="main">
+    {% if site.construccion == "false" %}
     {{ content }}
+    {% else %}
+    {% include construccion.html %}
+    {% endif %}
+
   </main>
+  {% include footer.html %}
+
 </body>
 {% include js_scripts.html %}
 
