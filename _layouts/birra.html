@@ -28,7 +28,7 @@
       <div class="product__information">
         <h2 class="product__title">{{ page.name }}</h2>
         <p class="product__description">{{ page.content | remove: '<p>' | remove: '</p>' }}</p>
-        {% include btn_compra_birra.html %}
+        {% include btn_compra_birra.html b=page %}
       </div>
       <img src="{{ page.image }}" alt="{{ page.name }} product image" class="product__image">
     </div>

@@ -24,6 +24,7 @@ url: "https://labodegadellupulo.com/" # the base hostname & protocol for your si
 twitter_username: jekyllrb
 github_username:  jekyll 
 construccion: "false"
+catalogo: https://labodegadellupulo.s3.eu-west-3.amazonaws.com/catalogo/Catalogo+La+Bodega+del+Lupulo.pdf
 
 # Build settings
 markdown: kramdown

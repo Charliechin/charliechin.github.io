@@ -1,6 +1,6 @@
-<button class="buy-button snipcart-add-item" data-item-id="{{ page.id }}" data-item-name="{{ page.nombre }}"
-  data-item-price="{{ page.pvp }}" data-item-image="{{ page.imagen }}"
-  data-item-url="https://01218980.ngrok.io{{ page.url }}"
-  data-item-description="{{ page.content | truncatewords: 35 | remove: '<p>' | remove: '</p>' }}">
-  Add to cart ({{ page.pvp }} €)
+<button class="buy-button snipcart-add-item btn btn-success" data-item-id="{{ include.b.id }}"
+  data-item-name="{{ include.b.nombre }}" data-item-price="{{ include.b.pvp }}" data-item-image="{{ include.b.imagen }}"
+  data-item-url=" https://283a7c50.ngrok.io{{ include.b.url }}"
+  data-item-description="{{ include.b.content | truncatewords: 35 | remove: '<p>' | remove: '</p>' }}">
+  Añadir al carrito ({{ include.b.pvp }} €)
 </button>

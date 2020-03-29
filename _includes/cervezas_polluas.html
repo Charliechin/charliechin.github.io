@@ -9,11 +9,12 @@
         <div class="card-body">
           <small class="text-muted">{{ birra.volumen }} | {{ birra.formato }} </small>
           <h5 class="card-title">{{ birra.nombre}}</h5>
-          <p class="card-text strong"><strong>{{ birra.pvp }}€</strong></p>
-
-          <!-- <p class="card-text">{{ birra.content }}</p> -->
+          <hr>
+          <p class="card-text strong">Precio: <strong>{{ birra.pvp }}€</strong></p>
+          <p class="card-text">{{ birra.content | truncatewords: 25}}</p>
           <div class="text-center">
             <a href="{{ birra.url }}" class="btn btn-primary stretched-link">Ver Detalles</a>
+            {% include btn_compra_birra.html  b=birra %}
           </div>
         </div>
         <div class="card-footer">
