@@ -1,4 +1,6 @@
 ---
+id: 4
+layout: birra
 nombre:  Vedett Extra Ordinary IPA
 tipo:  India Pale Ale
 ibu:  40
@@ -10,7 +12,7 @@ formato: Botella 33cl
 volumen:  5,5 %
 alergenos: 
 origen: Bélgica
-pvp: 2,30 €
+pvp: 2.30
 imagen: https://labodegadellupulo.s3.eu-west-3.amazonaws.com/images/birras/vedettipa.jpg
 
 ---

@@ -1,4 +1,6 @@
 ---
+id: 47
+layout: birra
 nombre:  Destraperlo Colorá
 tipo:  Andalusí Red Ale
 ibu:  22,1
@@ -10,7 +12,7 @@ formato: Botella 33cl
 volumen:  6,5 %
 alergenos: 
 origen: España
-pvp: 2,60 €
+pvp: 2.60
 imagen: https://labodegadellupulo.s3.eu-west-3.amazonaws.com/images/birras/colora.jpg
 
 ---

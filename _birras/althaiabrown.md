@@ -1,4 +1,6 @@
 ---
+id: 58
+layout: birra
 nombre:  Althaia Brown Ale
 tipo:  Brown Ale
 ibu:  21
@@ -10,7 +12,7 @@ formato: Botella 33cl
 volumen:  5,3 %
 alergenos: 
 origen: España
-pvp: 2,60 €
+pvp: 2.60
 imagen: https://labodegadellupulo.s3.eu-west-3.amazonaws.com/images/birras/althaiabrown.jpg
 
 ---

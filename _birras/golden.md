@@ -1,4 +1,6 @@
 ---
+id: 38
+layout: birra
 nombre:  Golden
 tipo:  Blonde Ale
 ibu:  19
@@ -10,7 +12,7 @@ formato: Botella 33cl
 volumen:  4,9 %
 alergenos: 
 origen: España
-pvp: 2,70 €
+pvp: 2.70
 imagen: https://labodegadellupulo.s3.eu-west-3.amazonaws.com/images/birras/golden.jpg
 
 ---

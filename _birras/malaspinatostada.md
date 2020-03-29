@@ -1,4 +1,6 @@
 ---
+id: 26
+layout: birra
 nombre:  Malaspina Tostada
 tipo:  Brown Ale
 ibu: 
@@ -10,7 +12,7 @@ formato: Botella 33cl
 volumen:  5,5 %
 alergenos: 
 origen: España
-pvp: 3,00 €
+pvp: 3.00
 imagen: https://labodegadellupulo.s3.eu-west-3.amazonaws.com/images/birras/malaspinatostada.jpg
 
 ---

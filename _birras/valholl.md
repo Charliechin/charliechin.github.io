@@ -1,4 +1,6 @@
 ---
+id: 5
+layout: birra
 nombre:  Valhöll
 tipo:  Double Dry Hopped New England IPA
 ibu: 
@@ -10,7 +12,7 @@ formato: Lata 33cl.
 volumen:  7,2 %
 alergenos: Copos de avena y lactosa
 origen: España
-pvp: 3,80 €
+pvp: 3.80
 imagen: https://labodegadellupulo.s3.eu-west-3.amazonaws.com/images/birras/valholl.jpg
 
 ---

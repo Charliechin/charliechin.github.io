@@ -1,3 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+{% include header_js.html %}
+
+<body>
+  {% include nav.html %}
+  <main role="main">
+
+
+
+
+    <div class="shopping-info">
+      <p>shopping info</p>
+      <p>shopping info</p>
+      <p>shopping info</p>
+      <p>shopping info</p>
+      <p>shopping info</p>
+      <p>shopping info</p>
+      <p>shopping info</p>
+      <p>shopping info</p>
+      <span class="snipcart-items-count"></span>
+      <span class="snipcart-total-price"></span>
+    </div>
+
+
+    <div class="product">
+      <div class="product__information">
+        <h2 class="product__title">{{ page.name }}</h2>
+        <p class="product__description">{{ page.content | remove: '<p>' | remove: '</p>' }}</p>
+        {% include btn_compra_birra.html %}
+      </div>
+      <img src="{{ page.image }}" alt="{{ page.name }} product image" class="product__image">
+    </div>
+
+  </main>
+
+  <div id="snipcart" data-api-key="YzU3MzhiOWYtNWE3My00ZjI4LWI0M2EtNDY0NDY0ODMwYTc4NjM3MjA5ODYyMTg5MDMxNjY4" hidden>
+  </div>
+</body>
+{% include js_scripts.html %}
+
+</html>
+
+
+
+
+
 <p><strong>Nombre: </strong>{{ page.nombre }}</p>
 <p><strong>Tipo: </strong>{{ page.tipo }}</p>
 <p><strong>Ibu: </strong>{{ page.ibu }}</p>

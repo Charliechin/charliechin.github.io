@@ -1,4 +1,6 @@
 ---
+id: 33
+layout: birra
 nombre:  Destraperlo IPA
 tipo:  Andalusí Inda Pale Ale
 ibu: 
@@ -10,7 +12,7 @@ formato: Botella 33cl
 volumen:  5,5 %
 alergenos: 
 origen: España
-pvp: 2,80 €
+pvp: 2.80
 imagen: https://labodegadellupulo.s3.eu-west-3.amazonaws.com/images/birras/ipa.jpg
 
 ---

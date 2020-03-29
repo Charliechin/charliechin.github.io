@@ -16,10 +16,23 @@
     {% else %}
     {% include construccion.html %}
     {% endif %}
-
   </main>
-  {% include footer.html %}
+  <!-- Button Test -->
+  <article>
+    <div id="snipcart" data-api-key="YzU3MzhiOWYtNWE3My00ZjI4LWI0M2EtNDY0NDY0ODMwYTc4NjM3MjA5ODYyMTg5MDMxNjY4" hidden>
+    </div>
 
+    <button class="snipcart-add-item" data-item-id="starry-night" data-item-price="79.99"
+      data-item-url=" https://f66421f7.ngrok.io/birras/althaiablonde/"
+      data-item-description="High-quality replica of The Starry Night by the Dutch post-impressionist painter Vincent van Gogh."
+      data-item-image="/assets/images/starry-night.jpg" data-item-name="The Starry Night">
+      Add to cart
+    </button>
+  </article>
+  <!-- Button Test -->
+  {% include footer.html %}
+  <!-- <div hidden id="snipcart" data-api-key="S_MTg4M2QwMTItYzRjNi00NjgwLWJjMjItNGY2OWUxY2M0MWVkNjM3MjA5ODkwMTY5NzM0MzI2">
+  </div> -->
 </body>
 {% include js_scripts.html %}
 

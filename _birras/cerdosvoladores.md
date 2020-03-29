@@ -1,4 +1,6 @@
 ---
+id: 49
+layout: birra
 nombre:  Cerdos Voladores
 tipo:  India Pale Ale
 ibu:  65
@@ -10,7 +12,7 @@ formato: Botella 33cl
 volumen:  6 %
 alergenos: 
 origen: España
-pvp: 2,60 €
+pvp: 2.60
 imagen: https://labodegadellupulo.s3.eu-west-3.amazonaws.com/images/birras/cerdosvoladores.jpg
 
 ---

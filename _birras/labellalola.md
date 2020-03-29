@@ -1,4 +1,6 @@
 ---
+id: 29
+layout: birra
 nombre:  La Bella Lola
 tipo:  Mediterranean Pale Ale
 ibu:  15
@@ -10,7 +12,7 @@ formato: Botella 33cl
 volumen:  4 %
 alergenos: 
 origen: España
-pvp: 2,50 €
+pvp: 2.50
 imagen: https://labodegadellupulo.s3.eu-west-3.amazonaws.com/images/birras/labellalola.jpg
 
 ---

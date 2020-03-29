@@ -1,4 +1,6 @@
 ---
+id: 9
+layout: birra
 nombre:  The Fits
 tipo:  Imperial IPA
 ibu:  70
@@ -10,7 +12,7 @@ formato: Lata 33cl.
 volumen:  9 %
 alergenos: 
 origen: España
-pvp: 3,60 €
+pvp: 3.60
 imagen: https://labodegadellupulo.s3.eu-west-3.amazonaws.com/images/birras/thefits.jpg
 
 ---

@@ -1,4 +1,6 @@
 ---
+id: 42
+layout: birra
 nombre:  Duvel Tripel Hop Citra
 tipo:  Belgian Strong Ale
 ibu:  48
@@ -10,7 +12,7 @@ formato: Botella 33cl
 volumen:  9,5 %
 alergenos: 
 origen: Bélgica
-pvp: 2,80 €
+pvp: 2.80
 imagen: https://labodegadellupulo.s3.eu-west-3.amazonaws.com/images/birras/duveltriple.jpg
 
 ---

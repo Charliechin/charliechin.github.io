@@ -1,0 +1,6 @@
+<button class="buy-button snipcart-add-item" data-item-id="{{ page.id }}" data-item-name="{{ page.nombre }}"
+  data-item-price="{{ page.pvp }}" data-item-image="{{ page.imagen }}"
+  data-item-url="https://01218980.ngrok.io{{ page.url }}"
+  data-item-description="{{ page.content | truncatewords: 35 | remove: '<p>' | remove: '</p>' }}">
+  Add to cart ({{ page.pvp }} €)
+</button>

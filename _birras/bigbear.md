@@ -1,4 +1,6 @@
 ---
+id: 52
+layout: birra
 nombre:  Big Bear
 tipo:  Pale Ale
 ibu:  25
@@ -10,7 +12,7 @@ formato: Botella 33cl
 volumen:  5 %
 alergenos: sin gluten
 origen: España
-pvp: 2,50 €
+pvp: 2.50
 imagen: https://labodegadellupulo.s3.eu-west-3.amazonaws.com/images/birras/bigbear.jpg
 
 ---

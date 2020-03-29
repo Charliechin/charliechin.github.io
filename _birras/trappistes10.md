@@ -1,4 +1,6 @@
 ---
+id: 7
+layout: birra
 nombre:  Trappistes Rochefort 10
 tipo:  Belgian Dark Strong Ale (Quadrupel)
 ibu:  27
@@ -10,7 +12,7 @@ formato: Botella 33cl
 volumen:  11,3 %
 alergenos: 
 origen: Bélgica
-pvp: 4,00 €
+pvp: 4.00
 imagen: https://labodegadellupulo.s3.eu-west-3.amazonaws.com/images/birras/trappistes10.jpg
 
 ---

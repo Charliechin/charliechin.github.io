@@ -1,4 +1,6 @@
 ---
+id: 28
+layout: birra
 nombre:  Malabroca
 tipo:  American Pale Ale
 ibu:  50
@@ -10,7 +12,7 @@ formato: Botella 33cl
 volumen:  5,7 %
 alergenos: 
 origen: España
-pvp: 3,10 €
+pvp: 3.10
 imagen: https://labodegadellupulo.s3.eu-west-3.amazonaws.com/images/birras/malabroca.jpg
 
 ---

@@ -1,4 +1,6 @@
 ---
+id: 40
+layout: birra
 nombre:  Ether 5
 tipo:  Double IPA
 ibu: 
@@ -10,7 +12,7 @@ formato: Lata 44cl.
 volumen:  8,1 %
 alergenos: 
 origen: Irlanda
-pvp: 7,00 €
+pvp: 7.00
 imagen: https://labodegadellupulo.s3.eu-west-3.amazonaws.com/images/birras/ether5.jpg
 
 ---
