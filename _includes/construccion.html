@@ -25,7 +25,7 @@
               class="btn btn-lg btn-success"><i class="fa fa-whatsapp"></i> Whatsapp</a>
           </div>
           <div class="btn-group mr-2" role="group" aria-label="Second group">
-            <a href="https://labodegadellupulo.s3.eu-west-3.amazonaws.com/catalogo/Catalogo+La+Bodega+del+Lupulo.pdf"
+            <a href="https://labodegadellupulo.s3.eu-west-3.amazonaws.com/catalogo/CatalogoLaBodegaDelLupulo.pdf"
               _target="_blank" type="button" id="catalogo-btn" class="btn btn-lg btn-danger"><i
                 class="fa fa-download"></i> Descargar
               catálogo</a>
@@ -51,15 +51,32 @@
       </div>
     </div>
   </div>
+
+  <!-- Modal -->
+  <div class="modal fade" id="adultoModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle"
+    aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLongTitle">¿ERES MAYOR DE 18 AÑOS?
+          </h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          Por razones legales, necesitamos confirmar tu edad
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-success mr-auto" data-dismiss="modal">Si, soy mayor de edad</button>
+          <a href="https://wwww.disney.es" class="btn btn-danger">No, aun no soy mayor de edad.</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- //Modal -->
+
+
+
 </div>
-
-
-<!-- Bubbles -->
-<script src="https://cdn.jsdelivr.net/npm/bubbly-bg@1.0.0/dist/bubbly-bg.js"></script>
-<script>bubbly({
-    colorStart: "#F2B739",
-    colorStop: "#F2B739",
-    blur: 1,
-    compose: "source-over",
-    bubbleFunc: () => `hsla(${Math.random() * 30}, -80%, 120%, .3)`
-  });</script>
