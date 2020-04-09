@@ -1,4 +1,6 @@
 ---
+id: 30
+layout: birra
 nombre:  Jano Hop
 tipo:  New England IPA
 ibu:  32
@@ -10,7 +12,7 @@ formato: Botella 33cl
 volumen:  4,2 %
 alergenos: 
 origen: España
-pvp: 3,20 €
+pvp: 3.20
 imagen: https://labodegadellupulo.s3.eu-west-3.amazonaws.com/images/birras/janohop.jpg
 
 ---

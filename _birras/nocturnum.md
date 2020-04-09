@@ -1,4 +1,6 @@
 ---
+id: 20
+layout: birra
 nombre:  Delirium Nocturnum
 tipo:  Belgian Strong Ale
 ibu:  26
@@ -10,7 +12,7 @@ formato: Botella 33cl
 volumen:  9 %
 alergenos: 
 origen: Bélgica
-pvp: 3,50 €
+pvp: 3.50
 imagen: https://labodegadellupulo.s3.eu-west-3.amazonaws.com/images/birras/nocturnum.jpg
 
 ---

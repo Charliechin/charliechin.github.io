@@ -1,4 +1,6 @@
 ---
+id: 32
+layout: birra
 nombre:  IPA 4
 tipo:  India Pale Ale
 ibu:  60
@@ -10,7 +12,7 @@ formato: Botella 33cl
 volumen:  6 %
 alergenos: 
 origen: España
-pvp: 3,00 €
+pvp: 3.00
 imagen: https://labodegadellupulo.s3.eu-west-3.amazonaws.com/images/birras/ipa4.jpg
 
 ---

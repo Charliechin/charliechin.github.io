@@ -1,4 +1,6 @@
 ---
+id: 31
+layout: birra
 nombre:  IPA 9
 tipo:  Double Dry Hopped IPA
 ibu:  49
@@ -10,7 +12,7 @@ formato: Botella 33cl
 volumen:  5,5 %
 alergenos: sin gluten
 origen: España
-pvp: 3,20 €
+pvp: 3.20
 imagen: https://labodegadellupulo.s3.eu-west-3.amazonaws.com/images/birras/ipa9.jpg
 
 ---

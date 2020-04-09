@@ -1,18 +1,24 @@
 <section class="cervezas-polluas mb-5">
   <div class="container-fluid">
-    <h2 class="display-4 mb-5">Nuestras cervezas mas polluas</h2>
+    <h2 class="display-4 mb-5">Las más vendidas de Marzo</h2>
     <div class="card-deck">
-      {% for birra in site.birras limit:4 %}
+      <!-- { assign filtered_birras = site.birras | where: 'nombre', '942' } -->
+      {% for birra in site.birras  limit: 4 %}
       <div class="card">
         <img class="card-img-top cerveza-thumb" src="{{ birra.imagen }}" alt="Card image cap">
         <div class="card-body">
           <small class="text-muted">{{ birra.volumen }} | {{ birra.formato }} </small>
           <h5 class="card-title">{{ birra.nombre}}</h5>
-          <!-- <p class="card-text">{{ birra.content }}</p> -->
-          <a href="{{ birra.url }}" class="btn btn-primary stretched-link">Ver Detalles</a>
+          <hr>
+          <p class="card-text strong">Precio: <strong>{{ birra.pvp }}€</strong></p>
+          <p class="card-text">{{ birra.content | truncatewords: 25}}</p>
+          <div class="text-center">
+            <a href="{{ birra.url }}" class="btn btn-primary stretched-link">Ver Detalles</a>
+            {% include btn_compra_birra.html  b=birra %}
+          </div>
         </div>
         <div class="card-footer">
-          <small class="text-muted">{{ birra.color }} - {{ birra.maltas }} - {{ birra.volumen }}</small>
+          <small class="text-muted">{{ birra.color }} - {{ birra.tipo }} - {{ birra.volumen }}</small>
         </div>
       </div>
       {% endfor %}

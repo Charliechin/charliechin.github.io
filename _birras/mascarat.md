@@ -1,4 +1,6 @@
 ---
+id: 25
+layout: birra
 nombre:  Mascarat
 tipo:  Black Rye IPA
 ibu:  50
@@ -10,7 +12,7 @@ formato: Botella 33cl
 volumen:  7,2 %
 alergenos: 
 origen: España
-pvp: 3,90 €
+pvp: 3.90
 imagen: https://labodegadellupulo.s3.eu-west-3.amazonaws.com/images/birras/mascarat.jpg
 
 ---

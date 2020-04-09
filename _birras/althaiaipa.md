@@ -1,4 +1,6 @@
 ---
+id: 57
+layout: birra
 nombre:  Althaia IPA
 tipo:  India Pale Ale
 ibu:  57,7
@@ -10,7 +12,7 @@ formato: Botella 33cl
 volumen:  6,5 %
 alergenos: 
 origen: España
-pvp: 3,20 €
+pvp: 3.20
 imagen: https://labodegadellupulo.s3.eu-west-3.amazonaws.com/images/birras/althaiaipa.jpg
 
 ---

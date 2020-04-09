@@ -4,15 +4,6 @@
 {% include header_js.html %}
 
 <body>
-  <!-- TAG MANAGER -->
-  <!-- Google Tag Manager (noscript) -->
-  <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TJHT8KT" height="0" width="0"
-      style="display:none;visibility:hidden"></iframe></noscript>
-  <!-- End Google Tag Manager (noscript) -->
-  <!-- TAG MANAGER -->
-
-  <div class="fb-customerchat" page_id="102303034727279">
-  </div>
   <!-- nav goes here -->
   {% if site.construccion == "false" %}
   {% include nav.html %}
@@ -23,10 +14,8 @@
     {% else %}
     {% include construccion.html %}
     {% endif %}
-
   </main>
   {% include footer.html %}
-
 </body>
 {% include js_scripts.html %}
 

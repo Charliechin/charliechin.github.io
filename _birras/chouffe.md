@@ -1,4 +1,6 @@
 ---
+id: 48
+layout: birra
 nombre:  Mc Chouffe
 tipo:  Belgian Strong Ale (Scotch Ale)
 ibu: 
@@ -10,7 +12,7 @@ formato: Botella 33cl
 volumen:  8 %
 alergenos: 
 origen: Bélgica
-pvp: 2,60 €
+pvp: 2.60
 imagen: https://labodegadellupulo.s3.eu-west-3.amazonaws.com/images/birras/chouffe.jpg
 
 ---

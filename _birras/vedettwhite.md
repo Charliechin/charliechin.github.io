@@ -1,4 +1,6 @@
 ---
+id: 3
+layout: birra
 nombre:  Vedett Extra White
 tipo:  Witbier
 ibu:  4
@@ -10,7 +12,7 @@ formato: Botella 33cl
 volumen:  4,7 %
 alergenos: 
 origen: Bélgica
-pvp: 2,30 €
+pvp: 2.30
 imagen: https://labodegadellupulo.s3.eu-west-3.amazonaws.com/images/birras/vedettwhite.jpg
 
 ---

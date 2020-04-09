@@ -1,4 +1,6 @@
 ---
+id: 16
+layout: birra
 nombre:  Destraperlo Rubia
 tipo:  Andalusí Pale Ale
 ibu:  33,5
@@ -10,7 +12,7 @@ formato: Botella 33cl
 volumen:  4,5 %
 alergenos: 
 origen: España
-pvp: 2,50 €
+pvp: 2.50
 imagen: https://labodegadellupulo.s3.eu-west-3.amazonaws.com/images/birras/rubia.jpg
 
 ---

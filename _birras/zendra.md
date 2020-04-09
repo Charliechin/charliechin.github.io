@@ -1,4 +1,6 @@
 ---
+id: 1
+layout: birra
 nombre:  Zendra
 tipo:  Rye Bock Rauchbier
 ibu:  30
@@ -10,7 +12,7 @@ formato: Botella 33cl
 volumen:  7,8 %
 alergenos: 
 origen: España
-pvp: 3,30 €
+pvp: 3.30
 imagen: https://labodegadellupulo.s3.eu-west-3.amazonaws.com/images/birras/zendra.jpg
 
 ---

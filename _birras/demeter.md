@@ -1,4 +1,6 @@
 ---
+id: 44
+layout: birra
 nombre:  Demeter
 tipo:  Funked IPA
 ibu: 
@@ -10,7 +12,7 @@ formato: Lata 44cl.
 volumen:  7 %
 alergenos: 
 origen: UK
-pvp: 10,00 €
+pvp: 10.00
 imagen: https://labodegadellupulo.s3.eu-west-3.amazonaws.com/images/birras/demeter.jpg
 
 ---

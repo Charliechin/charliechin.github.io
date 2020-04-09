@@ -1,4 +1,6 @@
 ---
+id: 19
+layout: birra
 nombre:  Nublar
 tipo:  American Amber Ale
 ibu:  35
@@ -10,7 +12,7 @@ formato: Botella 33cl
 volumen:  6,2 %
 alergenos: 
 origen: España
-pvp: 3,10 €
+pvp: 3.10
 imagen: https://labodegadellupulo.s3.eu-west-3.amazonaws.com/images/birras/nublar.jpg
 
 ---

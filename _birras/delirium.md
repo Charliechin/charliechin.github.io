@@ -1,4 +1,6 @@
 ---
+id: 45
+layout: birra
 nombre:  Delirium Tremens
 tipo:  Pale Ale
 ibu:  26
@@ -10,7 +12,7 @@ formato: Botella 33cl
 volumen:  8,5 %
 alergenos: 
 origen: Bélgica
-pvp: 3,30 €
+pvp: 3.30
 imagen: https://labodegadellupulo.s3.eu-west-3.amazonaws.com/images/birras/delirium.jpg
 
 ---

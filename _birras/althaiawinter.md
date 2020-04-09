@@ -1,4 +1,6 @@
 ---
+id: 56
+layout: birra
 nombre:  Althaia Winter Ale
 tipo:  Winter Ale
 ibu:  20
@@ -10,7 +12,7 @@ formato: Botella 33cl
 volumen:  8 %
 alergenos: 
 origen: España
-pvp: 3,20 €
+pvp: 3.20
 imagen: https://labodegadellupulo.s3.eu-west-3.amazonaws.com/images/birras/althaiawinter.jpg
 
 ---

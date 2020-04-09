@@ -1,4 +1,6 @@
 ---
+id: 41
+layout: birra
 nombre:  Engendro
 tipo:  American Pale Ale
 ibu:  43
@@ -10,7 +12,7 @@ formato: Botella 33cl
 volumen:  6,2 %
 alergenos: 
 origen: España
-pvp: 3,00 €
+pvp: 3.00
 imagen: https://labodegadellupulo.s3.eu-west-3.amazonaws.com/images/birras/engendro.jpg
 
 ---

@@ -1,4 +1,6 @@
 ---
+id: 54
+layout: birra
 nombre:  Barcelona
 tipo:  Pale Ale
 ibu:  20
@@ -10,7 +12,7 @@ formato: Botella 33cl
 volumen:  5 %
 alergenos: 
 origen: España
-pvp: 2,30 €
+pvp: 2.30
 imagen: https://labodegadellupulo.s3.eu-west-3.amazonaws.com/images/birras/barcelona.jpe
 
 ---

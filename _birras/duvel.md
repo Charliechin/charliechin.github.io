@@ -1,4 +1,6 @@
 ---
+id: 43
+layout: birra
 nombre:  Duvel
 tipo:  Belgian Strong Ale
 ibu:  33
@@ -10,7 +12,7 @@ formato: Botella 33cl
 volumen:  8,5 %
 alergenos: 
 origen: Bélgica
-pvp: 2,50 €
+pvp: 2.50
 imagen: https://labodegadellupulo.s3.eu-west-3.amazonaws.com/images/birras/duvel.jpg
 
 ---

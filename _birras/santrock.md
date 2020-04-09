@@ -1,4 +1,6 @@
 ---
+id: 13
+layout: birra
 nombre:  Sant Rock
 tipo:  Belgian Dubbel
 ibu:  19
@@ -10,7 +12,7 @@ formato: Botella 33cl
 volumen:  7,5 %
 alergenos: 
 origen: España
-pvp: 2,80 €
+pvp: 2.80
 imagen: https://labodegadellupulo.s3.eu-west-3.amazonaws.com/images/birras/santrock.jpg
 
 ---

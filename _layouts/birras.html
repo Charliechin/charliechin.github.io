@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+{% include header_js.html %}
+
+<body>
+  <div class="fb-customerchat" page_id="102303034727279">
+  </div>
+  {% include nav.html %}
+  <main role="main">
+    <div class="container">
+
+      <div class="card-columns">
+
+
+
+
+        {% for birra in site.birras %}
+
+        <div class="card">
+          <img class="card-img-top cerveza-thumb" src="{{ birra.imagen }}" alt="Card image cap">
+          <div class="card-body">
+            <small class="text-muted">{{ birra.volumen }} | {{ birra.formato }} </small>
+            <h5 class="card-title">{{ birra.nombre}}</h5>
+            <hr>
+            <p class="card-text strong">Precio: <strong>{{ birra.pvp }}€</strong></p>
+            <p class="card-text">{{ birra.content | truncatewords: 25}}</p>
+            <div class="text-center">
+              <a href="{{ birra.url }}" class="btn btn-primary stretched-link">Ver Detalles</a>
+              {% include btn_compra_birra.html  b=birra %}
+            </div>
+          </div>
+          <div class="card-footer">
+            <small class="text-muted">{{ birra.color }} - {{ birra.tipo }} - {{ birra.volumen }}</small>
+          </div>
+        </div>
+        {% endfor %}
+
+
+
+
+
+
+
+
+
+      </div>
+    </div>
+
+
+
+
+  </main>
+  <!-- Button Test -->
+  <article>
+    <div id="snipcart" data-api-key="YzU3MzhiOWYtNWE3My00ZjI4LWI0M2EtNDY0NDY0ODMwYTc4NjM3MjA5ODYyMTg5MDMxNjY4" hidden>
+    </div>
+  </article>
+  <!-- Button Test -->
+  {% include footer.html %}
+</body>
+{% include js_scripts.html %}
+
+
+</html>

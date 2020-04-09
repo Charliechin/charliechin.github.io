@@ -1,4 +1,6 @@
 ---
+id: 35
+layout: birra
 nombre:  Hell
 tipo:  Bavarian helles
 ibu:  20
@@ -10,7 +12,7 @@ formato: Botella 33cl
 volumen:  5,5 %
 alergenos: 
 origen: España
-pvp: 2,70 €
+pvp: 2.70
 imagen: https://labodegadellupulo.s3.eu-west-3.amazonaws.com/images/birras/hell.jpg
 
 ---

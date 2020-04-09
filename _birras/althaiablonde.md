@@ -1,7 +1,9 @@
----
+--- 
+id: 59
+layout: birra
 nombre:  Althaia Blonde Ale
 tipo:  Blonde Ale
-ibu:  23,5
+ibu:  23.5
 ebc:
 maltas: 
 lupulos: 
@@ -10,7 +12,7 @@ formato: Botella 33cl
 volumen:  5,5 %
 alergenos: 
 origen: España
-pvp: 2,60 €
+pvp: 2.60
 imagen: https://labodegadellupulo.s3.eu-west-3.amazonaws.com/images/birras/althaiablonde.jpg
 
 ---

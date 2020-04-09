@@ -1,4 +1,6 @@
 ---
+id: 53
+layout: birra
 nombre:  Barlovento
 tipo:  Imperial Stout
 ibu:  44
@@ -10,7 +12,7 @@ formato: Botella 33cl
 volumen:  10,4 %
 alergenos: 
 origen: España
-pvp: 3,90 €
+pvp: 3.90
 imagen: https://labodegadellupulo.s3.eu-west-3.amazonaws.com/images/birras/barlovento.jpg
 
 ---

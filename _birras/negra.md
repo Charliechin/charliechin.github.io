@@ -1,4 +1,6 @@
 ---
+id: 21
+layout: birra
 nombre:  Destraperlo Negra
 tipo:  Andalusí Robust Porter
 ibu:  33,5
@@ -10,7 +12,7 @@ formato: Botella 33cl
 volumen:  8 %
 alergenos: 
 origen: España
-pvp: 2,70 €
+pvp: 2.70
 imagen: https://labodegadellupulo.s3.eu-west-3.amazonaws.com/images/birras/negra.jpg
 
 ---
