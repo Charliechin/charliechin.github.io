@@ -2,41 +2,78 @@
   <div class="row">
 
     <div class="col-12 text-center mt-5">
-      <img src="https://i.imgur.com/32a8F8j.jpg" alt="La Bodega del Lúpulo" class="logo shadow">
+      <img src="https://i.imgur.com/CQpNzlf.jpg" alt="La Bodega del Lupulo" class="logo shadow">
     </div>
+
     <div class="col-sm-12 pt-5 text-center">
+
       <div class="alert alert-warning shadow" role="alert">
-        <h4 class="alert-heading text-center">Tu nueva tienda de cervezas a domicilio en Jerez de la Frontera</h4>
-        <p class="text-center">Mientras tanto, si tienes alguna pregunta, puedes enviarnos un email, o descargar
-          nuestro catálogo</p>
+        <!-- HE TENIDO QUE QUITAR LA MIERDA ESTA, PERO QUEDABA CHULO
+<iframe src="//lightwidget.com/widgets/45f65a5b189456c4ac1a6f0c8f12781e.html" scrolling="no"  class="lightwidget-widget" style="width:70%;border:0;overflow:hidden;"></iframe> -->
+
+
+        <h3 class="alert-heading text-center">Tu nueva tienda de cervezas a domicilio en Jerez de la Frontera</h3>
+        <h6 class="text-center">Debido al estado de alarma no hemos podido abrir la tienda físicamente, pero podemos
+          entregarte cervezas a domicilio.<p>Pide tus cervezas a través del whatsapp 650491606 o a través del botón de
+            contacto.<p>Puedes descargar el catalogo pinchando en el siguiente enlace</h6>
         <hr>
-        <!-- <a href="mailto:info@labodegadellupulo.com" class="btn btn-warning"><i class='fa fa-envelope'></i> -->
-        <!-- Contacto</a> -->
-        <!-- <a href="https://labodegadellupulo.s3.eu-west-3.amazonaws.com/catalogo/Catalogo+La+Bodega+del+Lupulo.pdf" -->
-        <!-- target="_blank" class="btn btn-success"><i class="fa fa-download"></i> Descargar Catalogo</a> -->
+
+
         <div class="btn-toolbar" role="toolbar" aria-label="Toolbar with button groups text-center">
           <div class="btn-group mr-2" role="group" aria-label="Second group">
-            <a href="https://labodegadellupulo.s3.eu-west-3.amazonaws.com/catalogo/Catalogo+La+Bodega+del+Lupulo.pdf"
-              _target="_blank" type="button" class="btn btn-lg btn-danger"><i class="fa fa-download"></i> Descargar
+            <a href="https://wa.me/34650491606" _target="_blank" type="button" id="whatsapp-btn"
+              class="btn btn-lg btn-success"><i class="fa fa-whatsapp"></i> Whatsapp</a>
+          </div>
+          <div class="btn-group mr-2" role="group" aria-label="Second group">
+            <a href="https://labodegadellupulo.s3.eu-west-3.amazonaws.com/catalogo/CatalogoLaBodegaDelLupulo.pdf"
+              _target="_blank" type="button" id="catalogo-btn" class="btn btn-lg btn-danger"><i
+                class="fa fa-download"></i> Descargar
               catálogo</a>
           </div>
           <div class="btn-group mr-2" role="group" aria-label="First group">
-            <a href="mailto:info@labodegadellupulo.com" class="btn btn-lg btn-warning"><i class='fa fa-envelope'></i>
+            <a href="mailto:info@labodegadellupulo.com" _target="_blank" id="contacto-btn"
+              class="btn btn-lg btn-warning"><i class='fa fa-envelope'></i>
               Contacto</a>
+          </div>
+        </div>
+
+        <div class="btn-toolbar" role="toolbar" aria-label="Toolbar with button groups text-center">
+          <div class="btn-group mr-2" role="group" aria-label="Second group">
+            <a href="https://www.instagram.com/la_bodega_del_lupulo/" _target="_blank" type="button" id="instagram-btn"
+              class="btn btn-lg btn-purple""><i class=" fa fa-instagram"></i> Instagram</a>
+          </div>
+          <div class="btn-group mr-2" role="group" aria-label="Second group">
+            <a href="https://www.facebook.com/LaBodegaDelLupulo" _target="_blank" type="button" id="facebook-btn"
+              class="btn btn-lg btn-purple"><i class="fa fa-facebook"></i> Facebook</a>
+
           </div>
         </div>
       </div>
     </div>
   </div>
+
+  <!-- Modal -->
+  <div class="modal fade" id="adultoModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle"
+    aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLongTitle">¿ERES MAYOR DE 18 AÑOS?
+          </h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          Por razones legales, necesitamos confirmar tu edad
+        </div>
+        <div class="modal-footer">
+          <a href="https://www.disney.es" class="btn btn-danger mr-auto">No</a>
+          <button type="button" class="btn btn-success" data-dismiss="modal">Si</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- //Modal -->
 </div>
-
-
-<!-- Bubbles -->
-<script src="https://cdn.jsdelivr.net/npm/bubbly-bg@1.0.0/dist/bubbly-bg.js"></script>
-<script>bubbly({
-    colorStart: "#F2B739",
-    colorStop: "#F2B739",
-    blur: 1,
-    compose: "source-over",
-    bubbleFunc: () => `hsla(${Math.random() * 30}, -80%, 120%, .3)`
-  });</script>
