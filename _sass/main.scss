@@ -35,10 +35,15 @@ section.cervezas-polluas {
 
 .como-funciona{
   //CHECK MOBILE. THERES A MOBILE VERSION
-  background: url("https://i.imgur.com/ngVTbwj.png") no-repeat;
+  background: url("https://labodegadellupulo.s3.eu-west-3.amazonaws.com/svg/wave-birra1.svg") #ffc107 no-repeat
   // background-size: cover;
-  // background-attachment: fixed;
+  // background-attachment: fixed; 
 }
+
+
+  .como-funciona>.container {
+    // margin-top: 12px;
+  }
 
 .swosh {
   position: relative;
