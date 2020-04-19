@@ -10,21 +10,46 @@
     <!--  -->
 
     <!--  -->
+    <div class="container-fluid">
 
-
+      <div class="row">
+        <!-- <div class="col-12">
+          <a href="site.url/birras/">Birras</a> > <a
+            href="site.url/birras/#page.categoria[0] | replace: '_', ' ' ">page.categoria[0] | replace: "_", " " </a>
+          >  page.nombre 
+        </div> -->
+      </div>
+    </div>
     <div class="container">
       <div class="row">
         <div class="col-12">
-          <img src="{{page.imagen}}" class="img-responsive" alt="">
-        </div>
-        <div class="col-8">
-          <p>Magna ea deserunt elit voluptate. Quis voluptate exercitation velit eiusmod sint. Ullamco irure quis aute
-            enim magna occaecat aliqua.</p>
+          <div class="card-deck">
+            <div class="card">
+              <img src="{{page.imagen}}" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title" style="font-weight: 700;">{{ page.nombre }}</h5>
+                <hr />
+                <p class="card-text"><span style="font-weight:700;">Tipo:</span> {{page.tipo}}</p>
+                <p class="card-text"><span style="font-weight:700;">IBU:</span> {{page.ibu }}</p>
+                <p class="card-text"><span style="font-weight:700;">Origen:</span> {{page.origen }}</p>
+                <p class="card-text"><span style="font-weight:700;">formato:</span> {{page.formato }}</p>
+                <p class="card-text"><span style="font-weight:700;">P.V.P:</span> {{page.pvp }}€</p>
+                <hr>
+                {{ page.content }}
+                <!-- <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p> -->
+              </div>
+            </div>
+          </div>
         </div>
       </div>
+
       <div class="row">
-        <div class="col-12">
-          lipsyum
+        <div class="col-12 text-center">
+          <div class="card">
+            <div class="card-body">
+              <a href="{{site.url}}/birras" class="btn  btn-lg btn-warning">Volver</a>
+            </div>
+          </div>
         </div>
       </div>
     </div>

@@ -14,7 +14,7 @@ alergenos:
 origen: España
 pvp: 3.20
 imagen: https://labodegadellupulo.s3.eu-west-3.amazonaws.com/images/birras/aeromancia.jpg
-categoria: [ipa]
+categoria: [indian_pale_ale]
 ---
 
 Una IPA veraniega y aromática. Predominan las notas cítricas y frutales del lúpulo Citra. Elaborada con Late Hopping y más de 6 g/L de lúpulo en añadido en frío. Amargor tenue y refinado, con un cuerpo medio, que provine trigo. En boca es plena, sabrosa, con perfiles frutales y de cereal. Una cerveza de trago largo y refrescante, elaborada en nuestra fábrica en colaboración con Malnombre, Hop Scotch y Davilock. Ilustración a cargo de Davilock Medina

@@ -14,7 +14,7 @@ alergenos:
 origen: UK
 pvp: 10.00
 imagen: https://labodegadellupulo.s3.eu-west-3.amazonaws.com/images/birras/demeter.jpg
-categoria: [ipa]
+categoria: [indian_pale_ale]
 
 ---
 Venida desde Newcastle. Turbia cerveza, amarga con un espectacular sabor típico de las Indian Pale. Solo apta para los paladares más exigentes y experimentados
