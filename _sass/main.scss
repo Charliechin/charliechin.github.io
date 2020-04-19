@@ -137,7 +137,15 @@ section.cervezas-polluas {
 
 // Creative Tim rewrite
 p {
-  font-size: 1rem!important;
-  line-height: 1.5em!important;;
+  font-size: 1.2rem!important;
+  line-height: 1.6em!important;;
   margin-bottom: 5px!important;;
+}
+
+
+span.anchor {
+    display: block;
+    position: relative;
+    top: -180px;
+    visibility: hidden;
 }

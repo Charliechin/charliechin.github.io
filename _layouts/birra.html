@@ -23,21 +23,52 @@
     <div class="container">
       <div class="row">
         <div class="col-12">
-          <div class="card-deck">
-            <div class="card">
-              <img src="{{page.imagen}}" class="card-img-top" alt="...">
-              <div class="card-body">
-                <h5 class="card-title" style="font-weight: 700;">{{ page.nombre }}</h5>
-                <hr />
-                <p class="card-text"><span style="font-weight:700;">Tipo:</span> {{page.tipo}}</p>
-                <p class="card-text"><span style="font-weight:700;">IBU:</span> {{page.ibu }}</p>
-                <p class="card-text"><span style="font-weight:700;">Origen:</span> {{page.origen }}</p>
-                <p class="card-text"><span style="font-weight:700;">formato:</span> {{page.formato }}</p>
-                <p class="card-text"><span style="font-weight:700;">P.V.P:</span> {{page.pvp }}€</p>
-                <hr>
-                {{ page.content }}
-                <!-- <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p> -->
-              </div>
+          <div class="card">
+            <img src="{{page.imagen}}" class="card-img-top" alt="...">
+            <div class="card-body">
+              <i class="fa fa-beer"></i> <small class="text-muted">{{ page.volumen }}</small>
+              <h5 class="card-title" style="font-weight: 700;">
+                {{ post.formato }}{{ page.nombre }}</h5>
+
+              <hr />
+              {% unless page.tipo == null %}
+              <p class="card-text"><span style="font-weight:700;">Tipo:</span> {{page.tipo}}</p>
+              {% endunless %}
+              {% unless page.ibu == null %}
+              <p class="card-text"><span style="font-weight:700;">IBU:</span> {{page.ibu }}</p>
+              {% endunless %}
+              {% unless page.ebc == null %}
+              <p class="card-text"><span style="font-weight:700;">EBC:</span> {{page.ebc }}</p>
+              {% endunless %}
+
+              {% unless page.maltas == null %}
+              <p class="card-text"><span style="font-weight:700;">Maltas:</span> {{page.maltas }}</p>
+              {% endunless %}
+
+              {% unless page.lupulos == null %}
+              <p class="card-text"><span style="font-weight:700;">Lúpulos:</span> {{page.lupulos }}</p>
+              {% endunless %}
+
+              {% unless page.levaduras == null %}
+              <p class="card-text"><span style="font-weight:700;">Levaduras:</span> {{page.levaduras }}</p>
+              {% endunless %}
+
+
+              {% unless page.origen == null %}
+              <p class="card-text"><span style="font-weight:700;">Origen:</span> {{page.origen }}</p>
+              {% endunless %}
+              {% unless page.formato == null %}
+              <p class="card-text"><span style="font-weight:700;">formato:</span> {{page.formato }}</p>
+              {% endunless %}
+              {% unless page.pvp == null %}
+              <p class="card-text"><span style="font-weight:700;">P.V.P:</span> {{page.pvp }}€</p>
+              {% endunless %}
+
+
+
+              <hr>
+              {{ page.content }}
+              <!-- <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p> -->
             </div>
           </div>
         </div>
