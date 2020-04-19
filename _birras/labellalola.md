@@ -14,6 +14,7 @@ alergenos:
 origen: España
 pvp: 2.50
 imagen: https://labodegadellupulo.s3.eu-west-3.amazonaws.com/images/birras/labellalola.jpg
+categoria: [pale_ale]
 
 ---
 La cerveza más elegante y gastronómica. Elaborada con agua de manantial y lúpulos cítricos, que les da un toque de amargor muy especial y unos intensos aromas a frutas tropicales. Una cerveza ideal para maridar

@@ -1,27 +1,103 @@
 <section class="cervezas-polluas mb-5">
-  <div class="container-fluid">
-    <h2 class="display-4 mb-5">Las más vendidas de Marzo</h2>
-    <div class="card-deck">
-      <!-- { assign filtered_birras = site.birras | where: 'nombre', '942' } -->
-      {% for birra in site.birras  limit: 4 %}
-      <div class="card">
-        <img class="card-img-top cerveza-thumb" src="{{ birra.imagen }}" alt="Card image cap">
-        <div class="card-body">
-          <small class="text-muted">{{ birra.volumen }} | {{ birra.formato }} </small>
-          <h5 class="card-title">{{ birra.nombre}}</h5>
-          <hr>
-          <p class="card-text strong">Precio: <strong>{{ birra.pvp }}€</strong></p>
-          <p class="card-text">{{ birra.content | truncatewords: 25}}</p>
-          <div class="text-center">
-            <a href="{{ birra.url }}" class="btn btn-primary stretched-link">Ver Detalles</a>
-            {% include btn_compra_birra.html  b=birra %}
+  <div class="container">
+    <div class="row">
+      <div class="col-12">
+        <h2>Cervezas</h2>
+      </div>
+      <div class="col-12">
+        <div class="card-deck">
+          <!-- { assign filtered_birras = site.birras | where: 'nombre', '942' } -->
+          <!-- Card Cat -->
+          <div class="card">
+            <div class="card-body">
+              <h5 class="card-title">Rubias</h5>
+              <!-- <p class="card-text">Rubias</h5> -->
+              <div class="text-center">
+                <a href="{{site.url}}/rubias" class="btn btn-primary stretched-link">Ver Detalles</a>
+              </div>
+            </div>
           </div>
-        </div>
-        <div class="card-footer">
-          <small class="text-muted">{{ birra.color }} - {{ birra.tipo }} - {{ birra.volumen }}</small>
+          <!-- Card Cat! -->
+
+
+          <!-- Card Cat -->
+          <div class="card">
+            <div class="card-body">
+              <h5 class="card-title">Pale Ale</h5>
+              <!-- <p class="card-text">Rubias</h5> -->
+              <div class="text-center">
+                <a href="#" class="btn btn-primary stretched-link">Ver Detalles</a>
+              </div>
+            </div>
+          </div>
+          <!-- Card Cat! -->
+
+          <!-- Card Cat -->
+          <div class="card">
+            <div class="card-body">
+              <h5 class="card-title">IPA</h5>
+              <!-- <p class="card-text">Rubias</h5> -->
+              <div class="text-center">
+                <a href="#" class="btn btn-primary stretched-link">Ver Detalles</a>
+              </div>
+            </div>
+          </div>
+          <!-- Card Cat! -->
+
+          <!-- Card Cat -->
+          <!-- <div class="card">
+            <div class="card-body">
+              <h5 class="card-title">Negras</h5>
+              <div class="text-center">
+                <a href="#" class="btn btn-primary stretched-link">Ver Detalles</a>
+              </div>
+            </div>
+          </div> -->
+          <!-- Card Cat! -->
+
+          <!-- Card Cat -->
+          <!-- <div class="card">
+            <div class="card-body">
+              <h5 class="card-title">Belgian Style</h5>
+              <div class="text-center">
+                <a href="#" class="btn btn-primary stretched-link">Ver Detalles</a>
+              </div>
+            </div>
+          </div> -->
+          <!-- Card Cat! -->
+
+          <!-- Card Cat -->
+          <!-- <div class="card">
+            <div class="card-body">
+              <h5 class="card-title">Tostadas/Rojas</h5>
+              <div class="text-center">
+                <a href="#" class="btn btn-primary stretched-link">Ver Detalles</a>
+              </div>
+            </div>
+          </div> -->
+          <!-- Card Cat! -->
+
+          <!-- Card Cat -->
+          <!-- <div class="card">
+            <div class="card-body">
+              <h5 class="card-title">Trigo</h5>
+              <div class="text-center">
+                <a href="#" class="btn btn-primary stretched-link">Ver Detalles</a>
+              </div>
+            </div>
+          </div> -->
+          <!-- Card Cat! -->
+
+
+
+          <!-- { endfor } -->
         </div>
       </div>
-      {% endfor %}
+      <div class="col-12 text-center">
+
+        <div class="btn btn-lg btn-warning">Ver todas</div>
+      </div>
     </div>
+
   </div>
 </section>

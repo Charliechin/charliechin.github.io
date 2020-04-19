@@ -7,31 +7,44 @@
   {% include nav.html %}
   <main role="main">
 
+    <!--  -->
+
+    <!--  -->
 
 
-
-    <div class="shopping-info">
-      <p>shopping info</p>
-      <p>shopping info</p>
-      <p>shopping info</p>
-      <p>shopping info</p>
-      <p>shopping info</p>
-      <p>shopping info</p>
-      <p>shopping info</p>
-      <p>shopping info</p>
-      <span class="snipcart-items-count"></span>
-      <span class="snipcart-total-price"></span>
+    <div class="container">
+      <div class="row">
+        <div class="col-12">
+          <img src="{{page.imagen}}" class="img-responsive" alt="">
+        </div>
+        <div class="col-8">
+          <p>Magna ea deserunt elit voluptate. Quis voluptate exercitation velit eiusmod sint. Ullamco irure quis aute
+            enim magna occaecat aliqua.</p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-12">
+          lipsyum
+        </div>
+      </div>
     </div>
 
 
-    <div class="product">
+
+    <!-- <div class="shopping-info"> -->
+    <!-- <span class="snipcart-items-count"></span>
+      <span class="snipcart-total-price"></span> -->
+    <!-- </div> -->
+
+
+    <!-- <div class="product">
       <div class="product__information">
         <h2 class="product__title">{{ page.name }}</h2>
         <p class="product__description">{{ page.content | remove: '<p>' | remove: '</p>' }}</p>
-        {% include btn_compra_birra.html b=page %}
+       {# include btn_compra_birra.html b=page #}
       </div>
-      <img src="{{ page.image }}" alt="{{ page.name }} product image" class="product__image">
-    </div>
+      <img src="{{ page.image }}" alt="{{ page.name }} product image" class="product__image img-responsive">
+    </div> -->
 
   </main>
 
@@ -41,17 +54,3 @@
 {% include js_scripts.html %}
 
 </html>
-
-
-
-
-
-<p><strong>Nombre: </strong>{{ page.nombre }}</p>
-<p><strong>Tipo: </strong>{{ page.tipo }}</p>
-<p><strong>Ibu: </strong>{{ page.ibu }}</p>
-<p><strong>Color: </strong>{{ page.color }}</p>
-<p><strong>Maltas: </strong>{{ page.maltas }}</p>
-<p><strong>Lupulos: </strong>{{ page.lupulos }}</p>
-<p><strong>Formato: </strong>{{ page.formato }}</p>
-<p><strong>Volumen: </strong>{{ page.volumen }}</p>
-<p><strong>Imagen: </strong><img src="{{ page.imagen }}" class="img-responsive" /></p>

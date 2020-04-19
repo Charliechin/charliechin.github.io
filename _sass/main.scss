@@ -1,12 +1,16 @@
+html  {font-size: min(max(16px, 4vw), 22px);}
 body {
   // background-color: #F2B739;
-  padding-top: 50px; 
+  padding-top: 100px; 
+  font-size: 1rem;
   // background-color: #F2B739; 
 }
 
 .current {
   color: green;
 }
+
+// nav - birras
 
 // Index
 .main-jumbo {
@@ -18,11 +22,13 @@ body {
   padding: 70px 0 200px;
   border-radius: 0;
 }
-
-.cervezas-polluas {
+// Cervezas Polluas section
+section.cervezas-polluas {
   background: white;
   h2{ position: relative; }
-}
+} 
+
+// !Cervezas Polluas
 .cerveza-thumb {
   max-height: 453px;
 }
@@ -101,3 +107,37 @@ body {
 
 
 .snipcart-modal__container { top: 50px; }
+
+
+// .title-font{
+//   font-family: 'Merriweather', serif;
+// }
+
+
+.white-bg {
+  background-color: #ffffff;
+}
+
+
+
+// @media screen and (min-width:1200px) {
+//   body { font-size:110%; } /* Increase the font size */
+// }
+// @media screen and (min-width:1400px) {
+//   html { padding:0 15%; } /* Reduce the container width */
+// }
+// @media screen and (min-width:1600px) {
+//   body { font-size:125%; } /* Increase the font size */
+// }
+// @media screen and (min-width:1800px) {
+//   html { padding:0 20%; } /* Reduce the container width */
+// }
+
+// Fonts base
+
+// Creative Tim rewrite
+p {
+  font-size: 1rem!important;
+  line-height: 1.5em!important;;
+  margin-bottom: 5px!important;;
+}

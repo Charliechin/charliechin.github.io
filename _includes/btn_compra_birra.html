@@ -1,6 +1,6 @@
 <button class="buy-button snipcart-add-item btn btn-success" data-item-id="{{ include.b.id }}"
   data-item-name="{{ include.b.nombre }}" data-item-price="{{ include.b.pvp }}" data-item-image="{{ include.b.imagen }}"
-  data-item-url="65791870.ngrok.io/{{ include.b.url }}"
+  data-item-url="{{ site.ngrok_url }}/{{ include.b.url }}"
   data-item-description="{{ include.b.content | truncatewords: 35 | remove: '<p>' | remove: '</p>' }}">
   Añadir al carrito ({{ include.b.pvp }} €)
 </button>

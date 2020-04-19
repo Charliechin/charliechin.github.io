@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "La bodega del Lúpulo"
+title: "Cerveza a domicilio. Envios en el mismo dia"
 cabecera: "La Bodega del Lúpulo"
 slogan: "Nos enorgullecemos de apoyar únicamente a las cervecerías independientes galardonadas con una calidad
 constante, nuestro cuidado y rapidez de servicio y nuestro compromiso de apoyar a una de las industrias más
@@ -9,20 +9,38 @@ tradicionales de Gran Bretaña."
 
 
 <!-- Jumbotron -->
-<section class="jumbotron main-jumbo text-left mb-0">
+<section style="margin-top:-40px" class="jumbotron main-jumbo text-left mb-0">
   <div class="container">
-    <h1 class="jumbotron-heading">{{ page.cabecera }}</h1>
-    <p class="lead text-muted">{{ page.slogan }}</p>
-    <p>
-      <a href="#" class="btn btn-primary my-2">Reparto a domicilio</a>
-      <a href="{{ site.catalogo }}" class="btn btn-secondary my-2" target="_blank">Descarga el catálogo</a>
-    </p>
+    <div class="row">
+      <div class="col-12 col-sm-8">
+        <!-- <h1 class="jumbotron-heading">{{ page.cabecera }}</h1>
+        <p class="lead text-muted">{{ page.slogan }}</p> -->
+        <!-- <p>
+          <a href="#" class="btn btn-primary my-2">Reparto a domicilio</a>
+          <a href="{{ site.catalogo }}" class="btn btn-secondary my-2" target="_blank">Descarga el catálogo</a>
+        </p> -->
+        <div class="card text-center">
+          <div class="card-body">
+            <!-- <img src="https://labodegadellupulo.s3.eu-west-3.amazonaws.com/catalogo/img/logo/logo_lupulo_bn.png"
+              class="img-circle img-no-padding img-responsive" alt="Rounded Image"> -->
+            <h4 class="card-title">{{ page.cabecera }}</h4>
+            <hr>
+            <p class="card-text">{{ page.slogan }}</p>
+            <a href="{{ site.catalogo }}" class="btn btn-lg btn-warning">Descarga el catalogo</a>
+          </div>
+        </div>
+      </div>
+      <div class="col col-sm-2"></div>
+    </div>
+
+
+
   </div>
 </section>
 
 <!-- Featured -->
-{% include separador.html %}
-{% include cervezas_polluas.html %}
+<!-- { include separador.html } -->
+<!-- { include cervezas_polluas.html} -->
 {% include como_funciona.html %}
 
 <!-- TODO: -->

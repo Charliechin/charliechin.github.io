@@ -14,6 +14,7 @@ alergenos:
 origen: España
 pvp: 2.80
 imagen: https://labodegadellupulo.s3.eu-west-3.amazonaws.com/images/birras/santrock.jpg
+categoria: [belga]
 
 ---
 Cerveza extra de inspiración trapense. El azúcar de caña y la malta caramelizada son los protagonistas, aportando aromas a barrica, caramelo y frutos secos. Dulce en boca, con cuerpo. Beber con moderación: sus 7, 5º de alcohol son peligrosos. ¡Brutalmente clásica!

@@ -14,6 +14,7 @@ alergenos:
 origen: España
 pvp: 2.70
 imagen: https://labodegadellupulo.s3.eu-west-3.amazonaws.com/images/birras/golden.jpg
+categoria: [rubia]
 
 ---
 Nuestra cerveza más noble. Ligera y de trago fácil, muy refrescante. Empleamos lúpulos americanos que le dan un toque cítrico y frutal, con un amargor poco pronunciado, muy suave. No podrás tomarte sólo una. ¡Cuidado al abrir, contiene buen rollo!

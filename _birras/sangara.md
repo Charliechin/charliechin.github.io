@@ -14,6 +14,7 @@ alergenos:
 origen: España
 pvp: 2.90
 imagen: https://labodegadellupulo.s3.eu-west-3.amazonaws.com/images/birras/sangara.jpg
+categoria: [trigo]
 
 ---
 Cerveza que mueve el alma. Elaborada con malta de trigo tostada de cuerpo ligero y aromática. Una parte de las ventas irá en apoyo de la asociación deportiva Alma de África

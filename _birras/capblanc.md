@@ -14,6 +14,7 @@ alergenos:
 origen: España
 pvp: 3.20
 imagen: https://labodegadellupulo.s3.eu-west-3.amazonaws.com/images/birras/capblanc.jpg
+categoria: [ipa]
 
 ---
 Suave y de baja graduación, color pajizo, brillante, fresca y perfumada, con notas cítricas y florales y un final algo amargo y refrescante
