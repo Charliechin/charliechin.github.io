@@ -1,9 +1,20 @@
 html  {font-size: min(max(16px, 4vw), 22px);}
 body {
   // background-color: #F2B739;
-  padding-top: 100px; 
+  // padding-top: 100px; 
   font-size: 1rem;
   // background-color: #F2B739; 
+}
+
+.logo-lupulo {
+  max-height: 80px;
+  background-color: #f2c02b;
+  border-radius: 5px;
+  padding: 2px;
+}
+
+.navbar .navbar-brand {
+  padding: 0 15px;
 }
 
 .current {
@@ -34,7 +45,8 @@ section.cervezas-polluas {
 
 .como-funciona{
   //CHECK MOBILE. THERES A MOBILE VERSION
-  background: url("https://labodegadellupulo.s3.eu-west-3.amazonaws.com/svg/wave-birra1.svg") #ffc107 no-repeat
+  background: url("https://labodegadellupulo.s3.eu-west-3.amazonaws.com/svg/wave-birra1.svg") no-repeat;
+  background-color: rgba($color: #f2c02b, $alpha: 0.6);
   // background-size: cover;
   // background-attachment: fixed; 
 }
