@@ -9,7 +9,7 @@ maltas: Maris Otter Floor Malt, Chocolate, Roasted Barley, Crystal y Avena
 lupulos: Cascade
 levaduras: ALE
 formato: Botella 33cl
-volumen:  4,2 %
+volumen:  4.2 %
 alergenos: 
 origen: España
 pvp: 2.80

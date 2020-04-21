@@ -3,13 +3,13 @@ id: 47
 layout: birra
 nombre:  Destraperlo Colorá
 tipo:  Andalusí Red Ale
-ibu:  22,1
-ebc:  35,3
+ibu:  22.1
+ebc:  35.3
 maltas: 
 lupulos: 
 levaduras: 
 formato: Botella 33cl
-volumen:  6,5 %
+volumen:  6.5 %
 alergenos: 
 origen: España
 pvp: 2.60

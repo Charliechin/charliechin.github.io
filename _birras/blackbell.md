@@ -9,7 +9,7 @@ maltas:
 lupulos: 
 levaduras: 
 formato: Botella 33cl
-volumen:  8,7 %
+volumen:  8.7 %
 alergenos: 
 origen: España
 pvp: 3.30

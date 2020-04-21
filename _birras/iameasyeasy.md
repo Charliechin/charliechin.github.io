@@ -1,7 +1,7 @@
 ---
 id: 34
 layout: birra
-nombre:  I Am Easy Easy
+nombre:  I Am Easy
 tipo:  India Pale Lager
 ibu:  27
 ebc:
@@ -9,7 +9,7 @@ maltas:
 lupulos: 
 levaduras: 
 formato: Lata 33cl.
-volumen:  6,8 %
+volumen:  6.8 %
 alergenos: 
 origen: España
 pvp: 3.60

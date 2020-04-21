@@ -9,7 +9,7 @@ maltas: Lager, IPA, Wheat, Oat, Carapils, Acidulated, Flaked Oats
 lupulos: El Dorado, Azacca, Kohatu y Magnum
 levaduras: 
 formato: Lata 44cl.
-volumen:  5,5 %
+volumen:  5.5 %
 alergenos: 
 origen: UK
 pvp: 7.00

@@ -4,7 +4,7 @@ layout: birra
 nombre:  Matajare
 tipo:  American Pale Ale
 ibu:  32
-ebc:  7,4
+ebc:  7.4
 maltas: 
 lupulos: 
 levaduras: 

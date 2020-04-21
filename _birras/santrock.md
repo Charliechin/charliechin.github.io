@@ -9,7 +9,7 @@ maltas: Pale Ale, Caramünich tipo I y Wheat
 lupulos: East Kent Goldings
 levaduras: 
 formato: Botella 33cl
-volumen:  7,5 %
+volumen:  7.5 %
 alergenos: 
 origen: España
 pvp: 2.80

@@ -9,12 +9,12 @@ maltas:
 lupulos: 
 levaduras: 
 formato: Botella 33cl
-volumen:  8,7 %
+volumen:  8.7 %
 alergenos: 
 origen: España
 pvp: 3.90
 imagen: https://labodegadellupulo.s3.eu-west-3.amazonaws.com/images/birras/mistral.jpg
-categoria: [indian_pale_ale]
+categoria: [ipa]
 
 ---
 Robusta, aromática y amarga, con potentes cítricos y frutas tropicales en el paladar gracias a los lúpulos del Nuevo Mundo. Una cerveza poderosamente femenina y que encara el futuro sin perder un ápice de autenticidad

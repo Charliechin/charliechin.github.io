@@ -9,7 +9,7 @@ maltas: Extra Pale
 lupulos: Magnum, Perle y Cascade
 levaduras: 
 formato: Botella 33cl
-volumen:  4,9 %
+volumen:  4.9 %
 alergenos: 
 origen: España
 pvp: 2.70

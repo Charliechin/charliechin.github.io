@@ -3,8 +3,8 @@ id: 21
 layout: birra
 nombre:  Destraperlo Negra
 tipo:  Andalusí Robust Porter
-ibu:  33,5
-ebc:  99,5
+ibu:  33.5
+ebc:  99.5
 maltas: 
 lupulos: 
 levaduras: 

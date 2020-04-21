@@ -9,7 +9,7 @@ maltas: Finest Lager
 lupulos: Hersbrucket
 levaduras: 
 formato: Botella 33cl
-volumen:  4,4 %
+volumen:  4.4 %
 alergenos: 
 origen: España
 pvp: 1.60

@@ -3,13 +3,13 @@ id: 6
 layout: birra
 nombre:  Destraperlo Trigo
 tipo:  Andalusí-Ecológica-Weissbier
-ibu:  6,9
-ebc:  8,3
+ibu:  6.9
+ebc:  8.3
 maltas: 
 lupulos: 
 levaduras: 
 formato: Botella 33cl
-volumen:  3,5 %
+volumen:  3.5 %
 alergenos: 
 origen: España
 pvp: 2.70
