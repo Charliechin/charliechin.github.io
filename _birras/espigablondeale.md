@@ -6,7 +6,7 @@ tipo:  Blonde Ale
 ibu: 25
 ebc:
 maltas: Pils 
-lupulos: Mosaic, Cascade & Citra. Dryhopping: Mosaic, Cascade & Citra 
+lupulos: "Mosaic, Cascade & Citra. Dryhopping: Mosaic, Cascade & Citra"
 levaduras: 
 formato: Botella 33cl
 volumen:  4.5 %

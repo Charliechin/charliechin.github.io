@@ -6,7 +6,7 @@ tipo:  Fruity Sour Ale
 ibu: 20
 ebc:  
 maltas: Pils & Wheat Malt
-lupulos: Galena. Dry fruiting: dragon fruit y fruta de la pasión
+lupulos: "Galena. Dry fruiting: dragon fruit y fruta de la pasión"
 levaduras:
 formato: Botella 33cl
 volumen:  3.5 %

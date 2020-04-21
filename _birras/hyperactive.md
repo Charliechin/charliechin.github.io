@@ -6,7 +6,7 @@ tipo:  TDH IPA
 ibu:  55
 ebc:
 maltas:   Low Colour Maris Otter, Flaked Oats & Flaked Wheat
-lupulos:  Willamette & Ekuanot. Triple Dry Hopping: Willamette, Ekuanot & Cryo Simcoe
+lupulos:  "Willamette & Ekuanot. Triple Dry Hopping: Willamette, Ekuanot & Cryo Simcoe"
 levaduras: 
 formato: Lata 44cl
 volumen:  8.5 %

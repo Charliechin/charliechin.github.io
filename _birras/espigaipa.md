@@ -6,7 +6,7 @@ tipo:  Doble IPA
 ibu:  60
 ebc:
 maltas:  Pilsner & Pale Ale
-lupulos: Columbus & Loral. Dry Hopping: Columbus & Loral.
+lupulos: "Columbus & Loral. Dry Hopping: Columbus & Loral"
 levaduras: 
 formato: Botella 33cl
 volumen:  7 %

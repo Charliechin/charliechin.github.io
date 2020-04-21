@@ -5,8 +5,8 @@ nombre:  Artistas del Gremio
 tipo:  American Pale Ale
 ibu: 20
 ebc:  
-maltas: Extra Pale, Maris Otter, Dextrin y trigo. Lúpulos: Citra y Sterling
-lupulos: 
+maltas: Extra Pale, Maris Otter, Dextrin y trigo
+lupulos: Citra y Sterling
 levaduras:
 formato: Lata 44cl
 volumen:  4 %
