@@ -165,3 +165,26 @@ span.anchor {
     top: -180px;
     visibility: hidden;
 }
+
+.seleccion-container {
+  position: unset;
+  z-index: 100;
+
+ 
+  @media screen and (min-width:1200px) {
+    position: fixed; 
+  }
+
+
+}
+
+.slick-prev:before {
+  color: black!important;
+}
+.slick-next:before {
+  color:  black!important;
+}
+
+.birra-carousel-item {
+  padding: 20px;
+}

@@ -14,7 +14,7 @@ alergenos:
 origen: España
 pvp: 5.40
 imagen: https://labodegadellupulo.s3.eu-west-3.amazonaws.com/images/birras/backtoblack.jpg
-categoria: [negra]
+categoria: [negras]
 
 ---
 Siempre es buen momento para volver a disfrutar con una cerveza negra. Cuerpo cremoso con notas intensas de café y cacao, redondeado con los matices resinosos y amargos del lúpulo Chinook.

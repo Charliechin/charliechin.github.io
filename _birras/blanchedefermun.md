@@ -14,7 +14,7 @@ alergenos:
 origen: España
 pvp: 2.60
 imagen: https://labodegadellupulo.s3.eu-west-3.amazonaws.com/images/birras/blanchedefermun.jpg
-categoria: [trigo]
+categoria: [weitbier_y_weissbier]
 
 ---
 Estilo clásico belga con 400 años de historia. Turbia debido al trigo crudo y muy refrescante. Aromatizada con cilantro y piel de naranja. Reinterpretada con pimienta aromática de “de Sichuan” de origen japonés.

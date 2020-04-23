@@ -14,7 +14,7 @@ alergenos:
 origen: España
 pvp: 3.00 
 imagen: https://labodegadellupulo.s3.eu-west-3.amazonaws.com/images/birras/shakethestreets.jpg
-categoria: [pale_ale]
+categoria: [india_pale_ale]
 ---
 Una Imperial Milkshake Cream Ale con lactosa, fresas, coco y vainilla.
 Amplia tus sentidos con esta cerveza muy especial, ideal para merendar e incluso para un aperitivo al medio día

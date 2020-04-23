@@ -14,6 +14,6 @@ alergenos:
 origen: España
 pvp: 4.40 
 imagen: https://labodegadellupulo.s3.eu-west-3.amazonaws.com/images/birras/artistasdelgremio.jpg
-categoria: [pale_ale]
+categoria: [india_pale_ale]
 ---
 ¡15 añazos bien se merecen una cerveza! Artistas del Gremio, la charanga con más flow de este y del otro lado del Ebro, quiere brindar con todos sus fans con esta American Pale Ale, casi tan fresca como ellos y casi tan fácil de beber como de bailar al son de sus acordes

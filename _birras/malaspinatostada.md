@@ -14,7 +14,7 @@ alergenos:
 origen: España
 pvp: 3.00
 imagen: https://labodegadellupulo.s3.eu-west-3.amazonaws.com/images/birras/malaspinatostada.jpg
-categoria: [tostadas_rojas]
+categoria: [tostadas_y_rojas]
 
 ---
 Cerveza tostada elaborada de manera artesanal de una selección de maltas de cebada, dando como resultado una cerveza de color cobrizo oscuro, con un sabor suave y un amargor equilibrado, presentado un intenso aroma tostado con notas dulces y una espuma consistente obtenida mediante una segunda fermentación en botella

@@ -14,7 +14,7 @@ alergenos:
 origen: España
 pvp: 4.90
 imagen: https://labodegadellupulo.s3.eu-west-3.amazonaws.com/images/birras/valvuline.jpg
-categoria: [negra]
+categoria: [negras]
 
 ---
 Una de nuestras mejores Porters de nuestro catálogo. Defiende la tradición británica a la hora de su elaboración añadiéndole una añada en barrica de whisky y luego de coñac francés. Toda una pada de cerveza negra.
