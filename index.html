@@ -61,24 +61,23 @@ The following part removes dulpicated tags and invalid tags like blank tag.
             {% if birra.categoria contains tag %}
 
 
+            <a href="{{ birra.url }}">
+              <div class="birra-carousel-item">
 
-            <div class="birra-carousel-item">
-              <img src="{{birra.imagen}}" class="img-fluid mb-3" alt="">
-              <span style="font-weight: 700;">{{ birra.nombre | capitalize | replace: "_", " " }}</span> - <small
-                class="text-muted">{{ birra.volumen }}</small>
-              <hr>
-              <small class="text-muted">
-                <i class="fa fa-beer"></i> {{ birra.formato }}
-              </small>
-              <br>
-              <small class="text-muted">
-                <i class="fa fa-money"></i> {{ birra.pvp }}€
-              </small>
+                <img src="{{birra.imagen}}" class="img-fluid mb-3" alt="">
+                <span style="font-weight: 700;">{{ birra.nombre | capitalize | replace: "_", " " }}</span> - <small
+                  class="text-muted">{{ birra.volumen }}</small>
+                <hr>
+                <small class="text-muted">
+                  <i class="fa fa-beer"></i> {{ birra.formato }}
+                </small>
+                <br>
+                <small class="text-muted">
+                  <i class="fa fa-money"></i> {{ birra.pvp }}€
+                </small>
 
-
-
-            </div>
-
+              </div>
+            </a>
 
 
             {% endif %}
