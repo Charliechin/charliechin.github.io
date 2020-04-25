@@ -14,7 +14,7 @@ alergenos:
 origen: Bélgica
 pvp: 2.30
 imagen: https://labodegadellupulo.s3.eu-west-3.amazonaws.com/images/birras/vedettwhite.jpg
-categoria: [witbier_&_weissbier]
+categoria: [Witbier_&_Weissbier]
 
 ---
 Esta cerveza es increíblemente refrescante, perfecta para calmarla sed, con un final meloso y dulce, ligeramente perfumado, con notas de ralladura de naranja y limón, redondeado con un sabor ligeramente amargo y final seco

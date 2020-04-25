@@ -37,7 +37,7 @@ The following part removes dulpicated tags and invalid tags like blank tag.
           <h5 class="card-title mb-3 mt-2">Nuestra Selección</h5>
           {% for tag in tags %}
           <a class="card-text list-group-item list-group-item-action"
-            href="#{{ tag | slugify }}">{{tag | capitalize | replace: "_", " "}}</a>
+            href="#{{ tag | slugify }}">{{tag | replace: "_", " "}}</a>
           <!-- <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p> -->
           {% endfor %}
         </div>
@@ -54,8 +54,8 @@ The following part removes dulpicated tags and invalid tags like blank tag.
     <div class="col-12 col-md-11 offset-md-1">
       <div class="card">
         <div class="card-body">
-          <h5 style="font-weight:700" class="card-title text-center mb-2">Tipo
-            <span id="{{ tag | slugify }}" class="anchor"></span>{{ tag | capitalize | replace: "_", " " }}</h5>
+          <h5 style="font-weight:700" class="card-title text-center mb-2">
+            <span id="{{ tag | slugify }}" class="anchor"></span>{{ tag | replace: "_", " " }}</h5>
           <div class="your-class">
             {% for birra in site.birras %}
             {% if birra.categoria contains tag %}

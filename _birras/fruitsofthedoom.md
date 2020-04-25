@@ -14,7 +14,7 @@ alergenos:
 origen: España
 pvp: 5.30
 imagen: https://labodegadellupulo.s3.eu-west-3.amazonaws.com/images/birras/fruitsofthedoom.jpg
-categoria: [witbier_&_weissbier]
+categoria: [Witbier_&_Weissbier]
 
 ---
 Elaborada con frambuesa y añejada en barricas de vino. Aroma a frutas rojas, con toques de roble, trigo y vino. En boca es agridulce, afrutada y con un retrogusto suave y ácido. De apariencia clara, en el sabor y el aroma predomina la malta, con algo de amargura del lúpulo.
