@@ -30,12 +30,11 @@
 
 
   $('.your-class').slick({
-    lazyLoad: 'ondemand',
     dots: false,
     infinite: true,
     speed: 300,
-    slidesToShow: 1,
-    slidesToScroll: 1,
+    slidesToShow: 4,
+    slidesToScroll: 4,
     responsive: [
       {
         breakpoint: 1024,
@@ -56,10 +55,11 @@
       },
       {
         breakpoint: 480,
-        slidesToShow: 1,
-        slidesToScroll: 1,
-        infinite: true
-
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1,
+          infinite: true
+        }
       }
       // You can unslick at a given breakpoint now by adding:
       // settings: "unslick"
