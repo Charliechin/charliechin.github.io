@@ -14,7 +14,7 @@ alergenos:
 origen: España
 pvp: 5.30 
 imagen: https://labodegadellupulo.s3.eu-west-3.amazonaws.com/images/birras/ordeltemps.jpg
-categoria: [india_pale_ale]
+categoria: [India_Pale_Ale]
 ---
 Una de nuestras últimas novedades. Cerveza envejecida en barrica de vino blanco. Con una espuma de color pajizo que genera en nariz un olor refrescante. En boca resaltan todo el proceso de envejecimiento en barrica de vino blanco aportando un matiz agrio balanceando su amargura
 

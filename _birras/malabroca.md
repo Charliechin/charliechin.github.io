@@ -14,7 +14,7 @@ alergenos:
 origen: España
 pvp: 3.10
 imagen: https://labodegadellupulo.s3.eu-west-3.amazonaws.com/images/birras/malabroca.jpg
-categoria: [india_pale_ale]
+categoria: [India_Pale_Ale]
 
 ---
 Clásica Pale Ale en su versión americana. Receta a base de la afamada malta pálida Maris Otter, de origen inglés, combinada con la potencia dos lúpulos americanos como el Cascade y el Mosaic. El resultado es la Malabrocca, una cerveza de alta fermentación y baja graduación alcohólica, fácil de beber, seca, refrescante, con tonos a cereal, nuez y galleta característicos de la Maris Otter y, en aroma, las poderosas notas cítricas de los lúpulos americanos. El gusto frutal, ligeramente amargo y la baja carbonatación

@@ -14,7 +14,7 @@ alergenos:
 origen: UK
 pvp: 7.00
 imagen: https://labodegadellupulo.s3.eu-west-3.amazonaws.com/images/birras/metro.jpg
-categoria: [india_pale_ale]
+categoria: [India_Pale_Ale]
 
 ---
 Fuertemente lupulada para tomar a altas horas de la noche o en esas calurosas mañanas

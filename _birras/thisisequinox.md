@@ -14,7 +14,7 @@ alergenos:
 origen: España
 pvp: 2.80
 imagen: https://labodegadellupulo.s3.eu-west-3.amazonaws.com/images/birras/thisisequinox.jpg
-categoria: [ipa]
+categoria: [Ipa]
 ---
 Se caracteriza por su perfil marcado de lúpulo Equinox. Este interesante lúpulo americano puesto al mercado en 2015, ofrece notas de fruta tropical como el maracuyá y a la vez notas de pimienta verde.
 

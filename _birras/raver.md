@@ -14,7 +14,7 @@ alergenos:
 origen: UK
 pvp: 9.00
 imagen: https://labodegadellupulo.s3.eu-west-3.amazonaws.com/images/birras/raver.jpg
-categoria: [ipa]
+categoria: [Ipa]
 
 ---
 Gran cerveza para disfrutar con una buena compañía. Grandes notas de lúpulo y largo recorrido en boca. Una cerveza muy especial

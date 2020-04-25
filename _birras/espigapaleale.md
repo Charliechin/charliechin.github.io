@@ -14,6 +14,6 @@ alergenos:
 origen: España
 pvp: 2.80 
 imagen: https://labodegadellupulo.s3.eu-west-3.amazonaws.com/images/birras/espigapaleale.jpg
-categoria: [india_pale_ale]
+categoria: [India_Pale_Ale]
 ---
 La primera receta de Espiga exhibe una atractiva tonalidad ambarina con reflejos rojizos y espuma ocre cremosa. Con diferentes matices aromáticos de la malta, que recuerdan a corteza de pan, grano o caramelo tostado, así como notas terrosas, florales y herbales propios de las variedades de lúpulo tradicionales. En boca, presenta un cuerpo ligero y carbonatación moderada, pronunciándose el carácter terroso y amargo, recuerdos a chocolate y especias. Sabor seco y agradablemente amargo. La cerveza Espiga más longeva inspirada en las recetas inglesas tradicionales

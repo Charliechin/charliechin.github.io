@@ -14,7 +14,7 @@ alergenos:
 origen: España
 pvp: 3.00
 imagen: https://labodegadellupulo.s3.eu-west-3.amazonaws.com/images/birras/espigaporter.jpg
-categoria: [negras]
+categoria: [Stout_&_Porter]
 
 ---
 Una capa cremosa de espuma beige corona el intenso color negro y opaco de nuestra Porter. El carácter de las maltas torrefactos invade la nariz con rotundos y complejos aromas de café, cacao, almendra tostada, regaliz, pan negro, vainilla y caramelo tostado, entre otros. A pesar de su graduación moderada de 5% vol, en boca es sedosa y plena, con amables sabores torrefactos y amargos gracias al tostado de las maltas, seguido de notas herbales provenientes de los lúpulos. La cerveza Espiga más preciada por los adeptos a las Ales negra

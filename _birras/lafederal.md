@@ -14,7 +14,7 @@ alergenos:
 origen: España
 pvp: 4.40
 imagen: https://labodegadellupulo.s3.eu-west-3.amazonaws.com/images/birras/lafederal.jpg
-categoria: [negras]
+categoria: [Stout_&_Porter]
 
 ---
 Déjate sorprender por los contrastes de esta cerveza oscura, torrefacta, dulce y con un final picante, gracias al uso de tres variedades de chiles: Pasilla, Ancho y Árbol. Colaboración con la coctelería zaragozana, de corazón mexicano, El Federal.

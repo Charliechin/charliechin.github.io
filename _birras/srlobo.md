@@ -14,7 +14,7 @@ alergenos:
 origen: España
 pvp: 3.00
 imagen: https://labodegadellupulo.s3.eu-west-3.amazonaws.com/images/birras/srlobo.jpg
-categoria: [negras]
+categoria: [Stout_&_Porter]
 
 ---
 Una cerveza oscura elaborada con chocolate y naranja

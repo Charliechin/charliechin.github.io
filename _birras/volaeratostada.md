@@ -14,7 +14,7 @@ alergenos:
 origen: España
 pvp: 2.30
 imagen: https://labodegadellupulo.s3.eu-west-3.amazonaws.com/images/birras/volaeratostada.jpg
-categoria: [tostadas_y_rojas]
+categoria: [Brown_&_Amber_Ale]
 
 ---
 Cerveza con mucho cuerpo, destaca su sabor a maltas y una lupulización equilibrada que da lugar a una cerveza refrescante y a su vez ligera. La gran presencia de sabores a cereales y notas de tostado en boca, incentivan su sabor autentico a la cerveza natural. Aroma maltosa con un ligero tono afrutado y agradable. Cerveza de doble fermentación.

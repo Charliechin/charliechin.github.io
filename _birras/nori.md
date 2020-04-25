@@ -14,7 +14,7 @@ alergenos:
 origen: España
 pvp: 4.20
 imagen: https://labodegadellupulo.s3.eu-west-3.amazonaws.com/images/birras/nori.jpg
-categoria: [negras]
+categoria: [Stout_&_Porter]
 
 ---
 erveza negra de cuerpo cremoso y notas de café y cacao. Sus matices ligeramente minerales le aportan mayor profundidad y sabor, combinando con su bajo grado alcohólico y su suave dulzor

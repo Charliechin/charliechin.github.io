@@ -14,7 +14,7 @@ alergenos: Copos de avena y lactosa
 origen: España
 pvp: 3.80
 imagen: https://labodegadellupulo.s3.eu-west-3.amazonaws.com/images/birras/valholl.jpg
-categoria: [ipa]
+categoria: [Ipa]
 
 ---
 La vida no es un paseo por un campo tranquilo y sereno. El pasado es aterrador, y el futuro desconcertante. No confíes en la paz: lucha y vive cada momento. Brindemos con esta cerveza elaborada en colaboración con “Valhalla” para celebrar su 1º aniversario.

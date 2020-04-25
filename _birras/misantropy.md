@@ -14,7 +14,7 @@ alergenos:
 origen: España
 pvp: 4.50
 imagen: https://labodegadellupulo.s3.eu-west-3.amazonaws.com/images/birras/misantropy.jpg
-categoria: [belga]
+categoria: [Estilo_Belga]
 
 ---
 Una cerveza de estilo Triple Belga que se ha envejecido durante meses en barricas de Whisky. Realizada con cantidades ingentes de malta, lo cual aporta una redondez en boca espectacular.
