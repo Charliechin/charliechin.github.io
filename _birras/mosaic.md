@@ -1,7 +1,7 @@
 ---
 id: 106
 layout: birra
-nombre:  Double Dragon
+nombre:  Mosaic
 tipo:  American Pale Ale
 ibu: 35
 ebc:  
