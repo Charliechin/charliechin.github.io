@@ -12,7 +12,8 @@ formato: Botella 33cl
 volumen:  4.5 %
 alergenos: 
 origen: España
-pvp: 2.60
+pvp: "2.60"
+precio: 2.60
 imagen: https://labodegadellupulo.s3.eu-west-3.amazonaws.com/images/birras/blanchedefermun.jpg
 categoria: [Witbier_&_Weissbier]
 

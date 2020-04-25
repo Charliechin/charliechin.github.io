@@ -12,7 +12,8 @@ formato: Botella 33cl
 volumen:  9 %
 alergenos: 
 origen: Bélgica
-pvp: 3.50
+pvp: "3.50"
+precio: 3.50
 imagen: https://labodegadellupulo.s3.eu-west-3.amazonaws.com/images/birras/nocturnum.jpg
 categoria: [Estilo_Belga]
 

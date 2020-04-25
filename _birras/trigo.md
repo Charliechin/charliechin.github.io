@@ -12,7 +12,8 @@ formato: Botella 33cl
 volumen:  3.5 %
 alergenos: 
 origen: España
-pvp: 2.70
+pvp: "2.70"
+precio: 2.70
 imagen: https://labodegadellupulo.s3.eu-west-3.amazonaws.com/images/birras/trigo.jpg
 categoria: [Witbier_&_Weissbier]
 

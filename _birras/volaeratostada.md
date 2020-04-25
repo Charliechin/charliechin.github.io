@@ -12,7 +12,8 @@ formato: Botella 33cl
 volumen:  5.3 %
 alergenos: 
 origen: España
-pvp: 2.30
+pvp: "2.30"
+precio: 2.30
 imagen: https://labodegadellupulo.s3.eu-west-3.amazonaws.com/images/birras/volaeratostada.jpg
 categoria: [Brown_&_Amber_Ale]
 

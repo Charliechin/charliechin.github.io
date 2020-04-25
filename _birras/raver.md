@@ -12,7 +12,8 @@ formato: Lata 44cl.
 volumen:  7.2 %
 alergenos: 
 origen: UK
-pvp: 9.00
+pvp: "9.00"
+precio: 9.00
 imagen: https://labodegadellupulo.s3.eu-west-3.amazonaws.com/images/birras/raver.jpg
 categoria: [Ipa]
 

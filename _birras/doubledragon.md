@@ -12,7 +12,8 @@ formato: Botella 33cl
 volumen:  3.5 %
 alergenos: 
 origen: España
-pvp: 3.40 
+pvp: "3.40 "
+precio: 3.40
 imagen: https://labodegadellupulo.s3.eu-west-3.amazonaws.com/images/birras/doubledragon.jpg
 categoria: [India_Pale_Ale]
 ---

@@ -12,7 +12,8 @@ formato: Botella 37.5cl
 volumen:  11.8 %
 alergenos: 
 origen: España
-pvp: 5.10
+pvp: "5.10"
+precio: 5.10
 imagen: https://labodegadellupulo.s3.eu-west-3.amazonaws.com/images/birras/blueblood.jpg
 categoria: [Stout_&_Porter]
 

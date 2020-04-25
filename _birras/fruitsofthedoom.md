@@ -12,7 +12,8 @@ formato: Botella 37.5cl
 volumen:  6.3 %
 alergenos: 
 origen: España
-pvp: 5.30
+pvp: "5.30"
+precio: 5.30
 imagen: https://labodegadellupulo.s3.eu-west-3.amazonaws.com/images/birras/fruitsofthedoom.jpg
 categoria: [Witbier_&_Weissbier]
 

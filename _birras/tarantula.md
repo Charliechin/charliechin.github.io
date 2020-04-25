@@ -12,7 +12,8 @@ formato: Lata 44cl
 volumen:  6.4 %
 alergenos: 
 origen: España
-pvp: 4.50
+pvp: "4.50"
+precio: 4.50
 imagen: https://labodegadellupulo.s3.eu-west-3.amazonaws.com/images/birras/tarantula.jpg
 categoria: [Ipa]
 ---

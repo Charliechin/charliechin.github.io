@@ -12,7 +12,8 @@ formato: Lata 33cl.
 volumen:  5.5 %
 alergenos: 
 origen: España
-pvp: 3.80
+pvp: "3.80"
+precio: 3.80
 imagen: https://labodegadellupulo.s3.eu-west-3.amazonaws.com/images/birras/flower.jpg
 categoria: [Ipa]
 

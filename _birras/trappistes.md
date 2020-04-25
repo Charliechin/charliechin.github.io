@@ -12,7 +12,8 @@ formato: Botella 33cl
 volumen:  9.2 %
 alergenos: 
 origen: Bélgica
-pvp: 3.20
+pvp: "3.20"
+precio: 3.20
 imagen: https://labodegadellupulo.s3.eu-west-3.amazonaws.com/images/birras/trappistes.jpg
 categoria: [Estilo_Belga]
 

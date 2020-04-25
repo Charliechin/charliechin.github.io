@@ -12,7 +12,8 @@ formato: Lata 33cl.
 volumen:  6.8 %
 alergenos: 
 origen: España
-pvp: 3.60
+pvp: "3.60"
+precio: 3.60
 imagen: https://labodegadellupulo.s3.eu-west-3.amazonaws.com/images/birras/iameasyeasy.jpg
 categoria: [Blonde_&_Lager]
 

@@ -12,7 +12,8 @@ formato: Botella 33cl
 volumen:  7 %
 alergenos: 
 origen: España
-pvp: 3.30
+pvp: "3.30"
+precio: 3.30
 imagen: https://labodegadellupulo.s3.eu-west-3.amazonaws.com/images/birras/espigaipa.jpg
 categoria: [Ipa]
 ---

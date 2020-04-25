@@ -12,7 +12,8 @@ formato: Botella 33cl
 volumen:  10 %
 alergenos: 
 origen: España
-pvp: 3.70
+pvp: "3.70"
+precio: 3.70
 imagen: https://labodegadellupulo.s3.eu-west-3.amazonaws.com/images/birras/lacamocha.jpg 
 categoria: [Stout_&_Porter]
 

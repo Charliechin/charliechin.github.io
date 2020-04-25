@@ -12,7 +12,8 @@ formato: Botella 37.5cl
 volumen:  8.4 %
 alergenos: 
 origen: España
-pvp: 5.30 
+pvp: "5.30"
+precio: 5.30
 imagen: https://labodegadellupulo.s3.eu-west-3.amazonaws.com/images/birras/ordeltemps.jpg
 categoria: [India_Pale_Ale]
 ---

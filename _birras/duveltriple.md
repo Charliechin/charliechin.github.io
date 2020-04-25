@@ -12,7 +12,8 @@ formato: Botella 33cl
 volumen:  9.5 %
 alergenos: 
 origen: Bélgica
-pvp: 2.80
+pvp: "2.80"
+precio: 2.80
 imagen: https://labodegadellupulo.s3.eu-west-3.amazonaws.com/images/birras/duveltriple.jpg
 categoria: [Estilo_Belga]
 

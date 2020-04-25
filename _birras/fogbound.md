@@ -12,7 +12,8 @@ formato: Lata 44cl
 volumen:  6.5 %
 alergenos: 
 origen: España
-pvp: 5.10
+pvp: "5.10"
+precio: 5.10
 imagen: https://labodegadellupulo.s3.eu-west-3.amazonaws.com/images/birras/fogbound.jpg
 categoria: [Ipa]
 ---

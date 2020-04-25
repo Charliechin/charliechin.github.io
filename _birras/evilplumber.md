@@ -12,7 +12,8 @@ formato: Lata 44cl
 volumen:  8.5 %
 alergenos: 
 origen: España
-pvp: 5.60
+pvp: "5.60"
+precio: 5.60
 imagen: https://labodegadellupulo.s3.eu-west-3.amazonaws.com/images/birras/evilplumber.jpg
 categoria: [Ipa]
 ---

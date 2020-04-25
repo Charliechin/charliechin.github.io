@@ -12,7 +12,8 @@ formato: Lata 44cl
 volumen:  6.5 %
 alergenos: 
 origen: España
-pvp: 4.60
+pvp: "4.60"
+precio: 4.60
 imagen: https://labodegadellupulo.s3.eu-west-3.amazonaws.com/images/birras/bangbang.jpg
 categoria: [Ipa]
 ---

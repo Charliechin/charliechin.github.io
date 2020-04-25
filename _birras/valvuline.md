@@ -12,7 +12,8 @@ formato: Botella 37,5cl
 volumen:  10.8 %
 alergenos: 
 origen: España
-pvp: 4.90
+pvp: "4.90"
+precio: 4.90
 imagen: https://labodegadellupulo.s3.eu-west-3.amazonaws.com/images/birras/valvuline.jpg
 categoria: [Stout_&_Porter]
 

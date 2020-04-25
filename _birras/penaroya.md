@@ -12,7 +12,8 @@ formato: Botella 33cl
 volumen:  5.7 %
 alergenos: 
 origen: España
-pvp: 3.00
+pvp: "3.00"
+precio: 3.00
 imagen: https://labodegadellupulo.s3.eu-west-3.amazonaws.com/images/birras/penaroya.jpg
 categoria: [Brown_&_Amber_Ale]
 

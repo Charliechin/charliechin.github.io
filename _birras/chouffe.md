@@ -12,7 +12,8 @@ formato: Botella 33cl
 volumen:  8 %
 alergenos: 
 origen: Bélgica
-pvp: 2.60
+pvp: "2.60"
+precio: 2.60
 imagen: https://labodegadellupulo.s3.eu-west-3.amazonaws.com/images/birras/chouffe.jpg
 categoria: [Estilo_Belga]
 

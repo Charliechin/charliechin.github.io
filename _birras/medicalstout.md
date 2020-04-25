@@ -12,7 +12,8 @@ formato: Botella 20cl
 volumen:  8.5 %
 alergenos: 
 origen: España
-pvp: 2.80
+pvp: "2.80"
+precio: 2.80
 imagen: https://labodegadellupulo.s3.eu-west-3.amazonaws.com/images/birras/medicalstout.jpg
 categoria: [Stout_&_Porter]
 

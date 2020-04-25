@@ -12,7 +12,8 @@ formato: Botella 33cl
 volumen:  7 %
 alergenos: 
 origen: España
-pvp: 2.50
+pvp: "2.50"
+precio: 2.50
 imagen: https://labodegadellupulo.s3.eu-west-3.amazonaws.com/images/birras/laninabarbuda.jpg
 categoria: [Brown_&_Amber_Ale]
 

@@ -12,7 +12,8 @@ formato: Botella 33cl
 volumen:  10.5 %
 alergenos: 
 origen: Bélgica
-pvp: 2.90
+pvp: "2.90"
+precio: 2.90
 imagen: https://labodegadellupulo.s3.eu-west-3.amazonaws.com/images/birras/gulden.jpg
 categoria: [Estilo_Belga]
 

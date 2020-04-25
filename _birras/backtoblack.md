@@ -12,7 +12,8 @@ formato: Lata 44cl
 volumen:  9 %
 alergenos: 
 origen: España
-pvp: 5.40
+pvp: "5.40"
+precio: 5.40
 imagen: https://labodegadellupulo.s3.eu-west-3.amazonaws.com/images/birras/backtoblack.jpg
 categoria: [Stout_&_Porter]
 

@@ -12,7 +12,8 @@ formato: Botella 33cl
 volumen:  3.6 %
 alergenos: 
 origen: España
-pvp: 2.90
+pvp: "2.90"
+precio: 2.90
 imagen: https://labodegadellupulo.s3.eu-west-3.amazonaws.com/images/birras/berlinerespiga.jpg
 categoria: [Blonde_&_Lager]
 

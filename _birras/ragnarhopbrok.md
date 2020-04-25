@@ -12,7 +12,8 @@ formato: Lata 44cl
 volumen:  6.5 %
 alergenos: 
 origen: España
-pvp: 5.20
+pvp: "5.20"
+precio: 5.20
 imagen: https://labodegadellupulo.s3.eu-west-3.amazonaws.com/images/birras/ragnarhopbrok.jpg
 categoria: [Ipa]
 ---
