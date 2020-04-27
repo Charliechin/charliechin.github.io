@@ -1,7 +1,20 @@
 <!-- Html Elements for Search -->
+<div class="container">
+  <div class="row">
+    <div class="col-12">
+      <div class="card">
+        <div class="card-body">
+          <div class="input-group input-group-lg">
+            <input type="text" id="search-input" pattern=".{3,}" placeholder="Buscar..." autocomplete=off>
+          </div>
+          <ul class="lista-buscador" id="results-container"></ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
 <div id="search-container">
-  <input type="text" id="search-input" pattern=".{3,}" placeholder="Buscar..." autocomplete=off>
-  <ul class="lista-buscador" id="results-container"></ul>
 </div>
 
 <!-- Script pointing to search-script.js -->
@@ -15,6 +28,7 @@
     json: '/search.json',
     noResultsText: 'No hemos encontrado nada...',
     searchResultTemplate: `
+    <a href={url} alt="{nombre}">
     <div class="card mb-3" style="">
   <div class="row no-gutters">
     <div class="col-md-4">
@@ -23,10 +37,11 @@
     <div class="col-md-8">
       <div class="card-body">
         <h5 class="card-title">{nombre}</h5>
-        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+        <p class="card-text">{content}</p>
       </div>
     </div>
   </div>
-</div>`,
+</div>
+</a>`,
   })
 </script>
