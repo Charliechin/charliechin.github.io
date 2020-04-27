@@ -1,0 +1,13 @@
+---
+---
+[
+  {% for birra in site.birras  %}
+    {
+    "nombre": "{{ birra.nombre | escape }}",
+    "url": "{{ site.baseurl }}{{ birra.url }}",
+    "categoria": "{{ birra.categoria | join: ',' | replace: '_',' '}}",
+    "imagen": "{{ birra.imagen | escape }}"
+  } {% unless forloop.last %},
+  {% endunless %}
+  {% endfor %}
+]
