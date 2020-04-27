@@ -178,13 +178,24 @@ span.anchor {
 
 }
 
-.slick-prev:before {
-  color: black!important;
-}
-.slick-next:before {
-  color:  black!important;
-}
 
 .birra-carousel-item {
   padding: 20px;
+}
+
+.slick-prev{ left: -35px!important;
+  @media screen and (min-width:768px) {
+  left: -44px!important;
+  }
+
+}
+.slick-next{ right: 0!important;
+  @media screen and (min-width:768) {
+
+  }
+}
+
+.slick-next:before, .slick-prev:before {
+  color: #fbc658!important;
+  font-size: 50px!important;
 }
