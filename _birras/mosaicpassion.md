@@ -15,7 +15,7 @@ origen: España
 pvp: "2.80"
 precio: 2.80
 imagen: https://labodegadellupulo.s3.eu-west-3.amazonaws.com/images/birras/mosaicpassion.jpg
-categoria: [Ipa]
+categoria: [India_Pale_Ale]
 ---
 Juicy IPA elaborada con lúpulo mosaic y maracuyá natural. Aroma muy afrutado, en boca es sedosa y compleja. Para los fans del lúpulo tanto en sabor como en aroma, y todo ello sin apenas amargor. Hermana de la citramango. ¡Frescura tropical!
 

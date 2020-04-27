@@ -15,7 +15,7 @@ origen: UK
 pvp: "7.00"
 precio: 7.00
 imagen: https://labodegadellupulo.s3.eu-west-3.amazonaws.com/images/birras/metro.jpg
-categoria: [India_Pale_Ale]
+categoria: [Pale_Ale]
 
 ---
 Fuertemente lupulada para tomar a altas horas de la noche o en esas calurosas mañanas

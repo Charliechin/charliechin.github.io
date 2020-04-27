@@ -15,7 +15,7 @@ origen: España
 pvp: "3.60"
 precio: 3.60
 imagen: https://labodegadellupulo.s3.eu-west-3.amazonaws.com/images/birras/thefits.jpg
-categoria: [Ipa]
+categoria: [India_Pale_Ale]
 
 ---
 Intensa y bastante frutal. Se presenta de un color ambarino con cierta turbidez y una cremosa espuma blanca. Las notas a pomelo, piña y otras frutas tropicales dominan en nariz en boca, con un amargor moderado y recuerdos a resina al final del trago

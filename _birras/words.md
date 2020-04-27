@@ -15,7 +15,7 @@ origen: España
 pvp: "3.90"
 precio: 3.90
 imagen: https://labodegadellupulo.s3.eu-west-3.amazonaws.com/images/birras/words.jpg 
-categoria: [Ipa]
+categoria: [India_Pale_Ale]
 ---
 Presenta los lúpulos Amarillo, Simcoe & Citra. Hemos utilizado cáscara de naranja en el whirlpool para darle ese extra toque cítrico y tropical y un toque de lactosa para sensación sedosa en boca. La hemos fermentada con levaduras New England para obtener matices de frutas de hueso
 

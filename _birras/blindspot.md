@@ -15,7 +15,7 @@ origen: España
 pvp: "5.10"
 precio: 5.10
 imagen: https://labodegadellupulo.s3.eu-west-3.amazonaws.com/images/birras/blindspot.jpg
-categoria: [India_Pale_Ale]
+categoria: [Pale_Ale]
 ---
 Cerveza Wild Ale envejecida en bota de vino tinto, si has leído bien bota de vino tinto. Sabemos que creías que algo así no era posible pero La Calavera lo ha conseguido. Si te la juegas a probarla, estamos seguro que tu percepción sobre la cerveza cambiará radicalmente. Una salvajada
 

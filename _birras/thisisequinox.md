@@ -15,7 +15,7 @@ origen: España
 pvp: "2.80"
 precio: 2.80
 imagen: https://labodegadellupulo.s3.eu-west-3.amazonaws.com/images/birras/thisisequinox.jpg
-categoria: [Ipa]
+categoria: [India_Pale_Ale]
 ---
 Se caracteriza por su perfil marcado de lúpulo Equinox. Este interesante lúpulo americano puesto al mercado en 2015, ofrece notas de fruta tropical como el maracuyá y a la vez notas de pimienta verde.
 

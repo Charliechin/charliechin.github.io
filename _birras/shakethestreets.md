@@ -15,7 +15,7 @@ origen: España
 pvp: "3.00"
 precio: 3.00
 imagen: https://labodegadellupulo.s3.eu-west-3.amazonaws.com/images/birras/shakethestreets.jpg
-categoria: [India_Pale_Ale]
+categoria: [Pale_Ale]
 ---
 Una Imperial Milkshake Cream Ale con lactosa, fresas, coco y vainilla.
 Amplia tus sentidos con esta cerveza muy especial, ideal para merendar e incluso para un aperitivo al medio día

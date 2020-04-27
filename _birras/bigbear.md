@@ -15,7 +15,7 @@ origen: España
 pvp: "2.50"
 precio: 2.50
 imagen: https://labodegadellupulo.s3.eu-west-3.amazonaws.com/images/birras/bigbear.jpg
-categoria: [India_Pale_Ale]
+categoria: [Pale_Ale]
 
 ---
 Frank, el oso tranquilo, está muy cabreado. No soporta que se beba mala cerveza. Ahora ha salido de su cueva para luchar contra la cerveza de baja calidad. Big Bear es una cerveza clásica de estilo Pale Ale. Muy al estilo inglés... una cerveza como las de antes, elaborada según método tradicional. Diseñado por Brosmind, dos genios del diseño reconocidos en todo el mundo

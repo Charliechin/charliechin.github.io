@@ -15,7 +15,7 @@ origen: España
 pvp: "3.00"
 precio: 3.00
 imagen: https://labodegadellupulo.s3.eu-west-3.amazonaws.com/images/birras/engendro.jpg
-categoria: [India_Pale_Ale]
+categoria: [Pale_Ale]
 
 ---
 Cerveza macarra y transgresora, irreverente e insolente. ¡Alma rebelde! Toda nuestra pasión cervecera en una botella. Elaborada con 3 lúpulos diferentes, hará de tu nariz un festival de aromas y de tu boca, poesía líquida. Cítrica y resinosa. ¡Te enamorarás!

@@ -15,7 +15,7 @@ origen: España
 pvp: "2.30"
 precio: 2.30
 imagen: https://labodegadellupulo.s3.eu-west-3.amazonaws.com/images/birras/barcelona.jpg
-categoria: [India_Pale_Ale]
+categoria: [Pale_Ale]
 
 ---
 Barcelona es inspiración, es creatividad y es Mediterráneo. Es amable y acogedora. Nuestra cerveza también. Elaborada con un agua increíblemente pura y una selección de maltas y lúpulos para conseguir una cerveza muy especial. Si te gusta Barcelona, te gustará nuestra cerveza. Diseño de Àlex Trochut

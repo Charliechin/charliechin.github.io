@@ -15,7 +15,7 @@ origen: España
 pvp: "2.60"
 precio: 2.60
 imagen: https://labodegadellupulo.s3.eu-west-3.amazonaws.com/images/birras/walking.jpg
-categoria: [India_Pale_Ale]
+categoria: [Pale_Ale]
 ---
 Cerveza Pale Ale al estilo americano libre de gluten, elaborada con maltas y lúpulos orgánicos. Una cerveza ligera de amargor con notas muy cítricas y tropicales e incluso con ciertos recuerdos a frutas de hueso. De aroma muy maltosa.
 

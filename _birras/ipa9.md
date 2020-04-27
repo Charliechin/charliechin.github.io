@@ -15,7 +15,7 @@ origen: España
 pvp: "3.20"
 precio: 3.20
 imagen: https://labodegadellupulo.s3.eu-west-3.amazonaws.com/images/birras/ipa9.jpg
-categoria: [Ipa]
+categoria: [India_Pale_Ale]
 
 ---
 Cerveza de color rubio, algo turbia, espuma blanca, jabonosa y persistente. Aromas frutales y cítricos, y un gusto cítrico (a pomelo) y muy lupulado. Cuerpo medio, sedosa (se nota la avena en su elaboración) y gusto a lúpulo muy persistente. Final amargo y resinoso

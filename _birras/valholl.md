@@ -15,7 +15,7 @@ origen: España
 pvp: "3.80"
 precio: 3.80
 imagen: https://labodegadellupulo.s3.eu-west-3.amazonaws.com/images/birras/valholl.jpg
-categoria: [Ipa]
+categoria: [India_Pale_Ale]
 
 ---
 La vida no es un paseo por un campo tranquilo y sereno. El pasado es aterrador, y el futuro desconcertante. No confíes en la paz: lucha y vive cada momento. Brindemos con esta cerveza elaborada en colaboración con “Valhalla” para celebrar su 1º aniversario.
