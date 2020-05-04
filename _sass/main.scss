@@ -271,9 +271,13 @@ padding: 1rem;
 // --- !GRID 9
 
 // PRODUCT!
-.card-no-hover:hover{
-  transform: none;
-  -webkit-transform: none;
+.card-no-hover,.card-no-hover:hover{
+  transform: none!important;
+  -webkit-transform: none!important;
+}
+.card {
+  transform: none!important;
+  -webkit-transform: none!important; 
 }
 
 
