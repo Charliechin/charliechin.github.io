@@ -209,7 +209,7 @@ padding: 1rem;
 
 
 // PRODUCT
-h3.h3{text-align:center;margin:1em;text-transform:capitalize;font-size:1.7em;}
+
 
 /********************* shopping Demo-1 **********************/
 .product-grid{font-family:Raleway,sans-serif;text-align:center;padding:0 0 72px;border:1px solid rgba(0,0,0,.1);overflow:hidden;position:relative;z-index:1}
@@ -271,3 +271,31 @@ h3.h3{text-align:center;margin:1em;text-transform:capitalize;font-size:1.7em;}
 // --- !GRID 9
 
 // PRODUCT!
+.card-no-hover:hover{
+  transform: none;
+  -webkit-transform: none;
+}
+
+
+// BIRRA
+.birrazo {
+
+  .main-image {
+    // srcset this!!!
+    object-fit: cover;
+    width: 200px;
+    height: 200px;
+    border-radius: 5px; 
+    margin: 0 auto;
+  }
+  .birra-titulo{
+    font-size:1em;
+  }
+  .birra-small-categoria {
+    font-size: 60%;
+  }
+  .birra-descripcion{
+    font-size: 1rem;
+  }
+}
+// !BIRRA
