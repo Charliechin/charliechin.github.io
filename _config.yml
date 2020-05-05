@@ -39,7 +39,10 @@ plugins:
 collections:
   birras:
     output: true
-    
+
+exclude: ["assets","package.json","node_modules", "gulpfile.js"]
+keep_files: [assets]
+
 permalink: /:title/
 
 dummy_image: https://i.picsum.photos/id/866/270/360.jpg
