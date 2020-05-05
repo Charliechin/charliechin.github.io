@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700&display=swap');
 html  {
   font-size: min(max(16px, 4vw), 22px);
   scroll-behavior: smooth;
@@ -28,7 +29,6 @@ body {
 
 // Index
 .main-jumbo {
-  // background: url(#{$baseImgUrl}/icon-pattern-bg-mobile.webp);
   background: url(https://i.imgur.com/zfF873q.png);
   background-size: cover;
   // remove in mobile?

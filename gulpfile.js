@@ -14,6 +14,7 @@ var htmlhint = require("gulp-htmlhint");
 var messages = {
   jekyllBuild: '<span style="color: grey">Running:</span> $ jekyll build'
 };
+
 // Gulp as asset manager for jekyll. Please note that the assets folder is never cleaned
 //so you might want to manually delete the _site/assets folder once in a while.
 // this is because gulp will move files from the assets directory to _site/assets,
