@@ -14,7 +14,7 @@ alergenos:
 origen: España
 pvp: "3.00"
 precio: 3.00
-imagen: https://labodegadellupulo.s3.eu-west-3.amazonaws.com/images/birras/happyhoppy.jpg
+imagen: happyhoppy.jpg
 categoria: [India_Pale_Ale]
 ---
 Cerveza amarga y sorprendente, no te dejará indiferente. Para tomar tranquilamente, sin prisas. Elaborada con ingentes cantidades de lúpulo, no es apta para blandengues. Muy equilibrada gracias a la malta caramelo. De carácter resinoso. ¡Es adictiva!

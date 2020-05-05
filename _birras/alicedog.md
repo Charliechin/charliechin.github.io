@@ -14,7 +14,7 @@ alergenos:
 origen: España
 pvp: "2.80"
 precio: 2.80
-imagen: https://labodegadellupulo.s3.eu-west-3.amazonaws.com/images/birras/alicedog.jpg
+imagen: alicedog.jpg
 categoria: [India_Pale_Ale]
 ---
 De aspecto naranja-cobre, con un recorrido que mezcla matices de fruta fresca con amargura cítrica. En nariz encontramos aromas intensos de lúpulo. Espuma suave y cremosa

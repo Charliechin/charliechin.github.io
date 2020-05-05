@@ -14,7 +14,7 @@ alergenos:
 origen: España
 pvp: "5.60"
 precio: 5.60
-imagen: https://labodegadellupulo.s3.eu-west-3.amazonaws.com/images/birras/evilplumber.jpg
+imagen: evilplumber.jpg
 categoria: [India_Pale_Ale]
 ---
 En esta edición empezamos una nueva colección de cervezas colaborativas destinadas a rendir homenaje a los videojuegos de nuestra infancia. Buenos recuerdos por buenas cervezas.

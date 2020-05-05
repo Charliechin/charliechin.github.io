@@ -14,7 +14,7 @@ alergenos:
 origen: España
 pvp: "2.80"
 precio: 2.80
-imagen: https://labodegadellupulo.s3.eu-west-3.amazonaws.com/images/birras/darkelves.jpg
+imagen: darkelves.jpg
 categoria: [India_Pale_Ale]
 ---
 De color oscuro tipo stout, pero sin apenas notas “tostadas”. El protagonista sigue siendo el lúpulo tanto en aroma como en sabor. Ligero perfil a regaliz y sensación especiada debida al centeno, mantenimiento el perfil de american IPA

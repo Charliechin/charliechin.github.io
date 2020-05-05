@@ -14,7 +14,7 @@ alergenos:
 origen: España
 pvp: "3.00"
 precio: 3.00
-imagen: https://labodegadellupulo.s3.eu-west-3.amazonaws.com/images/birras/malaltsdemalta.jpg
+imagen: malaltsdemalta.jpg
 categoria: [Estilo_Belga]
 
 ---

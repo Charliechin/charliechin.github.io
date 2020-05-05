@@ -14,7 +14,7 @@ alergenos:
 origen: España
 pvp: "3.10"
 precio: 3.10
-imagen: https://labodegadellupulo.s3.eu-west-3.amazonaws.com/images/birras/nublar.jpg
+imagen: nublar.jpg
 categoria: [Brown_&_Amber_Ale]
 
 ---

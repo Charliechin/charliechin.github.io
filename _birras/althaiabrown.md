@@ -14,7 +14,7 @@ alergenos:
 origen: España
 pvp: "2.60"
 precio: 2.60
-imagen: https://labodegadellupulo.s3.eu-west-3.amazonaws.com/images/birras/althaiabrown.jpg
+imagen: althaiabrown.jpg
 categoria: [Brown_&_Amber_Ale]
 
 ---

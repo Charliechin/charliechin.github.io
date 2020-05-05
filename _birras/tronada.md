@@ -14,7 +14,7 @@ alergenos:
 origen: España
 pvp: "5.10"
 precio: 5.10
-imagen: https://labodegadellupulo.s3.eu-west-3.amazonaws.com/images/birras/tronada.jpg
+imagen: tronada.jpg
 categoria: [India_Pale_Ale]
 ---
 Las tormentas de verano son tan repentinas como necesarias. Una violenta tromba de lúpulo Citra, Simcoe, Mosaic y Ahtanum cayó sobre uno de nuestros fermentadores, impregnando a esta cerveza de un delicioso aroma y dejando tras de si el frescor de una buena tronada.

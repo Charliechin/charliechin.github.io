@@ -14,7 +14,7 @@ alergenos: Copos de avena y lactosa
 origen: España
 pvp: "3.80"
 precio: 3.80
-imagen: https://labodegadellupulo.s3.eu-west-3.amazonaws.com/images/birras/valholl.jpg
+imagen: valholl.jpg
 categoria: [India_Pale_Ale]
 
 ---

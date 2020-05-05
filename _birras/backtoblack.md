@@ -14,7 +14,7 @@ alergenos:
 origen: España
 pvp: "5.40"
 precio: 5.40
-imagen: https://labodegadellupulo.s3.eu-west-3.amazonaws.com/images/birras/backtoblack.jpg
+imagen: backtoblack.jpg
 categoria: [Stout_&_Porter]
 
 ---

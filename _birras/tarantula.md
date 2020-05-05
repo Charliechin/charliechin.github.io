@@ -14,7 +14,7 @@ alergenos:
 origen: España
 pvp: "4.50"
 precio: 4.50
-imagen: https://labodegadellupulo.s3.eu-west-3.amazonaws.com/images/birras/tarantula.jpg
+imagen: tarantula.jpg
 categoria: [India_Pale_Ale]
 ---
 Si nos dejamos llevar por el olfato, el aroma herbáceo del lúpulo Chinook predecirá

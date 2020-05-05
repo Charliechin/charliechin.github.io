@@ -20,7 +20,11 @@
       <div class="row mt-2">
         <div class="col-12 col-sm-4" id="imagenBirra">
           <div class="card card-plain text-center back-foam-image">
-            <img src="{{ page.imagen }}" alt="{{page.nombre}}" class="main-image">
+            <img srcset="{{ site.baseimageurl }}mobile/{{page.imagen}} 250w"
+              srcset="{{ site.baseimageurl }}desktop/{{page.imagen}} 485w"
+              sizes="(min-width: 760px) 50vw, 100vw"
+              alt="{{page.nombre}}"
+              class="main-image">
           </div>
         </div>
 

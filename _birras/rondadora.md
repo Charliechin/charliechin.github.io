@@ -14,7 +14,7 @@ alergenos:
 origen: España
 pvp: "3.30"
 precio: 3.30
-imagen: https://labodegadellupulo.s3.eu-west-3.amazonaws.com/images/birras/rondadora.jpg
+imagen: rondadora.jpg
 categoria: [Witbier_&_Weissbier]
 
 ---

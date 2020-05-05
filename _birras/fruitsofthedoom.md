@@ -14,7 +14,7 @@ alergenos:
 origen: España
 pvp: "5.30"
 precio: 5.30
-imagen: https://labodegadellupulo.s3.eu-west-3.amazonaws.com/images/birras/fruitsofthedoom.jpg
+imagen: fruitsofthedoom.jpg
 categoria: [Witbier_&_Weissbier]
 
 ---

@@ -14,7 +14,7 @@ alergenos:
 origen: España
 pvp: "4.20"
 precio: 4.20
-imagen: https://labodegadellupulo.s3.eu-west-3.amazonaws.com/images/birras/nori.jpg
+imagen: nori.jpg
 categoria: [Stout_&_Porter]
 
 ---
