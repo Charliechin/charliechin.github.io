@@ -14,7 +14,7 @@ alergenos:
 origen: España
 pvp: "2.60"
 precio: 2.60
-imagen: https://labodegadellupulo.s3.eu-west-3.amazonaws.com/images/birras/greenpils.jpg
+imagen: greenpils.jpg
 categoria: [Blonde_Lager]
 
 ---

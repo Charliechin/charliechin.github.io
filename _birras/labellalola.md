@@ -14,7 +14,7 @@ alergenos:
 origen: España
 pvp: "2.50"
 precio: 2.50
-imagen: https://labodegadellupulo.s3.eu-west-3.amazonaws.com/images/birras/labellalola.jpg
+imagen: labellalola.jpg
 categoria: [Pale_Ale]
 
 ---

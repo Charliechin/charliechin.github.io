@@ -6,7 +6,7 @@
     "nombre": "{{ birra.nombre | escape }}",
     "url": "{{ site.baseurl }}{{ birra.url }}",
     "categoria": "{{ birra.categoria | join: ',' | replace: '_',' '}}",
-    "imagen": "{{ birra.imagen | escape }}",
+    "imagen": "{{site.baseimageurl}}mobile/{{ birra.imagen | escape }}",
     "content": "{{ birra.content | strip_html | truncate: 45 }}"
   } {% unless forloop.last %},
   {% endunless %}

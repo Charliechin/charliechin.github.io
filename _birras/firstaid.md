@@ -14,7 +14,7 @@ alergenos:
 origen: España
 pvp: "11.50"
 precio: 11.50
-imagen: https://labodegadellupulo.s3.eu-west-3.amazonaws.com/images/birras/firstaid.jpg
+imagen: firstaid.jpg
 categoria: [Stout_&_Porter]
 
 ---

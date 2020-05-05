@@ -14,7 +14,7 @@ alergenos:
 origen: Bélgica
 pvp: "3.30"
 precio: 3.30
-imagen: https://labodegadellupulo.s3.eu-west-3.amazonaws.com/images/birras/delirium.jpg
+imagen: delirium.jpg
 categoria: [Estilo_Belga]
 
 ---

@@ -1,11 +1,10 @@
 <div class="card">
-  <a href="{{site.url}}{{include.b.url}}">
+  <a href="{{site.url}}/{{include.b.url}}">
     <div class="product-grid9">
       <div class="product-image9">
-        <!-- <img class="pic-1" src=""> -->
-        <img class="pic" src="{{ include.b.imagen }}">
-        <!-- <img class="pic-2" src="http://bestjquery.com/tutorial/product-grid/demo6/images/img-2.jpg"> -->
-        <!-- <a href="#" class="fa fa-search product-full-view"></a> -->
+        <img srcset="{{ site.baseimageurl }}mobile/{{include.b.imagen}} 250w"
+          srcset="{{ site.baseimageurl }}desktop/{{include.b.imagen}} 485w" sizes="(min-width: 760px) 50vw, 100vw"
+          alt="{{include.b.nombre}}" class="pic" data-src="{{site.baseimageurl}}mobile/{{include.b.imagen}}">
       </div>
       <div class="product-content p-2">
         <!-- <ul class="rating">

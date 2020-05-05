@@ -14,7 +14,7 @@ alergenos:
 origen: Irlanda
 pvp: "7.00"
 precio: 7.00
-imagen: https://labodegadellupulo.s3.eu-west-3.amazonaws.com/images/birras/ether5.jpg
+imagen: ether5.jpg
 categoria: [India_Pale_Ale]
 
 ---

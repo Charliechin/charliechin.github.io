@@ -14,7 +14,7 @@ alergenos:
 origen: Bélgica
 pvp: "4.00"
 precio: 4.00
-imagen: https://labodegadellupulo.s3.eu-west-3.amazonaws.com/images/birras/trappistes10.jpg
+imagen: trappistes10.jpg
 categoria: [Estilo_Belga]
 
 ---

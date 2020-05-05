@@ -14,7 +14,7 @@ alergenos:
 origen: España
 pvp: "3.00"
 precio: 3.00
-imagen: https://labodegadellupulo.s3.eu-west-3.amazonaws.com/images/birras/shakethestreets.jpg
+imagen: shakethestreets.jpg
 categoria: [Pale_Ale]
 ---
 Una Imperial Milkshake Cream Ale con lactosa, fresas, coco y vainilla.

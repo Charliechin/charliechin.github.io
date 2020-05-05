@@ -14,7 +14,7 @@ alergenos:
 origen: Bélgica
 pvp: "3.50"
 precio: 3.50
-imagen: https://labodegadellupulo.s3.eu-west-3.amazonaws.com/images/birras/nocturnum.jpg
+imagen: nocturnum.jpg
 categoria: [Estilo_Belga]
 
 ---

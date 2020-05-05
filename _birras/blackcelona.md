@@ -14,7 +14,7 @@ alergenos:
 origen: España
 pvp: "4.90"
 precio: 4.90
-imagen: https://labodegadellupulo.s3.eu-west-3.amazonaws.com/images/birras/blackcelona.jpg 
+imagen: blackcelona.jpg 
 categoria: [Stout_&_Porter]
 
 ---

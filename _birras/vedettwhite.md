@@ -14,7 +14,7 @@ alergenos:
 origen: Bélgica
 pvp: "2.30"
 precio: 2.30
-imagen: https://labodegadellupulo.s3.eu-west-3.amazonaws.com/images/birras/vedettwhite.jpg
+imagen: vedettwhite.jpg
 categoria: [Witbier_&_Weissbier]
 
 ---

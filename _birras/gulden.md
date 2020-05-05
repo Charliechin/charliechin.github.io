@@ -14,7 +14,7 @@ alergenos:
 origen: Bélgica
 pvp: "2.90"
 precio: 2.90
-imagen: https://labodegadellupulo.s3.eu-west-3.amazonaws.com/images/birras/gulden.jpg
+imagen: gulden.jpg
 categoria: [Estilo_Belga]
 
 ---

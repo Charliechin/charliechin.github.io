@@ -14,7 +14,7 @@ alergenos:
 origen: España
 pvp: "2.50"
 precio: 2.50
-imagen: https://labodegadellupulo.s3.eu-west-3.amazonaws.com/images/birras/rubia.jpg
+imagen: rubia.jpg
 categoria: [Blonde_Lager]
 
 ---

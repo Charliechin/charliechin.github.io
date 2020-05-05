@@ -14,7 +14,7 @@ alergenos:
 origen: España
 pvp: "2.70"
 precio: 2.70
-imagen: https://labodegadellupulo.s3.eu-west-3.amazonaws.com/images/birras/negra.jpg
+imagen: negra.jpg
 categoria: [Stout_&_Porter]
 
 ---

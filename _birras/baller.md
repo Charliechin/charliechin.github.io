@@ -14,7 +14,7 @@ alergenos:
 origen: UK
 pvp: "4.60"
 precio: 4.60
-imagen: https://labodegadellupulo.s3.eu-west-3.amazonaws.com/images/birras/baller.jpg
+imagen: baller.jpg
 categoria: [India_Pale_Ale]
 
 ---

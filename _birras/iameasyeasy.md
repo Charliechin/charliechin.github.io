@@ -14,7 +14,7 @@ alergenos:
 origen: España
 pvp: "3.60"
 precio: 3.60
-imagen: https://labodegadellupulo.s3.eu-west-3.amazonaws.com/images/birras/iameasyeasy.jpg
+imagen: iameasyeasy.jpg
 categoria: [Blonde_Lager]
 
 ---

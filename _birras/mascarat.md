@@ -14,7 +14,7 @@ alergenos:
 origen: España
 pvp: "3.90"
 precio: 3.90
-imagen: https://labodegadellupulo.s3.eu-west-3.amazonaws.com/images/birras/mascarat.jpg
+imagen: mascarat.jpg
 categoria: [India_Pale_Ale]
 
 ---

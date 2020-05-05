@@ -14,7 +14,7 @@ alergenos:
 origen: España
 pvp: "3.20"
 precio: 3.20
-imagen: https://labodegadellupulo.s3.eu-west-3.amazonaws.com/images/birras/capblanc.jpg
+imagen: capblanc.jpg
 categoria: [India_Pale_Ale]
 
 ---

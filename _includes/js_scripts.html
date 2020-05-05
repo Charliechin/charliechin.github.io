@@ -1,5 +1,11 @@
 <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="" crossorigin="anonymous"></script>
+{% if site.development == true %}
+<script src='{{site.localhost}}/assets/js/scrolls.js'></script>
+<script src="{{site.localhost}}/assets/js/paper-kit.js"></script>
+{% else %}
 <script src='{{site.url}}/assets/js/scrolls.js'></script>
+<script src="{{site.url}}/assets/js/paper-kit.js"></script>
+{% endif %}
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
   integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
@@ -7,8 +13,6 @@
 
 <div hidden id="snipcart" data-api-key="YzU3MzhiOWYtNWE3My00ZjI4LWI0M2EtNDY0NDY0ODMwYTc4NjM3MjA5ODYyMTg5MDMxNjY4"></div>
 <script src="https://cdn.snipcart.com/themes/v3.0.0-beta.3/default/snipcart.js" defer></script>
-<!--  Paper Kit Initialization snd functons -->
-<script src="{{site.url}}/assets/js/paper-kit.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"></script>
 
 
@@ -96,6 +100,6 @@
     </div>
   </div>
 </div>
-</a>`,
+</a>`
   })
 </script>

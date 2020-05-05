@@ -14,7 +14,7 @@ alergenos:
 origen: España
 pvp: "2.30"
 precio: 2.30
-imagen: https://labodegadellupulo.s3.eu-west-3.amazonaws.com/images/birras/barcelona.jpg
+imagen: barcelona.jpg
 categoria: [Pale_Ale]
 
 ---

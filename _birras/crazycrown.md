@@ -14,7 +14,7 @@ alergenos:
 origen: España
 pvp: "5.20"
 precio: 5.20
-imagen: https://labodegadellupulo.s3.eu-west-3.amazonaws.com/images/birras/crazycrown.jpg
+imagen: crazycrown.jpg
 categoria: [India_Pale_Ale]
 ---
 Single-hop DDH IPA de lúpulo Amarillo. De color anaranjada con cierta turbidez y con espuma cremosa y persistente. En boca tiene una sedosidad y cremosidad aportadas por las maltas de trigo y avena que combinan perfectamente con una sensación cálida en boca. En aroma y sabor encontramos notas cítricas y herbales que rinden homenaje a esta variedad de lúpulo descubierta por accidente en la costa oeste americana en 1997

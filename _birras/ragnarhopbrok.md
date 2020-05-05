@@ -14,7 +14,7 @@ alergenos:
 origen: España
 pvp: "5.20"
 precio: 5.20
-imagen: https://labodegadellupulo.s3.eu-west-3.amazonaws.com/images/birras/ragnarhopbrok.jpg
+imagen: ragnarhopbrok.jpg
 categoria: [India_Pale_Ale]
 ---
 Una IPA con Doble Dry Hopping los lúpulos Azacca, Mosaic y Simcoe. De color amarillenta y notas anaranjadas con cierta turbidez y con espuma cremosa y persistente. En boca es sedosa y cremosa por las maltas de trigo y avena. En aroma y sabor encontramos notas de cítricos y melocotón de viña características de estas variedades de lúpulo. Para su fermentación se ha utilizado salvo Kveik originario de Noruega y que paradójicamente fermenta a temperaturas cercanas a los 40 grados más propias del verano mediterráneo, confiriéndole a la cerveza un toque de sequedad y de cítricos. 

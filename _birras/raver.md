@@ -14,7 +14,7 @@ alergenos:
 origen: UK
 pvp: "9.00"
 precio: 9.00
-imagen: https://labodegadellupulo.s3.eu-west-3.amazonaws.com/images/birras/raver.jpg
+imagen: raver.jpg
 categoria: [India_Pale_Ale]
 
 ---

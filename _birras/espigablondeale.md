@@ -14,7 +14,7 @@ alergenos: Sin Gluten
 origen: España
 pvp: "3.00"
 precio: 3.00
-imagen: https://labodegadellupulo.s3.eu-west-3.amazonaws.com/images/birras/espigablondeale.jpg
+imagen: espigablondeale.jpg
 categoria: [Blonde_Lager]
 
 ---
