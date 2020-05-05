@@ -24,7 +24,7 @@ url: "https://labodegadellupulo.com/" # the base hostname & protocol for your si
 baseimageurl: "https://labodegadellupulo.s3.eu-west-3.amazonaws.com/images/birras/"
 twitter_username: jekyllrb
 github_username:  jekyll 
-construccion: "false"
+construccion: "true"
 ngrok_url: https://48b12db4.ngrok.io/#/
 catalogo: https://labodegadellupulo.s3.eu-west-3.amazonaws.com/catalogo/CatalogoLaBodegaDelLupulo.pdf
 
