@@ -46,7 +46,7 @@ collections:
   birras:
     output: true
 
-exclude: ["assets","package.json","node_modules", "gulpfile.js"]
+exclude: ["package.json","node_modules", "gulpfile.js"]
 keep_files: [assets]
 
 permalink: /:title/
