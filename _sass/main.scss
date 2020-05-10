@@ -10,7 +10,7 @@ body {
 }
 
 .logo-lupulo {
-  max-height: 80px;
+  max-height: 128px;
   background-color: #f2c02b;
   border-radius: 5px;
   padding: 2px;
@@ -124,7 +124,14 @@ section.cervezas-polluas {
 }
 
 
-.snipcart-modal__container { top: 50px; }
+.snipcart-modal__container {
+  margin-top: 135px!important;
+  // @media only screen and (min-width:990px){
+  // margin-top: 60px!important;
+  // }
+  
+}
+
 
 
 // .title-font{

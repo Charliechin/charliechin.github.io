@@ -29,7 +29,7 @@ baseimageurl: "https://labodegadellupulo.s3.eu-west-3.amazonaws.com/images/birra
 twitter_username: jekyllrb
 github_username:  jekyll 
 construccion: "false"
-ngrok_url: https://48b12db4.ngrok.io/#/
+ngrok_url: https://b1fdfb8e.ngrok.io
 catalogo: https://labodegadellupulo.s3.eu-west-3.amazonaws.com/catalogo/CatalogoLaBodegaDelLupulo.pdf
 localhost: http://localhost:3000
 development: false
@@ -40,6 +40,10 @@ markdown: kramdown
 plugins:
   - jekyll-feed
   - jekyll-money
+  - jekyll-minifier
+
+sass:
+  style: compressed
 
 
 collections:

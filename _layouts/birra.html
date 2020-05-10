@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 
 {% include header_js.html %}
 
@@ -20,11 +20,8 @@
       <div class="row mt-2">
         <div class="col-12 col-sm-4" id="imagenBirra">
           <div class="card card-plain text-center back-foam-image">
-            <img
-              srcset="{{ site.baseimageurl }}desktop/{{page.imagen}} 439w"
-              sizes="(max-width: 600px) 188px, 439px"
-              alt="{{page.nombre}}"
-              class="main-image">
+            <img srcset="{{ site.baseimageurl }}desktop/{{page.imagen}} 439w" sizes="(max-width: 600px) 188px, 439px"
+              alt="{{page.nombre}}" class="main-image">
           </div>
         </div>
 
@@ -34,6 +31,10 @@
               <h5 class="card-title birra-titulo" style="font-weight: 700;">
                 {{ page.nombre }} - {{ page.formato }}</h5>
               <small class="text-muted font-weight-bold">{{ page.pvp }} €</small>
+              <hr>
+              <div class="text-center">
+                {% include btn_compra_birra.html b=page %}
+              </div>
               <hr>
               <small class="birra-small-categoria">Categoria:
                 {{ page.categoria.first | replace:'_', '  '}}</small>
@@ -135,19 +136,13 @@
     <!-- </div> -->
 
 
-    <!-- <div class="product">
-      <div class="product__information">
-        <h2 class="product__title">{{ page.name }}</h2>
-        <p class="product__description">{{ page.content | remove: '<p>' | remove: '</p>' }}</p>
-       {# include btn_compra_birra.html b=page #}
-      </div>
-      <img src="{{ page.image }}" alt="{{ page.name }} product image" class="product__image img-responsive">
-    </div> -->
 
   </main>
   {% include footer.html %}
-  <div id="snipcart" data-api-key="YzU3MzhiOWYtNWE3My00ZjI4LWI0M2EtNDY0NDY0ODMwYTc4NjM3MjA5ODYyMTg5MDMxNjY4" hidden>
+  <div hidden id="snipcart" data-api-key="YzU3MzhiOWYtNWE3My00ZjI4LWI0M2EtNDY0NDY0ODMwYTc4NjM3MjA5ODYyMTg5MDMxNjY4">
   </div>
+  <script src="https://cdn.snipcart.com/themes/v3.0.12/default/snipcart.js"></script>
+
 </body>
 {% include js_scripts.html %}
 
