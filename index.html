@@ -28,10 +28,10 @@ Lo siguiente elimina tags duplicadas y en blanco
 {% endfor %}
 
 <!-- nav -->
-<div class="container-fluid pb-5">
+<div class="container pb-5">
 
   <div class="row">
-    <div class="col-12 col-md-7 offset-md-3">
+    <div class="col-12">
       {% include search.html%}
     </div>
     {% comment %}
@@ -57,7 +57,7 @@ Lo siguiente elimina tags duplicadas y en blanco
   <div class=" row">
     {% for tag in tags %}
     <!-- Pon esto en un include -->
-    <div class="col-12 col-md-11 offset-md-1">
+    <div class="col-12">
       <div class="card">
         <div class="card-body">
           <h5 style="font-weight:700" class="card-title text-center mb-2">
