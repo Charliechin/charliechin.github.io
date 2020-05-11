@@ -14,7 +14,6 @@ var htmlhint = require("gulp-htmlhint");
 var messages = {
   jekyllBuild: '<span style="color: grey">Running:</span> $ jekyll build'
 };
-
 // Gulp as asset manager for jekyll. Please note that the assets folder is never cleaned
 //so you might want to manually delete the _site/assets folder once in a while.
 // this is because gulp will move files from the assets directory to _site/assets,
@@ -74,7 +73,7 @@ gulp.task('sass-rebuild', function () {
     autoprefixer({ browsers: ['last 2 version'] }),
     cssnano()
   ];
-  return gulp.src('_assets/sass/**/*.scss')
+  return gulp.src('_assets/sass/**/site.scss')
     .pipe(sourcemaps.init())
     .pipe(sass())
     .pipe(sourcemaps.init())
