@@ -32,7 +32,7 @@ construccion: "false"
 ngrok_url: https://77367d59.ngrok.io
 catalogo: https://labodegadellupulo.s3.eu-west-3.amazonaws.com/catalogo/CatalogoLaBodegaDelLupulo.pdf
 localhost: http://localhost:3000
-development: false
+development: true
 
 # Build settings
 markdown: kramdown
@@ -41,6 +41,7 @@ plugins:
   - jekyll-feed
   - jekyll-money
   - jekyll-minifier
+  - jekyll-sitemap
 
 sass:
   style: compressed
@@ -48,6 +49,10 @@ sass:
 
 collections:
   birras:
+    output: true
+  posts:
+    title: LupuloBlog
+    intro:
     output: true
 
 permalink: /:title/

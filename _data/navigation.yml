@@ -1,0 +1,8 @@
+- name: Home
+  link: index.html
+- name: Catalogo
+  link: https://labodegadellupulo.s3.eu-west-3.amazonaws.com/catalogo/CatalogoLaBodegaDelLupulo.pdf
+- name: Quienes Somos
+  link: quienes.html
+- name: Blog
+  link: blog.html

@@ -4,6 +4,21 @@
 {% include header_js.html %}
 
 <body>
+
+  {% if site.development == true %}
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-12">
+        <div class="alert alert-danger">
+          <h1>DEVELOPMENT BITCH</h1>
+          <h1>DEVELOPMENT BITCH</h1>
+          <h1>DEVELOPMENT BITCH</h1>
+        </div>
+      </div>
+    </div>
+  </div>
+  {% endif %}
+
   {% include nav.html %}
   <main role="main">
     <!-- <div class="container-fluid"> -->
@@ -141,7 +156,7 @@
   {% include footer.html %}
   <div hidden id="snipcart" data-api-key="YzU3MzhiOWYtNWE3My00ZjI4LWI0M2EtNDY0NDY0ODMwYTc4NjM3MjA5ODYyMTg5MDMxNjY4">
   </div>
-  <script src="https://cdn.snipcart.com/themes/v3.0.12/default/snipcart.js"></script>
+  <!-- <script src="https://cdn.snipcart.com/themes/v3.0.12/default/snipcart.js"></script> -->
 
   {% include js_scripts.html %}
 </body>
