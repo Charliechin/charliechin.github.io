@@ -1,28 +1,30 @@
 <div class="col-6 col-md-4 col-lg-3 d-flex align-items-stretch">
-  <figure class="card card-product">
-    <div class="img-wrap">
-      <!-- <img src="https://s9.postimg.org/tupxkvfj3/image.jpg"> -->
-      <div class="image-wrapper">
-        <picture>
-          <source data-srcset="{{ site.baseimageurl }}desktop/{{include.el.imagen}}" media="(min-width: 1200px)" />
-          <source data-srcset="{{ site.baseimageurl }}desktop/{{include.el.imagen}}" media="(min-width: 600px)" />
-          <img data-src="{{ site.baseimageurl }}mobile/{{include.el.imagen}}" class="lazy image" />
-        </picture>
+  <a href="{{ include.el.url }}">
+    <figure class="card card-product">
+      <div class="img-wrap">
+        <!-- <img src="https://s9.postimg.org/tupxkvfj3/image.jpg"> -->
+        <div class="image-wrapper">
+          <picture>
+            <source data-srcset="{{ site.baseimageurl }}desktop/{{include.el.imagen}}" media="(min-width: 1200px)" />
+            <source data-srcset="{{ site.baseimageurl }}desktop/{{include.el.imagen}}" media="(min-width: 600px)" />
+            <img data-src="{{ site.baseimageurl }}mobile/{{include.el.imagen}}" class="lazy image" />
+          </picture>
+        </div>
       </div>
-    </div>
-    <figcaption class="info-wrap">
-      <h5 class="title"><strong>{{ include.el.nombre }}</strong></h5>
-      <p class="desc">{{ include.el.content | truncatewords: 12 }}</p>
-      <!-- <div class="rating-wrap">
+      <figcaption class="info-wrap">
+        <h5 class="title"><strong>{{ include.el.nombre }}</strong></h5>
+        <p class="desc">{{ include.el.content | truncatewords: 12 }}</p>
+        <!-- <div class="rating-wrap">
         <div class="label-rating">132 reviews</div>
         <div class="label-rating">154 orders </div>
       </div> -->
-    </figcaption>
-    <div class="bottom-wrap text-center p-2 mt-auto mb-0">
-      <div class="price-wrap h5">
-        <span class="price-new">{{ include.el.pvp }} €</span>
-      </div> <!-- price-wrap.// -->
-      <a href="" class="btn btn-lg btn-success">Añadir al carrito</a>
-    </div> <!-- bottom-wrap.// -->
-  </figure>
+      </figcaption>
+      <div class="bottom-wrap text-center p-2 mt-auto mb-0">
+        <div class="price-wrap h5">
+          <span class="price-new">{{ include.el.pvp }} €</span>
+        </div> <!-- price-wrap.// -->
+        <a href="" class="btn btn-lg btn-success white">Añadir al carrito</a>
+      </div> <!-- bottom-wrap.// -->
+    </figure>
+  </a>
 </div> <!-- col // -->

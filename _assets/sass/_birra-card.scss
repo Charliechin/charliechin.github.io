@@ -21,6 +21,16 @@
 // }
 
 // ALL THIS WAS GIVING ME HEADACHES, STUFF LIKE LOADING EVERY TWO ROWS AND SUCH SO I COMMENTED IT OUT. IT WILL BREAK SOME LAYOUTS
+
+.card a,
+.card a:hover,
+.card a:focus,
+.card a:active {
+  color: #444;
+  text-decoration: none;
+}
+
+
 .card-product .img-wrap img {
   max-height: 100%;
   max-width: 100%;
@@ -47,4 +57,9 @@
 
 h5.title {
 white-space: nowrap;
+}
+
+// Don't do thisss
+.white{
+  color: #fff!important;
 }
