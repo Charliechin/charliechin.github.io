@@ -9,6 +9,16 @@ title: Cervezas
   <picture>
     <source srcset="https://via.placeholder.com/1000x1000.png?text=1000+x+1000" media="(min-width: 1200px)" />
     <source srcset="https://via.placeholder.com/500x500.png?text=500+x+500" media="(min-width: 600px)" />
-    <img src="{{ site.baseimageurl }}/mobile/vedettipa.jpg" />
+    <img src="{{ site.baseimageurl }}mobile/vedettipa.jpg" />
   </picture>
+
+  {% for birra in site.birras %}
+  <hr>
+  <picture>
+    <source srcset="https://via.placeholder.com/1000x1000.png?text=1000+x+1000" media="(min-width: 1200px)" />
+    <source srcset="{{ site.baseimageurl }}desktop/{{birra.imagen}}" media="(min-width: 600px)" />
+    <img src="{{ site.baseimageurl }}mobile/{{birra.imagen}}" class="img-fluid" />
+  </picture>
+  <hr>
+  {% endfor %}
 </div>

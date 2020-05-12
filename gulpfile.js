@@ -10,6 +10,7 @@ var uglify = require('gulp-uglify');
 var cssnano = require('cssnano');
 var imagemin = require('gulp-imagemin');
 var htmlhint = require("gulp-htmlhint");
+var purgecss = require('gulp-purgecss');
 
 var messages = {
   jekyllBuild: '<span style="color: grey">Running:</span> $ jekyll build'
