@@ -4,14 +4,14 @@
       <!-- <img src="https://s9.postimg.org/tupxkvfj3/image.jpg"> -->
       <div class="image-wrapper">
         <picture>
-          <!-- <source data-srcset="https://via.placeholder.com/1000x1000.png?text=1000+x+1000" media="(min-width: 1200px)" /> -->
+          <source data-srcset="{{ site.baseimageurl }}desktop/{{include.el.imagen}}" media="(min-width: 1200px)" />
           <source data-srcset="{{ site.baseimageurl }}desktop/{{include.el.imagen}}" media="(min-width: 600px)" />
           <img data-src="{{ site.baseimageurl }}mobile/{{include.el.imagen}}" class="lazy image" />
         </picture>
       </div>
     </div>
     <figcaption class="info-wrap">
-      <h5 class="title text-center"><strong>{{ include.el.nombre }}</strong></h5>
+      <h5 class="title"><strong>{{ include.el.nombre }}</strong></h5>
       <p class="desc">{{ include.el.content | truncatewords: 12 }}</p>
       <!-- <div class="rating-wrap">
         <div class="label-rating">132 reviews</div>
