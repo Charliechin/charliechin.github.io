@@ -1,24 +1,63 @@
 ---
 layout: default
-title: Cervezas
+title: Tu tienda de cervecitas a domicilio
+cabecera: La bodega del Lupulo
+descripcion: "Has encontrado la mejor selección de cerveza artesanal disponible. Navegue por todas las cervezas o
+desplácese por nuestras secciones para encontrar la suya."
 ---
 <div class="container">
-  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi in debitis accusamus praesentium numquam soluta cum
-    hic, nostrum asperiores illum aliquid sit harum dolores voluptatibus ullam vitae, placeat maxime vel!</p>
-
+  {% comment %}
   <picture>
     <source srcset="https://via.placeholder.com/1000x1000.png?text=1000+x+1000" media="(min-width: 1200px)" />
     <source srcset="https://via.placeholder.com/500x500.png?text=500+x+500" media="(min-width: 600px)" />
     <img src="{{ site.baseimageurl }}mobile/vedettipa.jpg" />
   </picture>
 
+
+
+  <h2>Birras</h2>
   {% for birra in site.birras %}
   <hr>
-  <picture>
-    <source srcset="https://via.placeholder.com/1000x1000.png?text=1000+x+1000" media="(min-width: 1200px)" />
-    <source srcset="{{ site.baseimageurl }}desktop/{{birra.imagen}}" media="(min-width: 600px)" />
-    <img src="{{ site.baseimageurl }}mobile/{{birra.imagen}}" class="img-fluid" />
-  </picture>
+  <div class="image-wrapper">
+    <picture>
+      <source data-srcset="https://via.placeholder.com/1000x1000.png?text=1000+x+1000" media="(min-width: 1200px)" />
+      <source data-srcset="{{ site.baseimageurl }}desktop/{{birra.imagen}}" media="(min-width: 600px)" />
+      <img data-src="{{ site.baseimageurl }}mobile/{{birra.imagen}}" class="lazy image" />
+    </picture>
+  </div>
   <hr>
   {% endfor %}
+  {% endcomment %}
+
+
+
+  <div class="row">
+    <div class="col-12 text-center mb-4" id="intro-section">
+      <h1>{{ page.cabecera }}</h1>
+      <p class="description">
+        {{ page.descripcion }}
+      </p>
+      <a href="/tienda" class="btn btn-lg btn-outline btn-warning">Ir a la tienda</a>
+    </div>
+  </div>
+
+  <div class="row">
+    {% for birra in site.birras %}
+    {% include birra_card.html el=birra  %}
+    {% endfor %}
+  </div>
+
+
+
+  {% comment %}
+
+  {% include tipos_cerveza.html %}
+  {% include menos_de_tres.html %}
+  {% include en_botella.html %}
+  {% include en_lata.html %}
+  {% include birras_patrias.html %}
+
+  {% endcomment %}
+
+
 </div>

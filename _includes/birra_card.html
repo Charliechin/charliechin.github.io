@@ -1,3 +1,44 @@
+<div class="col-6 col-md-4 d-flex align-items-stretch">
+  <figure class="card card-product">
+    <div class="img-wrap">
+      <!-- <img src="https://s9.postimg.org/tupxkvfj3/image.jpg"> -->
+      <div class="image-wrapper">
+        <picture>
+          <!-- <source data-srcset="https://via.placeholder.com/1000x1000.png?text=1000+x+1000" media="(min-width: 1200px)" /> -->
+          <source data-srcset="{{ site.baseimageurl }}desktop/{{include.el.imagen}}" media="(min-width: 600px)" />
+          <img data-src="{{ site.baseimageurl }}mobile/{{include.el.imagen}}" class="lazy image" />
+        </picture>
+
+
+
+      </div>
+    </div>
+    <figcaption class="info-wrap">
+      <h4 class="title">{{ include.el.nombre }}</h4>
+      <p class="desc">{{ include.el.content | truncatewords: 12 }}</p>
+      <!-- <div class="rating-wrap">
+        <div class="label-rating">132 reviews</div>
+        <div class="label-rating">154 orders </div>
+      </div> -->
+    </figcaption>
+    <div class="bottom-wrap text-center">
+      <div class="price-wrap h5">
+        <span class="price-new">{{ include.el.pvp }} €</span>
+      </div> <!-- price-wrap.// -->
+      <a href="" class="btn btn-lg btn-primary">Añadir al carrito</a>
+    </div> <!-- bottom-wrap.// -->
+  </figure>
+</div> <!-- col // -->
+
+
+
+
+
+
+
+
+
+{% comment %}
 <div class="card">
   <a href="{{site.url}}/{{include.b.url}}">
     <div class="product-grid9">
@@ -37,3 +78,4 @@
     </div>
   </a>
 </div>
+{% endcomment %}

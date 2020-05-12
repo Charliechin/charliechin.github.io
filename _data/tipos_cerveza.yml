@@ -1,0 +1,21 @@
+- name: Pale Ale
+  link: pale_ale
+
+# - name: Indian Pale Ale
+#   link: india_pale_ale
+
+- name: Blonde Lager
+  link: blonde_lager
+
+- name: Brown & Amber Ale
+  link: brown_&_amber_ale
+
+- name: Stout & Porter
+  link: stout_&_porter.html
+
+- name: Witbier & Weissbier
+  link: witbier_&_weissbier.html
+
+- name: Estilo Belga
+  link: estilo_belga
+

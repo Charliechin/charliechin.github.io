@@ -1,0 +1,7 @@
+<div class="row" id="beer-styles">
+  {% for tipo in site.data.tipos_cerveza %}
+  <div class="col-6 col-md-4 col-lg-2 text-center square">
+    <a href="{{tipo.link}}">{{tipo.name}}</a>
+  </div>
+  {% endfor %}
+</div>

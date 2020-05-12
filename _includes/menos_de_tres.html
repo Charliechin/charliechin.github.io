@@ -1,0 +1,12 @@
+{% assign birras = site.birras | where_exp:"item", "item.precio <= 3" %}
+
+<div class="row" id="menos-de-tres">
+  <h3>Cervezas por menos de 3€</h3>
+  <hr>
+  {% for birra in birras limit: 6 %}
+  <div class="col-4">
+    <p>{{ birra.nombre }}</p>
+    <p>{{ birra.precio }}</p>
+  </div>
+  {% endfor %}
+</div>
