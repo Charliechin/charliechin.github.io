@@ -1,4 +1,4 @@
-<div class="col-6 col-md-4 d-flex align-items-stretch">
+<div class="col-6 col-md-4 col-lg-3 d-flex align-items-stretch">
   <figure class="card card-product">
     <div class="img-wrap">
       <!-- <img src="https://s9.postimg.org/tupxkvfj3/image.jpg"> -->
@@ -8,13 +8,10 @@
           <source data-srcset="{{ site.baseimageurl }}desktop/{{include.el.imagen}}" media="(min-width: 600px)" />
           <img data-src="{{ site.baseimageurl }}mobile/{{include.el.imagen}}" class="lazy image" />
         </picture>
-
-
-
       </div>
     </div>
     <figcaption class="info-wrap">
-      <h4 class="title">{{ include.el.nombre }}</h4>
+      <h5 class="title text-center"><strong>{{ include.el.nombre }}</strong></h5>
       <p class="desc">{{ include.el.content | truncatewords: 12 }}</p>
       <!-- <div class="rating-wrap">
         <div class="label-rating">132 reviews</div>
@@ -25,57 +22,7 @@
       <div class="price-wrap h5">
         <span class="price-new">{{ include.el.pvp }} €</span>
       </div> <!-- price-wrap.// -->
-      <a href="" class="btn btn-lg btn-primary">Añadir al carrito</a>
+      <a href="" class="btn btn-lg btn-success">Añadir al carrito</a>
     </div> <!-- bottom-wrap.// -->
   </figure>
 </div> <!-- col // -->
-
-
-
-
-
-
-
-
-
-{% comment %}
-<div class="card">
-  <a href="{{site.url}}/{{include.b.url}}">
-    <div class="product-grid9">
-      <div class="product-image9">
-        <img srcset="{{ site.baseimageurl }}mobile/{{include.b.imagen}} 250w"
-          srcset="{{ site.baseimageurl }}desktop/{{include.b.imagen}} 485w" sizes="(min-width: 760px) 50vw, 100vw"
-          alt="{{include.b.nombre}}" class="pic" data-src="{{site.baseimageurl}}mobile/{{include.b.imagen}}">
-      </div>
-      <div class="product-content p-2">
-        <!-- <ul class="rating">
-        <li class="fa fa-star"></li>
-        <li class="fa fa-star"></li>
-        <li class="fa fa-star"></li>
-        <li class="fa fa-star"></li>
-        <li class="fa fa-star"></li>
-      </ul> -->
-        <span style="font-weight: 700;">{{ include.b.nombre | capitalize | replace: "_", " " }}</span>
-        <br>
-        <small class="text-muted">
-          <i class="fa fa-bullseye"></i> {{ include.b.volumen }}
-        </small>
-        <br>
-        <small class="text-muted">
-          <i class="fa fa-beer"></i> {{ include.b.formato }}
-        </small>
-        <br>
-        <small class="text-muted">
-          <i class="fa fa-euro"></i> {{ include.b.pvp }} €
-        </small>
-        <hr>
-        <div class="text-center mb-1">
-          {% include btn_compra_birra.html b=b %}
-        </div>
-        <!-- <div class="price">{{ include.b.pvp }} €</div> -->
-        <!-- <a class="add-to-cart" href="">VIEW PRODUCTS</a> -->
-      </div>
-    </div>
-  </a>
-</div>
-{% endcomment %}

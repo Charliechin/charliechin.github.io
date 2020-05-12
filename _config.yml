@@ -26,7 +26,8 @@ url: "https://labodegadellupulo.com" # the base hostname & protocol for your sit
 
 # url: "http://localhost:3000/" # the base hostname & protocol for your site, e.g. http://example.com
 baseimageurl: "https://labodegadellupulo.s3.eu-west-3.amazonaws.com/images/birras/"
-twitter_username: jekyllrb
+facebook: https://www.facebook.com/LaBodegaDelLupulo/
+instagram: http://instagram.com/la_bodega_del_lupulo
 github_username:  jekyll 
 construccion: "false"
 ngrok_url: https://77367d59.ngrok.io
@@ -42,6 +43,10 @@ plugins:
   - jekyll-money
   - jekyll-minifier
   - jekyll-sitemap
+  - jekyll-paginate
+
+paginate: 6
+paginate_path: /page:num/
 
 sass:
   style: compressed

@@ -1,9 +1,17 @@
 ---
 layout: default
 title: Blonde & Lager
+permalink: /tienda/blonde_lager.html
 ---
 {% assign birras = site.birras | where:'categoria', 'Blonde_Lager' %}
 
+{% include tipos_cerveza.html %}
+
+
+
+
+
+{% comment %}
 <div class="container-fluid pb-5">
   <div class="container">
     {% include seccion_title.html%}
@@ -18,3 +26,5 @@ title: Blonde & Lager
     {% include volver_inicio_btn.html%}
   </div>
 </div>
+
+{% endcomment %}

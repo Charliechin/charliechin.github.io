@@ -1,12 +1,10 @@
-{% assign birras = site.birras | where_exp:"item", "item.precio < 3"| sample: 6 %}
-
 <div class="col-12">
-  <h4>Por menos de 3€</h4>
+  <h4>Populares</h4>
   <hr>
 </div>
 <div class="col-12 carousel-wrapper text-center mb-4">
   <div class="slick-1">
-    {% for birra in birras %}
+    {% for birra in site.birras limit: include.max %}
     <div class="slide">
       {% include birra_card_simple.html el=birra  %}
     </div>

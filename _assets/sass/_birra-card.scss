@@ -1,3 +1,10 @@
+// .card-product {
+//   min-width: 130px;
+//   @media screen and (min-width:1200px) {
+//   min-width: 340px;
+
+//   }
+// }
 .card-product .img-wrap {
   border-radius: 3px 3px 0 0;
   overflow: hidden;
@@ -5,7 +12,8 @@
   // height: 220px;
   height: 170px;
   @media screen and (min-width:1200px) {
-    height: 452px;
+    // height: 340px;
+    height: 330px;
   }
   // text-align: center;
 }

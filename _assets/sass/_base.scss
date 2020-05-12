@@ -1,3 +1,8 @@
+*{
+  min-height: 0;
+  min-width: 0;
+  }
+  
 html {
   font-size: 16px;
 }
@@ -24,6 +29,6 @@ html {
   position: absolute;
 }
 
-.square{
-  background-color: #ebebeb;
+.logo-mobile {
+background-color: red;
 }

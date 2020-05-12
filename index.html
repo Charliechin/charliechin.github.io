@@ -5,33 +5,11 @@ cabecera: La bodega del Lupulo
 descripcion: "Has encontrado la mejor selección de cerveza artesanal disponible. Navegue por todas las cervezas o
 desplácese por nuestras secciones para encontrar la suya."
 ---
+
+
+
 <div class="container">
-  {% comment %}
-  <picture>
-    <source srcset="https://via.placeholder.com/1000x1000.png?text=1000+x+1000" media="(min-width: 1200px)" />
-    <source srcset="https://via.placeholder.com/500x500.png?text=500+x+500" media="(min-width: 600px)" />
-    <img src="{{ site.baseimageurl }}mobile/vedettipa.jpg" />
-  </picture>
-
-
-
-  <h2>Birras</h2>
-  {% for birra in site.birras %}
-  <hr>
-  <div class="image-wrapper">
-    <picture>
-      <source data-srcset="https://via.placeholder.com/1000x1000.png?text=1000+x+1000" media="(min-width: 1200px)" />
-      <source data-srcset="{{ site.baseimageurl }}desktop/{{birra.imagen}}" media="(min-width: 600px)" />
-      <img data-src="{{ site.baseimageurl }}mobile/{{birra.imagen}}" class="lazy image" />
-    </picture>
-  </div>
-  <hr>
-  {% endfor %}
-  {% endcomment %}
-
-
-
-  <div class="row">
+  <div class="row mb-2">
     <div class="col-12 text-center mb-4" id="intro-section">
       <h1>{{ page.cabecera }}</h1>
       <p class="description">
@@ -41,23 +19,53 @@ desplácese por nuestras secciones para encontrar la suya."
     </div>
   </div>
 
-  <div class="row">
-    {% for birra in site.birras %}
-    {% include birra_card.html el=birra  %}
-    {% endfor %}
-  </div>
 
 
 
-  {% comment %}
-
-  {% include tipos_cerveza.html %}
+  {% include cervezas_populares.html max=6 %}
   {% include menos_de_tres.html %}
-  {% include en_botella.html %}
-  {% include en_lata.html %}
-  {% include birras_patrias.html %}
-
-  {% endcomment %}
 
 
 </div>
+
+
+{% comment %}
+
+<!-- Todo esto funciona -->
+<div class="row">
+  <div class="col-12">
+    <h3>Populares</h3>
+    <hr>
+  </div>
+  {% for birra in site.birras limit: 12 %}
+  {% include birra_card.html el=birra  %}
+  {% endfor %}
+</div>
+
+{% include menos_de_tres.html %}
+{% include en_botella.html %}
+{% include en_lata.html %}
+{% include birras_patrias.html %}
+
+
+<picture>
+  <source srcset="https://via.placeholder.com/1000x1000.png?text=1000+x+1000" media="(min-width: 1200px)" />
+  <source srcset="https://via.placeholder.com/500x500.png?text=500+x+500" media="(min-width: 600px)" />
+  <img src="{{ site.baseimageurl }}mobile/vedettipa.jpg" />
+</picture>
+
+
+
+<h2>Birras</h2>
+{% for birra in site.birras %}
+<hr>
+<div class="image-wrapper">
+  <picture>
+    <source data-srcset="https://via.placeholder.com/1000x1000.png?text=1000+x+1000" media="(min-width: 1200px)" />
+    <source data-srcset="{{ site.baseimageurl }}desktop/{{birra.imagen}}" media="(min-width: 600px)" />
+    <img data-src="{{ site.baseimageurl }}mobile/{{birra.imagen}}" class="lazy image" />
+  </picture>
+</div>
+<hr>
+{% endfor %}
+{% endcomment %}
