@@ -11,6 +11,7 @@ var cssnano = require('cssnano');
 var imagemin = require('gulp-imagemin');
 var htmlhint = require("gulp-htmlhint");
 var purgecss = require('gulp-purgecss');
+var htmlmin = require('gulp-htmlmin');
 
 var messages = {
   jekyllBuild: '<span style="color: grey">Running:</span> $ jekyll build'
@@ -108,7 +109,7 @@ gulp.task('images-rebuild', function (cb) {
  * Default task, running just `gulp` will 
  * compile the jekyll site, launch BrowserSync & watch files.
  */
-gulp.task('default', ['serve', 'watch', 'watch-sass', 'watch-js', 'watch-images']);
+gulp.task('default', ['serve', 'watch', 'watch-sass', 'watch-js', 'watch-images', 'pages']);
 
 
 //build and deploy stuff
@@ -125,7 +126,17 @@ gulp.task('w3', function () {
   gulp.src("_site/**/*.html")
     .pipe(htmlhint())
     .pipe(htmlhint.reporter())
+});
+
+gulp.task('pages', function () {
+  return gulp.src(['_site/**/*.html'])
+    .pipe(htmlmin({
+      collapseWhitespace: true,
+      removeComments: true
+    }))
+    .pipe(gulp.dest('./_site/'));
 })
+
 // validate from the command line instead, works better
 // npm install htmlhint -g
 // htmlhint _site/**/*.html
