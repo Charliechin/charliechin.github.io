@@ -1,8 +1,18 @@
 <!-- Html Elements for Search -->
 <div class="card">
   <div class="card-body">
-    <input type="text" id="search-input" pattern=".{3,}" placeholder="Buscar..." autocomplete=off>
-    <ul class="lista-buscador" id="results-container"></ul>
+    <div class="input-group input-group-lg">
+      <input type="text" class="form-control" id="search-input" pattern=".{3,}" placeholder="Buscar..." autocomplete=off
+        aria-label="Large" aria-describedby="inputGroup-sizing-sm">
+      <div class="input-group-append">
+        <button class="btn btn-outline-warning" type="button">Buscar</button>
+      </div>
+    </div>
+
+    <ul class="lista-buscador ml-2 px-2" id="results-container"></ul>
+
+
+
   </div>
 </div>
 

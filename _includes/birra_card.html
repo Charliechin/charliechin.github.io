@@ -1,6 +1,6 @@
 <div class="col-6 col-md-4 col-lg-3 d-flex align-items-stretch">
-  <a href="{{ include.el.url }}">
-    <figure class="card card-product">
+  <figure class="card card-product">
+    <a href="{{ include.el.url }}">
       <div class="img-wrap">
         <!-- <img src="https://s9.postimg.org/tupxkvfj3/image.jpg"> -->
         <div class="image-wrapper">
@@ -23,8 +23,8 @@
         <div class="price-wrap h5">
           <span class="price-new">{{ include.el.pvp }} €</span>
         </div> <!-- price-wrap.// -->
-        <a href="" class="btn btn-lg btn-success white">Añadir al carrito</a>
-      </div> <!-- bottom-wrap.// -->
-    </figure>
-  </a>
+    </a>
+    {% include btn_compra_birra.html b=include.el %}
+</div> <!-- bottom-wrap.// -->
+</figure>
 </div> <!-- col // -->

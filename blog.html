@@ -3,13 +3,16 @@ title: Blog
 layout: default
 ---
 
-<h1>The Blog</h1>
 
-<ul>
-  {% for post in site.posts %}
-  <li>
-    <h2><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h2>
-    <p>{{ post.excerpt }}</p>
-  </li>
-  {% endfor %}
-</ul>
+
+<div class="container">
+  <h1>El Blog del Lúpulo</h1>
+  <hr>
+  <div class="card-deck">
+    {% for post in site.posts %}
+
+    {% include post_card.html pEl=post %}
+
+    {% endfor %}
+  </div>
+</div>

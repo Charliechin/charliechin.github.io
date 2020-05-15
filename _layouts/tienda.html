@@ -1,21 +1,8 @@
 ---
 layout: default
-title: Pale Ale
-permalink: /tienda/pale_ale.html
 ---
-{% assign birras = site.birras | where:'categoria', 'India_Pale_Ale' %}
-<div class="container-fluid">
-  <div class="row mb-4 d-none d-none d-sm-block">
-    <div class="col-sm-8 offset-sm-3">
-      {% include tipos_cerveza.html %}
-    </div>
-    <hr>
-  </div>
-</div>
-
-
+{% include tipos_cerveza.html %}
 <div class="container">
-
   <h4 class="text-center mb-2">{{ page.title }}</h4>
   <div class="row d-block d-sm-none text-center" id="dropdown-categorias">
 
@@ -37,13 +24,11 @@ permalink: /tienda/pale_ale.html
     <div class="col-12 mt-2 mb-4">
       {% include search.html%}
     </div>
-
   </div>
 
+
   <div class="row">
-    {% for birra in birras %}
-    {% include birra_card.html el=birra %}
-    {% endfor %}
+    {{ content}}
   </div>
 
 </div>

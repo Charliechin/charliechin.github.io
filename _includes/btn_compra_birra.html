@@ -1,7 +1,5 @@
-<button class="buy-button snipcart-add-item btn btn-success mt-3" 
-  data-item-name="{{ include.b.nombre }}"
-  data-item-id="{{ include.b.id }}"
-  data-item-price="{{ include.b.pvp }}"
+<button class="buy-button snipcart-add-item btn btn-success" data-item-name="{{ include.b.nombre }}"
+  data-item-id="{{ include.b.id }}" data-item-price="{{ include.b.pvp }}"
   data-item-image="{{ site.baseimageurl}}mobile/{{include.b.imagen }}"
   data-item-url="{{ site.ngrok_url }}{{ include.b.url }}"
   data-item-description="{{ include.b.content | truncatewords: 35 | remove: '<p>' | remove: '</p>' }}">
