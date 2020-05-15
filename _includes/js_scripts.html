@@ -118,17 +118,15 @@
       resultsContainer: document.getElementById('results-container'),
       json: '/search.json',
       searchResultTemplate: `
-      <div class="p-2 m-2 bg-light border border-secondary">
-        <a href="{url}">
-          <h5>{nombre}</h5>
-        </a>
-        <small>{categoria}</small>
-       </div>`,
+      <a href="{url}">
+       <div class="text-center card col-12 col-sm-8 p-2 m-2 bg-light border border-secondary">
+        <h5>{nombre}</h5>
+        <small class="text-secondary">{categoria}</small> - <small><strong>{pvp} €</strong></small>
+       </div>
+      </a>`,
     })
   }
 </script>
-<!-- Script pointing to search-script.js -->
-<script src="/assets/js/search-script.js" type="text/javascript"></script>
 
 
 <!-- <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="" crossorigin="anonymous" async defer></script>

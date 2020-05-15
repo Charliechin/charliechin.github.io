@@ -21,3 +21,17 @@
 
   <title>{{ page.title }} | La bodega del Lúpulo</title>
 </head>
+
+{% if site.development == true %}
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-12">
+      <div class="alert alert-danger">
+        <h1>DEVELOPMENT BITCH</h1>
+        <h1>DEVELOPMENT BITCH</h1>
+        <h1>DEVELOPMENT BITCH</h1>
+      </div>
+    </div>
+  </div>
+</div>
+{% endif %}
