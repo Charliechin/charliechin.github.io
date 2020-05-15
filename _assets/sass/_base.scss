@@ -6,8 +6,20 @@
 html {
   font-size: 16px;
 }
+
+p {
+  // Google Font
+  // font-family: 'Mukta', sans-serif;
+}
+
+
+body {
+  color: #504037;
+}
+
 @media screen and (min-width: 320px) {
   html {
+    color: red!important;
     font-size: calc(16px + 6 * ((100vw - 320px) / 680));
   }
 }
