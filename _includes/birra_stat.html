@@ -1,0 +1,60 @@
+<div class="row mt-3">
+  <div class="col-4 stat-item volumen text-center">
+    {{ include.el.volumen | remove:"%" }}
+    <!-- <span class="detail-label">Alc. por Vol.</span> -->
+  </div>
+
+
+  <div class="col-4 stat-item ibu text-center">
+    {{ include.el.ibu }}
+    <!-- <span class="detail-label">IBU</span> -->
+  </div>
+
+
+  <div class="col-4 stat-item ebc text-center">
+    {{ include.el.ebc }}
+    <!-- <span class="detail-label">EBC</span> -->
+  </div>
+
+</div>
+
+<div class="row mb-4 text-uppercase">
+  <div class="col-4 volumen text-center">
+    <span class="detail-label">Alc. por Vol.</span>
+  </div>
+
+
+  <div class="col-4 ibu text-center">
+    <span class="detail-label">IBU</span>
+  </div>
+
+
+  <div class="col-4 ebc text-center">
+    <span class="detail-label">EBC</span>
+  </div>
+
+</div>
+
+
+<div class="row mb-4 text-uppercase">
+  <div class="col-12 strong-700 text-center">
+    <p>{{page.maltas}} - {{ page.lupulos }} - {{ page.levaduras }} - {{ page.formato }} </p>
+  </div>
+</div>
+<style>
+  h1 {
+    color: #E5A224;
+    text-transform: uppercase;
+    font-weight: 700;
+    /* font-size: calc(16px + 6 * ((100vw - 320px) / 680)); */
+    font-family: 'Mukta', sans-serif;
+  }
+
+  p {
+    max-width: 72ch;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    line-height: 1.6;
+    font-family: 'Mukta', sans-serif;
+  }
+</style>

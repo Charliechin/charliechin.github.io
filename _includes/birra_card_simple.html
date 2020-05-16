@@ -3,11 +3,11 @@
     <picture>
       <!-- <source data-srcset="https://via.placeholder.com/1000x1000.png?text=1000+x+1000" media="(min-width: 1200px)" /> -->
       <source data-srcset="{{ site.baseimageurl }}desktop/{{include.el.imagen}}" media="(min-width: 600px)" />
-      <img data-src="{{ site.baseimageurl }}mobile/{{include.el.imagen}}" class="rounded lazy image p-2" />
+      <img data-src="{{ site.baseimageurl }}mobile/{{include.el.imagen}}" class="rounded lazy image px-2" />
     </picture>
   </div>
   <hr>
-  <p class="text-center strong">{{ include.el.nombre }}</p>
+  <p class="text-center product-nombre mb-2">{{ include.el.nombre | truncatewords: 2 }}</p>
   <p class="text-center text-warning"><strong>{{ include.el.pvp }} €</strong></p>
 </a>
 

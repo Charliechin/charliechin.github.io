@@ -11,7 +11,7 @@
         {% endif %}
 
         <li class="nav-item">
-          <a class="nav-link  {% if tipo.link  contains  pageUrl %} active {%endif%}"
+          <a class="nav-link tipos {% if tipo.link  contains  pageUrl %} active {%endif%}"
             href="{{tipo.link}}">{{tipo.name}}</a>
         </li>
         {% endfor %}
@@ -20,3 +20,21 @@
     <hr>
   </div>
 </div>
+
+<style>
+  *,
+  ::after,
+  ::before {
+    box-sizing: border-box;
+  }
+
+  a.tipos {
+    color: #504037;
+    text-decoration: none;
+    font-family: 'Mukta', sans-serif;
+  }
+
+  a.tipos:hover {
+    text-decoration: underline;
+  }
+</style>

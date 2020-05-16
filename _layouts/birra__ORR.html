@@ -1,0 +1,168 @@
+<!-- <!DOCTYPE html>
+<html lang="es">
+
+{% include header.html %}
+
+<body>
+
+
+  {% include nav.html %}
+  <main role="main">
+    <!-- <div class="container-fluid"> -->
+<!-- <div class="row"> -->
+<!-- <div class="col-12">
+          <a href="site.url/birras/">Birras</a> > <a
+            href="site.url/birras/#page.categoria[0] | replace: '_', ' ' ">page.categoria[0] | replace: "_", " " </a>
+          >  page.nombre 
+        </div> -->
+<!-- </div> -->
+<!-- </div> -->
+<div class="container birrazo">
+
+  <div class="row mt-2">
+    <div class="col-12 col-sm-4" id="imagenBirra">
+      <div class="card card-plain text-center back-foam-image">
+        <img srcset="{{ site.baseimageurl }}desktop/{{page.imagen}} 439w" sizes="(max-width: 600px) 188px, 439px"
+          alt="{{page.nombre}}" class="main-image">
+      </div>
+    </div>
+
+    <div class="col-12 col-sm-8 birra-titulo-block" id="tituloBirra">
+      <div class="card card-no-hover">
+        <div class="card-body">
+          <h5 class="card-title birra-titulo" style="font-weight: 700;">
+            {{ page.nombre }} - {{ page.formato }}</h5>
+          <small class="text-muted font-weight-bold">{{ page.pvp }} €</small>
+          <hr>
+          <div class="text-center">
+            {% include btn_compra_birra.html b=page %}
+          </div>
+          <hr>
+          <small class="birra-small-categoria">Categoria:
+            {{ page.categoria.first | replace:'_', '  '}}</small>
+        </div>
+      </div>
+    </div>
+    <div class="col-12" id="attrBirra">
+      <div class="card">
+        <div class="card-body">
+          <h5 class="card-title birra-titulo" style="font-weight: 700;">Detalles</h5>
+          <hr>
+
+          <div class="row">
+            {% unless page.tipo == null %}
+            <div class="col-6">
+              <small class=""><span style="font-weight:700;">Tipo:</span> {{page.tipo}}</small>
+            </div>
+            {% endunless %}
+            {% unless page.ibu == null %}
+            <div class="col-6">
+              <small class=""><span style="font-weight:700;">IBU:</span> {{page.ibu }}</small>
+            </div>
+            {% endunless %}
+            {% unless page.ebc == null %}
+            <div class="col-6">
+              <small class=""><span style="font-weight:700;">EBC:</span> {{page.ebc }}</small>
+            </div>
+            {% endunless %}
+            {% unless page.maltas == null %}
+            <div class="col-6">
+              <small class=""><span style="font-weight:700;">Maltas:</span> {{page.maltas }}</small>
+            </div>
+            {% endunless %}
+            {% unless page.lupulos == null %}
+            <div class="col-6">
+              <small class=""><span style="font-weight:700;">Lúpulos:</span> {{page.lupulos }}</small>
+            </div>
+            {% endunless %}
+            {% unless page.levaduras == null %}
+            <div class="col-6">
+              <small class=""><span style="font-weight:700;">Levaduras:</span> {{page.levaduras }}</small>
+            </div>
+            {% endunless %}
+            {% unless page.origen == null %}
+            <div class="col-6">
+              <small class=""><span style="font-weight:700;">Origen:</span> {{page.origen }}</small>
+            </div>
+            {% endunless %}
+            {% unless page.formato == null %}
+            <div class="col-6">
+              <small class=""><span style="font-weight:700;">Formato:</span> {{page.formato }}</small>
+            </div>
+            {% endunless %}
+          </div>
+
+
+
+
+
+
+
+
+
+
+
+        </div>
+      </div>
+    </div>
+    <div class="col-12" id="descripcionBirra">
+
+      <div class="card">
+        <div class="card-body birra-descripcion">
+          <h5 class="card-title birra-titulo" style="font-weight: 700;">Descripcion</h5>
+          <hr>
+          {{ page.content | remove: '<p>' | remove: '</p>' }}
+        </div>
+      </div>
+
+    </div>
+
+  </div>
+
+  {% include birra_stat.html el=page %}
+
+  <div class="row">
+    <div class="col-12 text-center">
+      <div class="card">
+        <div class="card-body">
+          <a href="/tienda/#{{page.nombre | downcase | replace: ' ', '-'}}" class="btn  btn-lg btn-warning">Volver</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+<style>
+  .stat-item {
+    color: #fff;
+    border-radius: 50%;
+    max-width: 68px;
+    max-height: 68px;
+    line-height: 68px;
+    font-size: 24px;
+    /* font-weight: 700; */
+    margin: 0 auto;
+    margin-bottom: 14px;
+    background-color: #705448;
+  }
+</style>
+
+<!-- <div class="shopping-info"> -->
+<!-- <span class="snipcart-items-count"></span>
+      <span class="snipcart-total-price"></span> -->
+<!-- </div> -->
+
+
+
+</main>
+{% include footer.html %}
+<div hidden id="snipcart" data-api-key="YzU3MzhiOWYtNWE3My00ZjI4LWI0M2EtNDY0NDY0ODMwYTc4NjM3MjA5ODYyMTg5MDMxNjY4">
+</div>
+<!-- <script src="https://cdn.snipcart.com/themes/v3.0.12/default/snipcart.js"></script> -->
+
+{% include js_scripts.html %}
+</body>
+
+</html> -->

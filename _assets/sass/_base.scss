@@ -7,19 +7,23 @@ html {
   font-size: 16px;
 }
 
-p {
-  // Google Font
-  // font-family: 'Mukta', sans-serif;
+.description {
+  max-width: 72ch;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  line-height: 1.6;
+  font-family: 'Mukta', sans-serif;
 }
 
 
 body {
   color: #504037;
+  // overflow: hidden;
+  background-color: #E5A224!important;
 }
 
 @media screen and (min-width: 320px) {
   html {
-    color: red!important;
     font-size: calc(16px + 6 * ((100vw - 320px) / 680));
   }
 }
@@ -43,4 +47,40 @@ body {
 
 .logo-mobile {
 background-color: red;
+}
+
+
+.bg-beer-clear {
+  background-color: #e5a224;
+}
+.bg-beer-dark {
+  background-color: #d88b22;
+}
+
+.beer-clear {
+  color: #e5a224;
+}
+.beer-dark {
+color: #d88b22;
+}
+.beer-text {
+  color: #504037; 
+}
+
+
+.breadcrumbs {
+  background: url(/assets/images/svg/beer-hat.svg);
+    height: 70px;
+    background-size: 100% 160%;
+    background-repeat: no-repeat;
+    padding-top: 12vw;
+
+
+    @media screen and (min-width: 400px) { 
+    background-size: 100% 200%;
+    padding-top: 9vw;
+    }
+}
+.breadcrumbs a {
+  color: #504037;
 }

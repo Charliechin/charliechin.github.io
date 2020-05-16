@@ -52,7 +52,7 @@ sass:
 collections:
   birras:
     output: true
-    permalink: /cervezas/:title.html
+    permalink: /tienda/:title.html
   posts:
     title: LupuloBlog
     intro:
