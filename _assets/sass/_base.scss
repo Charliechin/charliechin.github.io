@@ -39,7 +39,7 @@ body {
   padding-bottom: 130%; /* You define this doing image height / width * 100% */
   position: relative;
 }
-.image {
+.image { 
   width: 100%;
   height: auto;
   position: absolute;
@@ -81,3 +81,40 @@ color: #d88b22;
 }
 
 
+// Seccion cervezas_populares, menos de 3, solo latas, solo cervezas, etc...
+.container-title{
+  display:flex;
+  align-items: center;
+}
+.section-logo {
+    width: 70px;
+    height: 70px;
+    max-width: 100%;
+    margin-right: 10px;
+}
+
+
+// !Seccion cervezas_populares, menos de 3, solo latas, solo cervezas, etc...
+
+
+
+// NEW IMPORT
+.image-wrapper-secciones-random{
+  // height: 500px;
+  // height: 0;
+  padding-bottom: 5%; /* You define this doing image height / width * 100% */
+  position: relative;
+}
+.image-wrapper-secciones-random img {
+  height: 217px;
+  object-fit: cover;
+}
+
+ a,
+ a:hover,
+ a:focus,
+a:active {
+  color: #504037;
+  text-decoration: none;
+}
+// NEW IMPORT

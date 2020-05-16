@@ -2,9 +2,25 @@
 layout: default
 ---
 {% include tipos_cerveza.html %}
+<div class="container-fluid text-center bg-white pt-5 pb-3">
+  <h1 class="text-center mb-2 birra-text">{{ page.title }}</h1>
+  <!-- pon en inlcude -->
+  {% assign crumbs = page.url | remove:'/index.html' | split: '/' %}
+  <a class="" href="/">Home</a>
+  {% for crumb in crumbs offset: 1 %}
+  {% if forloop.last %}
+  / <span class="strong-700">{{ page.title }}</span>
+  {% else %}
+  / <a
+    href="{% assign crumb_limit = forloop.index | plus: 1 %}{% for crumb in crumbs limit: crumb_limit %}{{ crumb | append: '/' | replace:'without-plugin/','without-plugins/' }}{% endfor %}">{{ crumb | replace:'-',' ' | remove:'.html' | capitalize }}</a>
+  {% endif %}
+  {% endfor %}
+  <!-- pon en inlcude -->
+
+</div>
 <div class="container">
-  <h1 class="my-3 text-center mb-2 birra-text">{{ page.title }}</h1>
-  <div class="row d-block d-sm-none text-center" id="dropdown-categorias">
+
+  <div class="row pt-3 d-block d-sm-none text-center" id="dropdown-categorias">
 
     <div class="dropdown">
       <button class="btn btn-warning dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown"
@@ -21,7 +37,7 @@ layout: default
     <hr>
   </div>
   <div class="row">
-    <div class="col-12 mt-2 mb-4">
+    <div class="col-12 col-lg-6 offset-lg-3 mt-2 mb-4">
       {% include search.html%}
     </div>
   </div>

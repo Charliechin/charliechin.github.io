@@ -3,29 +3,45 @@ layout: default
 ---
 
 
+<div class="container-fluid bg-white pt-5 pb-3 text-center">
+  <h1 class="text-center mb-2 birra-text">{{ page.title }}</h1>
+  <!-- pon en inlcude -->
+  {% assign crumbs = page.url | remove:'/index.html' | split: '/' %}
+  <a class="" href="/">Home</a>
+  {% for crumb in crumbs offset: 1 %}
+  {% if forloop.last %}
+  / <span class="strong-700">{{ page.title }}</span>
+  {% else %}
+  / <a
+    href="{% assign crumb_limit = forloop.index | plus: 1 %}{% for crumb in crumbs limit: crumb_limit %}{{ crumb | append: '/' | replace:'without-plugin/','without-plugins/' }}{% endfor %}">{{ crumb | replace:'-',' ' | remove:'.html' | capitalize }}</a>
+  {% endif %}
+  {% endfor %}
+  <!-- pon en inlcude -->
 
-<div class="container">
+
+</div>
+<div class="container mt-5">
   <div class="row">
-    <div class="col-12 text-center my-3">
-      <h1 class="strong-700 birra-title"> {{ page.nombre }} </h1>
-    </div>
     <div class="col-12 col-md-6 col-xl-4 text-center">
 
       <div class="birra-imagen-producto-wrapper">
         <picture>
           <source data-srcset="{{ site.baseimageurl }}desktop/{{page.imagen}} w300" media="(min-width: 1200px)" />
           <source data-srcset="{{ site.baseimageurl }}desktop/{{page.imagen}}" media="(min-width: 600px)" />
-          <img data-src="{{ site.baseimageurl }}mobile/{{page.imagen}}" class="lazy" />
+          <img data-src="{{ site.baseimageurl }}mobile/{{page.imagen}}" class="lazy rounded img-thumbnail" />
         </picture>
       </div>
 
     </div>
+    <div class="col-12 col-md-6 mt-3">
+      {% include birra_stat.html el=page %}
+    </div>
   </div>
-  {% include birra_stat.html el=page %}
   <hr>
   <div class="row">
     <div class="col-12 px-4">
       {{ content }}
+
     </div>
   </div>
 </div>

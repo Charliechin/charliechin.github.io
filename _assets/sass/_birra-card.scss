@@ -64,8 +64,33 @@
 
 }
 
-.foamy {
-  box-shadow: 1px 1px black;
-  // background-image: url("data:image/svg+xml;utf8, ");
+// .foamy {
+//   background-image: url("/assets/images/svg/beer_foam_bg.svg");
+//   background-size: cover;
+//   background-repeat: no-repeat;
+//   @media screen and (min-width:768px) {
+//     background-image: url("/assets/images/svg/beer_foam_bg.svg");
+// }
+// }
+
+.simple-carousel-img { 
+  // MAKE THIS RESPONSIVE, 3 imgs or so
+  width: 120px;
+    @media screen and (min-width:768px) {
+      width: 230px;
+  }
+
 }
 
+
+div.horizontal {
+  display: flex;
+  justify-content: center;
+
+}
+
+div.vertical {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}

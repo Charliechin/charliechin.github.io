@@ -9,7 +9,7 @@ desplácese por nuestras secciones para encontrar la suya."
 
 
 <div class="container-fluid">
-  <div class="row bg-white pt-2 mb-5">
+  <div class="row bg-white pt-2 mb-5" style="border-bottom: 2px solid #d88b22">
     <div class="mx-auto col-12 text-center pt-3 pb-5 description" id="intro-section">
       <h1>{{ page.cabecera }}</h1>
       <p>
@@ -20,13 +20,17 @@ desplácese por nuestras secciones para encontrar la suya."
   </div>
 
 
+  <!-- <img src="/assets/images/svg/beer_foam_bg.svg" alt=""> -->
 
-
-  {% include cervezas_populares.html max=6 %}
+  {% include cervezas_populares.html max=8 %}
+  {% include promo_cervezas.html %}
   {% include menos_de_tres.html %}
 
 
 </div>
+
+
+
 
 
 {% comment %}

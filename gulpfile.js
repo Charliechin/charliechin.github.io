@@ -98,8 +98,8 @@ gulp.task('js-rebuild', function (cb) {
 
 gulp.task('images-rebuild', function (cb) {
 
-  return gulp.src('_assets/img/**/*.*')
-    .pipe(gulp.dest('_site/assets/img/'))
+  return gulp.src('_assets/images/**/*.*')
+    .pipe(gulp.dest('_site/assets/images/'))
     .pipe(browserSync.reload({
       stream: true
     }))

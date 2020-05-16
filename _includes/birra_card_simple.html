@@ -1,21 +1,24 @@
 <a href="{{include.el.url}}">
-  <div class="image-wrapper">
-    <picture>
-      <!-- <source data-srcset="https://via.placeholder.com/1000x1000.png?text=1000+x+1000" media="(min-width: 1200px)" /> -->
-      <source data-srcset="{{ site.baseimageurl }}desktop/{{include.el.imagen}}" media="(min-width: 600px)" />
-      <img data-src="{{ site.baseimageurl }}mobile/{{include.el.imagen}}" class="rounded lazy image px-2" />
-    </picture>
+  <div class="foamy horizontal">
+    <div class="vertical mb-3">
+      <picture>
+        <!-- <source data-srcset="https://via.placeholder.com/1000x1000.png?text=1000+x+1000" media="(min-width: 1200px)" /> -->
+        <source data-srcset="{{ site.baseimageurl }}desktop/{{include.el.imagen}}" media="(min-width: 600px)" />
+        <img data-src="{{ site.baseimageurl }}mobile/{{include.el.imagen}}" class="lazy simple-carousel-img" />
+      </picture>
+    </div>
   </div>
-  <hr>
-  <p class="text-center product-nombre mb-2">{{ include.el.nombre | truncatewords: 2 }}</p>
-  <p class="text-center text-warning"><strong>{{ include.el.pvp }} €</strong></p>
+  <div class="card-content">
+    <p class="text-center product-nombre mb-1">{{ include.el.nombre | truncatewords: 2 }}</p>
+    <p class="text-center text-white"><strong>{{ include.el.pvp }} €</strong></p>
+  </div>
 </a>
 
 {% comment %}
-<figure class="card card-product foam">
-  <div class="img-wrap">
+<figure class="card card-product">
+  <div class="img-wrap ">
     <!-- <img src="https://s9.postimg.org/tupxkvfj3/image.jpg"> -->
-    <div class="image-wrapper">
+    <div class="image-wrapper ">
       <picture>
         <!-- <source data-srcset="https://via.placeholder.com/1000x1000.png?text=1000+x+1000" media="(min-width: 1200px)" /> -->
         <source data-srcset="{{ site.baseimageurl }}desktop/{{include.el.imagen}}" media="(min-width: 600px)" />
