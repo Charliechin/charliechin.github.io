@@ -70,17 +70,14 @@ color: #d88b22;
 
 .breadcrumbs {
   background: url(/assets/images/svg/beer-hat.svg);
-    height: 70px;
-    background-size: 100% 160%;
-    background-repeat: no-repeat;
-    padding-top: 12vw;
+    height: 0;
+    background-size: cover;
+    background-repeat: no-repeat; 
+    padding-bottom: calc(50% * 1/ 5);
 
-
-    @media screen and (min-width: 400px) { 
-    background-size: 100% 200%;
-    padding-top: 9vw;
-    }
 }
 .breadcrumbs a {
   color: #504037;
 }
+
+

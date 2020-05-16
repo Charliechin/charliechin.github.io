@@ -1,13 +1,15 @@
-<div class="col-12">
-  <h4>Populares</h4>
-  <hr>
-</div>
-<div class="col-12 carousel-wrapper text-center mb-4">
-  <div class="slick-1">
-    {% for birra in site.birras limit: include.max %}
-    <div class="slide mb-5">
-      {% include birra_card_simple.html el=birra  %}
-    </div>
-    {% endfor %}
+<section id="cervezas_populares">
+  <div class="col-12 ">
+    <h4 class="description">Populares</h4>
+    <hr>
   </div>
-</div>
+  <div class="col-12 carousel-wrapper text-center mb-4">
+    <div class="slick-1">
+      {% for birra in site.birras limit: include.max %}
+      <div class="slide mb-5">
+        {% include birra_card_simple.html el=birra  %}
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+</section>
