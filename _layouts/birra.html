@@ -4,7 +4,7 @@ layout: default
 
 
 <div class="container-fluid bg-white pt-5 pb-3 text-center">
-  <h1 class="text-center mb-2 birra-text">{{ page.title }}</h1>
+  <h1 class="text-center mb-2 birra-text">{{ page.nombre }}</h1>
   <!-- pon en inlcude -->
   {% assign crumbs = page.url | remove:'/index.html' | split: '/' %}
   <a class="" href="/">Home</a>
@@ -40,7 +40,7 @@ layout: default
   </div>
   <hr>
   <div class="row">
-    <div class="col-12">
+    <div class="col-12 bg-light p-3 rounded">
       {{ content }}
 
     </div>

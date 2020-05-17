@@ -3,7 +3,7 @@ layout: default
 ---
 {% include tipos_cerveza.html %}
 <div class="container-fluid text-center bg-white pt-5 pb-3">
-  <h1 class="text-center mb-2 birra-text">{{ page.title }}</h1>
+  <h1 class="text-center mb-2 birra-text">{{ page.nombre }}</h1>
   <!-- pon en inlcude -->
   {% assign crumbs = page.url | remove:'/index.html' | split: '/' %}
   <a class="" href="/">Home</a>

@@ -112,8 +112,14 @@
       _setCookie(cookieName, 1, cookieLifetime);
     });
 
-
     // !Over 18
+
+    // bubbly
+    bubbly({
+      colorStart: "#e5a224", colorStop: "#e5a224", blur: 1,
+      bubbles: 6,
+      // compose: "source-over", bubbleFunc: () => `hsla(${Math.random() * 30}, -80%, 120%, .3)`
+    });
 
     SimpleJekyllSearch({
       searchInput: document.getElementById('search-input'),
