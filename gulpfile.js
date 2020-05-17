@@ -1,3 +1,4 @@
+// GULP ORIGINAL;
 var gulp = require('gulp');
 var browserSync = require('browser-sync');
 var cp = require('child_process');
@@ -19,7 +20,7 @@ var messages = {
 // Gulp as asset manager for jekyll. Please note that the assets folder is never cleaned
 //so you might want to manually delete the _site/assets folder once in a while.
 // this is because gulp will move files from the assets directory to _site/assets,
-// but it will not remove them from _site/assets if you remove them from assets.
+// butdest it will not remove them from _site/assets if you remove them from assets.
 
 /**
  * Build the Jekyll Site - for windos. If you are on a Mac/linux change jekyll.bat to just jekyll
@@ -39,7 +40,7 @@ gulp.task('jekyll-rebuild', ['jekyll-build'], function () {
 
 /**
  * Wait for jekyll-build, then launch the Server
- */
+ *//
 
 gulp.task('serve', ['jekyll-build'], function () {
   browserSync.init({
@@ -81,7 +82,7 @@ gulp.task('sass-rebuild', function () {
     .pipe(sourcemaps.init())
     .pipe(postcss(plugins))
     .pipe(sourcemaps.write('.'))
-    .pipe(gulp.dest('assets/css/'))
+    .pipe(gulp.dest('_site/assets/css/'))
     .pipe(browserSync.reload({
       stream: true
     }))
@@ -90,7 +91,7 @@ gulp.task('sass-rebuild', function () {
 gulp.task('js-rebuild', function (cb) {
   return gulp.src('_assets/js/**/*.js')
     .pipe(uglify())
-    .pipe(gulp.dest('assets/js/'))
+    .pipe(gulp.dest('_site/assets/js/'))
     .pipe(browserSync.reload({
       stream: true
     }))
@@ -99,7 +100,7 @@ gulp.task('js-rebuild', function (cb) {
 gulp.task('images-rebuild', function (cb) {
 
   return gulp.src('_assets/images/**/*.*')
-    .pipe(gulp.dest('assets/images/'))
+    .pipe(gulp.dest('_site/assets/images/'))
     .pipe(browserSync.reload({
       stream: true
     }))
