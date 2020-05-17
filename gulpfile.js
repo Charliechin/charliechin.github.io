@@ -1,4 +1,3 @@
-// GULP ORIGINAL;
 var gulp = require('gulp');
 var browserSync = require('browser-sync');
 var cp = require('child_process');
@@ -40,7 +39,7 @@ gulp.task('jekyll-rebuild', ['jekyll-build'], function () {
 
 /**
  * Wait for jekyll-build, then launch the Server
- *//
+ */
 
 gulp.task('serve', ['jekyll-build'], function () {
   browserSync.init({
