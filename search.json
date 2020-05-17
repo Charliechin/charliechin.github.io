@@ -2,7 +2,7 @@
   
     {
     "nombre": "942 American Pale",
-    "url": "//tienda/942.html",
+    "url": "/tienda/942.html",
     "categoria": "Pale Ale",
     "imagen": "https://labodegadellupulo.s3.eu-west-3.amazonaws.com/images/birras/mobile/942.jpg",
     "content": "Cerveza de aspecto cristalino, de color do...",
@@ -12,7 +12,7 @@
   
     {
     "nombre": "Aeromancia",
-    "url": "//tienda/aeromancia.html",
+    "url": "/tienda/aeromancia.html",
     "categoria": "India Pale Ale",
     "imagen": "https://labodegadellupulo.s3.eu-west-3.amazonaws.com/images/birras/mobile/aeromancia.jpg",
     "content": "Una IPA veraniega y aromática. Predominan ...",
@@ -22,7 +22,7 @@
   
     {
     "nombre": "Alice the Dog",
-    "url": "//tienda/alicedog.html",
+    "url": "/tienda/alicedog.html",
     "categoria": "India Pale Ale",
     "imagen": "https://labodegadellupulo.s3.eu-west-3.amazonaws.com/images/birras/mobile/alicedog.jpg",
     "content": "De aspecto naranja-cobre, con un recorrido...",
@@ -32,7 +32,7 @@
   
     {
     "nombre": "Althaia Blonde Ale",
-    "url": "//tienda/althaiablonde.html",
+    "url": "/tienda/althaiablonde.html",
     "categoria": "Blonde Lager",
     "imagen": "https://labodegadellupulo.s3.eu-west-3.amazonaws.com/images/birras/mobile/althaiablonde.jpg",
     "content": "Cerveza mediterránea de alta fermentación....",
@@ -42,7 +42,7 @@
   
     {
     "nombre": "Althaia Brown Ale",
-    "url": "//tienda/althaiabrown.html",
+    "url": "/tienda/althaiabrown.html",
     "categoria": "Brown & Amber Ale",
     "imagen": "https://labodegadellupulo.s3.eu-west-3.amazonaws.com/images/birras/mobile/althaiabrown.jpg",
     "content": "Cerveza tostada de alta fermentación. De c...",
@@ -52,7 +52,7 @@
   
     {
     "nombre": "Althaia IPA",
-    "url": "//tienda/althaiaipa.html",
+    "url": "/tienda/althaiaipa.html",
     "categoria": "India Pale Ale",
     "imagen": "https://labodegadellupulo.s3.eu-west-3.amazonaws.com/images/birras/mobile/althaiaipa.jpg",
     "content": "Rindiendo homenaje a uno de los estilos má...",
@@ -62,7 +62,7 @@
   
     {
     "nombre": "Althaia Winter Ale",
-    "url": "//tienda/althaiawinter.html",
+    "url": "/tienda/althaiawinter.html",
     "categoria": "Pale Ale",
     "imagen": "https://labodegadellupulo.s3.eu-west-3.amazonaws.com/images/birras/mobile/althaiawinter.jpg",
     "content": "Edición estacional para disfrutar de los d...",
@@ -72,7 +72,7 @@
   
     {
     "nombre": "Artistas del Gremio",
-    "url": "//tienda/artistasdelgremio.html",
+    "url": "/tienda/artistasdelgremio.html",
     "categoria": "Pale Ale",
     "imagen": "https://labodegadellupulo.s3.eu-west-3.amazonaws.com/images/birras/mobile/artistasdelgremio.jpg",
     "content": "¡15 añazos bien se merecen una cerveza! Ar...",
@@ -82,7 +82,7 @@
   
     {
     "nombre": "Back to black",
-    "url": "//tienda/backtoblack.html",
+    "url": "/tienda/backtoblack.html",
     "categoria": "Stout & Porter",
     "imagen": "https://labodegadellupulo.s3.eu-west-3.amazonaws.com/images/birras/mobile/backtoblack.jpg",
     "content": "Siempre es buen momento para volver a disf...",
@@ -92,7 +92,7 @@
   
     {
     "nombre": "Baller",
-    "url": "//tienda/baller.html",
+    "url": "/tienda/baller.html",
     "categoria": "India Pale Ale",
     "imagen": "https://labodegadellupulo.s3.eu-west-3.amazonaws.com/images/birras/mobile/baller.jpg",
     "content": "Muy buenas, os presento a Baller. Baller e...",
@@ -102,7 +102,7 @@
   
     {
     "nombre": "Bang! Bang!",
-    "url": "//tienda/bangbang.html",
+    "url": "/tienda/bangbang.html",
     "categoria": "India Pale Ale",
     "imagen": "https://labodegadellupulo.s3.eu-west-3.amazonaws.com/images/birras/mobile/bangbang.jpg",
     "content": "El lejano oeste no es lugar para modernece...",
@@ -112,7 +112,7 @@
   
     {
     "nombre": "Barcelona",
-    "url": "//tienda/barcelona.html",
+    "url": "/tienda/barcelona.html",
     "categoria": "Pale Ale",
     "imagen": "https://labodegadellupulo.s3.eu-west-3.amazonaws.com/images/birras/mobile/barcelona.jpg",
     "content": "Barcelona es inspiración, es creatividad y...",
@@ -122,7 +122,7 @@
   
     {
     "nombre": "Barlovento",
-    "url": "//tienda/barlovento.html",
+    "url": "/tienda/barlovento.html",
     "categoria": "Stout & Porter",
     "imagen": "https://labodegadellupulo.s3.eu-west-3.amazonaws.com/images/birras/mobile/barlovento.jpg",
     "content": "Intensa y robusta gracias a las notas ahum...",
@@ -132,7 +132,7 @@
   
     {
     "nombre": "Espiga Berliner Wessie",
-    "url": "//tienda/berlinerespiga.html",
+    "url": "/tienda/berlinerespiga.html",
     "categoria": "Blonde Lager",
     "imagen": "https://labodegadellupulo.s3.eu-west-3.amazonaws.com/images/birras/mobile/berlinerespiga.jpg",
     "content": "Una Berliner Weisse ligera en su graduació...",
@@ -142,7 +142,7 @@
   
     {
     "nombre": "Big Bear",
-    "url": "//tienda/bigbear.html",
+    "url": "/tienda/bigbear.html",
     "categoria": "Pale Ale",
     "imagen": "https://labodegadellupulo.s3.eu-west-3.amazonaws.com/images/birras/mobile/bigbear.jpg",
     "content": "Frank, el oso tranquilo, está muy cabreado...",
@@ -152,7 +152,7 @@
   
     {
     "nombre": "Blackbell",
-    "url": "//tienda/blackbell.html",
+    "url": "/tienda/blackbell.html",
     "categoria": "Stout & Porter",
     "imagen": "https://labodegadellupulo.s3.eu-west-3.amazonaws.com/images/birras/mobile/blackbell.jpg",
     "content": "Esta cerveza artesana negra estaría dentro...",
@@ -162,7 +162,7 @@
   
     {
     "nombre": "Back Cel Ona",
-    "url": "//tienda/blackcelona.html",
+    "url": "/tienda/blackcelona.html",
     "categoria": "Stout & Porter",
     "imagen": "https://labodegadellupulo.s3.eu-west-3.amazonaws.com/images/birras/mobile/blackcelona.jpg",
     "content": "Envejecida durante 6 meses en barriles de ...",
@@ -172,7 +172,7 @@
   
     {
     "nombre": "Blanche de fermun",
-    "url": "//tienda/blanchedefermun.html",
+    "url": "/tienda/blanchedefermun.html",
     "categoria": "Witbier & Weissbier",
     "imagen": "https://labodegadellupulo.s3.eu-west-3.amazonaws.com/images/birras/mobile/blanchedefermun.jpg",
     "content": "Estilo clásico belga con 400 años de histo...",
@@ -182,7 +182,7 @@
   
     {
     "nombre": "Blindspot",
-    "url": "//tienda/blindspot.html",
+    "url": "/tienda/blindspot.html",
     "categoria": "Pale Ale",
     "imagen": "https://labodegadellupulo.s3.eu-west-3.amazonaws.com/images/birras/mobile/blindspot.jpg",
     "content": "Cerveza Wild Ale envejecida en bota de vin...",
@@ -192,7 +192,7 @@
   
     {
     "nombre": "Blue Blood Fuck You",
-    "url": "//tienda/blueblood.html",
+    "url": "/tienda/blueblood.html",
     "categoria": "Stout & Porter",
     "imagen": "https://labodegadellupulo.s3.eu-west-3.amazonaws.com/images/birras/mobile/blueblood.jpg",
     "content": "Cerveza con grandes aromas de coñac, roble...",
@@ -202,7 +202,7 @@
   
     {
     "nombre": "Cap Blanc",
-    "url": "//tienda/capblanc.html",
+    "url": "/tienda/capblanc.html",
     "categoria": "India Pale Ale",
     "imagen": "https://labodegadellupulo.s3.eu-west-3.amazonaws.com/images/birras/mobile/capblanc.jpg",
     "content": "Suave y de baja graduación, color pajizo, ...",
@@ -212,7 +212,7 @@
   
     {
     "nombre": "Cerdos Voladores",
-    "url": "//tienda/cerdosvoladores.html",
+    "url": "/tienda/cerdosvoladores.html",
     "categoria": "India Pale Ale",
     "imagen": "https://labodegadellupulo.s3.eu-west-3.amazonaws.com/images/birras/mobile/cerdosvoladores.jpg",
     "content": "Los 3 Cerditos han vuelto… convertidos en ...",
@@ -222,7 +222,7 @@
   
     {
     "nombre": "Citramango",
-    "url": "//tienda/citramango.html",
+    "url": "/tienda/citramango.html",
     "categoria": "India Pale Ale",
     "imagen": "https://labodegadellupulo.s3.eu-west-3.amazonaws.com/images/birras/mobile/citramango.jpg",
     "content": "Juicy IPA elaborada con lúpulo citra y man...",
@@ -232,7 +232,7 @@
   
     {
     "nombre": "Destraperlo Colorá",
-    "url": "//tienda/colora.html",
+    "url": "/tienda/colora.html",
     "categoria": "Brown & Amber Ale",
     "imagen": "https://labodegadellupulo.s3.eu-west-3.amazonaws.com/images/birras/mobile/colora.jpg",
     "content": "Cerveza que no dejará indiferente a nadie....",
@@ -242,7 +242,7 @@
   
     {
     "nombre": "Cornamusa",
-    "url": "//tienda/cornamusa.html",
+    "url": "/tienda/cornamusa.html",
     "categoria": "Brown & Amber Ale",
     "imagen": "https://labodegadellupulo.s3.eu-west-3.amazonaws.com/images/birras/mobile/cornamusa.jpg",
     "content": "Cornamusa, palabra náutica elegida para da...",
@@ -252,7 +252,7 @@
   
     {
     "nombre": "Crazy Crown",
-    "url": "//tienda/crazycrown.html",
+    "url": "/tienda/crazycrown.html",
     "categoria": "India Pale Ale",
     "imagen": "https://labodegadellupulo.s3.eu-west-3.amazonaws.com/images/birras/mobile/crazycrown.jpg",
     "content": "Single-hop DDH IPA de lúpulo Amarillo. De ...",
@@ -262,7 +262,7 @@
   
     {
     "nombre": "Dark Elves",
-    "url": "//tienda/darkelves.html",
+    "url": "/tienda/darkelves.html",
     "categoria": "India Pale Ale",
     "imagen": "https://labodegadellupulo.s3.eu-west-3.amazonaws.com/images/birras/mobile/darkelves.jpg",
     "content": "De color oscuro tipo stout, pero sin apena...",
@@ -272,7 +272,7 @@
   
     {
     "nombre": "Delirium Tremens",
-    "url": "//tienda/delirium.html",
+    "url": "/tienda/delirium.html",
     "categoria": "Estilo Belga",
     "imagen": "https://labodegadellupulo.s3.eu-west-3.amazonaws.com/images/birras/mobile/delirium.jpg",
     "content": "Rubia pálida, con una efervescencia excele...",
@@ -282,7 +282,7 @@
   
     {
     "nombre": "Demeter",
-    "url": "//tienda/demeter.html",
+    "url": "/tienda/demeter.html",
     "categoria": "India Pale Ale",
     "imagen": "https://labodegadellupulo.s3.eu-west-3.amazonaws.com/images/birras/mobile/demeter.jpg",
     "content": "Venida desde Newcastle. Turbia cerveza, am...",
@@ -292,7 +292,7 @@
   
     {
     "nombre": "Double Dragon",
-    "url": "//tienda/doubledragon.html",
+    "url": "/tienda/doubledragon.html",
     "categoria": "Pale Ale",
     "imagen": "https://labodegadellupulo.s3.eu-west-3.amazonaws.com/images/birras/mobile/doubledragon.jpg",
     "content": "Una Fruity Sour de color amarillento pálid...",
@@ -302,7 +302,7 @@
   
     {
     "nombre": "Duvel",
-    "url": "//tienda/duvel.html",
+    "url": "/tienda/duvel.html",
     "categoria": "Estilo Belga",
     "imagen": "https://labodegadellupulo.s3.eu-west-3.amazonaws.com/images/birras/mobile/duvel.jpg",
     "content": "Una cerveza natural con un amargor sutil, ...",
@@ -312,7 +312,7 @@
   
     {
     "nombre": "Duvel Tripel Hop Citra",
-    "url": "//tienda/duveltriple.html",
+    "url": "/tienda/duveltriple.html",
     "categoria": "Estilo Belga",
     "imagen": "https://labodegadellupulo.s3.eu-west-3.amazonaws.com/images/birras/mobile/duveltriple.jpg",
     "content": "La clásica Duvel con un nuevo ingrediente:...",
@@ -322,7 +322,7 @@
   
     {
     "nombre": "Encantada",
-    "url": "//tienda/encantada.html",
+    "url": "/tienda/encantada.html",
     "categoria": "Pale Ale",
     "imagen": "https://labodegadellupulo.s3.eu-west-3.amazonaws.com/images/birras/mobile/encantada.jpg",
     "content": "Inspirada en el descubrimiento de la cerve...",
@@ -332,7 +332,7 @@
   
     {
     "nombre": "Engendro",
-    "url": "//tienda/engendro.html",
+    "url": "/tienda/engendro.html",
     "categoria": "Pale Ale",
     "imagen": "https://labodegadellupulo.s3.eu-west-3.amazonaws.com/images/birras/mobile/engendro.jpg",
     "content": "Cerveza macarra y transgresora, irreverent...",
@@ -342,7 +342,7 @@
   
     {
     "nombre": "Espiga Blonde Ale",
-    "url": "//tienda/espigablondeale.html",
+    "url": "/tienda/espigablondeale.html",
     "categoria": "Blonde Lager",
     "imagen": "https://labodegadellupulo.s3.eu-west-3.amazonaws.com/images/birras/mobile/espigablondeale.jpg",
     "content": "La Blonde Ale es una cerveza rubia clara d...",
@@ -352,7 +352,7 @@
   
     {
     "nombre": "Espiga doble IPA",
-    "url": "//tienda/espigaipa.html",
+    "url": "/tienda/espigaipa.html",
     "categoria": "India Pale Ale",
     "imagen": "https://labodegadellupulo.s3.eu-west-3.amazonaws.com/images/birras/mobile/espigaipa.jpg",
     "content": "La Doble IPA es la versión más intensa, má...",
@@ -362,7 +362,7 @@
   
     {
     "nombre": "Espiga Pale Ale",
-    "url": "//tienda/espigapaleale.html",
+    "url": "/tienda/espigapaleale.html",
     "categoria": "Pale Ale",
     "imagen": "https://labodegadellupulo.s3.eu-west-3.amazonaws.com/images/birras/mobile/espigapaleale.jpg",
     "content": "La primera receta de Espiga exhibe una atr...",
@@ -372,7 +372,7 @@
   
     {
     "nombre": "Espiga porter",
-    "url": "//tienda/espigaporter.html",
+    "url": "/tienda/espigaporter.html",
     "categoria": "Stout & Porter",
     "imagen": "https://labodegadellupulo.s3.eu-west-3.amazonaws.com/images/birras/mobile/espigaporter.jpg",
     "content": "Una capa cremosa de espuma beige corona el...",
@@ -382,7 +382,7 @@
   
     {
     "nombre": "Ether 5",
-    "url": "//tienda/ether5.html",
+    "url": "/tienda/ether5.html",
     "categoria": "India Pale Ale",
     "imagen": "https://labodegadellupulo.s3.eu-west-3.amazonaws.com/images/birras/mobile/ether5.jpg",
     "content": "Nacida en Irlanda, esta cerveza es muy ama...",
@@ -392,7 +392,7 @@
   
     {
     "nombre": "Evil Plumber",
-    "url": "//tienda/evilplumber.html",
+    "url": "/tienda/evilplumber.html",
     "categoria": "India Pale Ale",
     "imagen": "https://labodegadellupulo.s3.eu-west-3.amazonaws.com/images/birras/mobile/evilplumber.jpg",
     "content": "En esta edición empezamos una nueva colecc...",
@@ -402,7 +402,7 @@
   
     {
     "nombre": "First AID",
-    "url": "//tienda/firstaid.html",
+    "url": "/tienda/firstaid.html",
     "categoria": "Stout & Porter",
     "imagen": "https://labodegadellupulo.s3.eu-west-3.amazonaws.com/images/birras/mobile/firstaid.jpg",
     "content": "Pack de 3 elixires para psicoterapias a ca...",
@@ -412,7 +412,7 @@
   
     {
     "nombre": "Flower Sour Hibiscus",
-    "url": "//tienda/flowersourhibiscus.html",
+    "url": "/tienda/flowersourhibiscus.html",
     "categoria": "India Pale Ale",
     "imagen": "https://labodegadellupulo.s3.eu-west-3.amazonaws.com/images/birras/mobile/flower.jpg",
     "content": "New England IPA ligeramente ácida y amarga...",
@@ -422,7 +422,7 @@
   
     {
     "nombre": "Fogbound",
-    "url": "//tienda/fogbound.html",
+    "url": "/tienda/fogbound.html",
     "categoria": "India Pale Ale",
     "imagen": "https://labodegadellupulo.s3.eu-west-3.amazonaws.com/images/birras/mobile/fogbound.jpg",
     "content": "Adéntrate en este banco de niebla dorada y...",
@@ -432,7 +432,7 @@
   
     {
     "nombre": "Fruits of the doom",
-    "url": "//tienda/fruitsofthedoom.html",
+    "url": "/tienda/fruitsofthedoom.html",
     "categoria": "Witbier & Weissbier",
     "imagen": "https://labodegadellupulo.s3.eu-west-3.amazonaws.com/images/birras/mobile/fruitsofthedoom.jpg",
     "content": "Elaborada con frambuesa y añejada en barri...",
@@ -442,7 +442,7 @@
   
     {
     "nombre": "Garage",
-    "url": "//tienda/garage.html",
+    "url": "/tienda/garage.html",
     "categoria": "India Pale Ale",
     "imagen": "https://labodegadellupulo.s3.eu-west-3.amazonaws.com/images/birras/mobile/garage.jpg",
     "content": "Nuestra IPA por excelencia es cristalina, ...",
@@ -452,7 +452,7 @@
   
     {
     "nombre": "Godless",
-    "url": "//tienda/godless.html",
+    "url": "/tienda/godless.html",
     "categoria": "Pale Ale",
     "imagen": "https://labodegadellupulo.s3.eu-west-3.amazonaws.com/images/birras/mobile/godless.jpg",
     "content": "Godless otra cerveza sin complejo envejeci...",
@@ -462,7 +462,7 @@
   
     {
     "nombre": "Golden",
-    "url": "//tienda/golden.html",
+    "url": "/tienda/golden.html",
     "categoria": "Blonde Lager",
     "imagen": "https://labodegadellupulo.s3.eu-west-3.amazonaws.com/images/birras/mobile/golden.jpg",
     "content": "Nuestra cerveza más noble. Ligera y de tra...",
@@ -472,7 +472,7 @@
   
     {
     "nombre": "Greenpils",
-    "url": "//tienda/greenpils.html",
+    "url": "/tienda/greenpils.html",
     "categoria": "Blonde Lager",
     "imagen": "https://labodegadellupulo.s3.eu-west-3.amazonaws.com/images/birras/mobile/greenpils.jpg",
     "content": "Lager con perfil pilsner checa, algo amarg...",
@@ -482,7 +482,7 @@
   
     {
     "nombre": "Gulden Draak",
-    "url": "//tienda/gulden.html",
+    "url": "/tienda/gulden.html",
     "categoria": "Estilo Belga",
     "imagen": "https://labodegadellupulo.s3.eu-west-3.amazonaws.com/images/birras/mobile/gulden.jpg",
     "content": "Oscura y de cremosa espuma, presenta una g...",
@@ -492,7 +492,7 @@
   
     {
     "nombre": "Happy Hoppy",
-    "url": "//tienda/happyhoppy.html",
+    "url": "/tienda/happyhoppy.html",
     "categoria": "India Pale Ale",
     "imagen": "https://labodegadellupulo.s3.eu-west-3.amazonaws.com/images/birras/mobile/happyhoppy.jpg",
     "content": "Cerveza amarga y sorprendente, no te dejar...",
@@ -502,7 +502,7 @@
   
     {
     "nombre": "Hell",
-    "url": "//tienda/hell.html",
+    "url": "/tienda/hell.html",
     "categoria": "Blonde Lager",
     "imagen": "https://labodegadellupulo.s3.eu-west-3.amazonaws.com/images/birras/mobile/hell.jpg",
     "content": "Sabor suave y pleno, bien definida, gusto ...",
@@ -512,7 +512,7 @@
   
     {
     "nombre": "Hellshock",
-    "url": "//tienda/hellshock.html",
+    "url": "/tienda/hellshock.html",
     "categoria": "Pale Ale",
     "imagen": "https://labodegadellupulo.s3.eu-west-3.amazonaws.com/images/birras/mobile/hellshock.jpg",
     "content": "Si creías que lo habías probado todo en ce...",
@@ -522,7 +522,7 @@
   
     {
     "nombre": "Hyperactive",
-    "url": "//tienda/hyperactive.html",
+    "url": "/tienda/hyperactive.html",
     "categoria": "India Pale Ale",
     "imagen": "https://labodegadellupulo.s3.eu-west-3.amazonaws.com/images/birras/mobile/hyperactive.jpg",
     "content": "Una Triple Dry Hopped IPA cargada de lúpul...",
@@ -532,7 +532,7 @@
   
     {
     "nombre": "I Am Easy",
-    "url": "//tienda/iameasyeasy.html",
+    "url": "/tienda/iameasyeasy.html",
     "categoria": "Blonde Lager",
     "imagen": "https://labodegadellupulo.s3.eu-west-3.amazonaws.com/images/birras/mobile/iameasyeasy.jpg",
     "content": "Una cerveza robusta con extra cuerpo aport...",
@@ -542,7 +542,7 @@
   
     {
     "nombre": "Destraperlo IPA",
-    "url": "//tienda/ipa.html",
+    "url": "/tienda/ipa.html",
     "categoria": "India Pale Ale",
     "imagen": "https://labodegadellupulo.s3.eu-west-3.amazonaws.com/images/birras/mobile/ipa.jpg",
     "content": "Variedad de cerveza inglesa que se caracte...",
@@ -552,7 +552,7 @@
   
     {
     "nombre": "IPA 4",
-    "url": "//tienda/ipa4.html",
+    "url": "/tienda/ipa4.html",
     "categoria": "India Pale Ale",
     "imagen": "https://labodegadellupulo.s3.eu-west-3.amazonaws.com/images/birras/mobile/ipa4.jpg",
     "content": "Una de las cervezas estrella de la marca, ...",
@@ -562,7 +562,7 @@
   
     {
     "nombre": "IPA 9",
-    "url": "//tienda/ipa9.html",
+    "url": "/tienda/ipa9.html",
     "categoria": "India Pale Ale",
     "imagen": "https://labodegadellupulo.s3.eu-west-3.amazonaws.com/images/birras/mobile/ipa9.jpg",
     "content": "Cerveza de color rubio, algo turbia, espum...",
@@ -572,7 +572,7 @@
   
     {
     "nombre": "IPAral-lel",
-    "url": "//tienda/iparalel.html",
+    "url": "/tienda/iparalel.html",
     "categoria": "India Pale Ale",
     "imagen": "https://labodegadellupulo.s3.eu-west-3.amazonaws.com/images/birras/mobile/iparalel.jpg",
     "content": "Double IPA elaborada con lúpulos mosaic, e...",
@@ -582,7 +582,7 @@
   
     {
     "nombre": "Jano Hop",
-    "url": "//tienda/janohop.html",
+    "url": "/tienda/janohop.html",
     "categoria": "India Pale Ale",
     "imagen": "https://labodegadellupulo.s3.eu-west-3.amazonaws.com/images/birras/mobile/janohop.jpg",
     "content": "Te obligaron a abandonar este mundo terren...",
@@ -592,7 +592,7 @@
   
     {
     "nombre": "Kerosene",
-    "url": "//tienda/kerosene.html",
+    "url": "/tienda/kerosene.html",
     "categoria": "Estilo Belga",
     "imagen": "https://labodegadellupulo.s3.eu-west-3.amazonaws.com/images/birras/mobile/kerosene.jpg",
     "content": "El estilo Saison es un estilo de cerveza d...",
@@ -602,7 +602,7 @@
   
     {
     "nombre": "La Bella Lola",
-    "url": "//tienda/labellalola.html",
+    "url": "/tienda/labellalola.html",
     "categoria": "Pale Ale",
     "imagen": "https://labodegadellupulo.s3.eu-west-3.amazonaws.com/images/birras/mobile/labellalola.jpg",
     "content": "La cerveza más elegante y gastronómica. El...",
@@ -612,7 +612,7 @@
   
     {
     "nombre": "La Camocha Cacao",
-    "url": "//tienda/lacamocha.html",
+    "url": "/tienda/lacamocha.html",
     "categoria": "Stout & Porter",
     "imagen": "https://labodegadellupulo.s3.eu-west-3.amazonaws.com/images/birras/mobile/lacamocha.jpg",
     "content": "Una cerveza que homenajea a los mineros as...",
@@ -622,7 +622,7 @@
   
     {
     "nombre": "La Federal",
-    "url": "//tienda/lafederal.html",
+    "url": "/tienda/lafederal.html",
     "categoria": "Stout & Porter",
     "imagen": "https://labodegadellupulo.s3.eu-west-3.amazonaws.com/images/birras/mobile/lafederal.jpg",
     "content": "Déjate sorprender por los contrastes de es...",
@@ -632,7 +632,7 @@
   
     {
     "nombre": "La niña barbuda",
-    "url": "//tienda/laninabarbuda.html",
+    "url": "/tienda/laninabarbuda.html",
     "categoria": "Brown & Amber Ale",
     "imagen": "https://labodegadellupulo.s3.eu-west-3.amazonaws.com/images/birras/mobile/laninabarbuda.jpg",
     "content": "Una auténtica Brown Ale de manual. Cerveza...",
@@ -642,7 +642,7 @@
   
     {
     "nombre": "Light Elves",
-    "url": "//tienda/lightelves.html",
+    "url": "/tienda/lightelves.html",
     "categoria": "India Pale Ale",
     "imagen": "https://labodegadellupulo.s3.eu-west-3.amazonaws.com/images/birras/mobile/lightelves.jpg",
     "content": "Una cerveza cremosa elaborada con una cant...",
@@ -652,7 +652,7 @@
   
     {
     "nombre": "Malabroca",
-    "url": "//tienda/malabroca.html",
+    "url": "/tienda/malabroca.html",
     "categoria": "Pale Ale",
     "imagen": "https://labodegadellupulo.s3.eu-west-3.amazonaws.com/images/birras/mobile/malabroca.jpg",
     "content": "Clásica Pale Ale en su versión americana. ...",
@@ -662,7 +662,7 @@
   
     {
     "nombre": "Malaspina Weissbier",
-    "url": "//tienda/malaspina.html",
+    "url": "/tienda/malaspina.html",
     "categoria": "Witbier & Weissbier",
     "imagen": "https://labodegadellupulo.s3.eu-west-3.amazonaws.com/images/birras/mobile/malaspina.jpg",
     "content": "Cerveza de estilo Weissbier elaborada a pa...",
@@ -672,7 +672,7 @@
   
     {
     "nombre": "Malaspina Tostada",
-    "url": "//tienda/malaspinatostada.html",
+    "url": "/tienda/malaspinatostada.html",
     "categoria": "Brown & Amber Ale",
     "imagen": "https://labodegadellupulo.s3.eu-west-3.amazonaws.com/images/birras/mobile/malaspinatostada.jpg",
     "content": "Cerveza tostada elaborada de manera artesa...",
@@ -682,7 +682,7 @@
   
     {
     "nombre": "Mascarat",
-    "url": "//tienda/mascarat.html",
+    "url": "/tienda/mascarat.html",
     "categoria": "India Pale Ale",
     "imagen": "https://labodegadellupulo.s3.eu-west-3.amazonaws.com/images/birras/mobile/mascarat.jpg",
     "content": "Una cerveza que, a pesar de su color es mu...",
@@ -692,7 +692,7 @@
   
     {
     "nombre": "Matajare",
-    "url": "//tienda/matajare.html",
+    "url": "/tienda/matajare.html",
     "categoria": "Pale Ale",
     "imagen": "https://labodegadellupulo.s3.eu-west-3.amazonaws.com/images/birras/mobile/matajare.jpg",
     "content": "Elaborada con 2 maltas de cebada (Pilsen y...",
@@ -702,7 +702,7 @@
   
     {
     "nombre": "The Original Medical Stout",
-    "url": "//tienda/medicalstout.html",
+    "url": "/tienda/medicalstout.html",
     "categoria": "Stout & Porter",
     "imagen": "https://labodegadellupulo.s3.eu-west-3.amazonaws.com/images/birras/mobile/medicalstout.jpg",
     "content": "Deliciosa stout de alta graduación que se ...",
@@ -712,7 +712,7 @@
   
     {
     "nombre": "Metro",
-    "url": "//tienda/metro.html",
+    "url": "/tienda/metro.html",
     "categoria": "Pale Ale",
     "imagen": "https://labodegadellupulo.s3.eu-west-3.amazonaws.com/images/birras/mobile/metro.jpg",
     "content": "Fuertemente lupulada para tomar a altas ho...",
@@ -722,7 +722,7 @@
   
     {
     "nombre": "Misantropy",
-    "url": "//tienda/misantropy.html",
+    "url": "/tienda/misantropy.html",
     "categoria": "Estilo Belga",
     "imagen": "https://labodegadellupulo.s3.eu-west-3.amazonaws.com/images/birras/mobile/misantropy.jpg",
     "content": "Una cerveza de estilo Triple Belga que se ...",
@@ -732,7 +732,7 @@
   
     {
     "nombre": "Miss Hops",
-    "url": "//tienda/misshops.html",
+    "url": "/tienda/misshops.html",
     "categoria": "India Pale Ale",
     "imagen": "https://labodegadellupulo.s3.eu-west-3.amazonaws.com/images/birras/mobile/misshops.jpg",
     "content": "La señorita lúpulo es una cerveza elaborad...",
@@ -742,7 +742,7 @@
   
     {
     "nombre": "Mistral",
-    "url": "//tienda/mistral.html",
+    "url": "/tienda/mistral.html",
     "categoria": "India Pale Ale",
     "imagen": "https://labodegadellupulo.s3.eu-west-3.amazonaws.com/images/birras/mobile/mistral.jpg",
     "content": "Robusta, aromática y amarga, con potentes ...",
@@ -752,7 +752,7 @@
   
     {
     "nombre": "Mosaic",
-    "url": "//tienda/mosaic.html",
+    "url": "/tienda/mosaic.html",
     "categoria": "Pale Ale",
     "imagen": "https://labodegadellupulo.s3.eu-west-3.amazonaws.com/images/birras/mobile/mosaic.jpg",
     "content": "La aclamada Mosaic presenta un aspecto lim...",
@@ -762,7 +762,7 @@
   
     {
     "nombre": "Mosaic Passion Juice",
-    "url": "//tienda/mosaicpassion.html",
+    "url": "/tienda/mosaicpassion.html",
     "categoria": "India Pale Ale",
     "imagen": "https://labodegadellupulo.s3.eu-west-3.amazonaws.com/images/birras/mobile/mosaicpassion.jpg",
     "content": "Juicy IPA elaborada con lúpulo mosaic y ma...",
@@ -772,7 +772,7 @@
   
     {
     "nombre": "Destraperlo Negra",
-    "url": "//tienda/negra.html",
+    "url": "/tienda/negra.html",
     "categoria": "Stout & Porter",
     "imagen": "https://labodegadellupulo.s3.eu-west-3.amazonaws.com/images/birras/mobile/negra.jpg",
     "content": "Cerveza de malta tipo Andalusí Robust Port...",
@@ -782,7 +782,7 @@
   
     {
     "nombre": "Nicotto",
-    "url": "//tienda/nicotto.html",
+    "url": "/tienda/nicotto.html",
     "categoria": "Blonde Lager",
     "imagen": "https://labodegadellupulo.s3.eu-west-3.amazonaws.com/images/birras/mobile/nicotto.jpg",
     "content": "Suave y melosa, con un aroma muy interesan...",
@@ -792,7 +792,7 @@
   
     {
     "nombre": "Delirium Nocturnum",
-    "url": "//tienda/nocturnum.html",
+    "url": "/tienda/nocturnum.html",
     "categoria": "Estilo Belga",
     "imagen": "https://labodegadellupulo.s3.eu-west-3.amazonaws.com/images/birras/mobile/nocturnum.jpg",
     "content": "Calurosa y transparente, con aromas de mal...",
@@ -802,7 +802,7 @@
   
     {
     "nombre": "Nori",
-    "url": "//tienda/nori.html",
+    "url": "/tienda/nori.html",
     "categoria": "Stout & Porter",
     "imagen": "https://labodegadellupulo.s3.eu-west-3.amazonaws.com/images/birras/mobile/nori.jpg",
     "content": "erveza negra de cuerpo cremoso y notas de ...",
@@ -812,7 +812,7 @@
   
     {
     "nombre": "Nublar",
-    "url": "//tienda/nublar.html",
+    "url": "/tienda/nublar.html",
     "categoria": "Brown & Amber Ale",
     "imagen": "https://labodegadellupulo.s3.eu-west-3.amazonaws.com/images/birras/mobile/nublar.jpg",
     "content": "Una clásica Amber Ale americana, con un dr...",
@@ -822,7 +822,7 @@
   
     {
     "nombre": "Or del Temps",
-    "url": "//tienda/ordeltemps.html",
+    "url": "/tienda/ordeltemps.html",
     "categoria": "Pale Ale",
     "imagen": "https://labodegadellupulo.s3.eu-west-3.amazonaws.com/images/birras/mobile/ordeltemps.jpg",
     "content": "Una de nuestras últimas novedades. Cerveza...",
@@ -832,7 +832,7 @@
   
     {
     "nombre": "Peña Blanca",
-    "url": "//tienda/penablanca.html",
+    "url": "/tienda/penablanca.html",
     "categoria": "Witbier & Weissbier",
     "imagen": "https://labodegadellupulo.s3.eu-west-3.amazonaws.com/images/birras/mobile/penablanca.jpg",
     "content": "Cerveza suave y ligera, de cuerpo sedoso, ...",
@@ -842,7 +842,7 @@
   
     {
     "nombre": "Peña Roya",
-    "url": "//tienda/penaroya.html",
+    "url": "/tienda/penaroya.html",
     "categoria": "Brown & Amber Ale",
     "imagen": "https://labodegadellupulo.s3.eu-west-3.amazonaws.com/images/birras/mobile/penaroya.jpg",
     "content": "Cerveza con cuerpo, de sabor intenso, muy ...",
@@ -852,7 +852,7 @@
   
     {
     "nombre": "Peña Telera",
-    "url": "//tienda/penatelera.html",
+    "url": "/tienda/penatelera.html",
     "categoria": "India Pale Ale",
     "imagen": "https://labodegadellupulo.s3.eu-west-3.amazonaws.com/images/birras/mobile/penatelera.jpg",
     "content": "Cerveza con cuerpo, destaca por su sabor a...",
@@ -862,7 +862,7 @@
   
     {
     "nombre": "Rabosa",
-    "url": "//tienda/rabosa.html",
+    "url": "/tienda/rabosa.html",
     "categoria": "Brown & Amber Ale",
     "imagen": "https://labodegadellupulo.s3.eu-west-3.amazonaws.com/images/birras/mobile/rabosa.jpg",
     "content": "Es una cerveza naranja-cobre, especiada, c...",
@@ -872,7 +872,7 @@
   
     {
     "nombre": "Ragnar Hopbrok",
-    "url": "//tienda/ragnarhopbrok.html",
+    "url": "/tienda/ragnarhopbrok.html",
     "categoria": "India Pale Ale",
     "imagen": "https://labodegadellupulo.s3.eu-west-3.amazonaws.com/images/birras/mobile/ragnarhopbrok.jpg",
     "content": "Una IPA con Doble Dry Hopping los lúpulos ...",
@@ -882,7 +882,7 @@
   
     {
     "nombre": "Raver",
-    "url": "//tienda/raver.html",
+    "url": "/tienda/raver.html",
     "categoria": "India Pale Ale",
     "imagen": "https://labodegadellupulo.s3.eu-west-3.amazonaws.com/images/birras/mobile/raver.jpg",
     "content": "Gran cerveza para disfrutar con una buena ...",
@@ -892,7 +892,7 @@
   
     {
     "nombre": "Relaxing coffee-milk stout cup",
-    "url": "//tienda/relaxingcafe.html",
+    "url": "/tienda/relaxingcafe.html",
     "categoria": "Stout & Porter",
     "imagen": "https://labodegadellupulo.s3.eu-west-3.amazonaws.com/images/birras/mobile/relaxingcafe.jpg",
     "content": "Variante stout dulce y sedosa gracias a la...",
@@ -902,7 +902,7 @@
   
     {
     "nombre": "Rondadora",
-    "url": "//tienda/rondadora.html",
+    "url": "/tienda/rondadora.html",
     "categoria": "Witbier & Weissbier",
     "imagen": "https://labodegadellupulo.s3.eu-west-3.amazonaws.com/images/birras/mobile/rondadora.jpg",
     "content": "Cerveza blanca de cuatro maltas y cuatro l...",
@@ -912,7 +912,7 @@
   
     {
     "nombre": "Destraperlo Rubia",
-    "url": "//tienda/rubia.html",
+    "url": "/tienda/rubia.html",
     "categoria": "Blonde Lager",
     "imagen": "https://labodegadellupulo.s3.eu-west-3.amazonaws.com/images/birras/mobile/rubia.jpg",
     "content": "Hecha a base de maltas Pilsen y lúpulos am...",
@@ -922,7 +922,7 @@
   
     {
     "nombre": "Sangara",
-    "url": "//tienda/sangara.html",
+    "url": "/tienda/sangara.html",
     "categoria": "Witbier & Weissbier",
     "imagen": "https://labodegadellupulo.s3.eu-west-3.amazonaws.com/images/birras/mobile/sangara.jpg",
     "content": "Cerveza que mueve el alma. Elaborada con m...",
@@ -932,7 +932,7 @@
   
     {
     "nombre": "Santa Rita",
-    "url": "//tienda/santarita.html",
+    "url": "/tienda/santarita.html",
     "categoria": "Blonde Lager",
     "imagen": "https://labodegadellupulo.s3.eu-west-3.amazonaws.com/images/birras/mobile/santarita.jpg",
     "content": "Nuestra nueva cerveza Premium. Santa Rita ...",
@@ -942,7 +942,7 @@
   
     {
     "nombre": "Sant Rock",
-    "url": "//tienda/santrock.html",
+    "url": "/tienda/santrock.html",
     "categoria": "Estilo Belga",
     "imagen": "https://labodegadellupulo.s3.eu-west-3.amazonaws.com/images/birras/mobile/santrock.jpg",
     "content": "Cerveza extra de inspiración trapense. El ...",
@@ -952,7 +952,7 @@
   
     {
     "nombre": "Session Stout",
-    "url": "//tienda/sessionstout.html",
+    "url": "/tienda/sessionstout.html",
     "categoria": "Stout & Porter",
     "imagen": "https://labodegadellupulo.s3.eu-west-3.amazonaws.com/images/birras/mobile/sessionstout.jpg",
     "content": "Una excelente cerveza negra, azabache, que...",
@@ -962,7 +962,7 @@
   
     {
     "nombre": "Shake the streets",
-    "url": "//tienda/shakethestreets.html",
+    "url": "/tienda/shakethestreets.html",
     "categoria": "Pale Ale",
     "imagen": "https://labodegadellupulo.s3.eu-west-3.amazonaws.com/images/birras/mobile/shakethestreets.jpg",
     "content": "Una Imperial Milkshake Cream Ale con lacto...",
@@ -972,7 +972,7 @@
   
     {
     "nombre": "Sidama",
-    "url": "//tienda/sidama.html",
+    "url": "/tienda/sidama.html",
     "categoria": "Stout & Porter",
     "imagen": "https://labodegadellupulo.s3.eu-west-3.amazonaws.com/images/birras/mobile/sidama.jpg",
     "content": "Cerveza de color caoba, con base de café y...",
@@ -982,7 +982,7 @@
   
     {
     "nombre": "Sr. Lobo",
-    "url": "//tienda/srlobo.html",
+    "url": "/tienda/srlobo.html",
     "categoria": "Stout & Porter",
     "imagen": "https://labodegadellupulo.s3.eu-west-3.amazonaws.com/images/birras/mobile/srlobo.jpg",
     "content": "Una cerveza oscura elaborada con chocolate...",
@@ -992,7 +992,7 @@
   
     {
     "nombre": "Tarántula",
-    "url": "//tienda/tarantula.html",
+    "url": "/tienda/tarantula.html",
     "categoria": "India Pale Ale",
     "imagen": "https://labodegadellupulo.s3.eu-west-3.amazonaws.com/images/birras/mobile/tarantula.jpg",
     "content": "Si nos dejamos llevar por el olfato, el ar...",
@@ -1002,7 +1002,7 @@
   
     {
     "nombre": "The Fits",
-    "url": "//tienda/thefits.html",
+    "url": "/tienda/thefits.html",
     "categoria": "India Pale Ale",
     "imagen": "https://labodegadellupulo.s3.eu-west-3.amazonaws.com/images/birras/mobile/thefits.jpg",
     "content": "Intensa y bastante frutal. Se presenta de ...",
@@ -1012,7 +1012,7 @@
   
     {
     "nombre": "This is Equinox",
-    "url": "//tienda/thisisequinox.html",
+    "url": "/tienda/thisisequinox.html",
     "categoria": "India Pale Ale",
     "imagen": "https://labodegadellupulo.s3.eu-west-3.amazonaws.com/images/birras/mobile/thisisequinox.jpg",
     "content": "Se caracteriza por su perfil marcado de lú...",
@@ -1022,7 +1022,7 @@
   
     {
     "nombre": "Trappistes Rochefort 8",
-    "url": "//tienda/trappistes.html",
+    "url": "/tienda/trappistes.html",
     "categoria": "Estilo Belga",
     "imagen": "https://labodegadellupulo.s3.eu-west-3.amazonaws.com/images/birras/mobile/trappistes.jpg",
     "content": "Auténtica cerveza trapense. Es una cerveza...",
@@ -1032,7 +1032,7 @@
   
     {
     "nombre": "Trappistes Rochefort 10",
-    "url": "//tienda/trappistes10.html",
+    "url": "/tienda/trappistes10.html",
     "categoria": "Estilo Belga",
     "imagen": "https://labodegadellupulo.s3.eu-west-3.amazonaws.com/images/birras/mobile/trappistes10.jpg",
     "content": "Presenta un color marrón oscuro profundo. ...",
@@ -1042,7 +1042,7 @@
   
     {
     "nombre": "Destraperlo Trigo",
-    "url": "//tienda/trigo.html",
+    "url": "/tienda/trigo.html",
     "categoria": "Witbier & Weissbier",
     "imagen": "https://labodegadellupulo.s3.eu-west-3.amazonaws.com/images/birras/mobile/trigo.jpg",
     "content": "Cerveza de malta tipo “Andalusí Ecológica ...",
@@ -1052,7 +1052,7 @@
   
     {
     "nombre": "Tronada",
-    "url": "//tienda/tronada.html",
+    "url": "/tienda/tronada.html",
     "categoria": "India Pale Ale",
     "imagen": "https://labodegadellupulo.s3.eu-west-3.amazonaws.com/images/birras/mobile/tronada.jpg",
     "content": "Las tormentas de verano son tan repentinas...",
@@ -1062,7 +1062,7 @@
   
     {
     "nombre": "Valhöll",
-    "url": "//tienda/valholl.html",
+    "url": "/tienda/valholl.html",
     "categoria": "India Pale Ale",
     "imagen": "https://labodegadellupulo.s3.eu-west-3.amazonaws.com/images/birras/mobile/valholl.jpg",
     "content": "La vida no es un paseo por un campo tranqu...",
@@ -1072,7 +1072,7 @@
   
     {
     "nombre": "Valvuline",
-    "url": "//tienda/valvuline.html",
+    "url": "/tienda/valvuline.html",
     "categoria": "Stout & Porter",
     "imagen": "https://labodegadellupulo.s3.eu-west-3.amazonaws.com/images/birras/mobile/valvuline.jpg",
     "content": "Una de nuestras mejores Porters de nuestro...",
@@ -1082,7 +1082,7 @@
   
     {
     "nombre": "Vedett Extra Ordinary IPA",
-    "url": "//tienda/vedettipa.html",
+    "url": "/tienda/vedettipa.html",
     "categoria": "India Pale Ale",
     "imagen": "https://labodegadellupulo.s3.eu-west-3.amazonaws.com/images/birras/mobile/vedettipa.jpg",
     "content": "Ofrece una explosión de amargura sabrosa q...",
@@ -1092,7 +1092,7 @@
   
     {
     "nombre": "Vedett Extra White",
-    "url": "//tienda/vedettwhite.html",
+    "url": "/tienda/vedettwhite.html",
     "categoria": "Witbier & Weissbier",
     "imagen": "https://labodegadellupulo.s3.eu-west-3.amazonaws.com/images/birras/mobile/vedettwhite.jpg",
     "content": "Esta cerveza es increíblemente refrescante...",
@@ -1102,7 +1102,7 @@
   
     {
     "nombre": "Vértigo",
-    "url": "//tienda/vertigo.html",
+    "url": "/tienda/vertigo.html",
     "categoria": "India Pale Ale",
     "imagen": "https://labodegadellupulo.s3.eu-west-3.amazonaws.com/images/birras/mobile/vertigo.jpg",
     "content": "La alta graduación de esta Doble IPA podrí...",
@@ -1112,7 +1112,7 @@
   
     {
     "nombre": "Volaera Rubia IPA",
-    "url": "//tienda/volaeraipa.html",
+    "url": "/tienda/volaeraipa.html",
     "categoria": "India Pale Ale",
     "imagen": "https://labodegadellupulo.s3.eu-west-3.amazonaws.com/images/birras/mobile/volaeraipa.jpg",
     "content": "Cerveza con mucho carácter y una bomba de ...",
@@ -1122,7 +1122,7 @@
   
     {
     "nombre": "Volaera Rubia",
-    "url": "//tienda/volaerarubia.html",
+    "url": "/tienda/volaerarubia.html",
     "categoria": "Blonde Lager",
     "imagen": "https://labodegadellupulo.s3.eu-west-3.amazonaws.com/images/birras/mobile/volaerarubia.jpg",
     "content": "Destaca por ser una cerveza equilibrada, r...",
@@ -1132,7 +1132,7 @@
   
     {
     "nombre": "Volaera Negra Stout",
-    "url": "//tienda/volaerastout.html",
+    "url": "/tienda/volaerastout.html",
     "categoria": "Stout & Porter",
     "imagen": "https://labodegadellupulo.s3.eu-west-3.amazonaws.com/images/birras/mobile/volaerastout.jpg",
     "content": "Cerveza negra totalmente opaca, con un gra...",
@@ -1142,7 +1142,7 @@
   
     {
     "nombre": "Volaera Tostada",
-    "url": "//tienda/volaeratostada.html",
+    "url": "/tienda/volaeratostada.html",
     "categoria": "Brown & Amber Ale",
     "imagen": "https://labodegadellupulo.s3.eu-west-3.amazonaws.com/images/birras/mobile/volaeratostada.jpg",
     "content": "Cerveza con mucho cuerpo, destaca su sabor...",
@@ -1152,7 +1152,7 @@
   
     {
     "nombre": "Windmill",
-    "url": "//tienda/windmill.html",
+    "url": "/tienda/windmill.html",
     "categoria": "India Pale Ale",
     "imagen": "https://labodegadellupulo.s3.eu-west-3.amazonaws.com/images/birras/mobile/windmill.jpg",
     "content": "Windmill es la cerveza en la que se juntan...",
@@ -1162,7 +1162,7 @@
   
     {
     "nombre": "Words Are Very Unnecessary",
-    "url": "//tienda/words.html",
+    "url": "/tienda/words.html",
     "categoria": "India Pale Ale",
     "imagen": "https://labodegadellupulo.s3.eu-west-3.amazonaws.com/images/birras/mobile/words.jpg",
     "content": "Presenta los lúpulos Amarillo, Simcoe &amp...",
@@ -1172,7 +1172,7 @@
   
     {
     "nombre": "Zendra",
-    "url": "//tienda/zendra.html",
+    "url": "/tienda/zendra.html",
     "categoria": "Brown & Amber Ale",
     "imagen": "https://labodegadellupulo.s3.eu-west-3.amazonaws.com/images/birras/mobile/zendra.jpg",
     "content": "Cerveza de edición limitada, pensada para ...",
