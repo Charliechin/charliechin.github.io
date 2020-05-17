@@ -22,6 +22,9 @@
 
 // ALL THIS WAS GIVING ME HEADACHES, STUFF LIKE LOADING EVERY TWO ROWS AND SUCH SO I COMMENTED IT OUT. IT WILL BREAK SOME LAYOUTS
 
+.card {
+  border: 1px solid #d88b22;
+}
 .card a,
 .card a:hover,
 .card a:focus,

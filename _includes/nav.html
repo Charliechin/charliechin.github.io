@@ -63,12 +63,20 @@
 
           {% for item in site.data.navigation %}
 
+          {% if item.name contains "PDF" %}
 
+          <li class="nav-item">
+            <a class="nav-link" href="{{ item.link }}" {% if page.url == item.link %}class="current"
+              {% endif %}>{{ item.name }}</a>
+          </li>
+          {% else %}
 
           <li class="nav-item">
             <a class="nav-link" href="{{ site.baseurl }}/{{ item.link }}" {% if page.url == item.link %}class="current"
               {% endif %}>{{ item.name }}</a>
           </li>
+
+          {% endif %}
           {% endfor %}
 
           <!-- Carrito comentado hasta nuevo aviso -->
