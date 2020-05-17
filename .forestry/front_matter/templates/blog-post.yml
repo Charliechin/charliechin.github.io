@@ -1,0 +1,21 @@
+---
+label: Blog post
+hide_body: false
+fields:
+- name: titulo
+  type: text
+  config:
+    required: true
+    min: 5
+  label: Titulo
+  description: El titulo del post
+- name: texto_principal
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: false
+    schema:
+      format: markdown
+  label: texto principal
+  description: Aqui va el texto principal del articulo/blog post
