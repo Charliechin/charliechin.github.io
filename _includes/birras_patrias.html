@@ -1,0 +1,12 @@
+{% assign birras = site.birras | where_exp:"item", "item.origen contains 'España'" | sample: 6 %}
+
+<div class="row" id="en-botella">
+  <h3>Cervezas de aqui</h3>
+  <hr>
+  {% for birra in birras limit: 6 %}
+  <div class="col-4">
+    <p>{{ birra.nombre }}</p>
+    <p>{{ birra.precio }}</p>
+  </div>
+  {% endfor %}
+</div>

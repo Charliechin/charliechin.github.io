@@ -1,39 +1,30 @@
-<div class="card">
-  <a href="{{site.url}}/{{include.b.url}}">
-    <div class="product-grid9">
-      <div class="product-image9">
-        <img srcset="{{ site.baseimageurl }}mobile/{{include.b.imagen}} 250w"
-          srcset="{{ site.baseimageurl }}desktop/{{include.b.imagen}} 485w" sizes="(min-width: 760px) 50vw, 100vw"
-          alt="{{include.b.nombre}}" class="pic" data-src="{{site.baseimageurl}}mobile/{{include.b.imagen}}">
-      </div>
-      <div class="product-content p-2">
-        <!-- <ul class="rating">
-        <li class="fa fa-star"></li>
-        <li class="fa fa-star"></li>
-        <li class="fa fa-star"></li>
-        <li class="fa fa-star"></li>
-        <li class="fa fa-star"></li>
-      </ul> -->
-        <span style="font-weight: 700;">{{ include.b.nombre | capitalize | replace: "_", " " }}</span>
-        <br>
-        <small class="text-muted">
-          <i class="fa fa-bullseye"></i> {{ include.b.volumen }}
-        </small>
-        <br>
-        <small class="text-muted">
-          <i class="fa fa-beer"></i> {{ include.b.formato }}
-        </small>
-        <br>
-        <small class="text-muted">
-          <i class="fa fa-euro"></i> {{ include.b.pvp }} €
-        </small>
-        <hr>
-        <div class="text-center mb-1">
-          {% include btn_compra_birra.html b=b %}
+<div class="col-6 col-md-4 col-lg-3 d-flex align-items-stretch">
+  <figure class="card card-product" id="{{include.el.nombre| downcase | replace:" ","-"}}">
+    <a href="{{ include.el.url }}">
+      <div class="img-wrap">
+        <!-- <img src="https://s9.postimg.org/tupxkvfj3/image.jpg"> -->
+        <div class="image-wrapper">
+          <picture>
+            <source data-srcset="{{ site.baseimageurl }}desktop/{{include.el.imagen}}" media="(min-width: 1200px)" />
+            <source data-srcset="{{ site.baseimageurl }}desktop/{{include.el.imagen}}" media="(min-width: 600px)" />
+            <img data-src="{{ site.baseimageurl }}mobile/{{include.el.imagen}}" class="lazy image card-img-top" />
+          </picture>
         </div>
-        <!-- <div class="price">{{ include.b.pvp }} €</div> -->
-        <!-- <a class="add-to-cart" href="">VIEW PRODUCTS</a> -->
       </div>
-    </div>
-  </a>
-</div>
+      <figcaption class="info-wrap">
+        <h5 class="title"><strong>{{ include.el.nombre }}</strong></h5>
+        <p class="desc">{{ include.el.content | truncatewords: 12 }}</p>
+        <!-- <div class="rating-wrap">
+        <div class="label-rating">132 reviews</div>
+        <div class="label-rating">154 orders </div>
+      </div> -->
+      </figcaption>
+      <div class="bottom-wrap text-center p-2 mt-auto mb-0">
+        <div class="price-wrap h5">
+          <span class="price-new">{{ include.el.pvp }} €</span>
+        </div> <!-- price-wrap.// -->
+    </a>
+    {% include btn_compra_birra.html b=include.el %}
+</div> <!-- bottom-wrap.// -->
+</figure>
+</div> <!-- col // -->

@@ -1,0 +1,99 @@
+// .card-product {
+//   min-width: 130px;
+//   @media screen and (min-width:1200px) {
+//   min-width: 340px;
+
+//   }
+// }
+
+// ALL THIS WAS GIVING ME HEADACHES, STUFF LIKE LOADING EVERY TWO ROWS AND SUCH SO I COMMENTED IT OUT. IT WILL BREAK SOME LAYOUTS
+
+// .card-product .img-wrap {
+//   border-radius: 3px 3px 0 0;
+//   overflow: hidden;
+//   position: relative;
+//   // height: 220px;
+//   height: 170px;
+//   @media screen and (min-width:1200px) {
+//     // height: 340px;
+//     height: 330px;
+//   }
+// }
+
+// ALL THIS WAS GIVING ME HEADACHES, STUFF LIKE LOADING EVERY TWO ROWS AND SUCH SO I COMMENTED IT OUT. IT WILL BREAK SOME LAYOUTS
+
+.card {
+  border: 1px solid #d88b22;
+}
+.card a,
+.card a:hover,
+.card a:focus,
+.card a:active {
+  color: #444;
+  text-decoration: none;
+}
+
+
+.card-product .img-wrap img {
+  max-height: 100%;
+  max-width: 100%;
+  object-fit: cover;
+}
+.card-product .info-wrap {
+  overflow: hidden;
+  padding: 15px;
+  border-top: 1px solid #eee;
+}
+.card-product .bottom-wrap {
+  border-top: 1px solid #eee;
+}
+
+.label-rating { margin-right:10px;
+  color: #333;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.card-product .price-old {
+  color: #999;
+}
+// Don't do thisss
+.white{
+  color: #fff!important;
+}
+
+.product-nombre {
+  font-weight: 700;
+
+}
+
+// .foamy {
+//   background-image: url("/assets/images/svg/beer_foam_bg.svg");
+//   background-size: cover;
+//   background-repeat: no-repeat;
+//   @media screen and (min-width:768px) {
+//     background-image: url("/assets/images/svg/beer_foam_bg.svg");
+// }
+// }
+
+.simple-carousel-img { 
+  // MAKE THIS RESPONSIVE, 3 imgs or so
+  width: 120px;
+    @media screen and (min-width:768px) {
+      width: 230px;
+  }
+
+}
+
+
+div.horizontal {
+  display: flex;
+  justify-content: center;
+
+}
+
+div.vertical {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}

@@ -1,20 +1,10 @@
 ---
-layout: default
+layout: tienda
 title: Blonde & Lager
+permalink: /tienda/blonde_lager.html
+categoria: Blonde_Lager
 ---
-{% assign birras = site.birras | where:'categoria', 'Blonde_Lager' %}
-
-<div class="container-fluid pb-5">
-  <div class="container">
-    {% include seccion_title.html%}
-
-    <div class="row">
-      {% for birra in birras %}
-      <div class="col-md-3 col-sm-6 mb-2">
-        {% include birra_card.html b=birra %}
-      </div>
-      {% endfor %}
-    </div>
-    {% include volver_inicio_btn.html%}
-  </div>
-</div>
+{% assign birras = site.birras | where:'categoria', page.categoria %}
+{% for birra in birras %}
+{% include birra_card.html el=birra %}
+{% endfor %}

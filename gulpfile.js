@@ -10,11 +10,12 @@ var uglify = require('gulp-uglify');
 var cssnano = require('cssnano');
 var imagemin = require('gulp-imagemin');
 var htmlhint = require("gulp-htmlhint");
+var purgecss = require('gulp-purgecss');
+var htmlmin = require('gulp-htmlmin');
 
 var messages = {
   jekyllBuild: '<span style="color: grey">Running:</span> $ jekyll build'
 };
-
 // Gulp as asset manager for jekyll. Please note that the assets folder is never cleaned
 //so you might want to manually delete the _site/assets folder once in a while.
 // this is because gulp will move files from the assets directory to _site/assets,
@@ -74,7 +75,7 @@ gulp.task('sass-rebuild', function () {
     autoprefixer({ browsers: ['last 2 version'] }),
     cssnano()
   ];
-  return gulp.src('_assets/sass/**/*.scss')
+  return gulp.src('_assets/sass/**/site.scss')
     .pipe(sourcemaps.init())
     .pipe(sass())
     .pipe(sourcemaps.init())
@@ -97,8 +98,8 @@ gulp.task('js-rebuild', function (cb) {
 
 gulp.task('images-rebuild', function (cb) {
 
-  return gulp.src('_assets/img/**/*.*')
-    .pipe(gulp.dest('_site/assets/img/'))
+  return gulp.src('_assets/images/**/*.*')
+    .pipe(gulp.dest('_site/assets/images/'))
     .pipe(browserSync.reload({
       stream: true
     }))
@@ -108,7 +109,7 @@ gulp.task('images-rebuild', function (cb) {
  * Default task, running just `gulp` will 
  * compile the jekyll site, launch BrowserSync & watch files.
  */
-gulp.task('default', ['serve', 'watch', 'watch-sass', 'watch-js', 'watch-images']);
+gulp.task('default', ['serve', 'watch', 'watch-sass', 'watch-js', 'watch-images', 'pages']);
 
 
 //build and deploy stuff
@@ -125,7 +126,17 @@ gulp.task('w3', function () {
   gulp.src("_site/**/*.html")
     .pipe(htmlhint())
     .pipe(htmlhint.reporter())
+});
+
+gulp.task('pages', function () {
+  return gulp.src(['_site/**/*.html'])
+    .pipe(htmlmin({
+      collapseWhitespace: true,
+      removeComments: true
+    }))
+    .pipe(gulp.dest('./_site/'));
 })
+
 // validate from the command line instead, works better
 // npm install htmlhint -g
 // htmlhint _site/**/*.html

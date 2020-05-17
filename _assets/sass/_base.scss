@@ -1,0 +1,125 @@
+*{
+  min-height: 0;
+  min-width: 0;
+  }
+  
+html {
+  font-size: 16px;
+}
+
+.description {
+  max-width: 72ch;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  line-height: 1.6;
+  font-family: 'Mukta', sans-serif;
+}
+
+
+body {
+  color: #504037;
+  // overflow: hidden;
+  background-color: #E5A224!important;
+}
+
+@media screen and (min-width: 320px) {
+  html {
+    font-size: calc(16px + 6 * ((100vw - 320px) / 680));
+  }
+}
+@media screen and (min-width: 1000px) {
+  html {
+    font-size: 22px;
+  }
+}
+
+.image-wrapper{
+  width: 100%;
+  height: 0;
+  padding-bottom: 130%; /* You define this doing image height / width * 100% */
+  position: relative;
+}
+.image { 
+  width: 100%;
+  height: auto;
+  position: absolute;
+}
+
+.logo-mobile {
+background-color: red;
+}
+
+
+.bg-beer-clear {
+  background-color: #e5a224;
+}
+.bg-beer-dark {
+  background-color: #d88b22;
+}
+
+.beer-clear {
+  color: #e5a224;
+}
+.beer-dark {
+color: #d88b22;
+}
+.beer-text {
+  color: #504037; 
+}
+
+.btn-compra {
+  background-color: #504037;
+  color: white;
+}
+
+
+.breadcrumbs {
+  background: url(/assets/images/svg/beer-hat.svg);
+    height: 0;
+    background-size: cover;
+    background-repeat: no-repeat; 
+    padding-bottom: calc(50% * 1/ 5);
+
+}
+.breadcrumbs a {
+  color: #504037;
+}
+
+
+// Seccion cervezas_populares, menos de 3, solo latas, solo cervezas, etc...
+.container-title{
+  display:flex;
+  align-items: center;
+}
+.section-logo {
+    width: 70px;
+    height: 70px;
+    max-width: 100%;
+    margin-right: 10px;
+}
+
+
+// !Seccion cervezas_populares, menos de 3, solo latas, solo cervezas, etc...
+
+
+
+// NEW IMPORT
+.image-wrapper-secciones-random{
+  // height: 500px;
+  // height: 0;
+  padding-bottom: 5%; /* You define this doing image height / width * 100% */
+  position: relative;
+}
+.image-wrapper-secciones-random img {
+  height: 217px;
+  object-fit: cover;
+}
+
+ a,
+ a:hover,
+ a:focus,
+a:active {
+  color: #504037;
+  text-decoration: none;
+}
+// NEW IMPORT

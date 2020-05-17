@@ -1,0 +1,10 @@
+---
+layout: tienda
+title: Cervezas en Lata
+permalink: /tienda/en_lata.html
+---
+{% assign birras = site.birras | where_exp:"item", "item.formato contains 'Lata'" %}
+
+{% for birra in birras %}
+{% include birra_card.html el=birra %}
+{% endfor %}

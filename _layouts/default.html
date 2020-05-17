@@ -1,29 +1,40 @@
 <!DOCTYPE html>
 <html lang="es" href="#top">
-
-{% include header_js.html %}
+{% include header.html %}
 
 <body>
+
   <!-- nav goes here -->
   {% if site.construccion == "false" %}
   {% include nav.html %}
   {% endif %}
+
   <!-- <main class="white-bg" role="main"> -->
-  <main role="main" class="mt-3">
+  <main role="main">
+    <div class="container-fluid bg-beer-dark">
+      <div class="row">
+        <div class="col-12 px-0 pt-4 mb-0">
+          {% include breadcrumbs.html %}
+        </div>
+      </div>
+    </div>
+
+
     {% if site.construccion == "false" %}
     {{ content }}
     {% else %}
     {% include construccion.html %}
     {% endif %}
   </main>
+
   {% include footer.html %}
 
   <div hidden id="snipcart" data-api-key="YzU3MzhiOWYtNWE3My00ZjI4LWI0M2EtNDY0NDY0ODMwYTc4NjM3MjA5ODYyMTg5MDMxNjY4">
   </div>
   <script src="https://cdn.snipcart.com/themes/v3.0.12/default/snipcart.js"></script>
-
+  {% include cookie-consent.html %}
+  {% include js_scripts.html %}
+  {% include modal_over_18.html %}
 </body>
-{% include js_scripts.html %}
-
 
 </html>

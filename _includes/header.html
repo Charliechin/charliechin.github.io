@@ -1,0 +1,39 @@
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <!-- <meta name="description" content="{{ page.excerpt | default: site.description | strip_html | normalize_whitespace | truncate: 160 | escape }}"> -->
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+  <meta name="Description"
+    content="La Bodega del Lúpulo, Una curada seleccion de cervezas con entregas a domicilio. Contamos con tienda en Jerez de la Frontera.">
+  <meta name="google-site-verification" content="w25L7kGTieMrTgYhWBweVYRhOCU0H7hkIqpvmvoeafs" />
+
+
+
+
+
+
+  {% include styles.html %}
+  {% include favicon.html %}
+  {% include core_js.html %}
+
+
+  <title>{{ page.title }} | La bodega del Lúpulo</title>
+</head>
+
+{% if site.development == true %}
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-12">
+      <div class="alert alert-danger">
+        <h4>DEVELOPMENT BITCH</h4>
+        <h4>DEVELOPMENT BITCH</h4>
+        <h4>DEVELOPMENT BITCH</h4>
+      </div>
+    </div>
+  </div>
+</div>
+<script src="https://cdn.lr-ingest.io/LogRocket.min.js" crossorigin="anonymous"></script>
+<script>window.LogRocket && window.LogRocket.init('o0tyud/something');</script>
+{% endif %}

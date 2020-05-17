@@ -1,0 +1,18 @@
+{% assign birras = site.birras | where_exp:"item", "item.precio < 3"| sample: 6 %}
+<section id="cervezas_menos_de_tres">
+
+  <div class="container-title pl-4 mb-2">
+    <img src="/assets/images/svg/beer_having_fun.svg" class="section-logo" alt="">
+    <h4 class="strong-700 description">Por menos de 3€</h1>
+  </div>
+
+  <div class="col-12 carousel-wrapper text-center mb-4">
+    <div class="slick-1">
+      {% for birra in birras %}
+      <div class="slide">
+        {% include birra_card_simple.html el=birra  %}
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+</section>

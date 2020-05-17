@@ -1,0 +1,9 @@
+---
+layout: tienda
+title: Todas las cervezas
+descripcion: Esta es nuestra coleccion de cervezas.
+---
+
+{% for birra in site.birras %}
+{% include birra_card.html el=birra %}
+{% endfor %}

@@ -1,106 +1,75 @@
 ---
 layout: default
-title: Cervezas
+title: Tu tienda de cervecitas a domicilio
+cabecera: La Bodega del Lúpulo
+descripcion: "Has encontrado la mejor selección de cerveza artesanal disponible. Navegue por todas las cervezas o
+desplácese por nuestras secciones para encontrar la suya."
 ---
 
-{% for birra in site.birras %}
-{% assign ttags = birra.categoria | join:'|' | append:'|' %}
-{% assign rawtags = rawtags | append:ttags %}
-{% endfor %}
-{% assign rawtags = rawtags | split:'|' | sort %}
+
+
+<div class="container-fluid">
+  <div class="row bg-white pt-2 mb-5" style="border-bottom: 2px solid #d88b22">
+    <div class="mx-auto col-12 text-center pt-3 pb-5 description" id="intro-section">
+      <h1>{{ page.cabecera }}</h1>
+      <p>
+        {{ page.descripcion }}
+      </p>
+      <a href="/tienda" class="btn btn-lg btn-outline btn-warning">Ir a la tienda</a>
+    </div>
+  </div>
+
+
+  <!-- <img src="/assets/images/svg/beer_foam_bg.svg" alt=""> -->
+
+  {% include cervezas_populares.html max=8 %}
+  {% include promo_cervezas.html %}
+  {% include menos_de_tres.html %}
+
+
+</div>
+
+
+
+
 
 {% comment %}
-=======================
-Lo siguiente elimina tags duplicadas y en blanco
-=======================
-{% endcomment %}
 
-{% assign tags = "" %}
-{% for tag in rawtags %}
-{% if tag != "" %}
-{% if tags == "" %}
-{% assign tags = tag | split:'|' %}
-{% endif %}
-{% unless tags contains tag %}
-{% assign tags = tags | join:'|' | append:'|' | append:tag | split:'|' %}
-{% endunless %}
-{% endif %}
+<!-- Todo esto funciona -->
+<div class="row">
+  <div class="col-12">
+    <h3>Populares</h3>
+    <hr>
+  </div>
+  {% for birra in site.birras limit: 12 %}
+  {% include birra_card.html el=birra  %}
+  {% endfor %}
+</div>
+
+{% include menos_de_tres.html %}
+{% include en_botella.html %}
+{% include en_lata.html %}
+{% include birras_patrias.html %}
+
+
+<picture>
+  <source srcset="https://via.placeholder.com/1000x1000.png?text=1000+x+1000" media="(min-width: 1200px)" />
+  <source srcset="https://via.placeholder.com/500x500.png?text=500+x+500" media="(min-width: 600px)" />
+  <img src="{{ site.baseimageurl }}mobile/vedettipa.jpg" />
+</picture>
+
+
+
+<h2>Birras</h2>
+{% for birra in site.birras %}
+<hr>
+<div class="image-wrapper">
+  <picture>
+    <source data-srcset="https://via.placeholder.com/1000x1000.png?text=1000+x+1000" media="(min-width: 1200px)" />
+    <source data-srcset="{{ site.baseimageurl }}desktop/{{birra.imagen}}" media="(min-width: 600px)" />
+    <img data-src="{{ site.baseimageurl }}mobile/{{birra.imagen}}" class="lazy image" />
+  </picture>
+</div>
+<hr>
 {% endfor %}
-
-<!-- nav -->
-<div class="container pb-5">
-
-  <div class="row">
-    <div class="col-12">
-      {% include search.html%}
-    </div>
-    {% comment %}
-    <div class="col-12 col-md-12 col-lg-3 mb-2 seleccion-container">
-      <div class="card">
-        <div class="card-body">
-          <h5 class="card-title mb-3 mt-2">Nuestra Selección</h5>
-          {% for tag in tags %}
-          <a class="card-text list-group-item list-group-item-action"
-            href="#{{ tag | slugify }}">{{tag | replace: "_", " "}}</a>
-          <!-- <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p> -->
-          {% endfor %}
-        </div>
-      </div>
-    </div>
-    {% endcomment %}
-
-  </div>
-</div>
-
-<div class="container mt-5">
-  <!--  -->
-  <div class=" row">
-    {% for tag in tags %}
-    <!-- Pon esto en un include -->
-    <div class="col-12">
-      <div class="card">
-        <div class="card-body">
-          <h5 style="font-weight:700" class="card-title text-center mb-2">
-            <span id="{{ tag | slugify }}" class="anchor"></span>{{ tag | replace: "_", " " }}
-          </h5>
-          <div class="your-class">
-            {% for birra in site.birras %}
-            {% if birra.categoria contains tag %}
-
-
-            <div class="birra-carousel-item">
-              <a href="{{ birra.url }}">
-
-                <img data-lazy="{{site.baseimageurl}}mobile/{{birra.imagen}}" class="img-fluid mb-3" alt="">
-                <span style="font-weight: 700;">{{ birra.nombre | capitalize | replace: "_", " " }}</span> - <small
-                  class="text-muted">{{ birra.volumen }}</small>
-                <hr>
-                <small class="text-muted">
-                  <i class="fa fa-beer"></i> {{ birra.formato }}
-                </small>
-                <br>
-                <small class="text-muted">
-                  <i class="fa fa-money"></i> {{ birra.pvp }} €
-                </small>
-                <hr>
-              </a>
-              <div class="text-center">
-                {% include btn_compra_birra.html b=birra %}
-              </div>
-            </div>
-            {% endif %}
-            {% endfor %}
-          </div>
-          <p class="mt-4 text-center">
-            <a href="{{site.url}}/{{tag | downcase}}" class=" btn btn-lg btn-warning">Ver todas</a>
-          </p>
-        </div>
-      </div>
-    </div>
-    {% endfor %}
-    <!-- !!Pon esto en un include -->
-
-  </div>
-  <!--  -->
-
-</div>
+{% endcomment %}

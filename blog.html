@@ -1,0 +1,20 @@
+---
+title: Blog
+layout: default
+---
+
+
+<div class="container-fluid bg-white py-4">
+
+  <h1 class="text-center">El Blog del Lúpulo</h1>
+</div>
+<div class="container">
+  <hr>
+  <div class="card-deck">
+    {% for post in site.posts %}
+
+    {% include post_card.html pEl=post %}
+
+    {% endfor %}
+  </div>
+</div>

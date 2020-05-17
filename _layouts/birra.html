@@ -1,149 +1,70 @@
-<!DOCTYPE html>
-<html lang="es">
-
-{% include header_js.html %}
-
-<body>
-  {% include nav.html %}
-  <main role="main">
-    <!-- <div class="container-fluid"> -->
-    <!-- <div class="row"> -->
-    <!-- <div class="col-12">
-          <a href="site.url/birras/">Birras</a> > <a
-            href="site.url/birras/#page.categoria[0] | replace: '_', ' ' ">page.categoria[0] | replace: "_", " " </a>
-          >  page.nombre 
-        </div> -->
-    <!-- </div> -->
-    <!-- </div> -->
-    <div class="container birrazo">
-
-      <div class="row mt-2">
-        <div class="col-12 col-sm-4" id="imagenBirra">
-          <div class="card card-plain text-center back-foam-image">
-            <img srcset="{{ site.baseimageurl }}desktop/{{page.imagen}} 439w" sizes="(max-width: 600px) 188px, 439px"
-              alt="{{page.nombre}}" class="main-image">
-          </div>
-        </div>
-
-        <div class="col-12 col-sm-8 birra-titulo-block" id="tituloBirra">
-          <div class="card card-no-hover">
-            <div class="card-body">
-              <h5 class="card-title birra-titulo" style="font-weight: 700;">
-                {{ page.nombre }} - {{ page.formato }}</h5>
-              <small class="text-muted font-weight-bold">{{ page.pvp }} €</small>
-              <hr>
-              <div class="text-center">
-                {% include btn_compra_birra.html b=page %}
-              </div>
-              <hr>
-              <small class="birra-small-categoria">Categoria:
-                {{ page.categoria.first | replace:'_', '  '}}</small>
-            </div>
-          </div>
-        </div>
-        <div class="col-12" id="attrBirra">
-          <div class="card">
-            <div class="card-body">
-              <h5 class="card-title birra-titulo" style="font-weight: 700;">Detalles</h5>
-              <hr>
-
-              <div class="row">
-                {% unless page.tipo == null %}
-                <div class="col-6">
-                  <small class=""><span style="font-weight:700;">Tipo:</span> {{page.tipo}}</small>
-                </div>
-                {% endunless %}
-                {% unless page.ibu == null %}
-                <div class="col-6">
-                  <small class=""><span style="font-weight:700;">IBU:</span> {{page.ibu }}</small>
-                </div>
-                {% endunless %}
-                {% unless page.ebc == null %}
-                <div class="col-6">
-                  <small class=""><span style="font-weight:700;">EBC:</span> {{page.ebc }}</small>
-                </div>
-                {% endunless %}
-                {% unless page.maltas == null %}
-                <div class="col-6">
-                  <small class=""><span style="font-weight:700;">Maltas:</span> {{page.maltas }}</small>
-                </div>
-                {% endunless %}
-                {% unless page.lupulos == null %}
-                <div class="col-6">
-                  <small class=""><span style="font-weight:700;">Lúpulos:</span> {{page.lupulos }}</small>
-                </div>
-                {% endunless %}
-                {% unless page.levaduras == null %}
-                <div class="col-6">
-                  <small class=""><span style="font-weight:700;">Levaduras:</span> {{page.levaduras }}</small>
-                </div>
-                {% endunless %}
-                {% unless page.origen == null %}
-                <div class="col-6">
-                  <small class=""><span style="font-weight:700;">Origen:</span> {{page.origen }}</small>
-                </div>
-                {% endunless %}
-                {% unless page.formato == null %}
-                <div class="col-6">
-                  <small class=""><span style="font-weight:700;">Formato:</span> {{page.formato }}</small>
-                </div>
-                {% endunless %}
-              </div>
+---
+layout: default
+---
 
 
+<div class="container-fluid bg-white pt-5 pb-3 text-center">
+  <h1 class="text-center mb-2 birra-text">{{ page.nombre }}</h1>
+  <!-- pon en inlcude -->
+  {% assign crumbs = page.url | remove:'/index.html' | split: '/' %}
+  <a class="" href="/">Home</a>
+  {% for crumb in crumbs offset: 1 %}
+  {% if forloop.last %}
+  / <span class="strong-700">{{ page.title }}</span>
+  {% else %}
+  / <a
+    href="{% assign crumb_limit = forloop.index | plus: 1 %}{% for crumb in crumbs limit: crumb_limit %}{{ crumb | append: '/' | replace:'without-plugin/','without-plugins/' }}{% endfor %}">{{ crumb | replace:'-',' ' | remove:'.html' | capitalize }}</a>
+  {% endif %}
+  {% endfor %}
+  <!-- pon en inlcude -->
 
 
+</div>
+<div class="container mt-5">
+  <div class="row">
+    <div class="col-12 col-md-6 col-xl-4 text-center">
 
-
-
-
-
-
-
-            </div>
-          </div>
-        </div>
-        <div class="col-12" id="descripcionBirra">
-
-          <div class="card">
-            <div class="card-body birra-descripcion">
-              <h5 class="card-title birra-titulo" style="font-weight: 700;">Descripcion</h5>
-              <hr>
-              {{ page.content | remove: '<p>' | remove: '</p>' }}
-            </div>
-          </div>
-
-        </div>
-
+      <div class="birra-imagen-producto-wrapper">
+        <picture>
+          <source data-srcset="{{ site.baseimageurl }}desktop/{{page.imagen}} w300" media="(min-width: 1200px)" />
+          <source data-srcset="{{ site.baseimageurl }}desktop/{{page.imagen}}" media="(min-width: 600px)" />
+          <img data-src="{{ site.baseimageurl }}mobile/{{page.imagen}}" class="lazy rounded img-thumbnail" />
+        </picture>
       </div>
 
-      <div class="row">
-        <div class="col-12 text-center">
-          <div class="card">
-            <div class="card-body">
-              <a href="{{site.url}}" class="btn  btn-lg btn-warning">Volver</a>
-            </div>
-          </div>
-        </div>
-      </div>
     </div>
-
-
-
-    <!-- <div class="shopping-info"> -->
-    <!-- <span class="snipcart-items-count"></span>
-      <span class="snipcart-total-price"></span> -->
-    <!-- </div> -->
-
-
-
-  </main>
-  {% include footer.html %}
-  <div hidden id="snipcart" data-api-key="YzU3MzhiOWYtNWE3My00ZjI4LWI0M2EtNDY0NDY0ODMwYTc4NjM3MjA5ODYyMTg5MDMxNjY4">
+    <div class="col-12 col-md-6 mt-3 text-center">
+      {% include birra_stat.html el=page %}
+      {% include btn_compra_birra.html b=page %}
+    </div>
   </div>
-  <script src="https://cdn.snipcart.com/themes/v3.0.12/default/snipcart.js"></script>
+  <hr>
+  <div class="row">
+    <div class="col-12 bg-light p-3 rounded">
+      {{ content }}
 
-  {% include js_scripts.html %}
-</body>
+    </div>
+  </div>
+</div>
 
-</html>
+<style>
+  a:hover {
+    color: #212529;
+  }
+
+  a:hover {
+    text-decoration: none;
+  }
+
+  .block {
+    /* height: 350px; */
+    height: auto;
+    background: rgba(86, 61, 124, .15);
+    margin-bottom: 30px;
+  }
+
+  .label {
+    font-size: .85rem;
+    font-weight: bold;
+  }
+</style>

@@ -1,0 +1,24 @@
+<section id="cervezas_populares">
+
+
+
+  <div class="container-title pl-4 mb-2">
+    <img src="/assets/images/svg/beer_celebration.svg" class="section-logo" alt="">
+    <h4 class="strong-700 description">Cervezas Populares</h1>
+  </div>
+
+
+
+
+  <div class="col-12 carousel-wrapper text-center mb-4">
+    <div class="slick-1">
+      {% for birra in site.birras limit: include.max %}
+      <div class="slide mb-3">
+        {% include birra_card_simple.html el=birra  %}
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+
+</section>
+<hr class="w-100">

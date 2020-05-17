@@ -1,0 +1,29 @@
+.carousel-wrapper {
+  visibility: hidden
+}
+.slick-initialized { visibility: visible; }
+
+.slick-1 {
+  width: 100%;
+  max-width: 270px;
+  @media screen and (min-width: 320px) {
+    max-width: unset; 
+  } 
+}
+.slick-slide{
+  @media screen and (min-width: 600px) {
+    padding: 1em;
+  } 
+}
+
+.slick-1 a {
+  color: unset;
+    text-decoration: none;
+    background-color: transparent; 
+}
+
+.simple-carousel-img {
+  border: 5px solid #d88b22;
+  border-radius: 10px;
+
+}
