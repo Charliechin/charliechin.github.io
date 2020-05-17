@@ -11,7 +11,6 @@ var cssnano = require('cssnano');
 var imagemin = require('gulp-imagemin');
 var htmlhint = require("gulp-htmlhint");
 var purgecss = require('gulp-purgecss');
-var htmlmin = require('gulp-htmlmin');
 
 var messages = {
   jekyllBuild: '<span style="color: grey">Running:</span> $ jekyll build'
@@ -81,7 +80,7 @@ gulp.task('sass-rebuild', function () {
     .pipe(sourcemaps.init())
     .pipe(postcss(plugins))
     .pipe(sourcemaps.write('.'))
-    .pipe(gulp.dest('assets/css/'))
+    .pipe(gulp.dest('_site/assets/css/'))
     .pipe(browserSync.reload({
       stream: true
     }))
@@ -90,7 +89,7 @@ gulp.task('sass-rebuild', function () {
 gulp.task('js-rebuild', function (cb) {
   return gulp.src('_assets/js/**/*.js')
     .pipe(uglify())
-    .pipe(gulp.dest('assets/js/'))
+    .pipe(gulp.dest('_site/assets/js/'))
     .pipe(browserSync.reload({
       stream: true
     }))
@@ -99,7 +98,7 @@ gulp.task('js-rebuild', function (cb) {
 gulp.task('images-rebuild', function (cb) {
 
   return gulp.src('_assets/images/**/*.*')
-    .pipe(gulp.dest('assets/images/'))
+    .pipe(gulp.dest('_site/assets/images/'))
     .pipe(browserSync.reload({
       stream: true
     }))
@@ -109,13 +108,13 @@ gulp.task('images-rebuild', function (cb) {
  * Default task, running just `gulp` will 
  * compile the jekyll site, launch BrowserSync & watch files.
  */
-gulp.task('default', ['serve', 'watch', 'watch-sass', 'watch-js', 'watch-images', 'pages']);
+gulp.task('default', ['serve', 'watch', 'watch-sass', 'watch-js', 'watch-images']);
 
 
 //build and deploy stuff
 gulp.task('imagemin', function () {
   console.log('Minimizing images in source!!');
-  return gulp.src('_assets/img/**/*')
+  return gulp.src('_site/assets/img/**/*')
     .pipe(imagemin())
     .pipe(gulp.dest(function (file) {
       return file.base;
@@ -128,14 +127,6 @@ gulp.task('w3', function () {
     .pipe(htmlhint.reporter())
 });
 
-gulp.task('pages', function () {
-  return gulp.src(['_site/**/*.html'])
-    .pipe(htmlmin({
-      collapseWhitespace: true,
-      removeComments: true
-    }))
-    .pipe(gulp.dest('./_site/'));
-})
 
 // validate from the command line instead, works better
 // npm install htmlhint -g
