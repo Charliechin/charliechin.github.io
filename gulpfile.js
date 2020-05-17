@@ -81,7 +81,7 @@ gulp.task('sass-rebuild', function () {
     .pipe(sourcemaps.init())
     .pipe(postcss(plugins))
     .pipe(sourcemaps.write('.'))
-    .pipe(gulp.dest('_site/assets/css/'))
+    .pipe(gulp.dest('assets/css/'))
     .pipe(browserSync.reload({
       stream: true
     }))
@@ -90,7 +90,7 @@ gulp.task('sass-rebuild', function () {
 gulp.task('js-rebuild', function (cb) {
   return gulp.src('_assets/js/**/*.js')
     .pipe(uglify())
-    .pipe(gulp.dest('_site/assets/js/'))
+    .pipe(gulp.dest('assets/js/'))
     .pipe(browserSync.reload({
       stream: true
     }))
@@ -99,7 +99,7 @@ gulp.task('js-rebuild', function (cb) {
 gulp.task('images-rebuild', function (cb) {
 
   return gulp.src('_assets/images/**/*.*')
-    .pipe(gulp.dest('_site/assets/images/'))
+    .pipe(gulp.dest('assets/images/'))
     .pipe(browserSync.reload({
       stream: true
     }))

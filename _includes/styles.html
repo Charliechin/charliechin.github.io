@@ -6,7 +6,11 @@
 <link rel="prefetch stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css" />
 <link rel="prefetch stylesheet" href="https://cdn.snipcart.com/themes/v3.0.12/default/snipcart.css" />
 
+{% if site.development == true %}
 <link rel="stylesheet" href="/assets/css/site.css">
+{% else %}
+<link rel="stylesheet" href="{{site.url}}/assets/css/site.css">
+{% endif %}
 
 
 
