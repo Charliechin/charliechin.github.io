@@ -73,7 +73,7 @@ gulp.task('watch-images', ['images-rebuild'], function () {
 gulp.task('sass-rebuild', function () {
   var plugins = [
     autoprefixer({ browsers: ['last 2 version'] }),
-    cssnano()
+    cssnano({ zindex: false })
   ];
   return gulp.src('_assets/sass/**/site.scss')
     .pipe(sourcemaps.init())
