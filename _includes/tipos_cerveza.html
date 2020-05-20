@@ -4,7 +4,7 @@
       <ul class="nav nav-pills">
         {% for tipo in site.data.tipos_cerveza %}
 
-        {% if page.title =="Todas las cervezas" %}
+        {% if page.url =="/tienda/" %}
         {% assign pageUrl = page.url %}
         {% else %}
         {% assign pageUrl = page.url | remove: '/tienda/' %}
