@@ -65,7 +65,15 @@ The navbar toggle appears at this breakpoint */
 <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js" defer></script>
 <script src="https://cdn.jsdelivr.net/npm/bubbly-bg@1.0.0/dist/bubbly-bg.js" defer></script>
 
+  
+<!-- Page has title -->
+  
+<!-- Page hasn't jsonld -->
+    <!-- postJSONLD -->
+  
 
+
+  
   <title>Cervezas en Lata | La bodega del Lúpulo</title>
 </head>
 
@@ -286,7 +294,7 @@ The navbar toggle appears at this breakpoint */
   }
 </style>
 <div class="container-fluid text-center bg-white pt-5 pb-3">
-  <h1 class="text-center mb-2 birra-text">Cervezas en Lata</h1>
+  <h1 class="text-center mb-2 birra-text"></h1>
   <!-- pon en inlcude -->
   
   <a class="" href="/">Home</a>
@@ -297,7 +305,7 @@ The navbar toggle appears at this breakpoint */
   
   
   
-  / <span class="strong-700">Cervezas en Lata</span>
+  / <span class="strong-700"></span>
   
   
   <!-- pon en inlcude -->
@@ -361,12 +369,14 @@ The navbar toggle appears at this breakpoint */
     
 
 
-<div class="col-6 col-md-4 col-lg-3 d-flex align-items-stretch">
+<div class="col-6 col-md-4 col-lg-3 d-flex align-items-stretch" itemtype="http://schema.org/Product" itemscope>
   <figure class="card card-product" id="artistas-del-gremio">
     <a href="/tienda/artistasdelgremio.html">
       <div class="img-wrap">
         <!-- <img src="https://s9.postimg.org/tupxkvfj3/image.jpg"> -->
         <div class="image-wrapper">
+          <link itemprop="image"
+            href="https://labodegadellupulo.s3.eu-west-3.amazonaws.com/images/birras/desktop/blanchedefermun.jpg" />
           <picture>
             <source data-srcset="https://labodegadellupulo.s3.eu-west-3.amazonaws.com/images/birras/desktop/artistasdelgremio.jpg" media="(min-width: 1200px)" />
             <source data-srcset="https://labodegadellupulo.s3.eu-west-3.amazonaws.com/images/birras/desktop/artistasdelgremio.jpg" media="(min-width: 600px)" />
@@ -375,8 +385,14 @@ The navbar toggle appears at this breakpoint */
         </div>
       </div>
       <figcaption class="info-wrap">
+        <meta itemprop="name" content="Artistas del Gremio" />
         <h5 class="title"><strong>Artistas del Gremio</strong></h5>
         <p class="desc"><p>¡15 añazos bien se merecen una cerveza! Artistas del Gremio, la charanga...</p>
+        <meta itemprop="description" content="<p>¡15 añazos bien se merecen una cerveza! Artistas del Gremio, la charanga con más flow de este y del otro lado del Ebro, quiere brindar con todos sus fans con esta American Pale Ale, casi tan fresca como ellos y casi tan fácil de beber como de bailar al son de sus acordes</p>
+" />
+        <meta itemprop="sku" content="Artistas del Gremio-" />
+
+
         <!-- <div class="rating-wrap">
         <div class="label-rating">132 reviews</div>
         <div class="label-rating">154 orders </div>
@@ -396,14 +412,21 @@ The navbar toggle appears at this breakpoint */
 </button>
 </div> <!-- bottom-wrap.// -->
 </figure>
+
+<div itemprop="aggregateRating" itemtype="http://schema.org/AggregateRating" itemscope>
+  <meta itemprop="reviewCount" content="89" />
+  <meta itemprop="ratingValue" content="4.4" />
+</div>
 </div> <!-- col // -->
 
-<div class="col-6 col-md-4 col-lg-3 d-flex align-items-stretch">
+<div class="col-6 col-md-4 col-lg-3 d-flex align-items-stretch" itemtype="http://schema.org/Product" itemscope>
   <figure class="card card-product" id="back-to-black">
     <a href="/tienda/backtoblack.html">
       <div class="img-wrap">
         <!-- <img src="https://s9.postimg.org/tupxkvfj3/image.jpg"> -->
         <div class="image-wrapper">
+          <link itemprop="image"
+            href="https://labodegadellupulo.s3.eu-west-3.amazonaws.com/images/birras/desktop/blanchedefermun.jpg" />
           <picture>
             <source data-srcset="https://labodegadellupulo.s3.eu-west-3.amazonaws.com/images/birras/desktop/backtoblack.jpg" media="(min-width: 1200px)" />
             <source data-srcset="https://labodegadellupulo.s3.eu-west-3.amazonaws.com/images/birras/desktop/backtoblack.jpg" media="(min-width: 600px)" />
@@ -412,8 +435,14 @@ The navbar toggle appears at this breakpoint */
         </div>
       </div>
       <figcaption class="info-wrap">
+        <meta itemprop="name" content="Back to black" />
         <h5 class="title"><strong>Back to black</strong></h5>
         <p class="desc"><p>Siempre es buen momento para volver a disfrutar con una cerveza negra....</p>
+        <meta itemprop="description" content="<p>Siempre es buen momento para volver a disfrutar con una cerveza negra. Cuerpo cremoso con notas intensas de café y cacao, redondeado con los matices resinosos y amargos del lúpulo Chinook.</p>
+" />
+        <meta itemprop="sku" content="Back to black-" />
+
+
         <!-- <div class="rating-wrap">
         <div class="label-rating">132 reviews</div>
         <div class="label-rating">154 orders </div>
@@ -434,14 +463,21 @@ The navbar toggle appears at this breakpoint */
 </button>
 </div> <!-- bottom-wrap.// -->
 </figure>
+
+<div itemprop="aggregateRating" itemtype="http://schema.org/AggregateRating" itemscope>
+  <meta itemprop="reviewCount" content="89" />
+  <meta itemprop="ratingValue" content="4.4" />
+</div>
 </div> <!-- col // -->
 
-<div class="col-6 col-md-4 col-lg-3 d-flex align-items-stretch">
+<div class="col-6 col-md-4 col-lg-3 d-flex align-items-stretch" itemtype="http://schema.org/Product" itemscope>
   <figure class="card card-product" id="baller">
     <a href="/tienda/baller.html">
       <div class="img-wrap">
         <!-- <img src="https://s9.postimg.org/tupxkvfj3/image.jpg"> -->
         <div class="image-wrapper">
+          <link itemprop="image"
+            href="https://labodegadellupulo.s3.eu-west-3.amazonaws.com/images/birras/desktop/blanchedefermun.jpg" />
           <picture>
             <source data-srcset="https://labodegadellupulo.s3.eu-west-3.amazonaws.com/images/birras/desktop/baller.jpg" media="(min-width: 1200px)" />
             <source data-srcset="https://labodegadellupulo.s3.eu-west-3.amazonaws.com/images/birras/desktop/baller.jpg" media="(min-width: 600px)" />
@@ -450,8 +486,15 @@ The navbar toggle appears at this breakpoint */
         </div>
       </div>
       <figcaption class="info-wrap">
+        <meta itemprop="name" content="Baller" />
         <h5 class="title"><strong>Baller</strong></h5>
         <p class="desc"><p>Muy buenas, os presento a Baller. Baller es IPA 100%, desarrollado desde...</p>
+        <meta itemprop="description" content="<p>Muy buenas, os presento a Baller. Baller es IPA 100%, desarrollado desde la experiencia y los años del legado cervecero londinense. Baller es la go to IPA para el día a día, ligera, fresca y con una baja graduación. Cuerpo suave y agradable</p>
+
+" />
+        <meta itemprop="sku" content="Baller-" />
+
+
         <!-- <div class="rating-wrap">
         <div class="label-rating">132 reviews</div>
         <div class="label-rating">154 orders </div>
@@ -471,14 +514,21 @@ The navbar toggle appears at this breakpoint */
 </button>
 </div> <!-- bottom-wrap.// -->
 </figure>
+
+<div itemprop="aggregateRating" itemtype="http://schema.org/AggregateRating" itemscope>
+  <meta itemprop="reviewCount" content="89" />
+  <meta itemprop="ratingValue" content="4.4" />
+</div>
 </div> <!-- col // -->
 
-<div class="col-6 col-md-4 col-lg-3 d-flex align-items-stretch">
+<div class="col-6 col-md-4 col-lg-3 d-flex align-items-stretch" itemtype="http://schema.org/Product" itemscope>
   <figure class="card card-product" id="bang!-bang!">
     <a href="/tienda/bangbang.html">
       <div class="img-wrap">
         <!-- <img src="https://s9.postimg.org/tupxkvfj3/image.jpg"> -->
         <div class="image-wrapper">
+          <link itemprop="image"
+            href="https://labodegadellupulo.s3.eu-west-3.amazonaws.com/images/birras/desktop/blanchedefermun.jpg" />
           <picture>
             <source data-srcset="https://labodegadellupulo.s3.eu-west-3.amazonaws.com/images/birras/desktop/bangbang.jpg" media="(min-width: 1200px)" />
             <source data-srcset="https://labodegadellupulo.s3.eu-west-3.amazonaws.com/images/birras/desktop/bangbang.jpg" media="(min-width: 600px)" />
@@ -487,8 +537,15 @@ The navbar toggle appears at this breakpoint */
         </div>
       </div>
       <figcaption class="info-wrap">
+        <meta itemprop="name" content="Bang! Bang!" />
         <h5 class="title"><strong>Bang! Bang!</strong></h5>
         <p class="desc"><p>El lejano oeste no es lugar para moderneces con aspecto de zumo....</p>
+        <meta itemprop="description" content="<p>El lejano oeste no es lugar para moderneces con aspecto de zumo. Allí las IPAs son limpias, con un agradable aroma y un potente amargor, cargado de notas herbáceas y resinosas, para terminar en un final seco y refrescante.</p>
+
+" />
+        <meta itemprop="sku" content="Bang! Bang!-" />
+
+
         <!-- <div class="rating-wrap">
         <div class="label-rating">132 reviews</div>
         <div class="label-rating">154 orders </div>
@@ -508,14 +565,21 @@ The navbar toggle appears at this breakpoint */
 </button>
 </div> <!-- bottom-wrap.// -->
 </figure>
+
+<div itemprop="aggregateRating" itemtype="http://schema.org/AggregateRating" itemscope>
+  <meta itemprop="reviewCount" content="89" />
+  <meta itemprop="ratingValue" content="4.4" />
+</div>
 </div> <!-- col // -->
 
-<div class="col-6 col-md-4 col-lg-3 d-flex align-items-stretch">
+<div class="col-6 col-md-4 col-lg-3 d-flex align-items-stretch" itemtype="http://schema.org/Product" itemscope>
   <figure class="card card-product" id="crazy-crown">
     <a href="/tienda/crazycrown.html">
       <div class="img-wrap">
         <!-- <img src="https://s9.postimg.org/tupxkvfj3/image.jpg"> -->
         <div class="image-wrapper">
+          <link itemprop="image"
+            href="https://labodegadellupulo.s3.eu-west-3.amazonaws.com/images/birras/desktop/blanchedefermun.jpg" />
           <picture>
             <source data-srcset="https://labodegadellupulo.s3.eu-west-3.amazonaws.com/images/birras/desktop/crazycrown.jpg" media="(min-width: 1200px)" />
             <source data-srcset="https://labodegadellupulo.s3.eu-west-3.amazonaws.com/images/birras/desktop/crazycrown.jpg" media="(min-width: 600px)" />
@@ -524,8 +588,15 @@ The navbar toggle appears at this breakpoint */
         </div>
       </div>
       <figcaption class="info-wrap">
+        <meta itemprop="name" content="Crazy Crown" />
         <h5 class="title"><strong>Crazy Crown</strong></h5>
         <p class="desc"><p>Single-hop DDH IPA de lúpulo Amarillo. De color anaranjada con cierta turbidez...</p>
+        <meta itemprop="description" content="<p>Single-hop DDH IPA de lúpulo Amarillo. De color anaranjada con cierta turbidez y con espuma cremosa y persistente. En boca tiene una sedosidad y cremosidad aportadas por las maltas de trigo y avena que combinan perfectamente con una sensación cálida en boca. En aroma y sabor encontramos notas cítricas y herbales que rinden homenaje a esta variedad de lúpulo descubierta por accidente en la costa oeste americana en 1997</p>
+
+" />
+        <meta itemprop="sku" content="Crazy Crown-" />
+
+
         <!-- <div class="rating-wrap">
         <div class="label-rating">132 reviews</div>
         <div class="label-rating">154 orders </div>
@@ -545,14 +616,21 @@ The navbar toggle appears at this breakpoint */
 </button>
 </div> <!-- bottom-wrap.// -->
 </figure>
+
+<div itemprop="aggregateRating" itemtype="http://schema.org/AggregateRating" itemscope>
+  <meta itemprop="reviewCount" content="89" />
+  <meta itemprop="ratingValue" content="4.4" />
+</div>
 </div> <!-- col // -->
 
-<div class="col-6 col-md-4 col-lg-3 d-flex align-items-stretch">
+<div class="col-6 col-md-4 col-lg-3 d-flex align-items-stretch" itemtype="http://schema.org/Product" itemscope>
   <figure class="card card-product" id="demeter">
     <a href="/tienda/demeter.html">
       <div class="img-wrap">
         <!-- <img src="https://s9.postimg.org/tupxkvfj3/image.jpg"> -->
         <div class="image-wrapper">
+          <link itemprop="image"
+            href="https://labodegadellupulo.s3.eu-west-3.amazonaws.com/images/birras/desktop/blanchedefermun.jpg" />
           <picture>
             <source data-srcset="https://labodegadellupulo.s3.eu-west-3.amazonaws.com/images/birras/desktop/demeter.jpg" media="(min-width: 1200px)" />
             <source data-srcset="https://labodegadellupulo.s3.eu-west-3.amazonaws.com/images/birras/desktop/demeter.jpg" media="(min-width: 600px)" />
@@ -561,8 +639,15 @@ The navbar toggle appears at this breakpoint */
         </div>
       </div>
       <figcaption class="info-wrap">
+        <meta itemprop="name" content="Demeter" />
         <h5 class="title"><strong>Demeter</strong></h5>
         <p class="desc"><p>Venida desde Newcastle. Turbia cerveza, amarga con un espectacular sabor típico de...</p>
+        <meta itemprop="description" content="<p>Venida desde Newcastle. Turbia cerveza, amarga con un espectacular sabor típico de las Indian Pale. Solo apta para los paladares más exigentes y experimentados</p>
+
+" />
+        <meta itemprop="sku" content="Demeter-" />
+
+
         <!-- <div class="rating-wrap">
         <div class="label-rating">132 reviews</div>
         <div class="label-rating">154 orders </div>
@@ -584,14 +669,21 @@ The navbar toggle appears at this breakpoint */
 </button>
 </div> <!-- bottom-wrap.// -->
 </figure>
+
+<div itemprop="aggregateRating" itemtype="http://schema.org/AggregateRating" itemscope>
+  <meta itemprop="reviewCount" content="89" />
+  <meta itemprop="ratingValue" content="4.4" />
+</div>
 </div> <!-- col // -->
 
-<div class="col-6 col-md-4 col-lg-3 d-flex align-items-stretch">
+<div class="col-6 col-md-4 col-lg-3 d-flex align-items-stretch" itemtype="http://schema.org/Product" itemscope>
   <figure class="card card-product" id="ether-5">
     <a href="/tienda/ether5.html">
       <div class="img-wrap">
         <!-- <img src="https://s9.postimg.org/tupxkvfj3/image.jpg"> -->
         <div class="image-wrapper">
+          <link itemprop="image"
+            href="https://labodegadellupulo.s3.eu-west-3.amazonaws.com/images/birras/desktop/blanchedefermun.jpg" />
           <picture>
             <source data-srcset="https://labodegadellupulo.s3.eu-west-3.amazonaws.com/images/birras/desktop/ether5.jpg" media="(min-width: 1200px)" />
             <source data-srcset="https://labodegadellupulo.s3.eu-west-3.amazonaws.com/images/birras/desktop/ether5.jpg" media="(min-width: 600px)" />
@@ -600,8 +692,15 @@ The navbar toggle appears at this breakpoint */
         </div>
       </div>
       <figcaption class="info-wrap">
+        <meta itemprop="name" content="Ether 5" />
         <h5 class="title"><strong>Ether 5</strong></h5>
         <p class="desc"><p>Nacida en Irlanda, esta cerveza es muy amarga y de un sabor...</p>
+        <meta itemprop="description" content="<p>Nacida en Irlanda, esta cerveza es muy amarga y de un sabor muy potente. Destaca su consistente aroma botánico y su espesa espuma</p>
+
+" />
+        <meta itemprop="sku" content="Ether 5-" />
+
+
         <!-- <div class="rating-wrap">
         <div class="label-rating">132 reviews</div>
         <div class="label-rating">154 orders </div>
@@ -623,14 +722,21 @@ The navbar toggle appears at this breakpoint */
 </button>
 </div> <!-- bottom-wrap.// -->
 </figure>
+
+<div itemprop="aggregateRating" itemtype="http://schema.org/AggregateRating" itemscope>
+  <meta itemprop="reviewCount" content="89" />
+  <meta itemprop="ratingValue" content="4.4" />
+</div>
 </div> <!-- col // -->
 
-<div class="col-6 col-md-4 col-lg-3 d-flex align-items-stretch">
+<div class="col-6 col-md-4 col-lg-3 d-flex align-items-stretch" itemtype="http://schema.org/Product" itemscope>
   <figure class="card card-product" id="evil-plumber">
     <a href="/tienda/evilplumber.html">
       <div class="img-wrap">
         <!-- <img src="https://s9.postimg.org/tupxkvfj3/image.jpg"> -->
         <div class="image-wrapper">
+          <link itemprop="image"
+            href="https://labodegadellupulo.s3.eu-west-3.amazonaws.com/images/birras/desktop/blanchedefermun.jpg" />
           <picture>
             <source data-srcset="https://labodegadellupulo.s3.eu-west-3.amazonaws.com/images/birras/desktop/evilplumber.jpg" media="(min-width: 1200px)" />
             <source data-srcset="https://labodegadellupulo.s3.eu-west-3.amazonaws.com/images/birras/desktop/evilplumber.jpg" media="(min-width: 600px)" />
@@ -639,8 +745,16 @@ The navbar toggle appears at this breakpoint */
         </div>
       </div>
       <figcaption class="info-wrap">
+        <meta itemprop="name" content="Evil Plumber" />
         <h5 class="title"><strong>Evil Plumber</strong></h5>
         <p class="desc"><p>En esta edición empezamos una nueva colección de cervezas colaborativas destinadas a...</p>
+        <meta itemprop="description" content="<p>En esta edición empezamos una nueva colección de cervezas colaborativas destinadas a rendir homenaje a los videojuegos de nuestra infancia. Buenos recuerdos por buenas cervezas.
+Una DIPA con Doble Dry Hopping que hemos elaborado con amigos de La Quince, cerveceros artesanos de referencia de Madrid. De color anaranjada con cierta turbidez y con espuma cremosa y persistente. En boca tiene una sedosidad y cremosidad provenientes por el trigo y la avena que combinan perfectamente con una sensación cálida en boca aportada por su graduación media-alta. En aroma y sabor encontramos notas de piña y pomelo aportadas por las abundantes cantidades de lúpulo Eukanot y Mosaic.</p>
+
+" />
+        <meta itemprop="sku" content="Evil Plumber-" />
+
+
         <!-- <div class="rating-wrap">
         <div class="label-rating">132 reviews</div>
         <div class="label-rating">154 orders </div>
@@ -660,14 +774,21 @@ The navbar toggle appears at this breakpoint */
 </button>
 </div> <!-- bottom-wrap.// -->
 </figure>
+
+<div itemprop="aggregateRating" itemtype="http://schema.org/AggregateRating" itemscope>
+  <meta itemprop="reviewCount" content="89" />
+  <meta itemprop="ratingValue" content="4.4" />
+</div>
 </div> <!-- col // -->
 
-<div class="col-6 col-md-4 col-lg-3 d-flex align-items-stretch">
+<div class="col-6 col-md-4 col-lg-3 d-flex align-items-stretch" itemtype="http://schema.org/Product" itemscope>
   <figure class="card card-product" id="flower-sour-hibiscus">
     <a href="/tienda/flowersourhibiscus.html">
       <div class="img-wrap">
         <!-- <img src="https://s9.postimg.org/tupxkvfj3/image.jpg"> -->
         <div class="image-wrapper">
+          <link itemprop="image"
+            href="https://labodegadellupulo.s3.eu-west-3.amazonaws.com/images/birras/desktop/blanchedefermun.jpg" />
           <picture>
             <source data-srcset="https://labodegadellupulo.s3.eu-west-3.amazonaws.com/images/birras/desktop/flower.jpg" media="(min-width: 1200px)" />
             <source data-srcset="https://labodegadellupulo.s3.eu-west-3.amazonaws.com/images/birras/desktop/flower.jpg" media="(min-width: 600px)" />
@@ -676,8 +797,15 @@ The navbar toggle appears at this breakpoint */
         </div>
       </div>
       <figcaption class="info-wrap">
+        <meta itemprop="name" content="Flower Sour Hibiscus" />
         <h5 class="title"><strong>Flower Sour Hibiscus</strong></h5>
         <p class="desc"><p>New England IPA ligeramente ácida y amarga, elaborada con una infusión de...</p>
+        <meta itemprop="description" content="<p>New England IPA ligeramente ácida y amarga, elaborada con una infusión de flor de hibisco en caliente, y otra adición en frío. Cerveza de color rojo intenso y muy turbia. Aroma a lúpulos cítricos, tal cual se  espera de una NEIPA, pero con el sabor de una Sour. 20 gramos por litro de lúpulos Citra, Mosaic,  Enigma y Ekuanot, más 10 gramos de flor de hibisco desecada. Esta es la primera cerveza ácida que  producimos a gran escala. Compleja y diferente, un desafío para tus sentidos. ¿Te atreves?</p>
+
+" />
+        <meta itemprop="sku" content="Flower Sour Hibiscus-" />
+
+
         <!-- <div class="rating-wrap">
         <div class="label-rating">132 reviews</div>
         <div class="label-rating">154 orders </div>
@@ -697,14 +825,21 @@ The navbar toggle appears at this breakpoint */
 </button>
 </div> <!-- bottom-wrap.// -->
 </figure>
+
+<div itemprop="aggregateRating" itemtype="http://schema.org/AggregateRating" itemscope>
+  <meta itemprop="reviewCount" content="89" />
+  <meta itemprop="ratingValue" content="4.4" />
+</div>
 </div> <!-- col // -->
 
-<div class="col-6 col-md-4 col-lg-3 d-flex align-items-stretch">
+<div class="col-6 col-md-4 col-lg-3 d-flex align-items-stretch" itemtype="http://schema.org/Product" itemscope>
   <figure class="card card-product" id="fogbound">
     <a href="/tienda/fogbound.html">
       <div class="img-wrap">
         <!-- <img src="https://s9.postimg.org/tupxkvfj3/image.jpg"> -->
         <div class="image-wrapper">
+          <link itemprop="image"
+            href="https://labodegadellupulo.s3.eu-west-3.amazonaws.com/images/birras/desktop/blanchedefermun.jpg" />
           <picture>
             <source data-srcset="https://labodegadellupulo.s3.eu-west-3.amazonaws.com/images/birras/desktop/fogbound.jpg" media="(min-width: 1200px)" />
             <source data-srcset="https://labodegadellupulo.s3.eu-west-3.amazonaws.com/images/birras/desktop/fogbound.jpg" media="(min-width: 600px)" />
@@ -713,8 +848,15 @@ The navbar toggle appears at this breakpoint */
         </div>
       </div>
       <figcaption class="info-wrap">
+        <meta itemprop="name" content="Fogbound" />
         <h5 class="title"><strong>Fogbound</strong></h5>
         <p class="desc"><p>Adéntrate en este banco de niebla dorada y deja que tu olfato...</p>
+        <meta itemprop="description" content="<p>Adéntrate en este banco de niebla dorada y deja que tu olfato te guíe a través de un festín de aromas tropicales, que dan paso a una cerveza de cuerpo sedoso, en la que el trigo y la avena aportan un dulce contrapunto al amargor del lúpulo.</p>
+
+" />
+        <meta itemprop="sku" content="Fogbound-" />
+
+
         <!-- <div class="rating-wrap">
         <div class="label-rating">132 reviews</div>
         <div class="label-rating">154 orders </div>
@@ -734,14 +876,21 @@ The navbar toggle appears at this breakpoint */
 </button>
 </div> <!-- bottom-wrap.// -->
 </figure>
+
+<div itemprop="aggregateRating" itemtype="http://schema.org/AggregateRating" itemscope>
+  <meta itemprop="reviewCount" content="89" />
+  <meta itemprop="ratingValue" content="4.4" />
+</div>
 </div> <!-- col // -->
 
-<div class="col-6 col-md-4 col-lg-3 d-flex align-items-stretch">
+<div class="col-6 col-md-4 col-lg-3 d-flex align-items-stretch" itemtype="http://schema.org/Product" itemscope>
   <figure class="card card-product" id="hyperactive">
     <a href="/tienda/hyperactive.html">
       <div class="img-wrap">
         <!-- <img src="https://s9.postimg.org/tupxkvfj3/image.jpg"> -->
         <div class="image-wrapper">
+          <link itemprop="image"
+            href="https://labodegadellupulo.s3.eu-west-3.amazonaws.com/images/birras/desktop/blanchedefermun.jpg" />
           <picture>
             <source data-srcset="https://labodegadellupulo.s3.eu-west-3.amazonaws.com/images/birras/desktop/hyperactive.jpg" media="(min-width: 1200px)" />
             <source data-srcset="https://labodegadellupulo.s3.eu-west-3.amazonaws.com/images/birras/desktop/hyperactive.jpg" media="(min-width: 600px)" />
@@ -750,8 +899,15 @@ The navbar toggle appears at this breakpoint */
         </div>
       </div>
       <figcaption class="info-wrap">
+        <meta itemprop="name" content="Hyperactive" />
         <h5 class="title"><strong>Hyperactive</strong></h5>
         <p class="desc"><p>Una Triple Dry Hopped IPA cargada de lúpulo. De color Dorado pálido,...</p>
+        <meta itemprop="description" content="<p>Una Triple Dry Hopped IPA cargada de lúpulo. De color Dorado pálido, con cierta turbidez y espuma blanca. En aroma y sabor destacando las notes afrutadas y herbales que se combinan junto a la sensación cálida en boca. Es una Cerveza artesana con un amargor suave.</p>
+
+" />
+        <meta itemprop="sku" content="Hyperactive-" />
+
+
         <!-- <div class="rating-wrap">
         <div class="label-rating">132 reviews</div>
         <div class="label-rating">154 orders </div>
@@ -771,14 +927,21 @@ The navbar toggle appears at this breakpoint */
 </button>
 </div> <!-- bottom-wrap.// -->
 </figure>
+
+<div itemprop="aggregateRating" itemtype="http://schema.org/AggregateRating" itemscope>
+  <meta itemprop="reviewCount" content="89" />
+  <meta itemprop="ratingValue" content="4.4" />
+</div>
 </div> <!-- col // -->
 
-<div class="col-6 col-md-4 col-lg-3 d-flex align-items-stretch">
+<div class="col-6 col-md-4 col-lg-3 d-flex align-items-stretch" itemtype="http://schema.org/Product" itemscope>
   <figure class="card card-product" id="i-am-easy">
     <a href="/tienda/iameasyeasy.html">
       <div class="img-wrap">
         <!-- <img src="https://s9.postimg.org/tupxkvfj3/image.jpg"> -->
         <div class="image-wrapper">
+          <link itemprop="image"
+            href="https://labodegadellupulo.s3.eu-west-3.amazonaws.com/images/birras/desktop/blanchedefermun.jpg" />
           <picture>
             <source data-srcset="https://labodegadellupulo.s3.eu-west-3.amazonaws.com/images/birras/desktop/iameasyeasy.jpg" media="(min-width: 1200px)" />
             <source data-srcset="https://labodegadellupulo.s3.eu-west-3.amazonaws.com/images/birras/desktop/iameasyeasy.jpg" media="(min-width: 600px)" />
@@ -787,8 +950,15 @@ The navbar toggle appears at this breakpoint */
         </div>
       </div>
       <figcaption class="info-wrap">
+        <meta itemprop="name" content="I Am Easy" />
         <h5 class="title"><strong>I Am Easy</strong></h5>
         <p class="desc"><p>Una cerveza robusta con extra cuerpo aportado por la malta de avena...</p>
+        <meta itemprop="description" content="<p>Una cerveza robusta con extra cuerpo aportado por la malta de avena y la malta Crystal. Hemos utilizado lúpulo Amarillo y Simcoe en el dryhopping por su vibrante aroma y sabor de naranja, papaya y de pino</p>
+
+" />
+        <meta itemprop="sku" content="I Am Easy-" />
+
+
         <!-- <div class="rating-wrap">
         <div class="label-rating">132 reviews</div>
         <div class="label-rating">154 orders </div>
@@ -808,14 +978,21 @@ The navbar toggle appears at this breakpoint */
 </button>
 </div> <!-- bottom-wrap.// -->
 </figure>
+
+<div itemprop="aggregateRating" itemtype="http://schema.org/AggregateRating" itemscope>
+  <meta itemprop="reviewCount" content="89" />
+  <meta itemprop="ratingValue" content="4.4" />
+</div>
 </div> <!-- col // -->
 
-<div class="col-6 col-md-4 col-lg-3 d-flex align-items-stretch">
+<div class="col-6 col-md-4 col-lg-3 d-flex align-items-stretch" itemtype="http://schema.org/Product" itemscope>
   <figure class="card card-product" id="la-federal">
     <a href="/tienda/lafederal.html">
       <div class="img-wrap">
         <!-- <img src="https://s9.postimg.org/tupxkvfj3/image.jpg"> -->
         <div class="image-wrapper">
+          <link itemprop="image"
+            href="https://labodegadellupulo.s3.eu-west-3.amazonaws.com/images/birras/desktop/blanchedefermun.jpg" />
           <picture>
             <source data-srcset="https://labodegadellupulo.s3.eu-west-3.amazonaws.com/images/birras/desktop/lafederal.jpg" media="(min-width: 1200px)" />
             <source data-srcset="https://labodegadellupulo.s3.eu-west-3.amazonaws.com/images/birras/desktop/lafederal.jpg" media="(min-width: 600px)" />
@@ -824,8 +1001,14 @@ The navbar toggle appears at this breakpoint */
         </div>
       </div>
       <figcaption class="info-wrap">
+        <meta itemprop="name" content="La Federal" />
         <h5 class="title"><strong>La Federal</strong></h5>
         <p class="desc"><p>Déjate sorprender por los contrastes de esta cerveza oscura, torrefacta, dulce y...</p>
+        <meta itemprop="description" content="<p>Déjate sorprender por los contrastes de esta cerveza oscura, torrefacta, dulce y con un final picante, gracias al uso de tres variedades de chiles: Pasilla, Ancho y Árbol. Colaboración con la coctelería zaragozana, de corazón mexicano, El Federal.</p>
+" />
+        <meta itemprop="sku" content="La Federal-" />
+
+
         <!-- <div class="rating-wrap">
         <div class="label-rating">132 reviews</div>
         <div class="label-rating">154 orders </div>
@@ -845,14 +1028,21 @@ The navbar toggle appears at this breakpoint */
 </button>
 </div> <!-- bottom-wrap.// -->
 </figure>
+
+<div itemprop="aggregateRating" itemtype="http://schema.org/AggregateRating" itemscope>
+  <meta itemprop="reviewCount" content="89" />
+  <meta itemprop="ratingValue" content="4.4" />
+</div>
 </div> <!-- col // -->
 
-<div class="col-6 col-md-4 col-lg-3 d-flex align-items-stretch">
+<div class="col-6 col-md-4 col-lg-3 d-flex align-items-stretch" itemtype="http://schema.org/Product" itemscope>
   <figure class="card card-product" id="metro">
     <a href="/tienda/metro.html">
       <div class="img-wrap">
         <!-- <img src="https://s9.postimg.org/tupxkvfj3/image.jpg"> -->
         <div class="image-wrapper">
+          <link itemprop="image"
+            href="https://labodegadellupulo.s3.eu-west-3.amazonaws.com/images/birras/desktop/blanchedefermun.jpg" />
           <picture>
             <source data-srcset="https://labodegadellupulo.s3.eu-west-3.amazonaws.com/images/birras/desktop/metro.jpg" media="(min-width: 1200px)" />
             <source data-srcset="https://labodegadellupulo.s3.eu-west-3.amazonaws.com/images/birras/desktop/metro.jpg" media="(min-width: 600px)" />
@@ -861,8 +1051,15 @@ The navbar toggle appears at this breakpoint */
         </div>
       </div>
       <figcaption class="info-wrap">
+        <meta itemprop="name" content="Metro" />
         <h5 class="title"><strong>Metro</strong></h5>
         <p class="desc"><p>Fuertemente lupulada para tomar a altas horas de la noche o en...</p>
+        <meta itemprop="description" content="<p>Fuertemente lupulada para tomar a altas horas de la noche o en esas calurosas mañanas</p>
+
+" />
+        <meta itemprop="sku" content="Metro-" />
+
+
         <!-- <div class="rating-wrap">
         <div class="label-rating">132 reviews</div>
         <div class="label-rating">154 orders </div>
@@ -884,14 +1081,21 @@ The navbar toggle appears at this breakpoint */
 </button>
 </div> <!-- bottom-wrap.// -->
 </figure>
+
+<div itemprop="aggregateRating" itemtype="http://schema.org/AggregateRating" itemscope>
+  <meta itemprop="reviewCount" content="89" />
+  <meta itemprop="ratingValue" content="4.4" />
+</div>
 </div> <!-- col // -->
 
-<div class="col-6 col-md-4 col-lg-3 d-flex align-items-stretch">
+<div class="col-6 col-md-4 col-lg-3 d-flex align-items-stretch" itemtype="http://schema.org/Product" itemscope>
   <figure class="card card-product" id="nori">
     <a href="/tienda/nori.html">
       <div class="img-wrap">
         <!-- <img src="https://s9.postimg.org/tupxkvfj3/image.jpg"> -->
         <div class="image-wrapper">
+          <link itemprop="image"
+            href="https://labodegadellupulo.s3.eu-west-3.amazonaws.com/images/birras/desktop/blanchedefermun.jpg" />
           <picture>
             <source data-srcset="https://labodegadellupulo.s3.eu-west-3.amazonaws.com/images/birras/desktop/nori.jpg" media="(min-width: 1200px)" />
             <source data-srcset="https://labodegadellupulo.s3.eu-west-3.amazonaws.com/images/birras/desktop/nori.jpg" media="(min-width: 600px)" />
@@ -900,8 +1104,14 @@ The navbar toggle appears at this breakpoint */
         </div>
       </div>
       <figcaption class="info-wrap">
+        <meta itemprop="name" content="Nori" />
         <h5 class="title"><strong>Nori</strong></h5>
         <p class="desc"><p>erveza negra de cuerpo cremoso y notas de café y cacao. Sus...</p>
+        <meta itemprop="description" content="<p>erveza negra de cuerpo cremoso y notas de café y cacao. Sus matices ligeramente minerales le aportan mayor profundidad y sabor, combinando con su bajo grado alcohólico y su suave dulzor</p>
+" />
+        <meta itemprop="sku" content="Nori-" />
+
+
         <!-- <div class="rating-wrap">
         <div class="label-rating">132 reviews</div>
         <div class="label-rating">154 orders </div>
@@ -922,14 +1132,21 @@ The navbar toggle appears at this breakpoint */
 </button>
 </div> <!-- bottom-wrap.// -->
 </figure>
+
+<div itemprop="aggregateRating" itemtype="http://schema.org/AggregateRating" itemscope>
+  <meta itemprop="reviewCount" content="89" />
+  <meta itemprop="ratingValue" content="4.4" />
+</div>
 </div> <!-- col // -->
 
-<div class="col-6 col-md-4 col-lg-3 d-flex align-items-stretch">
+<div class="col-6 col-md-4 col-lg-3 d-flex align-items-stretch" itemtype="http://schema.org/Product" itemscope>
   <figure class="card card-product" id="ragnar-hopbrok">
     <a href="/tienda/ragnarhopbrok.html">
       <div class="img-wrap">
         <!-- <img src="https://s9.postimg.org/tupxkvfj3/image.jpg"> -->
         <div class="image-wrapper">
+          <link itemprop="image"
+            href="https://labodegadellupulo.s3.eu-west-3.amazonaws.com/images/birras/desktop/blanchedefermun.jpg" />
           <picture>
             <source data-srcset="https://labodegadellupulo.s3.eu-west-3.amazonaws.com/images/birras/desktop/ragnarhopbrok.jpg" media="(min-width: 1200px)" />
             <source data-srcset="https://labodegadellupulo.s3.eu-west-3.amazonaws.com/images/birras/desktop/ragnarhopbrok.jpg" media="(min-width: 600px)" />
@@ -938,8 +1155,15 @@ The navbar toggle appears at this breakpoint */
         </div>
       </div>
       <figcaption class="info-wrap">
+        <meta itemprop="name" content="Ragnar Hopbrok" />
         <h5 class="title"><strong>Ragnar Hopbrok</strong></h5>
         <p class="desc"><p>Una IPA con Doble Dry Hopping los lúpulos Azacca, Mosaic y Simcoe....</p>
+        <meta itemprop="description" content="<p>Una IPA con Doble Dry Hopping los lúpulos Azacca, Mosaic y Simcoe. De color amarillenta y notas anaranjadas con cierta turbidez y con espuma cremosa y persistente. En boca es sedosa y cremosa por las maltas de trigo y avena. En aroma y sabor encontramos notas de cítricos y melocotón de viña características de estas variedades de lúpulo. Para su fermentación se ha utilizado salvo Kveik originario de Noruega y que paradójicamente fermenta a temperaturas cercanas a los 40 grados más propias del verano mediterráneo, confiriéndole a la cerveza un toque de sequedad y de cítricos.</p>
+
+" />
+        <meta itemprop="sku" content="Ragnar Hopbrok-" />
+
+
         <!-- <div class="rating-wrap">
         <div class="label-rating">132 reviews</div>
         <div class="label-rating">154 orders </div>
@@ -959,14 +1183,21 @@ The navbar toggle appears at this breakpoint */
 </button>
 </div> <!-- bottom-wrap.// -->
 </figure>
+
+<div itemprop="aggregateRating" itemtype="http://schema.org/AggregateRating" itemscope>
+  <meta itemprop="reviewCount" content="89" />
+  <meta itemprop="ratingValue" content="4.4" />
+</div>
 </div> <!-- col // -->
 
-<div class="col-6 col-md-4 col-lg-3 d-flex align-items-stretch">
+<div class="col-6 col-md-4 col-lg-3 d-flex align-items-stretch" itemtype="http://schema.org/Product" itemscope>
   <figure class="card card-product" id="raver">
     <a href="/tienda/raver.html">
       <div class="img-wrap">
         <!-- <img src="https://s9.postimg.org/tupxkvfj3/image.jpg"> -->
         <div class="image-wrapper">
+          <link itemprop="image"
+            href="https://labodegadellupulo.s3.eu-west-3.amazonaws.com/images/birras/desktop/blanchedefermun.jpg" />
           <picture>
             <source data-srcset="https://labodegadellupulo.s3.eu-west-3.amazonaws.com/images/birras/desktop/raver.jpg" media="(min-width: 1200px)" />
             <source data-srcset="https://labodegadellupulo.s3.eu-west-3.amazonaws.com/images/birras/desktop/raver.jpg" media="(min-width: 600px)" />
@@ -975,8 +1206,14 @@ The navbar toggle appears at this breakpoint */
         </div>
       </div>
       <figcaption class="info-wrap">
+        <meta itemprop="name" content="Raver" />
         <h5 class="title"><strong>Raver</strong></h5>
         <p class="desc"><p>Gran cerveza para disfrutar con una buena compañía. Grandes notas de lúpulo...</p>
+        <meta itemprop="description" content="<p>Gran cerveza para disfrutar con una buena compañía. Grandes notas de lúpulo y largo recorrido en boca. Una cerveza muy especial</p>
+" />
+        <meta itemprop="sku" content="Raver-" />
+
+
         <!-- <div class="rating-wrap">
         <div class="label-rating">132 reviews</div>
         <div class="label-rating">154 orders </div>
@@ -997,14 +1234,21 @@ The navbar toggle appears at this breakpoint */
 </button>
 </div> <!-- bottom-wrap.// -->
 </figure>
+
+<div itemprop="aggregateRating" itemtype="http://schema.org/AggregateRating" itemscope>
+  <meta itemprop="reviewCount" content="89" />
+  <meta itemprop="ratingValue" content="4.4" />
+</div>
 </div> <!-- col // -->
 
-<div class="col-6 col-md-4 col-lg-3 d-flex align-items-stretch">
+<div class="col-6 col-md-4 col-lg-3 d-flex align-items-stretch" itemtype="http://schema.org/Product" itemscope>
   <figure class="card card-product" id="tarántula">
     <a href="/tienda/tarantula.html">
       <div class="img-wrap">
         <!-- <img src="https://s9.postimg.org/tupxkvfj3/image.jpg"> -->
         <div class="image-wrapper">
+          <link itemprop="image"
+            href="https://labodegadellupulo.s3.eu-west-3.amazonaws.com/images/birras/desktop/blanchedefermun.jpg" />
           <picture>
             <source data-srcset="https://labodegadellupulo.s3.eu-west-3.amazonaws.com/images/birras/desktop/tarantula.jpg" media="(min-width: 1200px)" />
             <source data-srcset="https://labodegadellupulo.s3.eu-west-3.amazonaws.com/images/birras/desktop/tarantula.jpg" media="(min-width: 600px)" />
@@ -1013,8 +1257,17 @@ The navbar toggle appears at this breakpoint */
         </div>
       </div>
       <figcaption class="info-wrap">
+        <meta itemprop="name" content="Tarántula" />
         <h5 class="title"><strong>Tarántula</strong></h5>
         <p class="desc"><p>Si nos dejamos llevar por el olfato, el aroma herbáceo del lúpulo...</p>
+        <meta itemprop="description" content="<p>Si nos dejamos llevar por el olfato, el aroma herbáceo del lúpulo Chinook predecirá
+correctamente una IPA de trago amargo y final seco, que en boca se mezcla con ligeras
+notas torrefactas, anticipadas por la apariencia oscura de esta cerveza.</p>
+
+" />
+        <meta itemprop="sku" content="Tarántula-" />
+
+
         <!-- <div class="rating-wrap">
         <div class="label-rating">132 reviews</div>
         <div class="label-rating">154 orders </div>
@@ -1034,14 +1287,21 @@ The navbar toggle appears at this breakpoint */
 </button>
 </div> <!-- bottom-wrap.// -->
 </figure>
+
+<div itemprop="aggregateRating" itemtype="http://schema.org/AggregateRating" itemscope>
+  <meta itemprop="reviewCount" content="89" />
+  <meta itemprop="ratingValue" content="4.4" />
+</div>
 </div> <!-- col // -->
 
-<div class="col-6 col-md-4 col-lg-3 d-flex align-items-stretch">
+<div class="col-6 col-md-4 col-lg-3 d-flex align-items-stretch" itemtype="http://schema.org/Product" itemscope>
   <figure class="card card-product" id="the-fits">
     <a href="/tienda/thefits.html">
       <div class="img-wrap">
         <!-- <img src="https://s9.postimg.org/tupxkvfj3/image.jpg"> -->
         <div class="image-wrapper">
+          <link itemprop="image"
+            href="https://labodegadellupulo.s3.eu-west-3.amazonaws.com/images/birras/desktop/blanchedefermun.jpg" />
           <picture>
             <source data-srcset="https://labodegadellupulo.s3.eu-west-3.amazonaws.com/images/birras/desktop/thefits.jpg" media="(min-width: 1200px)" />
             <source data-srcset="https://labodegadellupulo.s3.eu-west-3.amazonaws.com/images/birras/desktop/thefits.jpg" media="(min-width: 600px)" />
@@ -1050,8 +1310,15 @@ The navbar toggle appears at this breakpoint */
         </div>
       </div>
       <figcaption class="info-wrap">
+        <meta itemprop="name" content="The Fits" />
         <h5 class="title"><strong>The Fits</strong></h5>
         <p class="desc"><p>Intensa y bastante frutal. Se presenta de un color ambarino con cierta...</p>
+        <meta itemprop="description" content="<p>Intensa y bastante frutal. Se presenta de un color ambarino con cierta turbidez y una cremosa espuma blanca. Las notas a pomelo, piña y otras frutas tropicales dominan en nariz en boca, con un amargor moderado y recuerdos a resina al final del trago</p>
+
+" />
+        <meta itemprop="sku" content="The Fits-" />
+
+
         <!-- <div class="rating-wrap">
         <div class="label-rating">132 reviews</div>
         <div class="label-rating">154 orders </div>
@@ -1071,14 +1338,21 @@ The navbar toggle appears at this breakpoint */
 </button>
 </div> <!-- bottom-wrap.// -->
 </figure>
+
+<div itemprop="aggregateRating" itemtype="http://schema.org/AggregateRating" itemscope>
+  <meta itemprop="reviewCount" content="89" />
+  <meta itemprop="ratingValue" content="4.4" />
+</div>
 </div> <!-- col // -->
 
-<div class="col-6 col-md-4 col-lg-3 d-flex align-items-stretch">
+<div class="col-6 col-md-4 col-lg-3 d-flex align-items-stretch" itemtype="http://schema.org/Product" itemscope>
   <figure class="card card-product" id="tronada">
     <a href="/tienda/tronada.html">
       <div class="img-wrap">
         <!-- <img src="https://s9.postimg.org/tupxkvfj3/image.jpg"> -->
         <div class="image-wrapper">
+          <link itemprop="image"
+            href="https://labodegadellupulo.s3.eu-west-3.amazonaws.com/images/birras/desktop/blanchedefermun.jpg" />
           <picture>
             <source data-srcset="https://labodegadellupulo.s3.eu-west-3.amazonaws.com/images/birras/desktop/tronada.jpg" media="(min-width: 1200px)" />
             <source data-srcset="https://labodegadellupulo.s3.eu-west-3.amazonaws.com/images/birras/desktop/tronada.jpg" media="(min-width: 600px)" />
@@ -1087,8 +1361,15 @@ The navbar toggle appears at this breakpoint */
         </div>
       </div>
       <figcaption class="info-wrap">
+        <meta itemprop="name" content="Tronada" />
         <h5 class="title"><strong>Tronada</strong></h5>
         <p class="desc"><p>Las tormentas de verano son tan repentinas como necesarias. Una violenta tromba...</p>
+        <meta itemprop="description" content="<p>Las tormentas de verano son tan repentinas como necesarias. Una violenta tromba de lúpulo Citra, Simcoe, Mosaic y Ahtanum cayó sobre uno de nuestros fermentadores, impregnando a esta cerveza de un delicioso aroma y dejando tras de si el frescor de una buena tronada.</p>
+
+" />
+        <meta itemprop="sku" content="Tronada-" />
+
+
         <!-- <div class="rating-wrap">
         <div class="label-rating">132 reviews</div>
         <div class="label-rating">154 orders </div>
@@ -1108,14 +1389,21 @@ The navbar toggle appears at this breakpoint */
 </button>
 </div> <!-- bottom-wrap.// -->
 </figure>
+
+<div itemprop="aggregateRating" itemtype="http://schema.org/AggregateRating" itemscope>
+  <meta itemprop="reviewCount" content="89" />
+  <meta itemprop="ratingValue" content="4.4" />
+</div>
 </div> <!-- col // -->
 
-<div class="col-6 col-md-4 col-lg-3 d-flex align-items-stretch">
+<div class="col-6 col-md-4 col-lg-3 d-flex align-items-stretch" itemtype="http://schema.org/Product" itemscope>
   <figure class="card card-product" id="valhöll">
     <a href="/tienda/valholl.html">
       <div class="img-wrap">
         <!-- <img src="https://s9.postimg.org/tupxkvfj3/image.jpg"> -->
         <div class="image-wrapper">
+          <link itemprop="image"
+            href="https://labodegadellupulo.s3.eu-west-3.amazonaws.com/images/birras/desktop/blanchedefermun.jpg" />
           <picture>
             <source data-srcset="https://labodegadellupulo.s3.eu-west-3.amazonaws.com/images/birras/desktop/valholl.jpg" media="(min-width: 1200px)" />
             <source data-srcset="https://labodegadellupulo.s3.eu-west-3.amazonaws.com/images/birras/desktop/valholl.jpg" media="(min-width: 600px)" />
@@ -1124,8 +1412,15 @@ The navbar toggle appears at this breakpoint */
         </div>
       </div>
       <figcaption class="info-wrap">
+        <meta itemprop="name" content="Valhöll" />
         <h5 class="title"><strong>Valhöll</strong></h5>
         <p class="desc"><p>La vida no es un paseo por un campo tranquilo y sereno....</p>
+        <meta itemprop="description" content="<p>La vida no es un paseo por un campo tranquilo y sereno. El pasado es aterrador, y el futuro desconcertante. No confíes en la paz: lucha y vive cada momento. Brindemos con esta cerveza elaborada en colaboración con “Valhalla” para celebrar su 1º aniversario.</p>
+
+" />
+        <meta itemprop="sku" content="Valhöll-" />
+
+
         <!-- <div class="rating-wrap">
         <div class="label-rating">132 reviews</div>
         <div class="label-rating">154 orders </div>
@@ -1145,14 +1440,21 @@ The navbar toggle appears at this breakpoint */
 </button>
 </div> <!-- bottom-wrap.// -->
 </figure>
+
+<div itemprop="aggregateRating" itemtype="http://schema.org/AggregateRating" itemscope>
+  <meta itemprop="reviewCount" content="89" />
+  <meta itemprop="ratingValue" content="4.4" />
+</div>
 </div> <!-- col // -->
 
-<div class="col-6 col-md-4 col-lg-3 d-flex align-items-stretch">
+<div class="col-6 col-md-4 col-lg-3 d-flex align-items-stretch" itemtype="http://schema.org/Product" itemscope>
   <figure class="card card-product" id="vértigo">
     <a href="/tienda/vertigo.html">
       <div class="img-wrap">
         <!-- <img src="https://s9.postimg.org/tupxkvfj3/image.jpg"> -->
         <div class="image-wrapper">
+          <link itemprop="image"
+            href="https://labodegadellupulo.s3.eu-west-3.amazonaws.com/images/birras/desktop/blanchedefermun.jpg" />
           <picture>
             <source data-srcset="https://labodegadellupulo.s3.eu-west-3.amazonaws.com/images/birras/desktop/vertigo.jpg" media="(min-width: 1200px)" />
             <source data-srcset="https://labodegadellupulo.s3.eu-west-3.amazonaws.com/images/birras/desktop/vertigo.jpg" media="(min-width: 600px)" />
@@ -1161,8 +1463,15 @@ The navbar toggle appears at this breakpoint */
         </div>
       </div>
       <figcaption class="info-wrap">
+        <meta itemprop="name" content="Vértigo" />
         <h5 class="title"><strong>Vértigo</strong></h5>
         <p class="desc"><p>La alta graduación de esta Doble IPA podría llegar a producir una...</p>
+        <meta itemprop="description" content="<p>La alta graduación de esta Doble IPA podría llegar a producir una sensación de pérdida de equilibrio, sin embargo, el cuerpo aportado por el trigo y la avena, sumado al sabor cítrico y afrutado del lúpulo, compensan el conjunto de esta cerveza atrevidamente fácil de beber.</p>
+
+" />
+        <meta itemprop="sku" content="Vértigo-" />
+
+
         <!-- <div class="rating-wrap">
         <div class="label-rating">132 reviews</div>
         <div class="label-rating">154 orders </div>
@@ -1182,14 +1491,21 @@ The navbar toggle appears at this breakpoint */
 </button>
 </div> <!-- bottom-wrap.// -->
 </figure>
+
+<div itemprop="aggregateRating" itemtype="http://schema.org/AggregateRating" itemscope>
+  <meta itemprop="reviewCount" content="89" />
+  <meta itemprop="ratingValue" content="4.4" />
+</div>
 </div> <!-- col // -->
 
-<div class="col-6 col-md-4 col-lg-3 d-flex align-items-stretch">
+<div class="col-6 col-md-4 col-lg-3 d-flex align-items-stretch" itemtype="http://schema.org/Product" itemscope>
   <figure class="card card-product" id="windmill">
     <a href="/tienda/windmill.html">
       <div class="img-wrap">
         <!-- <img src="https://s9.postimg.org/tupxkvfj3/image.jpg"> -->
         <div class="image-wrapper">
+          <link itemprop="image"
+            href="https://labodegadellupulo.s3.eu-west-3.amazonaws.com/images/birras/desktop/blanchedefermun.jpg" />
           <picture>
             <source data-srcset="https://labodegadellupulo.s3.eu-west-3.amazonaws.com/images/birras/desktop/windmill.jpg" media="(min-width: 1200px)" />
             <source data-srcset="https://labodegadellupulo.s3.eu-west-3.amazonaws.com/images/birras/desktop/windmill.jpg" media="(min-width: 600px)" />
@@ -1198,8 +1514,15 @@ The navbar toggle appears at this breakpoint */
         </div>
       </div>
       <figcaption class="info-wrap">
+        <meta itemprop="name" content="Windmill" />
         <h5 class="title"><strong>Windmill</strong></h5>
         <p class="desc"><p>Windmill es la cerveza en la que se juntan los talentos de...</p>
+        <meta itemprop="description" content="<p>Windmill es la cerveza en la que se juntan los talentos de Península y Cierzo. Se trata de una NEIPA de libro, con su turbidez y su frutalidad disparadas. Se presenta de un bonito color melocotón que hace que se asemeje a un zumo de frutas.</p>
+
+" />
+        <meta itemprop="sku" content="Windmill-" />
+
+
         <!-- <div class="rating-wrap">
         <div class="label-rating">132 reviews</div>
         <div class="label-rating">154 orders </div>
@@ -1219,14 +1542,21 @@ The navbar toggle appears at this breakpoint */
 </button>
 </div> <!-- bottom-wrap.// -->
 </figure>
+
+<div itemprop="aggregateRating" itemtype="http://schema.org/AggregateRating" itemscope>
+  <meta itemprop="reviewCount" content="89" />
+  <meta itemprop="ratingValue" content="4.4" />
+</div>
 </div> <!-- col // -->
 
-<div class="col-6 col-md-4 col-lg-3 d-flex align-items-stretch">
+<div class="col-6 col-md-4 col-lg-3 d-flex align-items-stretch" itemtype="http://schema.org/Product" itemscope>
   <figure class="card card-product" id="words-are-very-unnecessary">
     <a href="/tienda/words.html">
       <div class="img-wrap">
         <!-- <img src="https://s9.postimg.org/tupxkvfj3/image.jpg"> -->
         <div class="image-wrapper">
+          <link itemprop="image"
+            href="https://labodegadellupulo.s3.eu-west-3.amazonaws.com/images/birras/desktop/blanchedefermun.jpg" />
           <picture>
             <source data-srcset="https://labodegadellupulo.s3.eu-west-3.amazonaws.com/images/birras/desktop/words.jpg" media="(min-width: 1200px)" />
             <source data-srcset="https://labodegadellupulo.s3.eu-west-3.amazonaws.com/images/birras/desktop/words.jpg" media="(min-width: 600px)" />
@@ -1235,8 +1565,15 @@ The navbar toggle appears at this breakpoint */
         </div>
       </div>
       <figcaption class="info-wrap">
+        <meta itemprop="name" content="Words Are Very Unnecessary" />
         <h5 class="title"><strong>Words Are Very Unnecessary</strong></h5>
         <p class="desc"><p>Presenta los lúpulos Amarillo, Simcoe &amp; Citra. Hemos utilizado cáscara de naranja...</p>
+        <meta itemprop="description" content="<p>Presenta los lúpulos Amarillo, Simcoe &amp; Citra. Hemos utilizado cáscara de naranja en el whirlpool para darle ese extra toque cítrico y tropical y un toque de lactosa para sensación sedosa en boca. La hemos fermentada con levaduras New England para obtener matices de frutas de hueso</p>
+
+" />
+        <meta itemprop="sku" content="Words Are Very Unnecessary-" />
+
+
         <!-- <div class="rating-wrap">
         <div class="label-rating">132 reviews</div>
         <div class="label-rating">154 orders </div>
@@ -1256,6 +1593,11 @@ The navbar toggle appears at this breakpoint */
 </button>
 </div> <!-- bottom-wrap.// -->
 </figure>
+
+<div itemprop="aggregateRating" itemtype="http://schema.org/AggregateRating" itemscope>
+  <meta itemprop="reviewCount" content="89" />
+  <meta itemprop="ratingValue" content="4.4" />
+</div>
 </div> <!-- col // -->
 
   </div>
