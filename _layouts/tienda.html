@@ -3,7 +3,7 @@ layout: default
 jsonld: tienda
 ---
 {% include tipos_cerveza.html %}
-<div class="container-fluid text-center bg-white pt-5 pb-3">
+<div class="container-fluid text-center bg-white pt-5 pb-3" style="border-bottom: 2px solid #d88b22">
   <h1 class="text-center mb-2 birra-text">{{ page.breadcrumb_title }}</h1>
   <!-- pon en inlcude -->
   {% assign crumbs = page.url | remove:'/index.html' | split: '/' %}

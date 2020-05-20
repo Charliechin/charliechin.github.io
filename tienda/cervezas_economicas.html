@@ -3,6 +3,8 @@ layout: tienda
 title: Cervezas por menos de 3€
 nombre: Cervezas por menos de 3€
 permalink: /tienda/cervezas_economicas.html
+jsonld: tienda
+breadcrumb_title: Por debajo de 3€
 ---
 {% assign birras = site.birras | where_exp:"item", "item.precio < 3" %}
 
