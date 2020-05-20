@@ -1,9 +1,11 @@
-<div class="col-6 col-md-4 col-lg-3 d-flex align-items-stretch">
+<div class="col-6 col-md-4 col-lg-3 d-flex align-items-stretch" itemtype="http://schema.org/Product" itemscope>
   <figure class="card card-product" id="{{include.el.nombre| downcase | replace:" ","-"}}">
     <a href="{{ include.el.url }}">
       <div class="img-wrap">
         <!-- <img src="https://s9.postimg.org/tupxkvfj3/image.jpg"> -->
         <div class="image-wrapper">
+          <link itemprop="image"
+            href="https://labodegadellupulo.s3.eu-west-3.amazonaws.com/images/birras/desktop/blanchedefermun.jpg" />
           <picture>
             <source data-srcset="{{ site.baseimageurl }}desktop/{{include.el.imagen}}" media="(min-width: 1200px)" />
             <source data-srcset="{{ site.baseimageurl }}desktop/{{include.el.imagen}}" media="(min-width: 600px)" />
@@ -12,8 +14,13 @@
         </div>
       </div>
       <figcaption class="info-wrap">
+        <meta itemprop="name" content="{{ include.el.nombre }}" />
         <h5 class="title"><strong>{{ include.el.nombre }}</strong></h5>
         <p class="desc">{{ include.el.content | truncatewords: 12 }}</p>
+        <meta itemprop="description" content="{{ include.el.content}}" />
+        <meta itemprop="sku" content="{{ include.el.nombre }}-" />
+
+
         <!-- <div class="rating-wrap">
         <div class="label-rating">132 reviews</div>
         <div class="label-rating">154 orders </div>
@@ -27,4 +34,9 @@
     {% include btn_compra_birra.html b=include.el %}
 </div> <!-- bottom-wrap.// -->
 </figure>
+
+<div itemprop="aggregateRating" itemtype="http://schema.org/AggregateRating" itemscope>
+  <meta itemprop="reviewCount" content="89" />
+  <meta itemprop="ratingValue" content="4.4" />
+</div>
 </div> <!-- col // -->
