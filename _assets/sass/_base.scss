@@ -73,17 +73,32 @@ color: #d88b22;
 }
 
 
+// BG HAT Animation
+
+
+@keyframes animatedBackground {
+	from { background-position-x: 0; }
+	to { background-position-x: 1600px; }
+}
+
 .breadcrumbs {
-  background: url(/assets/images/svg/beer-hat.svg);
+  background-image: url(/assets/images/svg/beer-hat.svg);
     height: 0;
     background-size: cover;
-    background-repeat: no-repeat; 
+    background-repeat: repeat-x; 
     padding-bottom: calc(50% * 1/ 5);
-
+    animation-name: animatedBackground;
+    animation-duration: 390s;
 }
+
+
+
 .breadcrumbs a {
   color: #504037;
 }
+
+
+
 
 
 // Seccion cervezas_populares, menos de 3, solo latas, solo cervezas, etc...
