@@ -1,0 +1,15 @@
+{% if page.title %}
+<!-- Page has title -->
+  {% if page.jsonld %}
+
+<!-- Page has jsonld -->
+    {% include structured_data/{{page.jsonld}}.html %}
+  {% else %}
+<!-- Page hasn't jsonld -->
+    {% include structured_data/postJSONLD.html %}
+  {% endif %}
+
+{% else %}
+<!-- this is homeJSONLD -->
+  {% include structured_data/homeJSONLD.html %}
+{% endif %}
