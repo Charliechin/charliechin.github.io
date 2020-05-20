@@ -1,3 +1,4 @@
+{% if site.development == true %}
 <button class="buy-button snipcart-add-item btn btn-compra" data-item-name="{{ include.b.nombre }}"
   data-item-id="{{ include.b.id }}" data-item-price="{{ include.b.pvp }}"
   data-item-image="{{ site.baseimageurl}}mobile/{{include.b.imagen }}"
@@ -5,3 +6,13 @@
   data-item-description="{{ include.b.content | truncatewords: 35 | remove: '<p>' | remove: '</p>' }}">
   Añadir al carrito
 </button>
+
+{% else %}
+
+<button class="buy-button snipcart-add-item btn btn-compra" data-item-name="{{ include.b.nombre }}"
+  data-item-id="{{ include.b.id }}" data-item-price="{{ include.b.pvp }}"
+  data-item-image="{{ site.baseimageurl}}mobile/{{include.b.imagen }}" data-item-url="{{ site.url }}{{ include.b.url }}"
+  data-item-description="{{ include.b.content | truncatewords: 35 | remove: '<p>' | remove: '</p>' }}">
+  Añadir al carrito
+</button>
+{% endif%}
