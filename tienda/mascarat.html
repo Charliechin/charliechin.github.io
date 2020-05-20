@@ -511,6 +511,11 @@ Medalla de Plata en el Campeonato Nacional de Cervezas 2018</p>
       ]
     });
 
+
+
+
+
+
     // Over 18
     var cookieName = 'mayor_18'; // The cookie name
     var cookieLifetime = 365; // Cookie expiry in days
@@ -571,6 +576,16 @@ Medalla de Plata en el Campeonato Nacional de Cervezas 2018</p>
 
     // !Over 18
 
+
+    (function (w, d, s, l, i) {
+      w[l] = w[l] || []; w[l].push({
+        ' gtm.start': new Date().getTime(), event: 'gtm.js'
+      }); var f = d.getElementsByTagName(s)[0],
+        j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true;
+      j.src = 'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
+    })(window, document, 'script', 'dataLayer', 'GTM-TJHT8KT');
+
+
     // bubbly
     bubbly({
       colorStart: "#e5a224", colorStop: "#e5a224", blur: 1,
@@ -589,8 +604,12 @@ Medalla de Plata en el Campeonato Nacional de Cervezas 2018</p>
         <small class="text-secondary">{categoria}</small> - <small><strong>{pvp} €</strong></small>
        </div>
       </a>`,
-    })
-  }
+    });
+
+
+  };
+
+
 </script>
 
 
