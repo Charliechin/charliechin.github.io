@@ -37,6 +37,9 @@ development: false
 
 # Build settings
 markdown: kramdown
+kramdown:
+  html_to_native: true
+
 #theme: jekyll-theme-slate
 plugins:
   - jekyll-feedsmall.jpg
