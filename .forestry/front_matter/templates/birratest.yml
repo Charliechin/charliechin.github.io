@@ -28,6 +28,8 @@ fields:
 - type: text
   name: layout
   label: layout
+  default: birra
+  hidden: true
 - type: text
   name: tipo
   label: tipo
