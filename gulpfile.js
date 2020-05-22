@@ -11,7 +11,6 @@ var cssnano = require('cssnano');
 var imagemin = require('gulp-imagemin');
 var htmlhint = require("gulp-htmlhint");
 var purgecss = require('gulp-purgecss');
-var htmlmin = require('gulp-htmlmin');
 
 var messages = {
   jekyllBuild: '<span style="color: grey">Running:</span> $ jekyll build'
@@ -90,6 +89,26 @@ gulp.task('sass-rebuild', function () {
     }))
 });
 
+
+gulp.task('sass-rebuild-prod', function () {
+  var plugins = [
+    autoprefixer({ browsers: ['last 2 version'] }),
+    cssnano({
+      zindex: false,
+      reduceIdents: false
+    })
+  ];
+  return gulp.src('_assets/sass/**/site.scss')
+    .pipe(sourcemaps.init())
+    .pipe(sass())
+    .pipe(sourcemaps.init())
+    .pipe(postcss(plugins))
+    .pipe(sourcemaps.write('.'))
+    .pipe(gulp.dest('_site/assets/css/'))
+});
+
+
+
 gulp.task('js-rebuild', function (cb) {
   return gulp.src('_assets/js/**/*.js')
     .pipe(uglify())
@@ -97,6 +116,12 @@ gulp.task('js-rebuild', function (cb) {
     .pipe(browserSync.reload({
       stream: true
     }))
+});
+
+gulp.task('js-rebuild-prod', function (cb) {
+  return gulp.src('_assets/js/**/*.js')
+    .pipe(uglify())
+    .pipe(gulp.dest('_site/assets/js/'))
 });
 
 gulp.task('images-rebuild', function (cb) {
@@ -108,11 +133,18 @@ gulp.task('images-rebuild', function (cb) {
     }))
 });
 
+gulp.task('images-rebuild-prod', function (cb) {
+
+  return gulp.src('_assets/images/**/*.*')
+    .pipe(gulp.dest('_site/assets/images/'))
+})
+
 /**
  * Default task, running just `gulp` will 
  * compile the jekyll site, launch BrowserSync & watch files.
  */
-gulp.task('default', ['serve', 'watch', 'watch-sass', 'watch-js', 'watch-images', 'pages']);
+gulp.task('default', ['serve', 'watch', 'watch-sass', 'watch-js', 'watch-images']);
+gulp.task('travis-prod', ['sass-rebuild-prod', 'js-rebuild-prod', 'images-rebuild-prod', 'jekyll-build']);
 
 
 //build and deploy stuff
@@ -131,14 +163,6 @@ gulp.task('w3', function () {
     .pipe(htmlhint.reporter())
 });
 
-gulp.task('pages', function () {
-  return gulp.src(['_site/**/*.html'])
-    .pipe(htmlmin({
-      collapseWhitespace: true,
-      removeComments: true
-    }))
-    .pipe(gulp.dest('./_site/'));
-})
 
 // validate from the command line instead, works better
 // npm install htmlhint -g
