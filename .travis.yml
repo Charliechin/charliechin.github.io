@@ -1,8 +1,25 @@
 language: ruby
 rvm:
-- 2.2
-- jruby
+  - 2.2
+before_install:
+  - npm install
+  - pip install --user pillow 
+
+install: gem install jekyll html-proofer
+script: npm run travis
+
 env:
   global:
   - secure: P3xZaZEj/bSjRg8p1CpWKbqCGxXDnQxx7N+UTYS4Vrovm+Lj2ydkodFyZ55PAxL8d/osZTpSH37SL7enAtLmkLoDmCSUcXJfGQ/vQG7x4uMACXj13W5NZJ8zXGBkLFKVinUvZSIiHQ+uAt3b4iRN51c+x9PkhQbIrWbS2Dnm0UjMTLE0eMrywp6CKm46d4LwfWjZT4WRg96DzwFh6CrULbKWx6Sxouufq93YK6UaWqTSJrBBcxsNeFTq4O7DDIACfufhFZ9hGB+jTN5dpfcZZ/OPxkQ9Fl1ebdiSiye2iVwsgXRENBolgIwUcW1cR+q9XRyxTJU7/3Nl96JiK7L7DK+CwOfp1J2OmbQKVgY0ZFHBaa35q/Rapv94vkwCnf7mMJtVNSyNWF4il6DmxCbkGFulACoghVRcvXWiSqWUy0KpTHJuWpXFhtMRw76yca2V+JUrs0xitNhxWGtIxqHyw+eGNrS5wvV2RNP5cUThNMGxts/NrYpTIt1zbZuvQ/VydwmoiOkuf+sy/N+K1271pq/Zhrh7CCRROEJ8nCKL0/epB06aqmLykLK0Tu3AoUcomJmMcMRZjyYncvLUeZ/sKJrC/ut3dKk/uOr4SBfSNsiO2vT5GA5Vo7b1m7g5hAnOZcpvwoBfL8C77PmN+ULK8mGY7l9qq23Ig5+exx3ZgYc=
   - secure: H8FuXPKGkOcsUow7cfqgfN6ktOxqSDZYljPDjcnSHy9yCSkgxV05H15xgP1uVk1BVxHK3yk6S5GKqm4TVy/f/3SXadx45Hn8bhMAxna+DYAxoWuqiUsH6aJ36HCiBSIQeMPZ9UPeKd40hKMtnseAegkrTHimddIYTToWReKFHGJ3QBLBUWJA+wMBztrOgXttjy6UosH5K2k5z0U12GwpVyTTcP0g1BLekmeHnH2DmKAKx4MGYUG2j6gNZ80lPT7VXAUiA0V25FXk5U8fmKxwxLTFyHkPp/6UrL+sOSbtUKW0sT0yfIau2cNfpFNK2uHD+ClJGe7mYC1Vp2g4cJissZy5lVuyz1mDMgqRiG7bMHrZ1usGJcmr9IWVs3YDF/WLyiWjcoB5lyDuSFzwYCtXHG5owoJhAtsFupL0tD0/55CkHghLWEWVvC/UIC5wi/sLbHkhryRIwKlwReJJ7FlKub0NoQwSskf7A5zV1kbVoWwU7OsWodsk7/oAsP38K8JlghR2S+fmEicYeKno9k/ccbg18fzbn2q47INXkLgQ8XEh34RcVBiGvezgAhr0RCGuVwgS9cPwx/9UWk6LjZYSmao7+ZX8Bjuu4PEsx4LGJiNcskclhSqxUNKRRleX9gohJ/JFtsnQpqNEmSB7kFcYbMHMKxaWHdYVm3jopxfcKY8=
+  - NOKOGIRI_USE_SYSTEM_LIBRARIES=true # speeds up installation of html-proofer
+
+# script: "./_travis/run-tests.sh"
+
+deploy:
+  provider: pages
+  skip_cleanup: true
+  github_token: $GH_TOKEN  # Set in the settings page of your repository, as a secure variable
+  keep_history: true
+  on:
+    branch: master
