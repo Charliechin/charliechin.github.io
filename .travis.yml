@@ -13,7 +13,7 @@ script: bundle exec jekyll build
 exclude: [vendor]
 cache: bundler
 # script: bundle exec jekyll build
-
+local_dir: _site/
 
 
 deploy:
