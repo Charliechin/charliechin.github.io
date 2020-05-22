@@ -144,6 +144,7 @@ gulp.task('images-rebuild-prod', function (cb) {
  * compile the jekyll site, launch BrowserSync & watch files.
  */
 gulp.task('default', ['serve', 'watch', 'watch-sass', 'watch-js', 'watch-images']);
+// preprocess everything to be jekyll-build by travis
 gulp.task('travis-prod', ['sass-rebuild-prod', 'js-rebuild-prod', 'images-rebuild-prod']);
 
 
