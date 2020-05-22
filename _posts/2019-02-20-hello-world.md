@@ -1,11 +1,11 @@
 ---
 title: Bienvenidos!
-date: 2019-02-20 00:00:00 Z
+date: 2019-02-20T00:00:00.000+00:00
 layout: post
-author: sush
-thumbnail: /assets/images/blog/maridaje-beer.jpg 
----
+author: Carlos
+thumbnail: "/assets/images/blog/maridaje-beer.jpg"
 
+---
 La **cerveza** es la bebida por excelencia en las terrazas españolas, y más aún cuando llega el calor del verano. Todos sabemos que ayuda a combatir las altas temperaturas, que es el acompañamiento perfecto para muchas comidas y tapas y que invita a socializar, motivos por los cuáles nuestro país consume más de **35 millones de hectolitros** de esta bebida fermentada cada año.
 
 A pesar de llevar miles de años entre nosotros y de ser una de las **reinas indiscutibles** de la hostelería, la cerveza sigue siendo una gran desconocida para muchos consumidores. Y no porque no la hayan probado, sino porque es tan rica en matices, propiedades e historia que resulta difícil desentrañar todos sus secretos.
