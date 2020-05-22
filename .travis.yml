@@ -7,9 +7,9 @@ before_install:
   - npm install -g gulp-cli
   - gem install bundle 
   - gem install jekyll -v 3.8.5
+  - gulp travis-prod
   
-script: gulp travis-prod
-after_script: bundle exec jekyll build
+script: bundle exec jekyll build
 exclude: [vendor]
 cache: bundler
 # script: bundle exec jekyll build
