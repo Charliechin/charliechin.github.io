@@ -1,4 +1,7 @@
-{% assign birras = site.birras | where_exp:"item", "item.precio < 3"| sample: 8 %}
+{% comment %}
+{# assign birras = site.birras | where_exp:"item", "item.pvp contains '2.''" #}
+{% endcomment %}
+
 <section id="cervezas_menos_de_tres">
 
   <div class="container-title pl-4 mb-2">
@@ -8,7 +11,7 @@
 
   <div class="col-12 carousel-wrapper text-center mb-4">
     <div class="slick-1">
-      {% for birra in birras %}
+      {% for birra in site.birras %}
       <div class="slide">
         {% include birra_card_simple.html el=birra  %}
       </div>
