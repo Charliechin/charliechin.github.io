@@ -1,12 +1,10 @@
 language: ruby
 rvm:
-  - 2.2
+  - 2.3
 
 before_install:
   - npm install
   - npm install -g gulp-cli
-  - pip install --user pillow 
-  - yes | gem update --system --force
   - gem install bundle 
   
 script: gulp travis-prod
