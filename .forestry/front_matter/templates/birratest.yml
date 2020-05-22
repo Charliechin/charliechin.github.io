@@ -1,0 +1,55 @@
+---
+label: birraTest
+hide_body: false
+fields:
+- type: number
+  name: id
+  label: id
+- type: text
+  name: layout
+  label: layout
+- type: text
+  name: nombre
+  label: nombre
+- type: text
+  name: tipo
+  label: tipo
+- type: text
+  name: ibu
+  label: ibu
+- type: text
+  name: ebc
+  label: ebc
+- type: text
+  name: maltas
+  label: maltas
+- type: text
+  name: lupulos
+  label: lupulos
+- type: text
+  name: levaduras
+  label: levaduras
+- type: text
+  name: formato
+  label: formato
+- type: text
+  name: volumen
+  label: volumen
+- type: text
+  name: alergenos
+  label: alergenos
+- type: text
+  name: origen
+  label: origen
+- type: text
+  name: pvp
+  label: pvp
+- type: number
+  name: precio
+  label: precio
+- type: file
+  name: imagen
+  label: imagen
+- type: list
+  name: categoria
+  label: categoria
