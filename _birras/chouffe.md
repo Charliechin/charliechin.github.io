@@ -3,7 +3,7 @@ id: 48
 layout: birra
 nombre:  Mc Chouffe
 tipo:  Belgian Strong Ale (Scotch Ale)
-ibu:20
+ibu: 20
 ebc:
 maltas: 
 lupulos: 

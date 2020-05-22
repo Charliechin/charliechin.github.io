@@ -61,6 +61,7 @@ collections:
     title: LupuloBlog
     intro:
     output: true
+    # permalink: /blog/:title.html
 
 permalink: /:title/
 
