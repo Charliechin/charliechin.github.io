@@ -8,7 +8,7 @@ before_install:
   - gem install bundle 
   - gem install jekyll -v 3.8.5
   
-script: gulp travis-prod bundle exec jekyll build
+script: gulp travis-prod
 after_script: bundle exec jekyll build
 after_success: "Echo Success!!"
 
