@@ -13,16 +13,15 @@ script: bundle exec jekyll build
 exclude: [vendor]
 cache: bundler
 # script: bundle exec jekyll build
-local_dir: _site/
 
 
 deploy:
   provider: pages
   skip_cleanup: true
   github_token: $GH_TOKEN  # Set in the settings page of your repository, as a secure variable
-  keep_history: true
+  # keep_history: true
   target_branch: master
-  # local_dir: _site
+  local_dir: ./_site/
   on:
     branch: source_codebase
     
