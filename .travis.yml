@@ -11,6 +11,7 @@ before_install:
 script: gulp travis-prod
 after_script: bundle exec jekyll build
 exclude: [vendor]
+cache: bundler
 # script: bundle exec jekyll build
 
 
@@ -20,8 +21,15 @@ deploy:
   skip_cleanup: true
   github_token: $GH_TOKEN  # Set in the settings page of your repository, as a secure variable
   keep_history: true
+  target_branch: master
   on:
-    branch: master--BAK-due-to-travis 
+    branch: source_codebase
+    
+
+  target_branch: master        # Add this line - To push into GitHub master branch
+  on:
+    branch: staging     
+
 
 env:
   global:
