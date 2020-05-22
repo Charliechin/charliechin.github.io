@@ -10,8 +10,7 @@ before_install:
   
 script: gulp travis-prod
 after_script: bundle exec jekyll build
-after_success: "Echo Success!!"
-
+exclude: [vendor]
 # script: bundle exec jekyll build
 
 

@@ -35,6 +35,7 @@ catalogo: https://labodegadellupulo.s3.eu-west-3.amazonaws.com/catalogo/Catalogo
 localhost: http://localhost:3000
 development: false
 
+
 # Build settings
 markdown: kramdown
 kramdown:
@@ -80,3 +81,4 @@ exclude:
   - node_modules
   - gulpfile.js
   - assets
+  - vendor
