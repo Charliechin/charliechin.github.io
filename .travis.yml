@@ -6,8 +6,8 @@ before_install:
   - git pull
   - npm install
   - npm install -g gulp-cli
-  - gem install bundle 
-  - gem install jekyll -v 3.8.5
+  # - gem install bundle 
+  # - gem install jekyll -v 3.8.5
   - gulp travis-prod
   
 script: bundle exec jekyll build
@@ -17,10 +17,10 @@ cache: bundler
 
 
 deploy:
-  provider: pages
+  # provider: pages
   skip_cleanup: true
   github_token: $GH_TOKEN  # Set in the settings page of your repository, as a secure variable
-  keep_history: true
+  # keep_history: true
   target_branch: master
   local_dir: ./_site/
   on:
