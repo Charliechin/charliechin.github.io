@@ -13,8 +13,9 @@ script: bundle exec jekyll build
 exclude: [vendor]
 cache: bundler
 # script: bundle exec jekyll build
-
-
+branches:
+  only:
+    - source_codebase
 deploy:
   provider: pages
   skip_cleanup: true
