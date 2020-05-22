@@ -76,10 +76,10 @@ color: #d88b22;
 // BG HAT Animation
 
 
-@keyframes animatedBackground {
-	from { background-position-x: 0; }
-	to { background-position-x: 1600px; }
-}
+// @keyframes animatedBackground {
+// 	from { background-position-x: 0; }
+// 	to { background-position-x: 1600px; }
+// }
 
 .breadcrumbs {
   background-image: url(/assets/images/svg/beer-hat.svg);
@@ -87,8 +87,8 @@ color: #d88b22;
     background-size: cover;
     background-repeat: repeat-x; 
     padding-bottom: calc(50% * 1/ 5);
-    animation-name: animatedBackground;
-    animation-duration: 390s;
+    // animation-name: animatedBackground;
+    // animation-duration: 390s;
 }
 
 
