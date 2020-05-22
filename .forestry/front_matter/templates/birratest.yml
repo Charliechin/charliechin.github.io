@@ -1,16 +1,33 @@
 ---
-label: birraTest
+label: birra
 hide_body: false
+display_field: nombre
 fields:
-- type: number
-  name: id
-  label: id
-- type: text
-  name: layout
-  label: layout
+- name: categoria
+  type: select
+  default: []
+  config:
+    required: false
+    options:
+    - Pale_Ale
+    - Blonde_Lager
+    - India_Pale_Ale
+    - Brown_&_Amber_Ale
+    - Stout_&_Porter
+    - Estilo_Belga
+    - Witbier_&_Weissbier
+    source:
+      type: simple
+      section: 
+      file: 
+      path: 
+  label: categoria
 - type: text
   name: nombre
   label: nombre
+- type: text
+  name: layout
+  label: layout
 - type: text
   name: tipo
   label: tipo
@@ -50,22 +67,6 @@ fields:
 - type: file
   name: imagen
   label: imagen
-- name: categoria
-  type: select
-  default: []
-  config:
-    required: false
-    options:
-    - Pale_Ale
-    - Blonde_Lager
-    - India_Pale_Ale
-    - Brown_&_Amber_Ale
-    - Stout_&_Porter
-    - Estilo_Belga
-    - Witbier_&_Weissbier
-    source:
-      type: simple
-      section: 
-      file: 
-      path: 
-  label: categoria
+- type: number
+  name: id
+  label: id
