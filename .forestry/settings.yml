@@ -17,7 +17,7 @@ sections:
   create: all
   match: "**/*"
 upload_dir: uploads
-public_path: "/uploads"
+public_path: https://labodegadellupulo.s3.eu-west-3.amazonaws.com/blog
 front_matter_path: ''
 use_front_matter_path: false
 file_template: ":filename:"
