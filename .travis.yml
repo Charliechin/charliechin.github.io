@@ -3,7 +3,6 @@ rvm:
   - 2.5
 
 before_install:
-  - git pull
   - npm install
   - npm install -g gulp-cli
   # - gem install bundle 
@@ -17,7 +16,7 @@ cache: bundler
 
 
 deploy:
-  # provider: pages
+  provider: pages
   skip_cleanup: true
   github_token: $GH_TOKEN  # Set in the settings page of your repository, as a secure variable
   # keep_history: true
