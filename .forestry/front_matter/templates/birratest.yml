@@ -50,11 +50,6 @@ fields:
 - type: file
   name: imagen
   label: imagen
-- type: list
-  name: categoriaOR
-  label: categoriaOr
-  config:
-    use_select: false
 - name: categoria
   type: select
   default: []
