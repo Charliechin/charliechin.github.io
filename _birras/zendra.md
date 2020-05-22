@@ -1,32 +1,22 @@
 ---
-id: 1
+id: "1"
 layout: birra
-nombre:  Zendra
-tipo:  Rye Bock Rauchbier
-ibu:  30
-ebc:
+nombre: Zendra
+tipo: Rye Bock Rauchbier
+ibu: "30"
+ebc: 
 maltas: 
 lupulos: 
 levaduras: 
 formato: Botella 33cl
-volumen:  7.8 %
+volumen: 7.8 %
 alergenos: 
 origen: España
-pvp: "3.30"
-precio: 3.30
+pvp: '3.30'
+precio: "3.3"
 imagen: zendra.jpg
-categoria: [Brown_&_Amber_Ale]
+categoria:
+- Brown_&_Amber_Ale
 
 ---
-Cerveza de edición limitada, pensada para el consumo nocturno. Sólo 3.000 litros por temporada a base de centeno, humo y un poco de Valencia en cada botella. Esta receta se entronca con los populares estilos ahumados origen alemán (Rauchbier). Cervezas, como la Zendra, con gran presencia de las maltas  y un agradable aroma y sabor a madera quemada que refuerzan su personalidad
-
-
-
-
-
-
-
-
-
-
-
+Cerveza de edición limitada, pensada para el consumo nocturno. Sólo 3.000 litros por temporada a base de centeno, humo y un poco de Valencia en cada botella. Esta receta se entronca con los populares estilos ahumados origen alemán (Rauchbier). Cervezas, como la Zendra, con gran presencia de las maltas  y un agradable aroma y sabor a madera quemada que refuerzan su personalidad.
