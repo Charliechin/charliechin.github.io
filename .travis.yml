@@ -1,6 +1,7 @@
 language: ruby
 rvm:
   - 2.2
+
 before_install:
   - npm install
   - npm install -g gulp-cli
