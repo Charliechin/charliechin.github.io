@@ -72,3 +72,5 @@ fields:
 - type: number
   name: id
   label: id
+pages:
+- _birras/buub.md
