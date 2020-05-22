@@ -4,7 +4,9 @@ rvm:
 
 before_install:
   - npm install
+  - npm install -g gulp-cli
   - gem install bundle 
+  - gem install jekyll -v 3.8.5
   
 script: gulp travis-prod
 
