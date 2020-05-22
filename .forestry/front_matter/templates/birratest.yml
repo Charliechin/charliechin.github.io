@@ -51,5 +51,26 @@ fields:
   name: imagen
   label: imagen
 - type: list
-  name: categoria
+  name: categoriaOR
+  label: categoriaOr
+  config:
+    use_select: false
+- name: categoria
+  type: select
+  default: []
+  config:
+    required: false
+    options:
+    - Pale_Ale
+    - Blonde_Lager
+    - India_Pale_Ale
+    - Brown_&_Amber_Ale
+    - Stout_&_Porter
+    - Estilo_Belga
+    - Witbier_&_Weissbier
+    source:
+      type: simple
+      section: 
+      file: 
+      path: 
   label: categoria
