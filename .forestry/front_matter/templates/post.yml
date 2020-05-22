@@ -11,6 +11,8 @@ fields:
 - type: text
   name: layout
   label: layout
+  hidden: true
+  default: blog
 - type: text
   name: author
   label: author
