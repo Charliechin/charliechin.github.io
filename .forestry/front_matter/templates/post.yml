@@ -12,7 +12,7 @@ fields:
   name: layout
   label: layout
   hidden: true
-  default: blog
+  default: post
 - type: text
   name: author
   label: author
