@@ -1,23 +1,22 @@
 ---
-id: 8
+id: "8"
 layout: birra
-nombre:  Trappistes Rochefort 8
-tipo:  Belgian Dark Strong Ale
-ibu:  22
-ebc:
+nombre: Trappistes Rochefort 8
+tipo: Belgian Dark Strong Ale
+ibu: "22"
+ebc: 
 maltas: 
 lupulos: 
 levaduras: 
 formato: Botella 33cl
-volumen:  9.2 %
+volumen: 9.2 %
 alergenos: 
 origen: Bélgica
-pvp: "3.20"
-precio: 3.20
+pvp: '3.50'
+precio: "3.5"
 imagen: trappistes.jpg
-categoria: [Estilo_Belga]
+categoria:
+- Estilo_Belga
 
 ---
 Auténtica cerveza trapense. Es una cerveza con un sabor fuerte y complejo, así como con un cuerpo firme. El aroma tiene notas de fruta fresca, especias, cuero e higos Color marrón oscuro, que produce una capa de espuma buena y persistente con un color beige cremoso. El aroma es dulzón y afrutado con un punto de alcohol, y esas mismas notas vuelven a aparecer en la boca, frutas pasas, malta con una textura cremosa
-
-
