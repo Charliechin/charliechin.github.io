@@ -201,17 +201,6 @@
   
   
     {
-    "nombre": "Rabosibiris",
-    "url": "/tienda/buub.html",
-    "categoria": "Brown & Amber Ale",
-    "imagen": "https://labodegadellupulo.s3.eu-west-3.amazonaws.com/images/birras/mobile/",
-    "content": "__
-",
-    "pvp": "12"
-  } ,
-  
-  
-    {
     "nombre": "Cap Blanc",
     "url": "/tienda/capblanc.html",
     "categoria": "India Pale Ale",
