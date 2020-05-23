@@ -661,6 +661,16 @@
   
   
     {
+    "nombre": "",
+    "url": "/tienda/malaltsdemalta.html",
+    "categoria": "",
+    "imagen": "https://labodegadellupulo.s3.eu-west-3.amazonaws.com/images/birras/mobile/",
+    "content": "-– id: 64 layout: birra nombre: Malalts de...",
+    "pvp": ""
+  } ,
+  
+  
+    {
     "nombre": "Malaspina Weissbier",
     "url": "/tienda/malaspina.html",
     "categoria": "Witbier & Weissbier",
