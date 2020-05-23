@@ -1,0 +1,16 @@
+---
+layout: tienda
+title: India Pale Ale
+breadcrumb_title: India Pale Ale
+permalink: "/tienda/india_pale_ale.html"
+categoria: Pale_Ale
+jsonld: tienda
+descripcion: Cervezas que cierran la brecha entre las cervezas oscuras y las claras.
+
+---
+{% assign birras = site.birras | where:'categoria', page.categoria  %}
+
+
+{% for birra in birras %}
+{% include birra_card.html el=birra %}
+{% endfor %}
