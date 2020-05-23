@@ -581,17 +581,6 @@
   
   
     {
-    "nombre": "Brown Jandepor",
-    "url": "/tienda/jander.html",
-    "categoria": "Brown & Amber Ale",
-    "imagen": "https://labodegadellupulo.s3.eu-west-3.amazonaws.com/images/birras/mobile/",
-    "content": "_sd_01:58:53
-",
-    "pvp": ""
-  } ,
-  
-  
-    {
     "nombre": "Jano Hop",
     "url": "/tienda/janohop.html",
     "categoria": "India Pale Ale",
