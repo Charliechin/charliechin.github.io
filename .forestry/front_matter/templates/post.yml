@@ -19,3 +19,5 @@ fields:
 - type: file
   name: thumbnail
   label: thumbnail
+pages:
+- _posts/yo.md
