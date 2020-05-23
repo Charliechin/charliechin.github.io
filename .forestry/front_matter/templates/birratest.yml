@@ -72,5 +72,3 @@ fields:
 - type: number
   name: id
   label: id
-pages:
-- _birras/jander.md
