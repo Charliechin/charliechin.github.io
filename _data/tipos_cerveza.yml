@@ -1,8 +1,8 @@
 
-# - name: Indian Pale Ale
-#   link: india_pale_ale
+- name: India Pale Ale
+  link: india_pale_ale
 
-- name: Blonde Lager
+- name: Blonde & Lager
   link: blonde_lager.html
 
 - name: Brown & Amber Ale
