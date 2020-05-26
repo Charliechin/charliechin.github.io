@@ -14,7 +14,7 @@ alergenos:
 origen: Bélgica
 pvp: "2.70"
 precio: 2.70
-imagen: https://labodegadellupulo.s3.eu-west-3.amazonaws.com/images/birras/maredsoustripel.jpg
+imagen: maredsoustripel.jpg
 categoria: [Estilo_Belga]
 
 ---

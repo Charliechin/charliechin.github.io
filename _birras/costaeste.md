@@ -14,7 +14,7 @@ alergenos:
 origen: España
 pvp: "3.80"
 precio: 3.80
-imagen: https://labodegadellupulo.s3.eu-west-3.amazonaws.com/images/birras/costaeste.jpg
+imagen: costaeste.jpg
 categoria: [India_Pale_Ale]
 
 ---

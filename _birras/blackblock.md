@@ -14,7 +14,7 @@ alergenos:
 origen: España
 pvp: "3.50"
 precio: 3.50
-imagen: https://labodegadellupulo.s3.eu-west-3.amazonaws.com/images/birras/blackblock.jpg
+imagen: blackblock.jpg
 categoria: [Stout_&_Porter]
 
 ---

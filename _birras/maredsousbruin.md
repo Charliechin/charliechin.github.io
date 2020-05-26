@@ -14,7 +14,7 @@ alergenos:
 origen: Bélgica
 pvp: "2.40"
 precio: 2.40
-imagen: https://labodegadellupulo.s3.eu-west-3.amazonaws.com/images/birras/maredsousbruin.jpg
+imagen: maredsousbruin.jpg
 categoria: [Estilo_Belga]
 
 ---

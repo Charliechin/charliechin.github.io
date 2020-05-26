@@ -14,7 +14,7 @@ alergenos:
 origen: Bélgica
 pvp: "2.80"
 precio: 2.80
-imagen: https://labodegadellupulo.s3.eu-west-3.amazonaws.com/images/birras/orval.jpg
+imagen: orval.jpg
 categoria: [Estilo_Belga]
 
 ---

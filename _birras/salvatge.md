@@ -14,7 +14,7 @@ alergenos:
 origen: España
 pvp: "5.60"
 precio: 5.60
-imagen: https://labodegadellupulo.s3.eu-west-3.amazonaws.com/images/birras/salvatge.jpg
+imagen: salvatge.jpg
 categoria: [India_Pale_Ale]
 
 ---

@@ -14,7 +14,7 @@ alergenos:
 origen: España
 pvp: "3.20"
 precio: 3.20
-imagen: https://labodegadellupulo.s3.eu-west-3.amazonaws.com/images/birras/heliodora.jpg
+imagen: heliodora.jpg
 categoria: [Witbier_&_Weissbier]
 
 ---

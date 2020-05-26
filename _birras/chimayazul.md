@@ -14,7 +14,7 @@ alergenos:
 origen: Bélgica
 pvp: "3.40"
 precio: 3.40
-imagen: https://labodegadellupulo.s3.eu-west-3.amazonaws.com/images/birras/chimayazul.jpg
+imagen: chimayazul.jpg
 categoria: [Estilo_Belga]
 
 ---
