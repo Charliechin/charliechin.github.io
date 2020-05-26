@@ -1385,16 +1385,6 @@ La ...",
   
   
     {
-    "nombre": "Walking coeliacs",
-    "url": "/tienda/walking.html",
-    "categoria": "Pale Ale",
-    "imagen": "https://labodegadellupulo.s3.eu-west-3.amazonaws.com/images/birras/mobile/walking.jpg",
-    "content": "Cerveza Pale Ale al estilo americano libre...",
-    "pvp": "2.6"
-  } ,
-  
-  
-    {
     "nombre": "Windmill",
     "url": "/tienda/windmill.html",
     "categoria": "India Pale Ale",
