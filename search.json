@@ -803,18 +803,12 @@ Aspecto: Col...",
   
   
     {
-    "nombre": "",
+    "nombre": "Malalts de Malta",
     "url": "/tienda/malaltsdemalta.html",
-    "categoria": "",
-    "imagen": "https://labodegadellupulo.s3.eu-west-3.amazonaws.com/images/birras/mobile/",
-    "content": "-–
-
-id: 64
-
-layout: birra
-
-nombre: Malalts...",
-    "pvp": ""
+    "categoria": "Estilo Belga",
+    "imagen": "https://labodegadellupulo.s3.eu-west-3.amazonaws.com/images/birras/mobile/https://labodegadellupulo.s3.eu-west-3.amazonaws.com/images/birras/malaltsdemalta.jpg",
+    "content": "Quadrupel tipo trapense con cerezas negras...",
+    "pvp": "3.0"
   } ,
   
   
