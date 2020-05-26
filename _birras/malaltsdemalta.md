@@ -1,21 +1,24 @@
 ---
-id: 64
+id: "64"
 layout: birra
 nombre: Malalts de Malta
-tipo:  Quadrupel
-ibu: 15
-ebc:
+tipo: Quadrupel
+ibu: "15"
+ebc: 
 maltas: 
 lupulos: 
 levaduras: 
 formato: Botella 33cl
-volumen:  11 %
+volumen: 11 %
 alergenos: 
 origen: España
-pvp: "3.00"
-precio: 3.00
+pvp: '3.00'
+precio: "3"
 imagen: malaltsdemalta.jpg
-categoria: [Estilo_Belga]
+categoria:
+- Estilo_Belga
 
 ---
 Quadrupel tipo trapense con cerezas negras cuya producción requiere maltas especiales belgas y azúcar Candy. Necesita una buena levadura belga además de guarda. Ofrece notas licorosas, uva pasa, frutos secos y recuerdos a cereza.
+
+Esta cerveza está envejecida por más de 2 años.
