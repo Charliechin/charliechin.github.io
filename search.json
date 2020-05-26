@@ -808,7 +808,7 @@ Aspecto: Col...",
     "categoria": "Estilo Belga",
     "imagen": "https://labodegadellupulo.s3.eu-west-3.amazonaws.com/images/birras/mobile/malaltsdemalta.jpg",
     "content": "Quadrupel tipo trapense con cerezas negras...",
-    "pvp": "3.0"
+    "pvp": "3.00"
   } ,
   
   
@@ -1381,6 +1381,16 @@ La ...",
     "imagen": "https://labodegadellupulo.s3.eu-west-3.amazonaws.com/images/birras/mobile/volaeratostada.jpg",
     "content": "Cerveza con mucho cuerpo, destaca su sabor...",
     "pvp": "2.30"
+  } ,
+  
+  
+    {
+    "nombre": "Walking coeliacs",
+    "url": "/tienda/walking.html",
+    "categoria": "Pale Ale",
+    "imagen": "https://labodegadellupulo.s3.eu-west-3.amazonaws.com/images/birras/mobile/walking.jpg",
+    "content": "Cerveza Pale Ale al estilo americano libre...",
+    "pvp": "2.60"
   } ,
   
   
