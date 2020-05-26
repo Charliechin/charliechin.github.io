@@ -8,7 +8,7 @@ jsonld: tienda
 descripcion: 'Cervezas de alta graduación, con aroma y amargor intenso. '
 
 ---
-{% assign birras = site.birras | where:'categoria', page.categoria  %}
+{% assign birras = site.birras | where:'categoria', 'India_Pale_Ale' %}
 
 
 {% for birra in birras %}
