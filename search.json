@@ -282,6 +282,16 @@ Ante todo, se distingue por s...",
   
   
     {
+    "nombre": "McChouffe",
+    "url": "/tienda/chouffe.html",
+    "categoria": "Estilo Belga",
+    "imagen": "https://labodegadellupulo.s3.eu-west-3.amazonaws.com/images/birras/mobile/chouffe.jpg",
+    "content": "Esta ale es oscura, de color cobre a rubí,...",
+    "pvp": "2.60"
+  } ,
+  
+  
+    {
     "nombre": "Citramango",
     "url": "/tienda/citramango.html",
     "categoria": "India Pale Ale",
