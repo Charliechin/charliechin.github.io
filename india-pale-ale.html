@@ -9,9 +9,7 @@ descripcion: 'Cervezas de alta graduación, con aroma y amargor intenso. '
 
 ---
 {% assign birras = site.birras | where:'categoria', 'India_Pale_Ale' %}
- {% for tipo in site.data.tipos_cerveza %}
-        <a class="dropdown-item" href="/tienda/{{ tipo.link }}">{{ tipo.name}}</a>
-        {% endfor %}
+ 
 
 {% for birra in birras %}
 {% include birra_card.html el=birra %}
