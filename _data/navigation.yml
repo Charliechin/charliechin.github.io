@@ -1,7 +1,7 @@
 - name: Tienda
   link: tienda
 - name: Catalogo en PDF
-  link: https://labodegadellupulo.s3.eu-west-3.amazonaws.com/catalogo/CatalogoLaBodegaDelLupulo.pdf
+  link: https://labodegadellupulo.s3.eu-west-3.amazonaws.com/catalogo/LaBodegaDelLupulo_junio.pdf
 - name: Quienes Somos
   link: quienes
 - name: Blog
