@@ -12,8 +12,8 @@ formato: Botella 33cl
 volumen: 4.7 %
 alergenos: 
 origen: Bélgica
-pvp: '2.80'
-precio: "2.8"
+pvp: '2.40'
+precio: "2.4"
 imagen: vedettwhite.jpg
 categoria:
 - Witbier_&_Weissbier
