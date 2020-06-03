@@ -4,10 +4,10 @@ layout: birra
 nombre: Aeromancia
 tipo:  White IPA
 ibu:  60
-ebc:
-maltas: 
-lupulos: 
-levaduras: 
+ebc: "-"
+maltas: No especificado
+lupulos: Citra
+levaduras: No especificado
 formato: Botella 33cl
 volumen:  6.3 %
 alergenos: 
