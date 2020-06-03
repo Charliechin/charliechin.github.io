@@ -4,7 +4,7 @@ layout: birra
 nombre:  99 Problems
 tipo:  IPA
 ibu: 58 
-ebc: -
+ebc: "-"
 maltas: No especificado
 lupulos: No especificado
 levaduras: No especificado
