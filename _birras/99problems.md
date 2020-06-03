@@ -4,10 +4,10 @@ layout: birra
 nombre:  99 Problems
 tipo:  IPA
 ibu: 58 
-ebc:
-maltas: 
-lupulos: 
-levaduras: 
+ebc: -
+maltas: No especificado
+lupulos: No especificado
+levaduras: No especificado
 formato: Botella 33cl.
 volumen:  6.1 %
 alergenos: Sin gluten
