@@ -1,6 +1,6 @@
 <div class="row mt-3">
   <div class="col-4 stat-item volumen text-center">
-    {{ include.el.volumen}}
+    {{ include.el.volumen | remove:"%"}}%
     <!-- <span class="detail-label">Alc. por Vol.</span> -->
   </div>
 
@@ -39,13 +39,13 @@
 <div class="row mb-4 text-uppercase">
   <div class="col-12 strong-700 text-center">
     <p>{{page.maltas}} - {{ page.lupulos }} - {{ page.levaduras }} - {{ page.formato }} </p>
-    
+    <p> {{page.alergenos}} <p>
   </div>
 </div>
 <div class="row mb-4">
   <div class="col-12 strong-700 text-center">
-    <p>Tipo: {{page.tipo}}</p>
-    <p>{{page.pvp}} €</p>
+    <h2>Tipo: {{page.tipo}}</h2>
+    <h2>{{page.pvp}} €</h2>
   </div>
 </div>
 <style>
@@ -64,4 +64,9 @@
     line-height: 1.6;
     font-family: 'Mukta', sans-serif;
   }
+  
+  h2 { color: #FFFFFF;
+     font-weight: 800;
+    /* font-size: calc(16px + 6 * ((100vw - 320px) / 680)); */
+    font-family: 'Mukta', sans-serif;}
 </style>
