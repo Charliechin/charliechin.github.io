@@ -11,12 +11,12 @@
   
   
     {
-    "nombre": "99 Problems",
+    "nombre": "",
     "url": "/tienda/99problems.html",
-    "categoria": "India Pale Ale",
-    "imagen": "https://labodegadellupulo.s3.eu-west-3.amazonaws.com/images/birras/mobile/99problems.jpg",
+    "categoria": "",
+    "imagen": "https://labodegadellupulo.s3.eu-west-3.amazonaws.com/images/birras/mobile/",
     "content": "99 problemas (pero el gluten no es uno de ...",
-    "pvp": "3.40"
+    "pvp": ""
   } ,
   
   
