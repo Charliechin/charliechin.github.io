@@ -843,12 +843,12 @@ Aspecto: Col...",
   
   
     {
-    "nombre": "",
+    "nombre": "King in the north",
     "url": "/tienda/kinginthenorth.html",
-    "categoria": "",
-    "imagen": "https://labodegadellupulo.s3.eu-west-3.amazonaws.com/images/birras/mobile/",
+    "categoria": "India Pale Ale",
+    "imagen": "https://labodegadellupulo.s3.eu-west-3.amazonaws.com/images/birras/mobile/kinginthenorth.jpg",
     "content": "De color anaranjada con cierta turbidez y ...",
-    "pvp": ""
+    "pvp": "5.10"
   } ,
   
   
@@ -923,12 +923,12 @@ Aspecto: Col...",
   
   
     {
-    "nombre": "",
+    "nombre": "Loving Vaccines",
     "url": "/tienda/lovingvaccines.html",
-    "categoria": "",
-    "imagen": "https://labodegadellupulo.s3.eu-west-3.amazonaws.com/images/birras/mobile/",
+    "categoria": "India Pale Ale",
+    "imagen": "https://labodegadellupulo.s3.eu-west-3.amazonaws.com/images/birras/mobile/lovingvaccines.jpg",
     "content": "Estamos ante una DDH IPA elaborada con nue...",
-    "pvp": ""
+    "pvp": "5.00"
   } ,
   
   
