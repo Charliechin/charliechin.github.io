@@ -6,7 +6,7 @@ tipo:  DDH IPA Session Hop (Simcoe)
 ibu: 45
 ebc: "-"
 maltas: Low Colour Maris Otter, Vienna, Caramalt, Malted Oats, Flaked Oats, Unmalted Wheat
-lupulos: Simcoe Dry Hopping: Simcoe
+lupulos: Simcoe Dry Hopping
 levaduras: No especificado
 formato: Lata 44cl.
 volumen:  6.5 %

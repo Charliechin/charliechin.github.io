@@ -6,7 +6,7 @@ tipo:  DDH IPA
 ibu: 50
 ebc: "-"
 maltas: Low Colour Maris Otter, Vienna, Caramalt, Malted Oats, Flaked Oats, Unmalted Wheat.
-lupulos: Willamette, Cascade, Mosaic Dry Hopping: Cascade, Cryo Azacca, Cryo Mosaic.
+lupulos: Willamette, Cascade, Mosaic Dry Hopping, Cascade, Cryo Azacca, Cryo Mosaic.
 levaduras: No especificado
 formato: Lata 44cl.
 volumen:  6 %
