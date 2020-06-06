@@ -211,6 +211,26 @@
   
   
     {
+    "nombre": "Black Cel Ona Brandy",
+    "url": "/tienda/blackcelonabrandy.html",
+    "categoria": "Stout & Porter",
+    "imagen": "https://labodegadellupulo.s3.eu-west-3.amazonaws.com/images/birras/mobile/blackcelonabrandy.jpg",
+    "content": "Cerveza artesana negra con notas de madera...",
+    "pvp": "4.90"
+  } ,
+  
+  
+    {
+    "nombre": "Black Soul",
+    "url": "/tienda/blacksoul.html",
+    "categoria": "Stout & Porter",
+    "imagen": "https://labodegadellupulo.s3.eu-west-3.amazonaws.com/images/birras/mobile/blacksoul.jpg",
+    "content": "Profunda y cremosa, adéntrate en un mundo ...",
+    "pvp": "2.90"
+  } ,
+  
+  
+    {
     "nombre": "Blanche de fermun",
     "url": "/tienda/blanchedefermun.html",
     "categoria": "Witbier & Weissbier",
@@ -237,6 +257,16 @@
     "imagen": "https://labodegadellupulo.s3.eu-west-3.amazonaws.com/images/birras/mobile/blueblood.jpg",
     "content": "Cerveza con grandes aromas de coñac, roble...",
     "pvp": "5.10"
+  } ,
+  
+  
+    {
+    "nombre": "Bierboi Bruma",
+    "url": "/tienda/bruma.html",
+    "categoria": "India Pale Ale",
+    "imagen": "https://labodegadellupulo.s3.eu-west-3.amazonaws.com/images/birras/mobile/bruma.jpg",
+    "content": "Sabías que el estilo NEIPA tiene el perfil...",
+    "pvp": "5.60"
   } ,
   
   
@@ -298,6 +328,16 @@ Ante todo, se distingue por s...",
     "imagen": "https://labodegadellupulo.s3.eu-west-3.amazonaws.com/images/birras/mobile/citramango.jpg",
     "content": "Juicy IPA elaborada con lúpulo citra y man...",
     "pvp": "2.80"
+  } ,
+  
+  
+    {
+    "nombre": "",
+    "url": "/tienda/citrusbase.html",
+    "categoria": "",
+    "imagen": "https://labodegadellupulo.s3.eu-west-3.amazonaws.com/images/birras/mobile/",
+    "content": "Una Double Dry Hopped IPA cítrica. De colo...",
+    "pvp": ""
   } ,
   
   
@@ -368,6 +408,16 @@ Ante todo, se distingue por s...",
     "imagen": "https://labodegadellupulo.s3.eu-west-3.amazonaws.com/images/birras/mobile/demeter.jpg",
     "content": "Venida desde Newcastle. Turbia cerveza, am...",
     "pvp": "10.00"
+  } ,
+  
+  
+    {
+    "nombre": "Dirty Harry",
+    "url": "/tienda/dirtyharry.html",
+    "categoria": "India Pale Ale",
+    "imagen": "https://labodegadellupulo.s3.eu-west-3.amazonaws.com/images/birras/mobile/dirtyharry.jpg",
+    "content": "Color anaranjado brillante con espuma comp...",
+    "pvp": "2.40"
   } ,
   
   
@@ -573,6 +623,16 @@ Aspecto: Col...",
   
   
     {
+    "nombre": "Bierboi Geysser",
+    "url": "/tienda/geysser.html",
+    "categoria": "Pale Ale",
+    "imagen": "https://labodegadellupulo.s3.eu-west-3.amazonaws.com/images/birras/mobile/geysser.jpg",
+    "content": "Gose estilo antiguo de sabor ácido y salin...",
+    "pvp": "5.10"
+  } ,
+  
+  
+    {
     "nombre": "Godless",
     "url": "/tienda/godless.html",
     "categoria": "Pale Ale",
@@ -673,6 +733,16 @@ Aspecto: Col...",
   
   
     {
+    "nombre": "Bierboi Hibis",
+    "url": "/tienda/hibis.html",
+    "categoria": "India Pale Ale",
+    "imagen": "https://labodegadellupulo.s3.eu-west-3.amazonaws.com/images/birras/mobile/hibis.jpg",
+    "content": "Elaborada con Dry Hopping de lúpulos noble...",
+    "pvp": "5.50"
+  } ,
+  
+  
+    {
     "nombre": "Hoppy Sunset",
     "url": "/tienda/hoppysunset.html",
     "categoria": "India Pale Ale",
@@ -733,6 +803,16 @@ Aspecto: Col...",
   
   
     {
+    "nombre": "Ipa-Cai",
+    "url": "/tienda/ipacai.html",
+    "categoria": "Blonde Lager",
+    "imagen": "https://labodegadellupulo.s3.eu-west-3.amazonaws.com/images/birras/mobile/ipacai.jpg",
+    "content": "India Pale Lager (IPL), es un estilo que r...",
+    "pvp": "2.50"
+  } ,
+  
+  
+    {
     "nombre": "IPAral-lel",
     "url": "/tienda/iparalel.html",
     "categoria": "India Pale Ale",
@@ -759,6 +839,16 @@ Aspecto: Col...",
     "imagen": "https://labodegadellupulo.s3.eu-west-3.amazonaws.com/images/birras/mobile/kerosene.jpg",
     "content": "El estilo Saison es un estilo de cerveza d...",
     "pvp": "2.30"
+  } ,
+  
+  
+    {
+    "nombre": "",
+    "url": "/tienda/kinginthenorth.html",
+    "categoria": "",
+    "imagen": "https://labodegadellupulo.s3.eu-west-3.amazonaws.com/images/birras/mobile/",
+    "content": "De color anaranjada con cierta turbidez y ...",
+    "pvp": ""
   } ,
   
   
@@ -803,12 +893,42 @@ Aspecto: Col...",
   
   
     {
+    "nombre": "Lara Craft",
+    "url": "/tienda/laracraft.html",
+    "categoria": "Pale Ale",
+    "imagen": "https://labodegadellupulo.s3.eu-west-3.amazonaws.com/images/birras/mobile/laracraft.jpg",
+    "content": "Con cuerpo ligero y suave de color amarill...",
+    "pvp": "2.40"
+  } ,
+  
+  
+    {
+    "nombre": "Levante",
+    "url": "/tienda/levante.html",
+    "categoria": "Blonde Lager",
+    "imagen": "https://labodegadellupulo.s3.eu-west-3.amazonaws.com/images/birras/mobile/levante.jpg",
+    "content": "Levante es una lager Helles (“clara” en es...",
+    "pvp": "1.90"
+  } ,
+  
+  
+    {
     "nombre": "Light Elves",
     "url": "/tienda/lightelves.html",
     "categoria": "India Pale Ale",
     "imagen": "https://labodegadellupulo.s3.eu-west-3.amazonaws.com/images/birras/mobile/lightelves.jpg",
     "content": "Una cerveza cremosa elaborada con una cant...",
     "pvp": "2.80"
+  } ,
+  
+  
+    {
+    "nombre": "",
+    "url": "/tienda/lovingvaccines.html",
+    "categoria": "",
+    "imagen": "https://labodegadellupulo.s3.eu-west-3.amazonaws.com/images/birras/mobile/",
+    "content": "Estamos ante una DDH IPA elaborada con nue...",
+    "pvp": ""
   } ,
   
   
@@ -903,6 +1023,16 @@ Aspecto: Col...",
   
   
     {
+    "nombre": "Mestiza",
+    "url": "/tienda/mestiza.html",
+    "categoria": "Brown & Amber Ale",
+    "imagen": "https://labodegadellupulo.s3.eu-west-3.amazonaws.com/images/birras/mobile/mestiza.jpg",
+    "content": "Una lager especial, que con sus seis malta...",
+    "pvp": "2.40"
+  } ,
+  
+  
+    {
     "nombre": "Metro",
     "url": "/tienda/metro.html",
     "categoria": "Pale Ale",
@@ -939,6 +1069,26 @@ Aspecto: Col...",
     "imagen": "https://labodegadellupulo.s3.eu-west-3.amazonaws.com/images/birras/mobile/mistral.jpg",
     "content": "Robusta, aromática y amarga, con potentes ...",
     "pvp": "3.90"
+  } ,
+  
+  
+    {
+    "nombre": "Monkey Python&#39;s",
+    "url": "/tienda/monkeypython.html",
+    "categoria": "India Pale Ale",
+    "imagen": "https://labodegadellupulo.s3.eu-west-3.amazonaws.com/images/birras/mobile/monkeypython.jpg",
+    "content": "Cuerpo denso y cremoso de color claro vela...",
+    "pvp": "2.50"
+  } ,
+  
+  
+    {
+    "nombre": "Montesa",
+    "url": "/tienda/montesa.html",
+    "categoria": "Pale Ale",
+    "imagen": "https://labodegadellupulo.s3.eu-west-3.amazonaws.com/images/birras/mobile/montesa.jpg",
+    "content": "La MONTESA de ZICA es una cerveza estilo A...",
+    "pvp": "2.90"
   } ,
   
   
@@ -1013,6 +1163,16 @@ Aspecto: Col...",
   
   
     {
+    "nombre": "Bierboi Oasis",
+    "url": "/tienda/oasis.html",
+    "categoria": "Blonde Lager",
+    "imagen": "https://labodegadellupulo.s3.eu-west-3.amazonaws.com/images/birras/mobile/oasis.jpg",
+    "content": "Una gran cerveza Pilsen de estilo antiguo ...",
+    "pvp": "4.50"
+  } ,
+  
+  
+    {
     "nombre": "Or del Temps",
     "url": "/tienda/ordeltemps.html",
     "categoria": "Pale Ale",
@@ -1070,6 +1230,36 @@ La c...",
     "imagen": "https://labodegadellupulo.s3.eu-west-3.amazonaws.com/images/birras/mobile/penatelera.jpg",
     "content": "Cerveza con cuerpo, destaca por su sabor a...",
     "pvp": "3.00"
+  } ,
+  
+  
+    {
+    "nombre": "3 Monos Pilsner",
+    "url": "/tienda/pilsner3monos.html",
+    "categoria": "Blonde Lager",
+    "imagen": "https://labodegadellupulo.s3.eu-west-3.amazonaws.com/images/birras/mobile/pilsner3monos.jpg",
+    "content": "Una base de malta pilsen que acompaña perf...",
+    "pvp": "2.00"
+  } ,
+  
+  
+    {
+    "nombre": "Pink Gose",
+    "url": "/tienda/pinkgose.html",
+    "categoria": "Pale Ale",
+    "imagen": "https://labodegadellupulo.s3.eu-west-3.amazonaws.com/images/birras/mobile/pinkgose.jpg",
+    "content": "Gose de tono rosa, aportado por el maíz mo...",
+    "pvp": "2.70"
+  } ,
+  
+  
+    {
+    "nombre": "Poniente",
+    "url": "/tienda/poniente.html",
+    "categoria": "Brown & Amber Ale",
+    "imagen": "https://labodegadellupulo.s3.eu-west-3.amazonaws.com/images/birras/mobile/poniente.jpg",
+    "content": "Nuestra cerveza Poniente, es de estilo Dun...",
+    "pvp": "2.20"
   } ,
   
   
@@ -1305,6 +1495,16 @@ La ...",
   
   
     {
+    "nombre": "Valentina Take Off",
+    "url": "/tienda/valentina.html",
+    "categoria": "India Pale Ale",
+    "imagen": "https://labodegadellupulo.s3.eu-west-3.amazonaws.com/images/birras/mobile/valentina.jpg",
+    "content": "Estamos ante una DDH Session IPA. De color...",
+    "pvp": "5.00"
+  } ,
+  
+  
+    {
     "nombre": "Valhöll",
     "url": "/tienda/valholl.html",
     "categoria": "India Pale Ale",
@@ -1361,6 +1561,16 @@ La ...",
     "imagen": "https://labodegadellupulo.s3.eu-west-3.amazonaws.com/images/birras/mobile/vertigo.jpg",
     "content": "La alta graduación de esta Doble IPA podrí...",
     "pvp": "5.30"
+  } ,
+  
+  
+    {
+    "nombre": "Vito Hopleone",
+    "url": "/tienda/vitohopleone.html",
+    "categoria": "India Pale Ale",
+    "imagen": "https://labodegadellupulo.s3.eu-west-3.amazonaws.com/images/birras/mobile/vitohopleone.jpg",
+    "content": "Poderosa y contundente, no apta para todos...",
+    "pvp": "2.80"
   } ,
   
   
