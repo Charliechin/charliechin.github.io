@@ -6,7 +6,7 @@ tipo:  DDH IPA
 ibu: 54 
 ebc: "-"
 maltas: Low Colour Maris Otter, Flaked Oats & Flaked Wheat
-lupulos: Mosaic & Citra Doble Dry Hopping: Mosaic & Citra
+lupulos: Mosaic & Citra Doble Dry Hopping
 levaduras: No especificado
 formato: Lata 44cl.
 volumen:  5.5 %
