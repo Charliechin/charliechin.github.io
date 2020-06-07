@@ -10,9 +10,7 @@ thumbnail: "/assets/images/blog/diariodejerez.jpg"
 
 #### Una joven pareja de emprendedores jerezanos comparte su pasión por la cerveza artesana con la apertura de una nueva tienda dedicada en exclusiva a las ‘craft beer'
 
-![El emprendedor jerezano Alberto Cala junto a una de las neveras en La Bodega del Lúpulo.](https://www.diariodejerez.es/2020/06/06/jerez/emprendedor-Alberto-Cala-Bodega-Lupulo_1471363323_122358238_667x375.jpg =667x375)
-
-El emprendedor jerezano Alberto Cala junto a una de las neveras en La Bodega del Lúpulo. / PASCUAL
+![El emprendedor jerezano Alberto Cala junto a una de las neveras en La Bodega del Lúpulo.](https://www.diariodejerez.es/2020/06/06/jerez/emprendedor-Alberto-Cala-Bodega-Lupulo_1471363323_122358238_667x375.jpg)El emprendedor jerezano Alberto Cala junto a una de las neveras en La Bodega del Lúpulo. / PASCUAL
 
 La **cultura de la cerveza artesana o ‘craft beer’** está aún en **estado embrionario en España, más aún en Jerez**, cuna de algunas microcerveceras que afloraron durante la anterior crisis económica, algunas de ellas ya desaparecidas. Las que quedan, sin embargo, siguen la estela de un movimiento con **mucho más arraigo en Cataluña, el País Vasco, Madrid o Valencia**, donde según **Alberto Cala** se están haciendo **“grandes cervezas artesanas”, capaces de competir con** las más afamadas de **Estados Unidos y Reino Unido.**
 
