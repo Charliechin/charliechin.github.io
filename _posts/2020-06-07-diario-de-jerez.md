@@ -6,9 +6,9 @@ author: La Bodega del Lúpulo
 thumbnail: "/assets/images/blog/diariodejerez.jpg"
 
 ---
-# 'La Bodega del Lúpulo': cerveza en estado puro.
+### 'La Bodega del Lúpulo': cerveza en estado puro.
 
-### Una joven pareja de emprendedores jerezanos comparte su pasión por la cerveza artesana con la apertura de una nueva tienda dedicada en exclusiva a las ‘craft beer'
+#### Una joven pareja de emprendedores jerezanos comparte su pasión por la cerveza artesana con la apertura de una nueva tienda dedicada en exclusiva a las ‘craft beer'
 
 ![El emprendedor jerezano Alberto Cala junto a una de las neveras en La Bodega del Lúpulo.](https://www.diariodejerez.es/2020/06/06/jerez/emprendedor-Alberto-Cala-Bodega-Lupulo_1471363323_122358238_667x375.jpg =667x375)
 
@@ -22,7 +22,7 @@ Hay que estar hecho de otra pasta para abrir un negocio en Jerez en pleno estado
 
 A su regreso a Jerez, Cala comprobó que en la ciudad y su entorno no había nada parecido a lo que había experimentado en Escocia, donde abundan los grifos en bares y las tiendas de ‘craft beer’. **“Algunas de las microcerveceras que surgieron en la zona se han desinflado y estaba todo muy parado”**, explica el promotor de esta aventura empresarial, quien considera que la **crisis del Covid-19**, más allá del cierre de la hostelería y la psicosis a salir a la calle, supone una **oportunidad de negocio** por el aumento del consumo en casa.
 
-[Mónica Vázquez, impulsora del proyecto junto a su pareja, ordena una estantería con una amplia oferta de cervezas artesanas.](https://www.diariodejerez.es/2020/06/06/jerez/Monica-Vazquez-estanteria-Bodega-Lupulo_1471363321_122358144_667x375.jpg)![Mónica Vázquez, impulsora del proyecto junto a su pareja, ordena una estantería con una amplia oferta de cervezas artesanas.](https://www.diariodejerez.es/2020/06/06/jerez/Monica-Vazquez-estanteria-Bodega-Lupulo_1471363321_122358144_667x375.jpg =667x375)
+![Mónica Vázquez, impulsora del proyecto junto a su pareja, ordena una estantería con una amplia oferta de cervezas artesanas.](https://www.diariodejerez.es/2020/06/06/jerez/Monica-Vazquez-estanteria-Bodega-Lupulo_1471363321_122358144_667x375.jpg =667x375)
 
 Mónica Vázquez, impulsora del proyecto junto a su pareja, ordena una estantería con una amplia oferta de cervezas artesanas. / PASCUAL
 
