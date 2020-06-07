@@ -6,9 +6,9 @@ author: La Bodega del Lúpulo
 thumbnail: "/assets/images/blog/lavozdelsur.jpg"
 
 ---
-# Abre en Jerez un templo al lúpulo, la ‘craft beer’ como vacuna contra la pandemia.
+### Abre en Jerez un templo al lúpulo, la ‘craft beer’ como vacuna contra la pandemia.
 
-### Alberto Cala inicia una nueva aventura profesional en plena crisis del coronavirus, vendiendo cervezas artesanas en un local del centro: "En Reino Unido el 'crafting' esta más popularizado, en los pub hay grifos de todo tipo"
+#### Alberto Cala inicia una nueva aventura profesional en plena crisis del coronavirus, vendiendo cervezas artesanas en un local del centro: "En Reino Unido el 'crafting' esta más popularizado, en los pub hay grifos de todo tipo"
 
 ![](https://www.lavozdelsur.es/wp-content/uploads/2020/05/LA_BODEGA_DEL_LUPULO-10.jpg)
 
