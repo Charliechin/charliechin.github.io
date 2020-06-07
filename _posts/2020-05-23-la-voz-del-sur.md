@@ -8,9 +8,11 @@ thumbnail: "/assets/images/blog/lavozdelsur.jpg"
 ---
 # Abre en Jerez un templo al lúpulo, la ‘craft beer’ como vacuna contra la pandemia.
 
+### Alberto Cala inicia una nueva aventura profesional en plena crisis del coronavirus, vendiendo cervezas artesanas en un local del centro: "En Reino Unido el 'crafting' esta más popularizado, en los pub hay grifos de todo tipo"
+
 ![](https://www.lavozdelsur.es/wp-content/uploads/2020/05/LA_BODEGA_DEL_LUPULO-10.jpg)
 
-## Alberto Cala inicia una nueva aventura profesional en plena crisis del coronavirus, vendiendo cervezas artesanas en un local del centro: "En Reino Unido el 'crafting' esta más popularizado, en los pub hay grifos de todo tipo"
+## 
 
 Hace unos meses, a **Alberto Cala Rodríguez** no se le pasó por la cabeza que una **pandemia global** viniera a frustrar la apertura de su nuevo negocio. “Menos mal que no he cogido el local en una gran superficie”, dice a **lavozdelsur.es** en su recién estrenada tienda. Se refiere a las fases de desecalada y las limitaciones impuestas a la venta al público en grandes almacenes. Afortunadamente su local, ubicado en la calle San Cayetano, entre calle Zaragoza y calle Santo Domingo del centro de Jerez, **es un (pequeño) templo de la cerveza artesana**. “Con lo del nombre ha venido gente diciendo que una bodega no es”, bromea. **_La bodega del lúpulo_** es simplemente el refugio para todos aquellos que quieran disfrutar de una buena _craft beer_. Por supuesto, en casa.
 
