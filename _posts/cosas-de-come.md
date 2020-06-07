@@ -3,7 +3,7 @@ layout: post
 title: Cosas de comé
 date: 2020-05-19 17:00:00 +0000
 author: La Bodega del Lúpulo
-thumbnail: ''
+thumbnail: /assets/images/blog/cosasdecome.jpg
 
 ---
 ## **_Artículo en Cosas de Comé_**
