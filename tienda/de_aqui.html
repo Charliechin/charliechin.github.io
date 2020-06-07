@@ -2,9 +2,10 @@
 layout: tienda
 title: Cervezas de Aquí
 nombre: Cervezas de Aquí
-permalink: /tienda/de_aqui.html
+permalink: "/tienda/de_aqui.html"
 jsonld: tienda
-breadcrumb_title: En Lata
+breadcrumb_title: Cervezas nacionales
+
 ---
 {% assign birras = site.birras | where_exp:"item", "item.origen contains 'España'" %}
 
