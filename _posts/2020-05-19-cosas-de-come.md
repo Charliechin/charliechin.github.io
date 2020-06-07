@@ -6,9 +6,9 @@ author: La Bodega del Lúpulo
 thumbnail: "/assets/images/blog/cosasdecome.jpg"
 
 ---
-# Un templo cervecero en la ciudad del vino
+### Un templo cervecero en la ciudad del vino
 
-### Alberto Cala abre La Bodega del Lúpulo, un establecimiento con más de 150 cervezas nacionales e internacionales que ha empezado a funcionar a domicilio debido a la cuarentena.
+#### Alberto Cala abre La Bodega del Lúpulo, un establecimiento con más de 150 cervezas nacionales e internacionales que ha empezado a funcionar a domicilio debido a la cuarentena.
 
 ![Un templo cervecero en la ciudad del vino](https://cadiz.cosasdecome.es/wp-content/uploads/2016/09/bodega-lupulo-847.jpg)
 
