@@ -3,7 +3,7 @@ layout: post
 title: Diario de Jerez
 date: 2020-06-07 13:00:00 +0000
 author: La Bodega del Lúpulo
-thumbnail: ''
+thumbnail: /assets/images/blog/diariodejerez.jpg
 
 ---
 # _Artículo del Diario de Jerez_
