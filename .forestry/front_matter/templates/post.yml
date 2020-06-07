@@ -20,6 +20,5 @@ fields:
   name: thumbnail
   label: thumbnail
 pages:
-- cosas-de-come.md
+- diario-de-jerez.md
 - diferencias-entre-cervezas-artesanas-e-industriales.md
-- la-voz-del-sur.md
