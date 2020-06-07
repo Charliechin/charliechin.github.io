@@ -20,4 +20,5 @@ fields:
   name: thumbnail
   label: thumbnail
 pages:
+- cosas-de-come.md
 - diferencias-entre-cervezas-artesanas-e-industriales.md
