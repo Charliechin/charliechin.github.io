@@ -3,7 +3,7 @@ layout: post
 title: La Voz del Sur
 date: 2020-05-23 14:00:00 +0000
 author: La Bodega del Lúpulo
-thumbnail: ''
+thumbnail: /assets/images/blog/lavozdelsur.jpg
 
 ---
 Artículo en La Voz del Sur
