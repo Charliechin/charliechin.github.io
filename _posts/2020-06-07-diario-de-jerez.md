@@ -20,11 +20,11 @@ Hay que estar hecho de otra pasta para abrir un negocio en Jerez en pleno estado
 
 A su regreso a Jerez, Cala comprobó que en la ciudad y su entorno no había nada parecido a lo que había experimentado en Escocia, donde abundan los grifos en bares y las tiendas de ‘craft beer’. **“Algunas de las microcerveceras que surgieron en la zona se han desinflado y estaba todo muy parado”**, explica el promotor de esta aventura empresarial, quien considera que la **crisis del Covid-19**, más allá del cierre de la hostelería y la psicosis a salir a la calle, supone una **oportunidad de negocio** por el aumento del consumo en casa.
 
-![Mónica Vázquez, impulsora del proyecto junto a su pareja, ordena una estantería con una amplia oferta de cervezas artesanas.](https://www.diariodejerez.es/2020/06/06/jerez/Monica-Vazquez-estanteria-Bodega-Lupulo_1471363321_122358144_667x375.jpg =667x375)
+![Mónica Vázquez, impulsora del proyecto junto a su pareja, ordena una estantería con una amplia oferta de cervezas artesanas.](https://www.diariodejerez.es/2020/06/06/jerez/Monica-Vazquez-estanteria-Bodega-Lupulo_1471363321_122358144_667x375.jpg)
 
 Mónica Vázquez, impulsora del proyecto junto a su pareja, ordena una estantería con una amplia oferta de cervezas artesanas. / PASCUAL
 
-> LA BÓDEGA DEL LÚPULO REÚNE MÁS DE 150 CERVEZAS ARTESANAS NACIONALES Y DE IMPORTACIÓN
+> _LA BODEGA DEL LÚPULO REÚNE MÁS DE 150 CERVEZAS ARTESANAS NACIONALES Y DE IMPORTACIÓN_
 
 Tras madurar la idea y llevarla a la práctica, desde el convencimiento de que esta criatura en proceso de gestación tiene un largo camino por recorrer, la joven pareja tiene **buenas vibraciones por las impresiones de sus primeros clientes**, vecinos de la zona entre los que empieza a despertarse el gusanillo por el fascinante mundo de las cervezas artesanas, de las que en **La Bodega del Lúpulo** pueden encontrarse **más de 150 referencias**, entre ellas la **representación local** encabezada por la jerezana **Destraperlo** y las vecinas **Volaera de El Puerto y Dos Mares** del **Campo de Gibraltar.**
 
