@@ -7,7 +7,7 @@ jsonld: tienda
 breadcrumb_title: Cervezas importadas
 
 ---
-{% assign birras = site.birras | where_exp:"item", "item.origen contains 'Bélgica' or "item.origen contains 'UK'" %}
+{% assign birras = site.birras | where_exp:"item", "item.origen contains 'Bélgica' or item.origen contains 'UK'" %}
 
 {% for birra in birras %}
 {% include birra_card.html el=birra %}
