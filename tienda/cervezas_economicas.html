@@ -15,10 +15,6 @@ breadcrumb_title: Menos de 3 €
 <!--{% for birra in site.birras %}
 {% include birra_card.html el=birra %}
 {% endfor %}-->
-
-
-
-
 {% assign birras = site.birras | where_exp:"item", "item.pvp contains '2.'" %}
 
 {% for birra in birras %}
