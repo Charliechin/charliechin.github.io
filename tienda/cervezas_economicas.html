@@ -1,17 +1,14 @@
 ---
 layout: tienda
-title: Cervezas por menos de 3€
-nombre: Cervezas por menos de 3€
-permalink: "/tienda/cervezas_economicas.html"
+title: Cervezas importadas
+nombre: Cervezas importadas
+permalink: "/tienda/cervezas_importadas.html"
 jsonld: tienda
-breadcrumb_title: Menos de 3€
+breadcrumb_title: Cervezas importadas
 
 ---
-{% comment %}
-{# assign birras = site.birras | where_exp:"item", "item.pvp contains '2.''" #}
-{% endcomment %}
-<!--  Remove site.birras y deja nada mas birras-->
-<!--  Remove site.birras y deja nada mas birras-->
-{% for birra in site.birras %}
+{% assign birras = site.birras | where_exp:"item", "item.origen contains 'Bélgica' or "item.origen contains 'UK'" %}
+
+{% for birra in birras %}
 {% include birra_card.html el=birra %}
 {% endfor %}
