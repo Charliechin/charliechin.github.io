@@ -8,7 +8,7 @@ breadcrumb_title: Menos de 3 €
 
 ---
 <!--{% comment %}-->
-{% assign birras = site.birras | where_exp:"birra", "birra.precio < 3" %}
+{% assign birras = site.birras | where_exp:"birra", "birra.pvp < 3" %}
 <!--{% endcomment %}-->
 <!--  Remove site.birras y deja nada mas birras-->
 <!--  Remove site.birras y deja nada mas birras-->
