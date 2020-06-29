@@ -2,7 +2,9 @@
 layout: default
 title: Tu tienda de cervezas en Jerez de la Fontera (Cádiz).
 cabecera: La Bodega del Lúpulo
-descripcion: Disponemos de más de 150 cervezas diferentes entre cervezas artesanales nacionales y cervezas de importación. Échale un vistazo a nuestra tienda online o descárgate nuestro catálogo.
+descripcion: Disponemos de más de 150 cervezas diferentes entre cervezas artesanales
+  nacionales y cervezas de importación. Échale un vistazo a nuestra tienda online
+  o descárgate nuestro catálogo.
 jsonld: homeJSONLD
 
 ---
@@ -39,7 +41,8 @@ jsonld: homeJSONLD
     <h3>Populares</h3>
     <hr>
   </div>
-  {% for birra in site.birras limit: 12 %}
+   {% assign sorted = (site.birras | sort: 'id') | reverse %}
+  {% for birra in sorted limit: 12 %}
   {% include birra_card.html el=birra  %}
   {% endfor %}
 </div>
