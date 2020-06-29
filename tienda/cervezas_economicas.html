@@ -1,13 +1,13 @@
 ---
 layout: tienda
-title: Cervezas importadas
-nombre: Cervezas importadas
+title: Cervezas Belgas
+nombre: Cervezas Belgas
 permalink: "/tienda/cervezas_economicas.html"
 jsonld: tienda
-breadcrumb_title: Cervezas importadas
+breadcrumb_title: Cervezas Belgas
 
 ---
-{% assign birras = site.birras | where_exp:"item", "item.origen contains 'Bélgica' or item.origen contains 'UK'" %}
+{% assign birras = site.birras | where_exp:"item", "item.origen contains 'Bélgica'" %}
 
 {% for birra in birras %}
 {% include birra_card.html el=birra %}
