@@ -41,7 +41,8 @@ jsonld: homeJSONLD
     <h3>Populares</h3>
     <hr>
   </div>
-  {% for birra in site.birras reversed limit: 12 %}
+  {% assign items = site.birras | sort: 'ID' | reverse %}
+  {% for birra in items limit: 12 %}
   {% include birra_card.html el=birra  %}
   {% endfor %}
 </div>
