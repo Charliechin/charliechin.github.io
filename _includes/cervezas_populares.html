@@ -14,7 +14,17 @@
     <div class="slick-1">
       {% assign birras = site.birra %}
       {% for birra in birras limit: include.max %}
-      {% if birra.volumen contains "6." or birra.volumen contains "7." or birra.volumen contains "5."%}
+      {% if birra.volumen contains "6." %}
+      <div class="slide mb-3">
+            {% include birra_card_simple.html el=birra  %}
+      </div>
+        {% endif %}
+       {% if birra.volumen contains "5." %}
+      <div class="slide mb-3">
+            {% include birra_card_simple.html el=birra  %}
+      </div>
+        {% endif %}
+       {% if birra.volumen contains "7." %}
       <div class="slide mb-3">
             {% include birra_card_simple.html el=birra  %}
       </div>
