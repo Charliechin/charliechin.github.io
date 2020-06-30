@@ -15,8 +15,12 @@
       {% assign birras = site.birras %}
       {% for birra in birras limit: include.max %}
       <div class="slide mb-3">
-        {% if birra.ID > 200 %}
-        {% include birra_card_simple.html el=birra  %}
+        {% if birra.ID contains "20" or birra.ID contains "21" %}
+          {% if birra.ID== "20" or birra.ID=="21" %}
+        <!--  No hacer nada, no queremos las de ID 20 o 21-->
+          {% else %}
+            {% include birra_card_simple.html el=birra  %}
+          {% endif %}
         {% endif %}
       </div>
       {% endfor %}
