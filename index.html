@@ -38,11 +38,11 @@ jsonld: homeJSONLD
 <!-- Todo esto funciona -->
 <div class="row">
   <div class="col-12">
-    <h3>Populares</h3>
+    <h3>Populare s</h3>
     <hr>
   </div>
-  {% assign items = site.birras | sort: 'ID' | reverse %}
-  {% for birra in items limit: 12 %}
+  {% assign birras = site.birras | sort: 'ID' | reverse %}
+  {% for birra in birras limit: 12 %}
   {% include birra_card.html el=birra  %}
   {% endfor %}
 </div>
