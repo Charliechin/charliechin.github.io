@@ -4,7 +4,7 @@
 
   <div class="container-title pl-4 mb-2">
     <img src="/assets/images/svg/beer_celebration.svg" class="section-logo" alt="">
-    <h4 class="strong-700 description">Cervezas Populare s</h1>
+    <h4 class="strong-700 description">Cervezas Populares</h1>
   </div>
 
 
@@ -14,7 +14,7 @@
     <div class="slick-1">
       {% assign birras = site.birras %}
       {% for birra in birras limit: include.max %}
-      {% if birra.volumen contains "7." %}
+      {% if birra.volumen contains "7." or birra.volumen contains "6."%}
       <div class="slide mb-3">
             {% include birra_card_simple.html el=birra  %}
       </div>
