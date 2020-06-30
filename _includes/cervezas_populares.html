@@ -14,13 +14,11 @@
     <div class="slick-1">
       {% assign birras = site.birras %}
       {% for birra in birras limit: include.max %}
+      {% if birra.ID contains "20" %}
       <div class="slide mb-3">
-        {% if birra.ID contains "20" or birra.ID contains "21" %}
-
             {% include birra_card_simple.html el=birra  %}
-
-        {% endif %}
       </div>
+        {% endif %}
       {% endfor %}
     </div>
   </div>
