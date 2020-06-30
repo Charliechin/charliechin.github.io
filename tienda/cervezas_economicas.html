@@ -13,7 +13,15 @@ breadcrumb_title: Menos de 3€
 <!--  Remove site.birras y deja nada mas birras-->
 <!--  Remove site.birras y deja nada mas birras-->
 {% for birra in site.birras %}
-{% if birra.pvp contains "2." or (birra.pvp contains "1." and not birra.pvp contains "11.") %}
+{% if birra.pvp contains "2." %}
 {% include birra_card.html el=birra %}
+{% endif %}
+
+{% if birra.pvp contains "1." %}
+  {% if birra.pvp contains "11." %}
+<!--  No hacer nada, no queremos la de 11 euros-->
+  {% else %}
+  	{% include birra_card.html el=birra %}
+  {% endif %}
 {% endif %}
 {% endfor %}
