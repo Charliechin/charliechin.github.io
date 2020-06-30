@@ -12,9 +12,9 @@
 
   <div class="col-12 carousel-wrapper text-center mb-4">
     <div class="slick-1">
-      {% assign birras = site.birras |sample:24 %}
+      {% assign birras = site.birra %}
       {% for birra in birras limit: include.max %}
-      {% if birra.volumen contains "6." or birra.volumen contains "7."%}
+      {% if birra.volumen contains "6." or birra.volumen contains "7." or birra.volumen contains "5."%}
       <div class="slide mb-3">
             {% include birra_card_simple.html el=birra  %}
       </div>
