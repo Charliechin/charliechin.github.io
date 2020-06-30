@@ -4,7 +4,7 @@
 
   <div class="container-title pl-4 mb-2">
     <img src="/assets/images/svg/beer_celebration.svg" class="section-logo" alt="">
-    <h4 class="strong-700 description">Cervezas Populares</h1>
+    <h4 class="strong-700 description">Cervezas Populare s</h1>
   </div>
 
 
@@ -16,11 +16,9 @@
       {% for birra in birras limit: include.max %}
       <div class="slide mb-3">
         {% if birra.ID contains "20" or birra.ID contains "21" %}
-          {% if birra.ID== "20" or birra.ID=="21" %}
-        <!--  No hacer nada, no queremos las de ID 20 o 21-->
-          {% else %}
+
             {% include birra_card_simple.html el=birra  %}
-          {% endif %}
+
         {% endif %}
       </div>
       {% endfor %}
