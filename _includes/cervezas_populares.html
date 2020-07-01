@@ -14,7 +14,7 @@
     <div class="slick-1">
       
       {% for birra in site.birras %}
-         {% if birra.volumen contains "5." %}
+         {% if birra.id == 15 %}
         <div class="slide mb-3">
               {% include birra_card_simple.html el=birra  %}
         </div>
