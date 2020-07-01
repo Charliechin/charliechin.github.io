@@ -4,7 +4,7 @@
 
   <div class="container-title pl-4 mb-2">
     <img src="/assets/images/svg/beer_celebration.svg" class="section-logo" alt="">
-    <h4 class="strong-700 description">Cervezas Populares</h1>
+    <h4 class="strong-700 description">Cervezas de 9% alcohol o más.</h1>
   </div>
 
 
@@ -14,7 +14,17 @@
     <div class="slick-1">
       
       {% for birra in site.birras %}
-         {% if birra.id == '15' %}
+         {% if birra.volumen contains "9." %}
+        <div class="slide mb-3">
+              {% include birra_card_simple.html el=birra  %}
+        </div>
+         {% endif %}
+               {% if birra.volumen contains "10." %}
+        <div class="slide mb-3">
+              {% include birra_card_simple.html el=birra  %}
+        </div>
+         {% endif %}
+               {% if birra.volumen contains "11." %}
         <div class="slide mb-3">
               {% include birra_card_simple.html el=birra  %}
         </div>
