@@ -2,28 +2,20 @@
 
   <div class="container-title pl-4 mb-2">
     <img src="/assets/images/svg/beer_having_fun.svg" class="section-logo" alt="">
-    <h4 class="strong-700 description">Por menos de 3€</h1>
+    <h4 class="strong-700 description">Cervezas de menos de 6% de alcohol.</h1>
   </div>
-
+  
   <div class="col-12 carousel-wrapper text-center mb-4">
     <div class="slick-1">
-      {% for birra in site.birras %}
-{% if birra.pvp contains "2." %}
- <div class="slide">
-        {% include birra_card_simple.html el=birra  %}
-      </div>
-{% endif %}
-
-{% if birra.pvp contains "1." %}
-  {% if birra.pvp contains "11." %}
-<!--  No hacer nada, no queremos la de 11 euros-->
-  {% else %}
-  	 <div class="slide">
-        {% include birra_card_simple.html el=birra  %}
-      </div>
-  {% endif %}
-{% endif %}
-{% endfor %}
+       {% assign birras = site.birras | sort: "volumen" %}
+  {% for birra in birras %}
+         
+        <div class="slide mb-3">
+              {% include birra_card_simple.html el=birra  %}
+        </div>
+         
+               
+      {% endfor %}
       
    
     </div>
