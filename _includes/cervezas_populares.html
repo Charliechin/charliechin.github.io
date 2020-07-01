@@ -13,7 +13,9 @@
   <div class="col-12 carousel-wrapper text-center mb-4">
     <div class="slick-1">
       
-      {% for birra in site.birras %}
+   {% assign birras = site.birras | sort: "volumen" %}
+
+  {% for birra in birras %}
          {% if birra.volumen contains "9." %}
         <div class="slide mb-3">
               {% include birra_card_simple.html el=birra  %}
