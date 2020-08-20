@@ -14,7 +14,7 @@ alergenos:
 origen: España
 pvp: "5.50"
 precio: 5.50
-imagen: brewfigther.jpg
+imagen: brewfighters.jpg
 categoria: [India_Pale_Ale]
 
 ---
