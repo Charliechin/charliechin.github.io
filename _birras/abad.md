@@ -18,3 +18,4 @@ imagen: abad.jpg
 categoria: [Estilo_Belga]
 
 ---
+Cerveza Belgian Tripel de 9,3% de alcohol en botella de 33cl.

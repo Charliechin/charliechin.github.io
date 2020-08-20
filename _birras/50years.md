@@ -18,3 +18,4 @@ imagen: 50years.jpg
 categoria: [India_Pale_Ale]
 
 ---
+Cerveza West Coast IPA de 6,4% alcohol en lata de 44cl.

@@ -18,3 +18,4 @@ imagen: apollo.jpg
 categoria: [Pale_Ale]
 
 ---
+Cerveza Brown Ale de 6% alcohol en botella de 33cl.
