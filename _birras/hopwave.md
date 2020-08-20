@@ -14,7 +14,7 @@ alergenos:
 origen: España
 pvp: "5.90"
 precio: 5.90
-imagen: hopewave.jpg
+imagen: hopwave.jpg
 categoria: [India_Pale_Ale]
 
 ---
