@@ -16,7 +16,8 @@
       <figcaption class="info-wrap">
         <meta itemprop="name" content="{{ include.el.nombre }}" />
         <h5 class="title"><strong>{{ include.el.nombre }}</strong></h5>
-        <h6 class="title"><strong>{{ include.el.tipo }}</strong></h6>
+        <h6 class="title">{{ include.el.tipo }}</h6>
+        <h6 class="title"><i>{{ include.el.volumen }} vol.</i></h6>
         <p class="desc">{{ include.el.content | truncatewords: 12 }}</p>
         <meta itemprop="description" content="{{ include.el.content}}" />
         <meta itemprop="sku" content="{{ include.el.nombre }}-" />
