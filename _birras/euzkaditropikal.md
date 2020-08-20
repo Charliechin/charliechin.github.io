@@ -14,7 +14,7 @@ alergenos:
 origen: España
 pvp: "3.50"
 precio: 3.50
-imagen: euzkaditropical.jpg
+imagen: euzkaditropikal.jpg
 categoria: [India_Pale_Ale]
 
 ---
