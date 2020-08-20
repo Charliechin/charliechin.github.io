@@ -14,7 +14,7 @@ alergenos:
 origen: España
 pvp: "5.40"
 precio: 5.40
-imagen: Gabriel.jpg
+imagen: gabriel.jpg
 categoria: [India_Pale_Ale]
 
 ---
