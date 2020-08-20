@@ -923,7 +923,7 @@ Aspecto: Col...",
     "nombre": "Euzkadi Tropikal",
     "url": "/tienda/euzkaditropikal.html",
     "categoria": "India Pale Ale",
-    "imagen": "https://labodegadellupulo.s3.eu-west-3.amazonaws.com/images/birras/mobile/euzkaditropical.jpg",
+    "imagen": "https://labodegadellupulo.s3.eu-west-3.amazonaws.com/images/birras/mobile/euzkaditropikal.jpg",
     "content": "
 ",
     "pvp": "3.50"
@@ -1014,7 +1014,7 @@ Aspecto: Col...",
     "nombre": "Gabriel Rebels",
     "url": "/tienda/gabriel.html",
     "categoria": "India Pale Ale",
-    "imagen": "https://labodegadellupulo.s3.eu-west-3.amazonaws.com/images/birras/mobile/Gabriel.jpg",
+    "imagen": "https://labodegadellupulo.s3.eu-west-3.amazonaws.com/images/birras/mobile/gabriel.jpg",
     "content": "
 ",
     "pvp": "5.40"
@@ -1196,7 +1196,7 @@ Aspecto: Col...",
     "nombre": "Hop Wave",
     "url": "/tienda/hopwave.html",
     "categoria": "India Pale Ale",
-    "imagen": "https://labodegadellupulo.s3.eu-west-3.amazonaws.com/images/birras/mobile/hopewave.jpg",
+    "imagen": "https://labodegadellupulo.s3.eu-west-3.amazonaws.com/images/birras/mobile/hopwave.jpg",
     "content": "
 ",
     "pvp": "5.90"
