@@ -18,3 +18,4 @@ imagen: gabriel.jpg
 categoria: [India_Pale_Ale]
 
 ---
+Cerveza DDH IPA de 7% de alcohol en lata de 44cl.

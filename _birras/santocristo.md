@@ -18,3 +18,4 @@ imagen: santocristo.jpg
 categoria: [Pale_Ale]
 
 ---
+Cerveza Strong Ale de 7,1% de alcohol en botella de 33cl.

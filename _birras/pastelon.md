@@ -18,3 +18,4 @@ imagen: pastelon.jpg
 categoria: [Stout_&_Porter]
 
 ---
+Cerveza Pastry stout de 8,2% de alcohol en botella de 33cl.

@@ -18,3 +18,4 @@ imagen: pangea.jpg
 categoria: [India_Pale_Ale]
 
 ---
+Cerveza TIPA de 10% de alcohol en lata de 44cl.

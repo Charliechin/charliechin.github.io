@@ -18,3 +18,4 @@ imagen: remedy.jpg
 categoria: [India_Pale_Ale]
 
 ---
+Cerveza DDH DIPA de 6,3% de alcohol en lata de 44cl.

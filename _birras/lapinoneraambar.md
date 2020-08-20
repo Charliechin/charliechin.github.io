@@ -1,8 +1,8 @@
 ---
 id: 269
 layout: birra
-nombre: La Piñonera Belgian Dark
-tipo:  Belgian Dark Strong Ale
+nombre: La Piñonera Amber Ale
+tipo:  Amber Pale Ale
 ibu: "-"
 ebc: "-"
 maltas: No Especificado
@@ -18,3 +18,4 @@ imagen: lapinoneraambar.jpg
 categoria: [Brown_&_Amber_Ale]
 
 ---
+Cerveza Amber Pale Ale de 4,8% de alcohol en botella de 33cl.

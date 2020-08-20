@@ -18,3 +18,4 @@ imagen: lapinoneratrigo.jpg
 categoria: [Witbier_&_Weissbier]
 
 ---
+Cerveza Witbier de 5,5% de alcohol en botella de 33cl.

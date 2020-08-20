@@ -18,3 +18,4 @@ imagen: sapporo.jpg
 categoria: [Blonde_Lager]
 
 ---
+Cerveza Lager de 4,7% de alcohol en botella de 33cl.

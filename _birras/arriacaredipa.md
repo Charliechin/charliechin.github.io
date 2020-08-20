@@ -18,3 +18,4 @@ imagen: arriacaredipa.jpg
 categoria: [India_Pale_Ale]
 
 ---
+Cerveza Imperial Red IPA de 8,5% de alcohol en lata de 33cl.

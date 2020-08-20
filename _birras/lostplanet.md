@@ -18,3 +18,4 @@ imagen: lostplanet.jpg
 categoria: [India_Pale_Ale]
 
 ---
+Cerveza DIPA de 8% de alcohol en botella de 33cl.

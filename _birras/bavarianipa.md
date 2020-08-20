@@ -18,3 +18,4 @@ imagen: bavarianipa.jpg
 categoria: [India_Pale_Ale]
 
 ---
+Cerveza Bavarian IPA de 6,5% de alcohol en botella de 33cl.

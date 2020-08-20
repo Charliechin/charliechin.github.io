@@ -18,3 +18,4 @@ imagen: shedland.jpg
 categoria: [India_Pale_Ale]
 
 ---
+Cerveza IPA de 6,2% de alcohol en lata de 44cl.

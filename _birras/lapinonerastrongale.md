@@ -18,3 +18,4 @@ imagen: lapinonerastrongale.jpg
 categoria: [Estilo_Belga]
 
 ---
+Cerveza Strong Ale de 7,2% de alcohol en botella de 33cl.

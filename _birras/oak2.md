@@ -18,3 +18,4 @@ imagen: oak2.jpg
 categoria: [Stout_&_Porter]
 
 ---
+Cerveza Imperial Stout de 12% de alcohol en botella de 33cl.

@@ -18,3 +18,4 @@ imagen: cobeer19lapirata.jpg
 categoria: [India_Pale_Ale]
 
 ---
+Cerveza IPA de 5,5% de alcohol en botella de 33cl.

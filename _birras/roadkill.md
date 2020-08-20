@@ -18,3 +18,4 @@ imagen: roadkill.jpg
 categoria: [India_Pale_Ale]
 
 ---
+Cerveza NEIPA de 6,5% de alcohol en lata de 44cl.

@@ -18,3 +18,4 @@ imagen: lapinoneratintilla.jpg
 categoria: [Witbier_&_Weissbier]
 
 ---
+Cerveza Fruit Beer de 8,2% de alcohol en botella de 33cl.

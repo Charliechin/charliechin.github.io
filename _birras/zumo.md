@@ -18,3 +18,4 @@ imagen: zumo.jpg
 categoria: [India_Pale_Ale]
 
 ---
+Cerveza Hazy IPA de 6% de alcohol en lata de 44cl.

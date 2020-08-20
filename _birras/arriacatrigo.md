@@ -18,3 +18,4 @@ imagen: arriacatrigo.jpg
 categoria: [Witbier_&_Weissbier]
 
 ---
+Cerveza Hefeweizen de 4,7% de alcohol en botella de 33cl.

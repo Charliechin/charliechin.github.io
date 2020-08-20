@@ -18,3 +18,4 @@ imagen: jeloumaineim.jpg
 categoria: [India_Pale_Ale]
 
 ---
+Cerveza Imperial Wheat IPA de 8,7% de alcohol en botella de 33cl.

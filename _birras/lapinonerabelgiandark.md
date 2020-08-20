@@ -18,3 +18,4 @@ imagen: lapinonerabelgiandark.jpg
 categoria: [Estilo_Belga]
 
 ---
+Cerveza Belgian Dark Strong Ale de 8% de alcohol en botella de 33cl.

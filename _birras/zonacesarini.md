@@ -18,3 +18,4 @@ imagen: zonacesarini.jpg
 categoria: [India_Pale_Ale]
 
 ---
+Cerveza Pacific IPA de 6,6% de alcohol en botella de 33cl.

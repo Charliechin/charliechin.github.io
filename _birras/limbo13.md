@@ -18,3 +18,4 @@ imagen: limbo13.jpg
 categoria: [India_Pale_Ale]
 
 ---
+Cerveza IPA de 6% de alcohol en botella de 33cl.

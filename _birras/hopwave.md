@@ -18,3 +18,4 @@ imagen: hopwave.jpg
 categoria: [India_Pale_Ale]
 
 ---
+Cerveza TDH Hazy IPA de 7% de alcohol en lata de 44cl.

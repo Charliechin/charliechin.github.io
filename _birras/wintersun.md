@@ -18,3 +18,4 @@ imagen: wintersun.jpg
 categoria: [Stout_&_Porter]
 
 ---
+Cerveza White Stout de 8,5% de alcohol en botella de 33cl.

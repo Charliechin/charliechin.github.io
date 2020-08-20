@@ -18,3 +18,4 @@ imagen: arriacaradler.jpg
 categoria: [Blonde_Lager]
 
 ---
+Cerveza Radler de 2,7% de alcohol en botella de 33cl.

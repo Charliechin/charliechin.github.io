@@ -14,7 +14,8 @@ alergenos:
 origen: España
 pvp: "5.50"
 precio: 5.50
-imagen: brewfighters.jpg
+imagen: brewfigther.jpg
 categoria: [India_Pale_Ale]
 
 ---
+Cerveza DDH DIPA de 8,5% de alcohol en lata de 44cl.

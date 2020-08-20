@@ -18,3 +18,4 @@ imagen: westmalletripel.jpg
 categoria: [Estilo_Belga]
 
 ---
+Cerveza Tripel de 9,5% de alcohol en botella de 33cl.

@@ -18,3 +18,4 @@ imagen: guldendraakimperial.jpg
 categoria: [Estilo_Belga]
 
 ---
+Cerveza Imperial Stout de 12% de alcohol en botella de 33cl.

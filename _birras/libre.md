@@ -18,3 +18,4 @@ imagen: libre.jpg
 categoria: [Pale_Ale]
 
 ---
+Cerveza Pale Ale sin alcohol (0,8%) en botella de 20cl.

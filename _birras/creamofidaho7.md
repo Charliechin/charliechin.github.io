@@ -18,3 +18,4 @@ imagen: creamofidaho7.jpg
 categoria: [India_Pale_Ale]
 
 ---
+Cerveza IPA de 6,6% de alcohol en lata de 44cl.

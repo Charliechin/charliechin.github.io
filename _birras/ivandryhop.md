@@ -18,3 +18,4 @@ imagen: ivandryhop.jpg
 categoria: [India_Pale_Ale]
 
 ---
+Cerveza DDH IPA de 5,3% de alcohol en botella de 33cl.

@@ -18,3 +18,4 @@ imagen: ozyankee.jpg
 categoria: [Pale_Ale]
 
 ---
+Cerveza American Wheat de 5,6% de alcohol en botella de 33cl.

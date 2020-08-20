@@ -18,3 +18,4 @@ imagen: segarretaapa.jpg
 categoria: [Pale_Ale]
 
 ---
+Cerveza American Pale Ale de 4,5% de alcohol en botella de 33cl.

@@ -18,3 +18,4 @@ imagen: roadsoda.jpg
 categoria: [Pale_Ale]
 
 ---
+Cerveza New England Pale de 5,3% de alcohol en lata de 44cl.

@@ -18,3 +18,4 @@ imagen: icantbreath.jpg
 categoria: [India_Pale_Ale]
 
 ---
+Cerveza Modern West Coast IPA TDH de 7,2% de alcohol en lata de 44cl.

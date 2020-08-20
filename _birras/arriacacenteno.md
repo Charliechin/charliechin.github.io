@@ -18,3 +18,4 @@ imagen: arriacacenteno.jpg
 categoria: [India_Pale_Ale]
 
 ---
+Cerveza Rye IPA de 5,2% de alcohol en botella de 33cl.

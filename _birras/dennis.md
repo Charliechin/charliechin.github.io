@@ -18,3 +18,4 @@ imagen: dennis.jpg
 categoria: [India_Pale_Ale]
 
 ---
+Cerveza IPA de 5,3% de alcohol en lata de 44cl.

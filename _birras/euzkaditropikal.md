@@ -18,3 +18,4 @@ imagen: euzkaditropikal.jpg
 categoria: [India_Pale_Ale]
 
 ---
+Cerveza TDH Hazy IPA de 9,4% de alcohol en botella de 33 cl.

@@ -18,3 +18,4 @@ imagen: rehop.jpg
 categoria: [Pale_Ale]
 
 ---
+Cerveza Hoppy Pale Ale de 5% de alcohol en botella de 33cl.

@@ -1,7 +1,7 @@
 ---
 id: 249
 layout: birra
-nombre: Tropical Dance
+nombre: Tropikal Dance
 tipo:  Imperial Red IPA
 ibu: "-"
 ebc: "-"
@@ -14,7 +14,8 @@ alergenos:
 origen: España
 pvp: "5.10"
 precio: 5.10
-imagen: tropicaldance.jpg
+imagen: tropikaldance.jpg
 categoria: [India_Pale_Ale]
 
 ---
+Cerveza Imperial Red IPA de 5,5% de alcohol en lata de 44cl.

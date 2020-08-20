@@ -18,3 +18,4 @@ imagen: aqualata.jpg
 categoria: [Blonde_Lager]
 
 ---
+Cerveza Lager de 5,4% de alcohol en botella de 33cl.
