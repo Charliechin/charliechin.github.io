@@ -14,7 +14,7 @@ alergenos:
 origen: España
 pvp: "5.10"
 precio: 5.10
-imagen: tropikaldance.jpg
+imagen: tropicaldance.jpg
 categoria: [India_Pale_Ale]
 
 ---
