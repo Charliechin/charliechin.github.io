@@ -5,8 +5,7 @@ layout: default
 
 <div class="container-fluid bg-white pt-5 pb-3 text-center">
   <h1 class="text-center mb-2 birra-text">{{ page.nombre }}</h1>
-  <h2 class="text-center mb-2 birra-text">{{ page.tipo }}</h2>
-  <!-- pon en inlcude -->
+    <!-- pon en inlcude -->
   {% assign crumbs = page.url | remove:'/index.html' | split: '/' %}
   <a class="" href="/">Home</a>
   {% for crumb in crumbs offset: 1 %}
