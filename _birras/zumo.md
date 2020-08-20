@@ -14,7 +14,7 @@ alergenos:
 origen: España
 pvp: "5.60"
 precio: 5.60
-imagen: Zumo.jpg
+imagen: zumo.jpg
 categoria: [India_Pale_Ale]
 
 ---
