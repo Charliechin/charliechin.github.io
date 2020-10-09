@@ -1,0 +1,14 @@
+---
+layout: tienda
+title: Cervezas importadas
+nombre: Cervezas importadas
+permalink: "/tienda/importadas.html"
+jsonld: tienda
+breadcrumb_title: Cervezas importadas
+
+---
+{% assign birras = site.birras | where_exp:"item", "item.origen != 'España'" %}
+
+{% for birra in birras %}
+{% include birra_card.html el=birra %}
+{% endfor %}
