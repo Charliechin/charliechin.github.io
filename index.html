@@ -26,8 +26,7 @@ jsonld: homeJSONLD
 
   {% include cervezas_populares.html max=8 %}
   {% include promo_cervezas.html %}
-  {% include importadas.html %}
- <!-- comentado para que no salga nada de precios {% include menos_de_tres.html %}--->
+ {% include menos_de_tres.html %}
 
 
 </div>
@@ -50,7 +49,7 @@ jsonld: homeJSONLD
   {% endfor %}
 </div>
 
-<!--Comentado para que no salga nada de pvp {% include menos_de_tres.html %}--->
+{% include menos_de_tres.html %}
 {% include importadas.html %}
 {% include en_botella.html %}
 {% include en_lata.html %}
