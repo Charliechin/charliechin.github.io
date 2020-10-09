@@ -10,7 +10,7 @@
   </div>
   <div class="card-content">
     <p class="text-center product-nombre mb-1">{{ include.el.nombre | truncatewords: 2 }}</p>
-    <p class="text-center text-white"><strong>{{ include.el.pvp }} €</strong></p>
+ <!--comentado para ocultar el precio   <p class="text-center text-white"><strong>{{ include.el.pvp }} €</strong></p> -->
   </div>
 </a>
 
@@ -33,10 +33,12 @@
         <div class="label-rating">154 orders </div>
       </div> -->
   </figcaption>
-  <div class="bottom-wrap text-center p-2 mt-auto mb-0">
+  
+  <!-- comentado para ocultar el precio 
+<div class="bottom-wrap text-center p-2 mt-auto mb-0">
     <div class="price-wrap h5">
       <span class="price-new">{{ include.el.pvp }} €</span>
     </div> <!-- price-wrap.// -->
-  </div> <!-- bottom-wrap.// -->
+<!--  </div> <!-- bottom-wrap.// --> 
 </figure>
 {% endcomment%}
