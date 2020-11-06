@@ -2,5 +2,7 @@
   link: tienda
 - name: Quienes Somos
   link: quienes
+- name: Catalogo en PDF
+  link: https://labodegadellupulo.s3.eu-west-3.amazonaws.com/catalogo/La+Bodega+del+L%C3%BApulo.pdf
 - name: Blog
   link: blog
